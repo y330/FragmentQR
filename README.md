@@ -4,6 +4,7 @@
 <b>Fragmented Text to QR or FragmentQR for short, is a web extension that allows for the generation of QR codes linking to arbitrary text on a page</b>
 
 <h3>Tutorial</h3><p>
+  Get it on the chrome webstore <a href="https://chrome.google.com/webstore/detail/cabodnfakameckfbbgkciiifempglloj">here</a><P>
 *you may need to configure shortcuts at chrome://extensions/shortcuts<p>
 1. select text<p>
 2. use shortcut Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selection to be highlighted in yellow(may only works on HTTPS, if an error dialogue appears follow the instructions)<p>
