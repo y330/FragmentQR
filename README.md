@@ -1,6 +1,7 @@
-Fragmented Text to QR
-Yonah Aviv
+<h1>Fragmented Text to QR</h1><p>
+<em>Yonah Aviv</em>
 
+<b>Fragmented Text to QR or FragmentQR for short, is a web extension that allows for the generation of QR codes linking to arbitrary text on a page<b>
 
 <b>Tutorial</b><p>
 *you may need to configure shortcuts at chrome://extensions/shortcuts
@@ -37,5 +38,5 @@ Don't forget to leave a review and share with your friends to support the develo
 3. Add ability to sync history to Google drive
 4. add history list
 
-available on on GitHub 
-MIT license 2020 Yonah Aviv avivyonah@gmail.com
+available on on the webstored 
+MIT license 2020 Yonah Aviv
