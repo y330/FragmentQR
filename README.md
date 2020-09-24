@@ -37,5 +37,4 @@ Don't forget to leave a review and share with your friends to support the develo
 3. Add ability to sync history to Google drive
 4. add history list
 
-available on on the webstored 
-MIT license 2020 Yonah Aviv
+<em color="grey">MIT license 2020 Yonah Aviv</em>
