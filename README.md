@@ -1,4 +1,4 @@
-Tutorial
+<b>Tutorial</b><p>
 *you may need to configure shortcuts at chrome://extensions/shortcuts
 1. select text
 2. use shortcut Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selection to be highlighted in yellow(may only works on HTTPS, if an error dialogue appears follow the instructions)
@@ -8,16 +8,16 @@ Tutorial
 Don't forget to leave a review and share with your friends to support the development of this extension.
 
 
-Changelog v1.5
--  paste button now works.
+<em>Changelog v1.5</em><p>
+- paste button now works.
 - added keyboard shortcuts
 - light theme(does not save between sessions)
 - UI improved
 - new icon
- - new history list coming soon
+- new history list coming soon
 
 
-Features: 
+<b>Features:</b><p> 
 - generates a QR code from the url of current tab by default when clicking icon
 - editable text-field 
 - copy, paste and clear buttons
@@ -27,7 +27,7 @@ Features:
 - QR for text fragments 
 - clean UI
 
-TODO
+<b>TODO</b><p>
 2. Add URL shortener
 3. make it easier to create text fragments
 3. Add ability to sync history to Google drive
