@@ -1,3 +1,7 @@
+Fragmented Text to QR
+Yonah Aviv
+
+
 <b>Tutorial</b><p>
 *you may need to configure shortcuts at chrome://extensions/shortcuts
 1. select text
