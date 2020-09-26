@@ -1,42 +1,41 @@
-<h1>Fragmented Text to QR</h1><p>
+<h1>Fragmented Text to QR/FragmentQR</h1><p>
 <em>Yonah Aviv</em>
+<b>Fragmented Text to QR also known as FragmentQR, is a web extension that allows for the generation of QR codes linking to arbituary text on a webpage, making use of Text Fragments</b>
 
-<b>Fragmented Text to QR or FragmentQR for short, is a web extension that allows for the generation of QR codes linking to arbitrary text on a page</b>
-
-<h3>Tutorial</h3><p>
-  Get it on the chrome webstore <a href="https://chrome.google.com/webstore/detail/cabodnfakameckfbbgkciiifempglloj">here</a><P>
-*you may need to configure shortcuts at chrome://extensions/shortcuts<p>
-1. select text<p>
-2. use shortcut Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selection to be highlighted in yellow(may only works on HTTPS, if an error dialogue appears follow the instructions)<p>
+<h2>Tutorial</h2><p>
+1. Select text<p>
+2. Ctrl/Cmd + Shift + L to copy the Text Fragment. Wait for your selection to be highlighted in yellow(may only works on HTTPS, if an error dialogue appears follow the instructions)<p>
 3. Use Ctrl/Cmd+Q to open the extension popup<p>
 4. Click the paste button<p>
-5. Now you have created a QR code for a text fragment, which you can scan using a QR code scanner on your mobile device.<p>
-Don't forget to leave a review and share with your friends to support the development of this extension.
+  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
 
-<h3>Features:</h3><p> 
-- generates a QR code from the url of current tab by default when clicking icon
-- editable text-field 
-- copy, paste and clear buttons
-- light and dark theme
-- enlarge the view
-- download qr code as png
-- QR for text fragments 
-- clean UI
+Once you have created a QR code for your Text Fragment using FragmentQR, which you can scan using a QR code scanner such as Google Lens or your default camera app, make sure to open the link in Goog. Works in most Chromium 80+ based browsers(Go to the description in the youtube video for more on browser compatibility).<p>
+
+
+<h2>Features:</h2><p> 
+- Generates a QR code from the url of current tab when clicking icon<p>
+- Create link to Text Fragment
+- Editable text-field<p>
+- Copy, paste and clear buttons<p>
+- Light and dark theme<p>
+- enlarge the view<p>
+- Download QR code as png<p>
+- Clean and Simple UI with tooltips and readable icons<p>
+  
   
 <em>Changelog v1.5</em><p>
 - paste button now works.
+- added functional support for Text Fragments 
 - added keyboard shortcuts
-- light theme(does not save between sessions)
+- light theme(currently does not save between sessions)
 - UI improved
-- new icon
-- new history list coming soon
+- new extension icon
+- new colors
 
-<h3>TODO</h3><p>
+<b>TODO</b>p>
+1. add keyboard shorcut to open popup with link to Text Fragment as a placeholder in the textarea 
+2.fix light theme issues
 
-3. make it easier to create text fragments
-3. Add ability to sync history to Google drive
-4. add history list
+<b>©2020 MIT license Yonah Aviv.</b>
+Contributions welcome.<p>
 
-<h5>Demo of version 1.0.0</h5>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/10U6ycpN3CQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<em>MIT license 2020 Yonah Aviv</em>
