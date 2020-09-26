@@ -9,16 +9,11 @@
   <li>Ctrl/Cmd+Q to open the extension popup</li>
   <li>Click the paste button</li>
  </ol>
- And thats it!
-  If steps 1 or 2 do not work, go to <a src="chrome://extensions/shortcuts">chrome://...shortcuts</a> to reconfigure the shortcuts<p>
+ And thats it! If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
+Once you have created a QR code for your Text Fragment using FragmentQR, which you can scan using a QR code scanner such as Google Lens or your default camera app, open the link in Google Chrome. Works in most Chromium 80+ based browsers(Go to the description in the YouTubde video for more on browser compatibility and Text Fragments).<p>
 
-Once you have created a QR code for your Text Fragment using FragmentQR, which you can scan using a QR code scanner such as Google Lens or your default camera app, open the link in Google Chrome. Works in most Chromium 80+ based browsers(Go to the description in the youtube video for more on browser compatibility).<p>
-
-<h3>Demo of QR to Text Fragment v1.0<h3>
-<h5>Demo of version 1.0.0</h5>
-<a src="https://www.youtube.com/10U6ycpN3CQ">youtube</a>
-
-
+<h3>Demo of FragmentQRv1.0<h3>
+YouTube: https://bit.ly/3mNmsw1
 <h2>Features</h2><p> 
 <ul>
   <li>Generates a QR code from the url of current tab when clicking icon</li>
