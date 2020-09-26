@@ -1,6 +1,6 @@
 <h1>Fragmented Text to QR</h1><p>
 <em>Yonah Aviv</em><p>
-<b>Fragmented Text to QR also known as FragmentQR, is a web extension that allows for the generation of QR codes linking to arbituary text on a webpage, making use of Text Fragments</b>
+<b>Fragmented Text to QR(FragmentQR), is a web extension that allows for the generation of QR codes linking to arbituary selected text on a webpage.</b>
 
 <h2>Tutorial</h2><p>
  <ol>
@@ -10,10 +10,10 @@
   <li>Click the paste button</li>
  </ol>
  And thats it! If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
-Once you have created a QR code for your Text Fragment using FragmentQR, which you can scan using a QR code scanner such as Google Lens or your default camera app, open the link in Google Chrome. Works in most Chromium 80+ based browsers(Go to the description in the YouTubde video for more on browser compatibility and Text Fragments).<p>
+Once you have created a QR code for the selected text, you can scan it on your mobile device using a QR code scanner such as Google Lens or your default camera app. The text will only be highlighted in yellow in Google Chrome and most Chromium 80+ based browsers on Mac and Windows. Works on Chrome 85+.on Android.(Go to YouTube video below for more compatability info).<p>
 
 <h3>Demo of FragmentQRv1.0<h3>
-YouTube: https://bit.ly/3mNmsw1
+YouTube: http://bit.ly/youtubeFragQR
 <h2>Features</h2><p> 
 <ul>
   <li>Generates a QR code from the url of current tab when clicking icon</li>
@@ -49,7 +49,7 @@ YouTube: https://bit.ly/3mNmsw1
     <li>fix light theme issues</li>
   </ol>
 
-FragmentQR features code loosely based upon Google "Link to text fragment" extension but very diffrent and much better nonetheless 
-<b>© 2020 MIT license FragmentQR by Yonah Aviv.</b>
-Contributions welcome. All rights reserved.<p>
+FragmentQR is loosly based on Googles "Link to Text Fragment" extension but very diffrent and much better nonetheless 
+<b>© 2020 MIT license Yonah Aviv.</b>
+Contributions welcome.<p>
 
