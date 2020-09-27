@@ -1,16 +1,17 @@
 <h1>Fragmented Text to QR</h1><p>
 <em>Yonah Aviv</em><p>
-<b>Fragmented Text to QR(FragmentQR), is a web extension that allows for the generation of QR codes linking to arbituary selected text on a webpage.</b>
+<b>Fragmented Text to QR(FragmentQR), is a web extension that generates QR codes linking to arbituary selected text on a webpage called Text Fragments, which will highlighted and scrolled to when scanned.</b>
 
 <h2>Tutorial</h2><p>
  <ol>
   <li>Select text</li>
-  <li>Ctrl/Cmd + Shift + L to copy the Text Fragment. Wait for your selection to be highlighted in yello, should be instant.</li>
+  <li>Ctrl/Cmd + Shift + L to copy the Text Fragment. Wait for your selected text be highlighted in yellow.
   <li>Ctrl/Cmd+Q to open the extension popup</li>
   <li>Click the paste button</li>
  </ol>
  And thats it! If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
-Once you have created a QR code for the selected text, you can scan it on your mobile device using a QR code scanner such as Google Lens or your default camera app. The text will only be highlighted in yellow in Google Chrome and most Chromium 80+ based browsers on Mac and Windows. Works on Chrome 85+.on Android.(Go to YouTube video below for more compatability info).<p>
+Once you have created a QR code for the selected text, you can scan it on your mobile device using a QR code scanner such as Google Lens or your default camera app. <p>
+Works in Google Chrome 80+ and most Chromium 80+ based browsers on Mac and Windows. Works on Chrome 85+ on Android. Works on lastest version of Google Chrome on IOS when #shared-highlighting-ios is enabled on chrome://flags.<p>
 
 <h3>Demo of FragmentQRv1.0<h3>
 YouTube: http://bit.ly/youtubeFragQR
