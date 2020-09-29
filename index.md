@@ -1,6 +1,15 @@
-<link rel="shortcut icon" type="image/x-icon" href="FragmentedQR 1.5/img/512.png">
+<link rel="shortcut icon" type="image/x-icon" href="FragmentedQR 1.5/img/64.png">
+# Site navigation links
+- title: Web Store
+  url: https://bit.ly/GetFragmentedQR
+
+- title: Repo Homepage  
+  url: https://bit.ly/FragmentQRrepository
+
+
 <h1>FragmentQR</h1><p>
 <em>Yonah Aviv</em><p>
+ 
 <b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
 
 <h2>Tutorial</h2><p>
