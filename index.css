@@ -38,12 +38,6 @@ a {
     text-decoration-line: none;
 }
 
-body {
-    border-right: 0 #7daef0 solid;
-    background-color: #7daef0;
-    color: #656565;
-}
-
 .button,
 button {
     display: block;
@@ -273,13 +267,6 @@ button.onclick {
 
 .contets.expansion .history-list {
     height: 60%;
-}
-
-body {
-    display: block;
-    -webkit-transition: all 150ms ease;
-    -o-transition: all 150ms ease;
-    transition: all 150ms ease;
 }
 
 .ctrl {
