@@ -16,12 +16,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.*/
 
-.light .ps__rail-y.ps--clicking .ps__thumb-y,
-.light .ps__rail-y:focus>.ps__thumb-y,
-.light .ps__rail-y:hover>.ps__thumb-y {
-    background-color: #666;
-}
-
 ::-moz-selection {
     color: #000;
     background: #ff0;
@@ -172,12 +166,12 @@ ul {
     cursor: pointer;
 }
 
-.version {
+.a {
     text-decoration-line: underline;
     color: #757575;
 }
 
-a.version:hover {
+a:hover {
     color: #7daef0;
 }
 
@@ -246,8 +240,6 @@ button.onclick {
 }
 
 .contets {
-    text-align: center;
-    overflow-x: auto;
 }
 
 .contets.expansion #qr canvas {
@@ -283,7 +275,7 @@ button.onclick {
     height: 60%;
 }
 
-.contets_inline {
+body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
