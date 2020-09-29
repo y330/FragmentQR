@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="FragmentedQR 1.5/img/32.png">
+
 ---
 layout: page
 title: Links
@@ -8,7 +10,6 @@ title: Links
   url: [](https://bit.ly/FragmentQRrepository)
 ---
 
-<link rel="shortcut icon" type="image/x-icon" href="FragmentedQR 1.5/img/64.png">
 
 
 <h1>FragmentQR</h1><p>
