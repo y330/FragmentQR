@@ -50,8 +50,8 @@ YouTube: http://bit.ly/youtubeFragQR
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol>
   
-Available on GitHub: http://bit.ly/FragmentQRrepository<p>
-Chrome Web Store: https://bit.ly/GetFragmentedQR<p>
+Available on GitHub: <a href="https://bit.ly/FragmentQRrepository"></a><p>
+ Chrome Web Store: <a href="https://bit.ly/GetFragmentedQR"></a><p>
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p>
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
