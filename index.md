@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Links
-# Site navigation links
 - title: Web Store
-  url: https://bit.ly/GetFragmentedQR
+  url: [](https://bit.ly/GetFragmentedQR)
 
 - title: Repo Homepage  
-  url: https://bit.ly/FragmentQRrepository
+  url: [](https://bit.ly/FragmentQRrepository)
 ---
 
 <link rel="shortcut icon" type="image/x-icon" href="FragmentedQR 1.5/img/64.png">
