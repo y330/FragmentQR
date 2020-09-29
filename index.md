@@ -1,3 +1,4 @@
+<link rel="shortcut icon" type="image/x-icon" href="FragmentedQR 1.5/img/512.png">
 <h1>FragmentQR</h1><p>
 <em>Yonah Aviv</em><p>
 <b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
@@ -50,8 +51,8 @@ YouTube: http://bit.ly/youtubeFragQR
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol>
   
-Available on GitHub: [Repository Homepage](https://bit.ly/FragmentQRrepository)<p>
-Chrome Web Store: [Web Store link](https://bit.ly/GetFragmentedQR)<p>
+Available on GitHub: [FragmentQR Repository](https://bit.ly/FragmentQRrepository)<p>
+Chrome Web Store: [FragmentQR](https://bit.ly/GetFragmentedQR)<p>
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p>
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
