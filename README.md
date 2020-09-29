@@ -1,4 +1,4 @@
-<h1>Fragmented Text to QR</h1><p>
+<h1>FragmentQR</h1><p>
 <em>Yonah Aviv</em><p>
 <b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
 
