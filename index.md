@@ -11,7 +11,9 @@
  <em>Yonah Aviv</em><p>
 
 <b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
-<h2>Tutorial</h2><p>
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content"/>
+To learn how to use this extension, you can examine the speciel flowchart above, or read the instructions below:
+<h2>Instructions</h2><p>
  <ol>
   <li>Select text</li>
   <li>Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selected text be highlighted in yellow.
