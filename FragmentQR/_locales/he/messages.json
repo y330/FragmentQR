@@ -1,0 +1,17 @@
+{
+    "copy_link": {
+        "message": "העתק קישור לטקסט שנבחר"
+    },
+    "extension_description": {
+        "message": ".הוא תוסף לכרום שעושה קוד המקושר לטקסט בדף אינטרנט Fragment-QR"
+    },
+    "extension_name": {
+        "message": "FragmentQR"
+    },
+    " extension_short_name": {
+        "message": "Frag-QR"
+    },
+    "link_failure": {
+        "message": ".אין אפשרות להעתיק קישור ייחודי. בחר טקסט ונסה שוב"
+    }
+}

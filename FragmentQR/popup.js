@@ -1,6 +1,6 @@
 /*MIT License
 
-Copyright (c) 2020 y330
+Copyright (c) 2020 Yonah Aviv
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -189,8 +189,7 @@ $(function() {
                     var e = $("textarea").val().toString();
 
                     e.match(/[\u30a0-\u30ff\u3040-\u309f\u3005-\u3006\u30e0-\u9fcf]/) ?
-                        (console.log("JP", e), a((e = Encoding.convert(e, "SJIS")))) :
-                        (console.log("EN", e), a(encodeURI(e))),
+                        (console.log("EN", e), a(encodeURI(e))) :
                         $("textarea").removeClass("bit-mode");
                 }, 300)),
                 $(".undo").show();
@@ -248,9 +247,15 @@ $(function() {
                         100);
             });
         }),
-        $(".version").on("click", function() {
+        $(".webs").on("click", function() {
+            $(".rr").toggle(function() {
+                $(".rr").html("<a class='rr' href='#' target='_blank'>Go to Website</a>")
+            })
+
+        }),
+        $(".rr").on("click", function() {
             window.open(
-                "https://chrome.google.com/webstore/detail/cabodnfakameckfbbgkciiifempglloj?hl=en",
+                "http://bit.ly/FragQRwebsite",
                 "_blank"
             );
         }),

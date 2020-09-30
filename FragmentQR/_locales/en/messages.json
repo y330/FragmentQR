@@ -1,0 +1,17 @@
+{
+    "copy_link": {
+        "message": "FragmentQR - Copy text fragment"
+    },
+    "extension_description": {
+        "message": "Web extension that creates QR codes that highlight and scroll to your current selection when scanned."
+    },
+    "extension_name": {
+        "message": "FragmentQR"
+    },
+    "extension_short_name": {
+        "message": "FragmentQR"
+    },
+    "link_failure": {
+        "message": "Not enough words selected/selection will not be visible on all devices."
+    }
+}

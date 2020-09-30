@@ -1,25 +1,19 @@
 {
-  "name": "Fragmented Text to QR//FragmentedQR 1.5",
-  "version": "1.5",
+  "name": "FragmentQR",
+  "version": "1.6",
   "manifest_version": 2,
   "minimum_chrome_version": "80",
   "author": "Yonah Aviv",
-  "short_name": "FragmentedQR",
-  "description": "Browser extension that allows for the generation of QR codes linking to arbitrary text on a page.",
+  "short_name": "FragQR",
+  "description": "Web extension that creates QR codes that highlight and scroll to your current selection when scanned.",
   "background": {
     "persitent": false,
-    "scripts": [
-      "js/background_script.js"
-    ]
+    "scripts": ["js/background_script.js"]
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://*/*"
-      ],
-      "js": [
-        "js/content_script.js"
-      ]
+      "matches": ["https://*/*, http://*/*"],
+      "js": ["js/content_script.js"]
     }
   ],
   "default_locale": "en",
@@ -29,13 +23,11 @@
     "contextMenus",
     "storage",
     "clipboardRead",
-    "clipboardWrite",
-    "http://*/*",
-    "https://*/*"
+    "clipboardWrite"
   ],
   "options_page": "options.html",
   "browser_action": {
-    "default_title": "FragmentedQR - Generate QR",
+    "default_title": "FragmentQR - Generate QR",
     "default_icon": {
       "64": "img/64.png"
     },
