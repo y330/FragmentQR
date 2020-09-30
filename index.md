@@ -1,6 +1,12 @@
 <h1>FragmentQR</h1><p>
 <em>Yonah Aviv</em><p>
- 
+ <section id="downloads">
+          
+            <a href="https://github.com/pages-themes/hacker/zipball/master" class="btn">Download as .zip</a>
+            <a href="https://github.com/pages-themes/hacker/tarball/master" class="btn">Download as .tar.gz</a>
+          
+          <a href="https://github.com/pages-themes/hacker" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
 <b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
 <h2>Tutorial</h2><p>
  <ol>
