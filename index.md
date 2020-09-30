@@ -3,7 +3,7 @@
  <section id="downloads">
           
             <a href="https://github.com/pages-themes/hacker/zipball/master" class="btn">Download as .zip</a>
-            <a href="https://github.com/pages-themes/hacker/tarball/master" class="btn">Download as .tar.gz</a>
+            <a href="https://chrome.google.com/webstore/detail/cabodnfakameckfbbgkciiifempglloj?hl=en" class="btn">![](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png)</a>
           
           <a href="https://github.com/pages-themes/hacker" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
