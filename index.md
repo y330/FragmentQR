@@ -30,7 +30,7 @@ Mac and Windows: Chromium 80+.<P>
 Android: Chrome 80+ and some Chromium 80+ browsers<p>
 iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chrome://flags.<p>
 <h3>Demo of FragmentQRv1.0</h3>
-<a href="http://bit.ly/youtubeFragQR"><img src="https://drive.google.com/file/d/1OK_1OiZBfdcTK8kjDumiiM1BaTzr5FDP/view?usp=sharing" width="100px"></a>
+<a href="http://bit.ly/youtubeFragQR"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?authuser=0" width="100px"></a>
  
 <h2><em>Changelog v1.5</em></h2><p>
  <ol>  
