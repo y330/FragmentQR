@@ -1,6 +1,6 @@
 <h1>FragmentQR</h1><p>
 <em>Yonah Aviv</em><p>
-<b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
+<b>FragmentQR is a web extension that generates QR codes linking to arbitrary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
 
 <h2>Tutorial</h2><p>
  <ol>
@@ -10,7 +10,7 @@
   <li>Click the paste button</li>
   <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps.
  </ol>
- And thats it! If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
+ If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  
 <h3>Compatible Browsers:</h3>
 Mac and Windows: Chromium 80+.<P>
@@ -47,7 +47,7 @@ YouTube: http://bit.ly/youtubeFragQR
 
 <h3>TODO</h3><p>
   <ol>
-    <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
+    <li>Add keyboard shortcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol>
   
 Website: http://bit.ly/FragQRWebsite<p>
