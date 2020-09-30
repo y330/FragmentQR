@@ -1,13 +1,15 @@
-<h1>FragmentQR</h1><p>
-<em>Yonah Aviv</em><p>
+
  <section id="downloads">
           
             
             <a href="https://chrome.google.com/webstore/detail/cabodnfakameckfbbgkciiifempglloj?hl=en" class="btn">
-            <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png"></a>
+            <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="150px"></a>
           
           <a href="https://bit.ly/FragmentQRrepository" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+  <h1>FragmentQR</h1><p>
+ <em>Yonah Aviv</em><p>
+
 <b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
 <h2>Tutorial</h2><p>
  <ol>
