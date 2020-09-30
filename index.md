@@ -26,8 +26,7 @@ Mac and Windows: Chromium 80+.<P>
 Android: Chrome 80+ and some Chromium 80+ browsers<p>
 iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chrome://flags.<p>
 <h3>Demo of FragmentQRv1.0</h3>
-YouTube: http://bit.ly/youtubeFragQR
-@@ -50,24 +48,26 @@
+YouTube: <a href="http://bit.ly/youtubeFragQR"><img src="https://lh3.googleusercontent.com/proxy/KsnsM4PUVG7PwWLJJ0lZP_aSHmg9x2VIZ-Ib57u1IjyDp9UvvaHQFzvHv2ckFT30QlF49HTQf4R0mZ6W7BmiL3noyOOUsAqqw9SJ-WbH6zn4ivCexNTLDJK3mKm9GzTxWhr5R14" width="50px"></a>
  
 <h3><em>Changelog v1.5</em></h3><p>
  <ol>  
@@ -42,9 +41,7 @@ YouTube: http://bit.ly/youtubeFragQR
   <ol>
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol>
-  
-Available on GitHub: [FragmentQR Repository](https://bit.ly/FragmentQRrepository)<p>
-Chrome Web Store: [FragmentQR](https://bit.ly/GetFragmentedQR)<p>
+
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p>
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
