@@ -17,10 +17,10 @@ To learn how to use this extension, you can examine the awesome flowchart I made
 <h3>Instructions</h3><p>
  <ol>
   <li>Select text</li>
-  <li>Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selected text be highlighted in yellow.
+  <li>Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selected text be highlighted in yellow.</li>
   <li>Ctrl/Cmd+Q to open the extension popup</li>
   <li>Click the paste button</li>
-  <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps.
+  <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps.</li>
  </ol>
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  
@@ -49,5 +49,3 @@ iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chro
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p>
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
- <!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
