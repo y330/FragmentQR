@@ -1,6 +1,6 @@
 <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
 <section id="downloads">
-          
+          <header>Yonnah Aviv</header>
             
             <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store">
             <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="200px" alt="Available on the Chrome Webstore"></a>
@@ -22,7 +22,7 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
   <li>Click the paste button</li>
   <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps. Check compatible browsers below.</li>
  </ol>
- If steps 1 or 2 do not work, go to <a href="#" target="chrome://extensions/shortcuts">chrome://extensions/shortcuts(Drag into your address bar)</a> to reconfigure the shortcuts<p>
+ If steps 1 or 2 do not work, go to <a href="" target="chrome://extensions/shortcuts">chrome://extensions/shortcuts(Drag into your address bar)</a> to reconfigure the shortcuts<p>
  
 <h3>Browser Compatibility as of October 01, 2020:</h3>
 <b>Scrolling + Highlighting:</b> (Mac, Windows, Android, Linux) on Chromium 80+<p>
@@ -30,7 +30,7 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
 <a href="https://chromestatus.com/feature/4733392803332096#" title="Check compatability of scroll to text fragment" target="_blank">Check current status of Scroll to Text Fragment</a>
 <h3>Demo of FragmentQR v1.0</h3>
 <iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
-<a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?" authuser=0" width="200px" alt="Watch on YouTube"/></a>
+<a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?" authuser="0" width="200px" alt="Watch on YouTube"/></a>
  
 <h2><em>Changelog v1.5</em></h2><p>
  <ol>  
