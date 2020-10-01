@@ -2,7 +2,7 @@
  <section id="downloads">
           
             
-            <a href="https://chrome.google.com/webstore/detail/cabodnfakameckfbbgkciiifempglloj?hl=en" class="btn">
+            <a href=" https://bit.ly/GetFragmentedQR" class="btn">
             <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="150px"></a>
           
           <a href="https://bit.ly/FragmentQRrepository" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
@@ -12,9 +12,9 @@
 
 <b>FragmentQR is a web extension that generates QR codes linking to arbituary selected text on a webpage, which will highlighted and scrolled to when opened in a compatible browser.</b>
 
-<h2>Tutorial</h2>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content"/>
-To learn how to use this extension, you can examine the special flowchart above, or read the instructions below:
+<h2 id="embe">Tutorial<img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content"/></h2>
+
+To learn how to use this extension, you can examine the awesome flowchart I made, as seen above. Alternatively, read the instructions below:
 <h3>Instructions</h3><p>
  <ol>
   <li>Select text</li>
@@ -28,9 +28,9 @@ To learn how to use this extension, you can examine the special flowchart above,
 <h3>Compatible Browsers:</h3>
 Mac and Windows: Chromium 80+.<P>
 Android: Chrome 80+ and some Chromium 80+ browsers<p>
-iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chrome://flags.<p>
+iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chrome://flags. As of writing this, some bugs are present on iOS<p>
 <h3>Demo of FragmentQRv1.0</h3>
-<a href="http://bit.ly/youtubeFragQR"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?authuser=0" width="100px"></a>
+<a href="http://bit.ly/youtubeFragQR"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?authuser=0" width="200px"></a>
  
 <h2><em>Changelog v1.5</em></h2><p>
  <ol>  
