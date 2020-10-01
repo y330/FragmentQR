@@ -1,6 +1,5 @@
 <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
- <title>FragmentQR - Create QR from Text Fragments</title>
- <section id="downloads">
+<section id="downloads">
           
             
             <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store">
