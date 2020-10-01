@@ -30,10 +30,10 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
   <li>Click the paste button</li>
   <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps. Check compatible browsers below.</li>
  </ol>
- If steps 1 or 2 do not work, go to <a href="chrome://extensions/shortcuts" target="_blank">chrome://extensions/shortcuts(Drag into your address bar)</a> to reconfigure the shortcuts<p>
+ If steps 1 or 2 do not work, go to <a href="#" target="chrome://extensions/shortcuts">chrome://extensions/shortcuts(Drag into your address bar)</a> to reconfigure the shortcuts<p>
  
 <h3>Browser Compatibility as of October 01, 2020:</h3>
-<b>Scrolling + Highlighting:</n> (Mac, Windows, Android, Linux) on Chromium 80+<p>
+<b>Scrolling + Highlighting:</b> (Mac, Windows, Android, Linux) on Chromium 80+<p>
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
 <a href="https://chromestatus.com/feature/4733392803332096#" title="Check compatability of scroll to text fragment" target="_blank">Check current status of Scroll to Text Fragment</a>
 <h3>Demo of FragmentQR v1.0</h3>
