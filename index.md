@@ -29,7 +29,7 @@ Mac and Windows: Chromium 80+.<P>
 Android: Chrome 80+ and some Chromium 80+ browsers<p>
 iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chrome://flags. As of writing this, some bugs are present on iOS<p>
 <h3>Demo of FragmentQRv1.0</h3>
-<div style="position: relative; height: 0; overflow: hidden; padding-bottom: 56.25%; /* 16/9 ratio */ border-style: none;"><iframe style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/10U6ycpN3CQ?fs=0&controls=0&modestbranding=1"></iframe></div>
+<div style="position: relative; height: 400px; overflow: hidden; padding-bottom: 56.25%; /* 16/9 ratio */ border-style: none;"><iframe style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/10U6ycpN3CQ?fs=0&controls=0&modestbranding=1"></iframe></div>
 <a href="http://bit.ly/youtubeFragQR"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?authuser=0" width="200px"></a>
  
 <h2><em>Changelog v1.5</em></h2><p>
