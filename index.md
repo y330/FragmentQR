@@ -4,7 +4,7 @@
             
             <a href=" https://bit.ly/GetFragmentedQR" class="btn">
             <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="200px"></a>
-           <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg> <span>Issue</span></a>
+           <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg> <span>Report Issue</span></a>
         </section>
   <h1>FragmentQR</h1><p>
  <em>Yonah Aviv</em><p>
@@ -29,6 +29,7 @@ Mac and Windows: Chromium 80+.<P>
 Android: Chrome 80+ and some Chromium 80+ browsers<p>
 iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chrome://flags. As of writing this, some bugs are present on iOS<p>
 <h3>Demo of FragmentQRv1.0</h3>
+ <iframe src="https://bit.ly/youtubeFragQR" width="80%" height="380" frameBorder="0" style="border: 0;"></iframe><br>Brought to you by <a href="https://bit.ly/youtubeFragQR" target="_blank">FragmentQR</a>
 <a href="http://bit.ly/youtubeFragQR"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?authuser=0" width="200px"></a>
  
 <h2><em>Changelog v1.5</em></h2><p>
