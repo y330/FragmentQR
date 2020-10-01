@@ -29,7 +29,7 @@ Mac and Windows: Chromium 80+.<P>
 Android: Chrome 80+ and some Chromium 80+ browsers<p>
 iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chrome://flags. As of writing this, some bugs are present on iOS<p>
 <h3>Demo of FragmentQRv1.0</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&autoplay=1&loop=1&rel=0&showinfo=0&autohide=0" style="padding:15px 15px 0px 15px;background:#1a1a1a;border-radius:15px;-moz-box-shadow:3px 3px 3px black;-webkit-box-shadow:3px 3px 3px black;box-shadow:3px 3px 3px black;" frameborder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&autoplay=1&loop=1&rel=0&showinfo=0&autohide=0" style="padding:15px 15px 0px 15px;background:#1a1a1a;border-radius:15px;-moz-box-shadow:3px 3px 3px black;-webkit-box-shadow:3px 3px 3px black;box-shadow:3px 3px 3px black;" frameborder="0"></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&autoplay=1&loop=1&rel=0&showinfo=0&theme=light&autohide=0" style="border: 1px solid lightgray;padding:15px 15px 0px 15px;background:#cbcbcb;border-radius:15px;-moz-box-shadow:3px 3px 3px black;-webkit-box-shadow:3px 3px 3px black;box-shadow:3px 3px 3px black;" frameborder="0"></iframe>
 <a href="http://bit.ly/youtubeFragQR"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?authuser=0" width="200px"></a>
  
 <h2><em>Changelog v1.5</em></h2><p>
