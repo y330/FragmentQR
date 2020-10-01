@@ -4,8 +4,8 @@
             
             <a href=" https://bit.ly/GetFragmentedQR" class="btn">
             <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="200px"></a>
-          
-          <a href="https://github.com/y330/FragmentQR/issues" class="btn btn-github"><span class="icon"></span>Report an issue</a>
+            <a class="github-button" href="https://github.com/y330/FragmentQR/issues" data-icon="octicon-issue-opened" aria-label="Issue y330/FragmentQR on GitHub">Issue</a>
+          <a href="" class="btn"><span class="icon"></span>Report an issue</a>
         </section>
   <h1>FragmentQR</h1><p>
  <em>Yonah Aviv</em><p>
