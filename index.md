@@ -49,3 +49,5 @@ iOS: Latest version of Google Chrome if #shared-highlighting-ios enabled on chro
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p>
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
+ <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
