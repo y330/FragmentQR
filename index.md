@@ -5,10 +5,7 @@
    <script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-
-     gtag('config', 'UA-178685535-2');
-   </script>
+     gtag('js', new Date());   </script>
  <section id="downloads">
             
    <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
@@ -92,7 +89,7 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOls4MTg4OTY4NjMsLTIwOTEzMT
-czNjMsLTEzODMzMTkxNzEsLTY0NDQwNzk5OCwxMzgzNzcxMDM3
-LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
+Y29kZSdcbiIsImhpc3RvcnkiOlstNDIwNzMyMDU0LDgxODg5Nj
+g2MywtMjA5MTMxNzM2MywtMTM4MzMxOTE3MSwtNjQ0NDA3OTk4
+LDEzODM3NzEwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
 -->
