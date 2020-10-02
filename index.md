@@ -6,9 +6,7 @@
            <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span> Report Issue</span></a>
         </section>
 <h1><em style="font-size: 12;">Yonah Aviv</em></h1>
-<b>FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage.</b><p>
-
-When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opene, depending on the browser.<p>
+<b>FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage. When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opene, depending on the browser.</b><p>
 
 <h2 id="embe">Tutorial<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a></h2>
 
@@ -43,8 +41,8 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
 <h2>TODO</h2><p>
   <ol>
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
-  </ol>
+  </ol><p>
 
-FragmentQR uses Text Fragments, a feature in Chromium 80+.<p> 
+FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p> 
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
