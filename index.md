@@ -43,16 +43,18 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
 <iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
-<a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?" authuser="0" width="200px" alt="Watch on YouTube"/></a>
+<a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube">
+![https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no? authuser="0" width="200px" alt="Watch on YouTube"/></a>
  <hr>
 
-## Changelogs
+## More Info
 ### <em>Changelog v1.6</em>
 <ol>
     <li>Fix issue when system theme is set to light</li>
     <li>Minor improvements</li>
-  </ol><p>
-<h2><em>Changelog v1.5</em></h2><p>
+  </ol>
+  
+### <em>Changelog v1.5</em>
  <ol>  
   <li>New icon and name changes to FragmentQR</li>
   <li>Paste button now works.</li>
@@ -62,7 +64,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
   <li>Light theme(currently does not save between sessions)</li>
  </ol>
  
-<h2>TODO</h2>
+### TODO
   <ol>
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol>
@@ -74,5 +76,6 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more ab
 
 Contributions welcome.<p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzI4NjQ2NCwtMTA2MzYyNTk1M119
+eyJoaXN0b3J5IjpbLTE0OTgzMjEyNDYsLTEwNjM2MjU5NTNdfQ
+==
 -->
