@@ -18,9 +18,11 @@
 <style>h1{color: blue;}</style>
 
 # FragmentQR
+
 ***Yonah Aviv***
 
-**FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage. **
+
+** FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage. **
 <p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opene, depending on the browser.</p>
 <hr>
 
@@ -32,6 +34,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  <hr style="width:70%; align: middle;">
 
 ### Instructions
+
  <ol>
   <li>Select text</li>
   <li>Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selected text fragment be highlighted in yellow.</li>
@@ -41,8 +44,11 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  </ol>
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  <hr width="70%">
-<h3>FAQ</h3>
-<b>Whats a Text Fragment?</b> A text fragment is a snippet of text in a webpage that can be added to a URL to be highlighted and scrolled into view when opened.
+ 
+### FAQ
+
+<b>Whats a Text Fragment?</b> 	
+A text fragment is a snippet of text in a webpage that can be added to a URL to be highlighted and scrolled into view when opened.
 
 ** What browser will highlight the text fragment?**
 Android, Linux) on Chromium 80+<p>
@@ -86,6 +92,6 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMTc1ODQ2MjE5MiwxMzgzNz
-cxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
+Y29kZSdcbiIsImhpc3RvcnkiOlstNjQ0NDA3OTk4LDEzODM3Nz
+EwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
 -->
