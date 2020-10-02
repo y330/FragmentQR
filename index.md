@@ -3,7 +3,7 @@
             
             <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store">
             <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="200px" alt="Available on the Chrome Webstore"></a>
-           <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span>Report Issue</span></a>
+           <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span> Report Issue</span></a>
         </section>
 <h1><em style="font-size: 12;">Yonah Aviv</em></h1>
 <b>FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage.</b><p>
@@ -21,7 +21,7 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
   <li>Click the paste button</li>
   <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps. Check compatible browsers below.</li>
  </ol>
- If steps 1 or 2 do not work, go to <a href="" target="chrome://extensions/shortcuts">chrome://extensions/shortcuts(Drag into your address bar)</a> to reconfigure the shortcuts<p>
+ If steps 1 or 2 do not work, go to <a href=""chrome://extensions/shortcuts"">chrome://extensions/shortcuts(Drag into your address bar)</a> to reconfigure the shortcuts<p>
  
 <h3>Browser Compatibility as of October 01, 2020:</h3>
 <b>Scrolling + Highlighting:</b> (Mac, Windows, Android, Linux) on Chromium 80+<p>
@@ -45,6 +45,6 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol>
 
-FragmentQR uses <a href="https://wicg.github.io/scroll-to-text-fragment/#abstract:~:text=Text%20Fragments%20adds%20support%20for%20specifying,bring%20it%20to%20the%20user%E2%80%99s%20attention." alt="Description of Text Fragments">Text Fragments</a>, a feature in Chromium 80+.<p> 
+FragmentQR uses Text Fragments, a feature in Chromium 80+.<p> 
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
