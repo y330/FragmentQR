@@ -40,7 +40,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  <hr width="70%">
 <h3>FAQ</h3>
-<b>How do Text Fragments work?</b> Text fragments are appened to the end of a URL as #:~:text="any text". When opened, the text after :~:text= and the browser readsWindows, Android, Linux) on Chromium 80+<p>
+<b>Whats  a Text Fragments?</b> Text fragments are appened to the end of a URL as #:~:text="any text". When opened, the text after :~:text= and the browser reads this, and know to highligh and scroll to the given text. Windows, Android, Linux) on Chromium 80+<p>
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
@@ -81,6 +81,6 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMTEwNDU2OTMxOCwxMzgzNz
-cxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
+Y29kZSdcbiIsImhpc3RvcnkiOlstMTI3MTYyMDksMTM4Mzc3MT
+AzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ==
 -->
