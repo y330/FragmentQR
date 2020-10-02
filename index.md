@@ -50,10 +50,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  <hr width="70%">
  
 <h3>Demo of FragmentQR v1.0</h3>
-<object width="100%" height="315">
-<param name="movie" value="https://youtu.be/10U6ycpN3CQ&amp;ap=%2526fmt%3D18?version=3&amp;hl=en_US&amp;showinfo=0&amp;autohide=1">
-<param name="allowFullScreen" value="true">
-<param name="allowscriptaccess" value="always"><embed src="URL-VIDEO&amp;ap=%2526fmt%3D18?version=3&amp;hl=en_US&amp;showinfo=0&amp;autohide=1" type="application/x-shockwave-flash" width="100%" height="315" allowscriptaccess="always" allowfullscreen="true"></object>
+https://thumbtube.com/34Gj-aKpge
 
 [
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?)
@@ -110,9 +107,9 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlsyMDgwMzIyNDU4LDMzMjU1NT
-Q3OSwxNDAwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4
-MTg4OTY4NjMsLTIwOTEzMTczNjMsLTEzODMzMTkxNzEsLTY0ND
-QwNzk5OCwxMzgzNzcxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1
-M119
+Y29kZSdcbiIsImhpc3RvcnkiOlsxMTUwNjgxMDYyLDIwODAzMj
+I0NTgsMzMyNTU1NDc5LDE0MDAwNzU2NzQsLTIwMDAyMDA2OTUs
+NjYyMjY0MDI4LDgxODg5Njg2MywtMjA5MTMxNzM2MywtMTM4Mz
+MxOTE3MSwtNjQ0NDA3OTk4LDEzODM3NzEwMzcsMTEwMDg1NTkx
+LC0xMDYzNjI1OTUzXX0=
 -->
