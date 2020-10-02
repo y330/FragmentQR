@@ -46,8 +46,8 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 <a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?" authuser="0" width="200px" alt="Watch on YouTube"/></a>
  <hr>
 
-<h2><em>Changelog v1.6</em></h2><p>                
-<ol>
+               
+<ol><h4><em>Changelog v1.6</em></h2>
     <li>Fix issue when system theme is set to light</li>
     <li>Minor improvements</li>
   </ol><p>
@@ -59,15 +59,19 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
   <li>Added support for copying text framents</li>
   <li>Added keyboard shortcuts</li>
   <li>Light theme(currently does not save between sessions)</li>
- </ol><p>
-<h2>TODO</h2><p
+ </ol>
+ 
+<h2>TODO</h2>
   <ol>
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
-  </ol><p>
+  </ol>
+  
  <hr>
-FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. <p>Read more about it <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">here</a><p>
-<b>© 2020 MIT license Yonah Aviv.</b><p>
+FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more about it <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">here</a>
+
+<b>© 2020 MIT license Yonah Aviv.</b>
+
 Contributions welcome.<p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDg4MjM4MywtMTA2MzYyNTk1M119
+eyJoaXN0b3J5IjpbOTI5NjAwMTI5LC0xMDYzNjI1OTUzXX0=
 -->
