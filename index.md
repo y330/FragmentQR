@@ -21,10 +21,12 @@
 ***Yonah Aviv***
 
 **FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage. **
-<p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opene, depending on the browser.<p>
+<p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opene, depending on the browser.</p>
 <hr>
+
 ##  Tutorial
-<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a></h2>
+
+<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
 
 To learn how to QR encode text fragments using FragmentQR, you can examine the infographic above. Alternatively, read the instructions below:
  <hr style="width:70%; align: middle;">
@@ -40,9 +42,10 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  <hr width="70%">
 <h3>FAQ</h3>
-<b>Whats a Text Fragment?</b> A text fragment is a snippet of text in a webpage that can be added to a URL text snippet will be highlighted and scrolled into view.
+<b>Whats a Text Fragment?</b> A text fragment is a snippet of text in a webpage that can be added to a URL to be highlighted and scrolled into view when opened.
 
-**What browser will highlight the text fragment?, Android, Linux) on Chromium 80+<p>
+** What browser will highlight the text fragment?**
+Android, Linux) on Chromium 80+<p>
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
@@ -83,6 +86,6 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlsxOTk1Njg0NDQwLDEzODM3Nz
-EwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
+Y29kZSdcbiIsImhpc3RvcnkiOlstMTc1ODQ2MjE5MiwxMzgzNz
+cxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
 -->
