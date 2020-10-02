@@ -60,7 +60,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
   <li>Added keyboard shortcuts</li>
   <li>Light theme(currently does not save between sessions)</li>
  </ol><p>
-<h2>TODO</h2><p>
+<h2>TODO</h2><p
   <ol>
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol><p>
@@ -69,5 +69,5 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. <p>Read more
 <b>© 2020 MIT license Yonah Aviv.</b><p>
 Contributions welcome.<p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbMTE0NDg4MjM4MywtMTA2MzYyNTk1M119
 -->
