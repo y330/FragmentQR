@@ -16,7 +16,12 @@
 
 # FragmentQR
 
-<p id="yonah">***Yonah Aviv***</p>
+<p id="yonah">
+
+***Yonah Aviv***
+
+</p>
+
 
 
 **FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage.**
@@ -105,9 +110,9 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMTg2MTM2MTQwOCwzMzI1NT
-U0NzksMTQwMDA3NTY3NCwtMjAwMDIwMDY5NSw2NjIyNjQwMjgs
-ODE4ODk2ODYzLC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02ND
-Q0MDc5OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5
-NTNdfQ==
+Y29kZSdcbiIsImhpc3RvcnkiOlsyMDgwMzIyNDU4LDMzMjU1NT
+Q3OSwxNDAwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4
+MTg4OTY4NjMsLTIwOTEzMTczNjMsLTEzODMzMTkxNzEsLTY0ND
+QwNzk5OCwxMzgzNzcxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1
+M119
 -->
