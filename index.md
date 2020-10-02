@@ -53,15 +53,17 @@ Text Fragments adds support for specifying a text snippet in the URL fragment. W
 #### **What browsers support Text Fragments?**
 
 
-**Highlight and scroll:**
+- **Highlight and scroll:**
 
- -  **Mac and Windows**: All Chromium 80+ Browsers
+   - **Mac and Windows**: All Chromium 80+ Browsers
 
--  **Android**: Google Chrome 80+, and Android Webview
+   -  **Android**: Google Chrome 80+, and Android Webview
+   -
 
--  **iOS**: Coming Soon, although some functionality arrises when chrome://flags/#shared-highlighting-ios is enabled
+ -  **Scrolling:**
+ - 
+   -  **iOS**: Coming Soon, although some functionality arrises when chrome://flags/#shared-highlighting-ios is enabled
 
-<b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
 <iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
@@ -101,8 +103,8 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMjAwMDIwMDY5NSw2NjIyNj
-QwMjgsODE4ODk2ODYzLC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcx
-LC02NDQ0MDc5OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNj
-M2MjU5NTNdfQ==
+Y29kZSdcbiIsImhpc3RvcnkiOls0MTQ0Mzk3MTQsLTIwMDAyMD
+A2OTUsNjYyMjY0MDI4LDgxODg5Njg2MywtMjA5MTMxNzM2Mywt
+MTM4MzMxOTE3MSwtNjQ0NDA3OTk4LDEzODM3NzEwMzcsMTEwMD
+g1NTkxLC0xMDYzNjI1OTUzXX0=
 -->
