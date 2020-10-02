@@ -68,3 +68,6 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. <p>Read more about it <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">here</a><p>
 <b>© 2020 MIT license Yonah Aviv.</b><p>
 Contributions welcome.<p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNjM2MjU5NTNdfQ==
+-->
