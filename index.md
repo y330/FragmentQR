@@ -19,8 +19,8 @@
  </section>
 <style type="text/css">h1{color: blue;}</style>
 
-# FragmentQR - Generate QR codes for Text Fragments 	{#title}
-*Yonah Aviv *
+# FragmentQR
+### *Yonah Aviv*
 
 
 **FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage. **
@@ -81,6 +81,6 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlsxMzgzNzcxMDM3LDExMDA4NT
-U5MSwtMTA2MzYyNTk1M119
+Y29kZSdcbiIsImhpc3RvcnkiOlstODcxMDQzOSwxMzgzNzcxMD
+M3LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
 -->
