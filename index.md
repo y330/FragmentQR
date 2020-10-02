@@ -40,7 +40,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  <hr width="70%">
 <h3>FAQ</h3>
-<b>Whats a Text Fragment?</b> Text fragment is a snippet of text in a webpage that is specified in a URL after #:~:text="*text snippet*", which will be emphasized to the user.  highlightswhen opened,
+<b>Whats a Text Fragment?</b> A text fragment is a snippet of text in a webpage that can be added to a URL text snippet will be highlighted and scrolled into view.
 
 **What browser will highlight the text fragment?, Android, Linux) on Chromium 80+<p>
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
@@ -83,6 +83,6 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlsxODg1MjQ3MzU0LDEzODM3Nz
+Y29kZSdcbiIsImhpc3RvcnkiOlsxOTk1Njg0NDQwLDEzODM3Nz
 EwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
 -->
