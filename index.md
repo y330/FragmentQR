@@ -1,7 +1,7 @@
 <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
 <section id="downloads">
             
-            <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store">
+            <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
             <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="200px" alt="Available on the Chrome Webstore"></a>
            <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span> Report Issue</span></a>
         </section>
@@ -21,10 +21,10 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
  </ol>
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  
-<h3>Browser Compatibility as of October 01, 2020:</h3>
+<h3>Browser Compatibility:</h3>
 <b>Scrolling + Highlighting:</b> (Mac, Windows, Android, Linux) on Chromium 80+<p>
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
-<a href="https://chromestatus.com/feature/4733392803332096#" title="Check compatability of scroll to text fragment" target="_blank">Check current status of Scroll to Text Fragment</a>
+<a href="https://chromestatus.com/feature/4733392803332096#" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
 <iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
 <a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?" authuser="0" width="200px" alt="Watch on YouTube"/></a>
@@ -41,7 +41,7 @@ To learn how to FragmentQR to generate a QR from a text fragment, you can examin
 <h2>TODO</h2><p>
   <ol>
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
-  </ol><p>
+  </ol><p><P>
 
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p> 
 <b>© 2020 MIT license Yonah Aviv.</b>
