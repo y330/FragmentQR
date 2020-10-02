@@ -19,7 +19,9 @@
 ***Yonah Aviv***
 
 
-** FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage. **
+**FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage.**
+
+
 <p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opene, depending on the browser.</p>
 <hr>
 
@@ -49,8 +51,13 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention.
 
 **What browsers support Text Fragments?**
-Mac and Windows: All Chromium 80+ Browsers.
-Android
+
+Mac and Windows: All Chromium 80+ Browsers
+
+Android: Google Chrome 80+
+
+iOS: Coming Soon, al
+
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
@@ -91,7 +98,8 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOls2NjIyNjQwMjgsODE4ODk2OD
-YzLC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5OTgs
-MTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ==
+Y29kZSdcbiIsImhpc3RvcnkiOlsyMzQwMTYwNTYsNjYyMjY0MD
+I4LDgxODg5Njg2MywtMjA5MTMxNzM2MywtMTM4MzMxOTE3MSwt
+NjQ0NDA3OTk4LDEzODM3NzEwMzcsMTEwMDg1NTkxLC0xMDYzNj
+I1OTUzXX0=
 -->
