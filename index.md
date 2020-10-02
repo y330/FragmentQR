@@ -45,10 +45,12 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 ### FAQ
 
 **Whats a Text Fragment?**
+
 Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention.
 
 **What browsers support Text Fragments?**
-Android: Chrome 8<p>
+Mac and Windows: All Chromium 80+ Browsers.
+Androdi
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
@@ -89,7 +91,7 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstNDIwNzMyMDU0LDgxODg5Nj
-g2MywtMjA5MTMxNzM2MywtMTM4MzMxOTE3MSwtNjQ0NDA3OTk4
-LDEzODM3NzEwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
+Y29kZSdcbiIsImhpc3RvcnkiOls2MzIzNzg2OTQsODE4ODk2OD
+YzLC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5OTgs
+MTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ==
 -->
