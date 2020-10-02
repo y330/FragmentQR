@@ -79,6 +79,8 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more ab
 
 Contributions welcome.<p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDY0NDA5NSwxMTAwODU1OTEsLTEwNj
-M2MjU5NTNdfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
+Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
+Y29kZSdcbiIsImhpc3RvcnkiOlstMTc4MTk0ODI4MCwxMTAwOD
+U1OTEsLTEwNjM2MjU5NTNdfQ==
 -->
