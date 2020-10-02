@@ -44,8 +44,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 <h3>Demo of FragmentQR v1.0</h3>
 <iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
 <a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube">
-![Watch on YouTube](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?)</a>
- <hr>
+[![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?)](http://bit.ly/youtubeFragQR)<hr>
 
 ## More Info
 ### <em>Changelog v1.6</em>
@@ -76,5 +75,5 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more ab
 
 Contributions welcome.<p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzOTM4NDQ2LC0xMDYzNjI1OTUzXX0=
+eyJoaXN0b3J5IjpbNzMyMDE4NjA1LC0xMDYzNjI1OTUzXX0=
 -->
