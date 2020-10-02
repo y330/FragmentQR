@@ -24,7 +24,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 <h3>Browser Compatibility:</h3>
 <b>Scrolling + Highlighting:</b> (Mac, Windows, Android, Linux) on Chromium 80+<p>
 <b>Scrolling:</b> iOS on Latest version of Google Chrome, must enable #shared-highlighting-ios on chrome://flags.<p>
-<a href="https://chromestatus.com/feature/4733392803332096#" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
+<a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 <h3>Demo of FragmentQR v1.0</h3>
 <iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
 <a href="http://bit.ly/youtubeFragQR" title="Watch FragmentQR v1.0.0 demo on YouTube"><img src="https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?" authuser="0" width="200px" alt="Watch on YouTube"/></a>
@@ -43,6 +43,6 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol><p><P>
 
-FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.<p> 
+FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more about it <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">here</a>
 <b>© 2020 MIT license Yonah Aviv.</b>
 Contributions welcome.<p>
