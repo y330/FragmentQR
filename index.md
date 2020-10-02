@@ -44,6 +44,14 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  <hr width="70%">
  
+<h3>Demo of FragmentQR v1.0</h3>
+<iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
+
+[
+![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?)
+](http://bit.ly/youtubeFragQR)
+
+## More Info
 ### FAQ
 
 #### **Whats a Text Fragment?**
@@ -64,14 +72,6 @@ Text Fragments adds support for specifying a text snippet in the URL fragment. W
     -  **iOS**: Coming Soon, although some functionality arrises when chrome://flags/#shared-highlighting-ios is enabled
 
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
-<h3>Demo of FragmentQR v1.0</h3>
-<iframe width="400" height="250" src="https://www.youtube.com/embed/10U6ycpN3CQ?modestbranding=1&controls=0&loop=1&rel=0&showinfo=0" frameborder="0"></iframe>
-
-[
-![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?)
-](http://bit.ly/youtubeFragQR)
-
-## More Info
 ### <em>Changelog v1.6</em>
 <ol>
     <li>Fix issue when system theme is set to light</li>
@@ -102,7 +102,7 @@ Contributions welcome.<p>
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOls2NDk1Nzk5OTEsMTQwMDA3NT
+Y29kZSdcbiIsImhpc3RvcnkiOlszMzI1NTU0NzksMTQwMDA3NT
 Y3NCwtMjAwMDIwMDY5NSw2NjIyNjQwMjgsODE4ODk2ODYzLC0y
 MDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5OTgsMTM4Mz
 c3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ==
