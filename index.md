@@ -177,9 +177,9 @@ Minimum requirements as of 10/02/2020:
    - MacOS X 10.10: Chromium 80 
    - Android 5.5: Chrome 85, Android WebView 81
    - Windows 7: Chromium 80
-    -  iOS: iOS 12: Coming soon, but in Chrome for iOS enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
-<a href="" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
-[Compatibility info](https://caniuse.com/url-scroll-to-tex..)
+    - iOS 12: Coming soon, but in Chrome for iOS enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
+    
+<a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
 ### <em>Changelog v1.6</em>
 <ol>
@@ -226,11 +226,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTc5NTY2NTQyLC0xMjU0OT
-I2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3MjgyLDEyNDAyODgxNDYs
-LTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4LDE0OD
-M4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0MzA4Njkx
-OCwtMTc0OTY4MjY1NiwtNTQyNjU1MTMxLC0xODI1NzEyNjczLD
-ExNTA2ODEwNjIsMjA4MDMyMjQ1OCwzMzI1NTU0NzksMTQwMDA3
-NTY3NCwtMjAwMDIwMDY5NV19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTkxMzc4ODA3OCwxNzk1Nj
+Y1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIs
+MTI0MDI4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNz
+c0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1
+MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLT
+E4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1
+NTQ3OSwxNDAwMDc1Njc0XX0=
 -->
