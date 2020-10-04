@@ -164,7 +164,7 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 
 FragmentQR can enable you to select any text, and have it automatically be copied as a **text fragment**, by simply clicking Ctrl Shift L
 
-After copying the text fragment, you can click Ctrl Q to open the extension popup and have a QR code automatically generated from your clipboard.
+After copying the text fragment, you can click Ctrl Q to open the extension popup and have a QR code automatically generated from your clipboard. 
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
@@ -224,11 +224,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE5MTUzODQzMTgsMTQ0MT
-UzNzE0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0
-LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xOD
-MxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5Njgy
-NjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2Mi
-wyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC0yMDAw
-MjAwNjk1LDY2MjI2NDAyOF19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbNjAwMjk2MjQsMTQ0MTUzNz
+E0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0LC0x
+NTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNT
+UxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2
+LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMD
+gwMzIyNDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC0yMDAwMjAw
+Njk1LDY2MjI2NDAyOF19
 -->
