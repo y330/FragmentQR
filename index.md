@@ -162,8 +162,7 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 
 <!-- **Technical:** it is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` that defines a text snippet. The syntax for a text fragment is `  your-url/#:~:text="text-snippet" -->
 
-FragmentQR takes the idea of text fragments and im
-
+Using the idea of Googles Link to Text Fragment extension(, But added 
 
 #### **What will FragmentQR do for me?**
 
@@ -227,11 +226,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTEzMTE3MzE2NjUsMTI0MD
-I4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYx
-MzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMD
-QzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3
-MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OS
-wxNDAwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4
-OTY4NjMsLTIwOTEzMTczNjNdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTk4ODk5ODM5NSwxMjQwMj
+g4MTQ2LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAsLTM3NzQwNjEz
+OCwxNDgzODU3MzcsLTE4MzE1NTEwODcsNjU2MzY2MDUxLDEwND
+MwODY5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcx
+MjY3MywxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LD
+E0MDAwNzU2NzQsLTIwMDAyMDA2OTUsNjYyMjY0MDI4LDgxODg5
+Njg2MywtMjA5MTMxNzM2M119
 -->
