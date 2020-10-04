@@ -165,7 +165,7 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 
 #### **What will FragmentQR do for me?**
 
-FragmentQR can enable you to select any text, and have it automatically be copied as a **text fragment**, after which a QR code can be generated from the your clipboard for easily sharing specific parts of a webpage.
+Using scroll to text fragment, FragmentQR can enable you to select any text, and have it automatically be copied as a **text fragment**, after which a QR code can be generated from your clipboard for easily sharing specific parts of a webpage.
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
@@ -173,8 +173,7 @@ The following are compatible with Minimum requirements as of 10/02/2020:
    - MacOS X 10.10: Chromium 80 
    - Android 5.5: Chrome 85, Android WebView 81
    - Windows 7: Chromium 80
-
-    -  **iOS**: iOS 12: Google Chrome, Coming soon, but enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
+    -  iOS: iOS 12: Coming soon, but in Chrome for iOS enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 [Compatibility info: https://caniuse.com/url-scroll-to-tex...
 ](https://www.youtube.com/watch?v=10U6ycpN3CQ#:~:text=Compatibility%20info%3A%20https%3A%2F%2Fcaniuse.com%2Furl-scroll-to-tex...)
@@ -226,11 +225,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbNzE2NDc4MjksMTI0MDI4OD
-E0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgs
-MTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMD
-g2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2
-NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxND
-AwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4OTY4
-NjMsLTIwOTEzMTczNjNdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE1MTczMDcwMzEsMTI0MD
+I4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYx
+MzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMD
+QzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3
+MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OS
+wxNDAwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4
+OTY4NjMsLTIwOTEzMTczNjNdfQ==
 -->
