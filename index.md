@@ -74,9 +74,10 @@ Text Fragments have many uses. For example, when a user navigates a to a link on
 #### **What browsers support Text Fragments?**
 
 
-Currently, 
+Currently, the minimum requirements for 
 - **Highlight and scroll:**
-   - **Since MacOS X 10.10:** Chromium 80 Android 5.5: Chrome 85, Android WebView 81 Windows 7: Chromium 80 iOS 12: Google Chrome, Coming soon, but enabling [#shared](https://www.youtube.com/results?search_query=%23shared)-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
+   - **MacOS X 10.10 or later:** Chromium 80 
+   - **Android 5.5 or later:** Chrome 85, Android WebView 81 Windows 7: Chromium 80 iOS 12: Google Chrome, Coming soon, but enabling [#shared](https://www.youtube.com/results?search_query=%23shared)-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
 
    -  **Android**: Chrome  85+, and Android Webview
 
@@ -116,10 +117,10 @@ Contributions welcome.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlsxODY1MDU5MTk4LDEwNDMwOD
-Y5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3
-MywxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LDE0MD
-AwNzU2NzQsLTIwMDAyMDA2OTUsNjYyMjY0MDI4LDgxODg5Njg2
-MywtMjA5MTMxNzM2MywtMTM4MzMxOTE3MSwtNjQ0NDA3OTk4LD
-EzODM3NzEwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
+Y29kZSdcbiIsImhpc3RvcnkiOlstMjAxMzI2NjEyNSwxMDQzMD
+g2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2
+NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxND
+AwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4OTY4
+NjMsLTIwOTEzMTczNjMsLTEzODMzMTkxNzEsLTY0NDQwNzk5OC
+wxMzgzNzcxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
 -->
