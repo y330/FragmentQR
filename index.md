@@ -107,6 +107,7 @@ Currently,
   </ol>
   
  <hr>
+ 
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more about it at the <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">Scroll-to-text-fragment GitHub Repository</a>
 
 <b>© 2020 MIT license Yonah Aviv.</b>
@@ -115,10 +116,10 @@ Contributions welcome.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMTc0OTY4MjY1NiwtNTQyNj
-U1MTMxLC0xODI1NzEyNjczLDExNTA2ODEwNjIsMjA4MDMyMjQ1
-OCwzMzI1NTU0NzksMTQwMDA3NTY3NCwtMjAwMDIwMDY5NSw2Nj
-IyNjQwMjgsODE4ODk2ODYzLC0yMDkxMzE3MzYzLC0xMzgzMzE5
-MTcxLC02NDQ0MDc5OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLT
-EwNjM2MjU5NTNdfQ==
+Y29kZSdcbiIsImhpc3RvcnkiOlsxMDQzMDg2OTE4LC0xNzQ5Nj
+gyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2
+MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC0yMD
+AwMjAwNjk1LDY2MjI2NDAyOCw4MTg4OTY4NjMsLTIwOTEzMTcz
+NjMsLTEzODMzMTkxNzEsLTY0NDQwNzk5OCwxMzgzNzcxMDM3LD
+ExMDA4NTU5MSwtMTA2MzYyNTk1M119
 -->
