@@ -71,7 +71,7 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 
 #### **What will FragmentQR do for me?**
 
-FragmentQR can enable you to select specifictext, and have it automatically be copied as a text fragment, after which a QR code can be generated from the users clipboard.
+FragmentQR can enable you to select any text, and have it automatically be copied as a text fragment, after which a QR code can be generated from the your clipboard for easily l
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
@@ -127,7 +127,7 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstODA1ODg1MTY4LC0xNTE1MD
+Y29kZSdcbiIsImhpc3RvcnkiOlsxNDg4MzAyNzYzLC0xNTE1MD
 MyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3
 LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01ND
 I2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIy
