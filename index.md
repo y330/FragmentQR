@@ -158,11 +158,14 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 
 #### **What are Text Fragments?**
 
-A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. This plain feature is available in [Link to Text Fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg), an extension by Google, but nowhere near as 
+A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. 
 
 #### **What will FragmentQR do for me?**
 
-FragmentQR can enable you to select any text, and have it automatically be copied as a **text fragment**, after which a QR code can be generated from your clipboard for easily sharing specific parts of a webpage.
+FragmentQR can enable you to select any text, and have it automatically be copied as a **text fragment**.
+
+This plain feature is available in [Link to Text Fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg), an extension by Google, but is nowhere near as beneficial as FragmenQR. 
+After copying the text fragment, a QR code can be generated from your clipboard for easily sharing specific parts of a webpage.
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
@@ -222,11 +225,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTEyMTU3ODA5MDksMTQ0MT
-UzNzE0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0
-LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xOD
-MxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5Njgy
-NjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2Mi
-wyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC0yMDAw
-MjAwNjk1LDY2MjI2NDAyOF19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTc3Mzc2MTUzNCwxNDQxNT
+M3MTQwLDUxNjM4NzI4MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQs
+LTE1MTUwMzI0NTAsLTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4Mz
+E1NTEwODcsNjU2MzY2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2
+NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3MywxMTUwNjgxMDYyLD
+IwODAzMjI0NTgsMzMyNTU1NDc5LDE0MDAwNzU2NzQsLTIwMDAy
+MDA2OTUsNjYyMjY0MDI4XX0=
 -->
