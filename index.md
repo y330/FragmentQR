@@ -69,9 +69,9 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 **Technical:** it is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` that defines a text snippet. The syntax for a text fragment is `  your-url/#:~:text="text-snippet"  `.
 
 
-#### **What really is FragmentQR, and why should I get it?**
+#### **What really is FragmentQR?**
 
-FragmentQR is a Chrome extesion that lets the user select any text on a webpage and convert it into a text fragment, which is then appended as to the end of the pages URL. 
+FragmentQR is a Chrome extesion that lets the user select any text on a webpage and convert it into a text fragment, which is then appended to the end of the pages URL. the URL is then used to generate a QR code that will contain the it, s
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
@@ -127,11 +127,11 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlsxNjYzOTI2MDgzLC0xNTE1MD
-MyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3
-LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01ND
-I2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIy
-NDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC0yMDAwMjAwNjk1LD
-Y2MjI2NDAyOCw4MTg4OTY4NjMsLTIwOTEzMTczNjMsLTEzODMz
-MTkxNzEsLTY0NDQwNzk5OF19
+Y29kZSdcbiIsImhpc3RvcnkiOlstMTE1ODkzNjgyNiwtMTUxNT
+AzMjQ1MCwtMzc3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4
+Nyw2NTYzNjYwNTEsMTA0MzA4NjkxOCwtMTc0OTY4MjY1NiwtNT
+QyNjU1MTMxLC0xODI1NzEyNjczLDExNTA2ODEwNjIsMjA4MDMy
+MjQ1OCwzMzI1NTU0NzksMTQwMDA3NTY3NCwtMjAwMDIwMDY5NS
+w2NjIyNjQwMjgsODE4ODk2ODYzLC0yMDkxMzE3MzYzLC0xMzgz
+MzE5MTcxLC02NDQ0MDc5OThdfQ==
 -->
