@@ -164,7 +164,10 @@ Example:
 
 #### **What will FragmentQR do for me?**
 
-FragmentQR can enable you to select any text, and have it automatically be copied as a **text fragment**, by simply clicking Ctrl Shift L
+FragmentQR can enable you to select any text, and have it automatically be copied as a **text fragment**, by simply pressing <kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); -webkit-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee); color: #000; padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">Ctrl</kbd>+
+<kbd
+    class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); -webkit-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee); color: #000; padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">⇧ Shift</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); -webkit-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee); color: #000; padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">L</kbd>
+
 
 After copying the text fragment, you can click Ctrl Q to open the extension popup and have a QR code automatically generated from your clipboard. 
 
@@ -226,11 +229,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTEyNTQ5MjY1ODQsMTQ0MT
-UzNzE0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0
-LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xOD
-MxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5Njgy
-NjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2Mi
-wyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC0yMDAw
-MjAwNjk1LDY2MjI2NDAyOF19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE3NjAyNjQ2NSwtMTI1ND
+kyNjU4NCwxNDQxNTM3MTQwLDUxNjM4NzI4MiwxMjQwMjg4MTQ2
+LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAsLTM3NzQwNjEzOCwxND
+gzODU3MzcsLTE4MzE1NTEwODcsNjU2MzY2MDUxLDEwNDMwODY5
+MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3My
+wxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LDE0MDAw
+NzU2NzQsLTIwMDAyMDA2OTVdfQ==
 -->
