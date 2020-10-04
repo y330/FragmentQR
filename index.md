@@ -12,13 +12,13 @@
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" alt="Available on the Chrome Webstore"></a>
   <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span> Report Issue</span></a>
  </section>
-<style>#yonah{color: orange;}</style>
+<style>h1{color: orange;}</style>
 
 # FragmentQR
 
 <p id="yonah">
 
-**Yonah Aviv**
+<em><b>Yonah Aviv</b></em>
 
 
 </p>
@@ -61,18 +61,25 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 ## More Info
 ### FAQ
 
-#### **Whats a Text Fragment?**
+#### **What are Text Fragments?**
 
-Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention.
+A Text Fragment is a URL fragment that defines a piece of text to be scrolled into view and highlighted. In Chromium, this feature is called Scroll-to-text-fragment.
+
+
+#### **Why are Text Fragments Useful?**
+
+Text Fragments have many uses. For example, when a user navigates a to a link on a search results page(SRP), relevant text can be emphasized to the user in a text Fragment. Also, text Fragments can be used to share text with friends.
+
+
 
 #### **What browsers support Text Fragments?**
 
 
+Currently, 
 - **Highlight and scroll:**
+   - **
 
-   - **Mac and Windows**: All Chromium 80+ Browsers
-
-   -  **Android**: Google Chrome 80+, and Android Webview
+   -  **Android**: Chrome  85+, and Android Webview
 
  -  **Scrolling:**
 
@@ -101,11 +108,11 @@ Text Fragments adds support for specifying a text snippet in the URL fragment. W
   </ol>
   
  <hr>
-FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more about it <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">here</a>
+FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more about it at the <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">Scroll-to-text-fragment GitHub Repository</a>
 
 <b>© 2020 MIT license Yonah Aviv.</b>
 
-Contributions welcome.<p>
+Contributions welcome.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
