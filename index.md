@@ -77,12 +77,13 @@ FragmentQR is a Chrome extesion that lets the user select any text on a webpage 
 #### **What browsers/platforms required to make use of Text Fragments?**
 
 Minimum requirements as of 10/02/2020:
-   - **MacOS X 10.10 ob Chromium 80 
-   - **Android 5.5 or later:** Chrome 85, Android WebView 81
+   - MacOS X 10.10: Chromium 80 
+   - Android 5.5: Chrome 85, Android WebView 81
+   - Windows 7: Chromium 80
 
-    -  **iOS**: Coming Soon, although some functionality arrises when chrome://flags/#shared-highlighting-ios is enabled
-
+    -  **iOS**: iOS 12: Google Chrome, Coming soon, but enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
+
 ### <em>Changelog v1.6</em>
 <ol>
     <li>Fix issue when system theme is set to light</li>
@@ -125,10 +126,10 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstODYwMjU2ODk5LDEwNDMwOD
-Y5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3
-MywxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LDE0MD
-AwNzU2NzQsLTIwMDAyMDA2OTUsNjYyMjY0MDI4LDgxODg5Njg2
-MywtMjA5MTMxNzM2MywtMTM4MzMxOTE3MSwtNjQ0NDA3OTk4LD
-EzODM3NzEwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
+Y29kZSdcbiIsImhpc3RvcnkiOlstMTM4MjkzNzI3MCwxMDQzMD
+g2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2
+NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxND
+AwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4OTY4
+NjMsLTIwOTEzMTczNjMsLTEzODMzMTkxNzEsLTY0NDQwNzk5OC
+wxMzgzNzcxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
 -->
