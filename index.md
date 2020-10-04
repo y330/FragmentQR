@@ -71,7 +71,7 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 
 #### **What really is FragmentQR?**
 
-FragmentQR is a Chrome extesion that lets the user select any text on a webpage and convert it into a text fragment, which is then appended to the end of the pages URL. the URL is then used to generate a QR code that will contain the text fragment. The uses of FragmentQR include sharing specific text on a webpage with friends or coworkers, directing 
+FragmentQR is a Chrome extesion that lets the user select any text on a webpage and convert it into a text fragment, which is then appended to the end of the pages URL. the URL is then used to generate a QR code that will contain the text fragment. The applications of text  of FragmentQR include sharing specific text on a webpage with friends or coworkers, directing 
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
@@ -127,11 +127,11 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMTQ3MTY4OTExOCwtMTUxNT
-AzMjQ1MCwtMzc3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4
-Nyw2NTYzNjYwNTEsMTA0MzA4NjkxOCwtMTc0OTY4MjY1NiwtNT
-QyNjU1MTMxLC0xODI1NzEyNjczLDExNTA2ODEwNjIsMjA4MDMy
-MjQ1OCwzMzI1NTU0NzksMTQwMDA3NTY3NCwtMjAwMDIwMDY5NS
-w2NjIyNjQwMjgsODE4ODk2ODYzLC0yMDkxMzE3MzYzLC0xMzgz
-MzE5MTcxLC02NDQ0MDc5OThdfQ==
+Y29kZSdcbiIsImhpc3RvcnkiOlszODg1Nzc0NzksLTE1MTUwMz
+I0NTAsLTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1NTEwODcs
+NjU2MzY2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NTYsLTU0Mj
+Y1NTEzMSwtMTgyNTcxMjY3MywxMTUwNjgxMDYyLDIwODAzMjI0
+NTgsMzMyNTU1NDc5LDE0MDAwNzU2NzQsLTIwMDAyMDA2OTUsNj
+YyMjY0MDI4LDgxODg5Njg2MywtMjA5MTMxNzM2MywtMTM4MzMx
+OTE3MSwtNjQ0NDA3OTk4XX0=
 -->
