@@ -60,7 +60,7 @@
 </style>
 
 
-<div class="youtube-player" data-id="aSL-iIskEFU"></div>
+<div class="youtube-player" data-id="10U6ycpN3CQ"></div>
 
 <script>
     /* Light YouTube Embeds by @labnol */
@@ -160,7 +160,9 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 #### **What are Text Fragments?**
 
 A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
-Example: 
+
+Example: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#General_shortcuts:~:text=A%20note%20regarding%20KDE's%20shortcuts%20is,(such%20as%20Ctrl%2BZ%2C%20Alt%2BE%2C%20etc.)%20are
+
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. 
 
 #### **What will FragmentQR do for me?**
@@ -223,11 +225,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTc5NTE1MDA0MywxNzk1Nj
-Y1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIs
-MTI0MDI4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNz
-c0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1
-MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLT
-E4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1
-NTQ3OSwxNDAwMDc1Njc0XX0=
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbNzA3ODA1MTU3LC03OTUxNT
+AwNDMsMTc5NTY2NTQyLC0xMjU0OTI2NTg0LDE0NDE1MzcxNDAs
+NTE2Mzg3MjgyLDEyNDAyODgxNDYsLTQ3OTQwNTgzNCwtMTUxNT
+AzMjQ1MCwtMzc3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4
+Nyw2NTYzNjYwNTEsMTA0MzA4NjkxOCwtMTc0OTY4MjY1NiwtNT
+QyNjU1MTMxLC0xODI1NzEyNjczLDExNTA2ODEwNjIsMjA4MDMy
+MjQ1OCwzMzI1NTU0NzldfQ==
 -->
