@@ -64,14 +64,14 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 
 #### **What are Text Fragments?**
 
-A Text Fragment is a URL fragment that specifies a piece of text to be scrolled into view and highlighted, in Chromium 80 and later. This feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment on GitHub">Scroll to text fragment</a>.
-.
+A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted. In Chromium 80 or later, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment on GitHub">Scroll to text fragment</a>.
+
 **Technically,** it is a part of URL defined in the URI fragment(*your-url/#URI-fragment*) that defines a peice of text. The syntax for a text fragment is *your-url/#:~:text="text-fragment"*.
 
 
-#### **What is FragmentQR really, and ?**
+#### **What really is FragmentQR, and why should I get it?**
 
-FragmentQR is a Chrome extesion that lets the user select any text on a webpage and converts it into a text fragment, which is then appended as a text fragment to the end of the pages URL. 
+FragmentQR is a Chrome extesion that lets the user select any text on a webpage and convert it into a text fragment, which is then appended as to the end of the pages URL. 
 
 
 #### **What browsers/platforms required to make use of Text Fragments?**
@@ -128,7 +128,7 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlsxMDIzMTM3NzEzLDEwNDMwOD
+Y29kZSdcbiIsImhpc3RvcnkiOlstOTkyMzEwNDI4LDEwNDMwOD
 Y5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3
 MywxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LDE0MD
 AwNzU2NzQsLTIwMDAyMDA2OTUsNjYyMjY0MDI4LDgxODg5Njg2
