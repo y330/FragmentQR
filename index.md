@@ -52,7 +52,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  <hr width="70%">
  
 <h3>Demo of FragmentQR v1.0.0(Old)</h3>
-<iframe id="ytplayer" type="text/html" width="100%" height="webkit-fill-available-"
+<iframe id="ytplayer" type="text/html" width="min-content" height="fi-content"
 src="https://www.youtube.com/embed/10U6ycpN3CQ?fs=0&modestbranding=1&playsinline=1&color=white&iv_load_policy=3"
 frameborder="0" allowfullscreen>
 
@@ -133,11 +133,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTcwOTk3MzA5OCwtNDc5ND
-A1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3
-LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNz
-Q5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4
-MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC
-0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4OTY4NjMsLTIwOTEz
-MTczNjMsLTEzODMzMTkxNzFdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE5NDg4OTMxMzIsLTQ3OT
+QwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4LDE0ODM4NTcz
+NywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0MzA4NjkxOCwtMT
+c0OTY4MjY1NiwtNTQyNjU1MTMxLC0xODI1NzEyNjczLDExNTA2
+ODEwNjIsMjA4MDMyMjQ1OCwzMzI1NTU0NzksMTQwMDA3NTY3NC
+wtMjAwMDIwMDY5NSw2NjIyNjQwMjgsODE4ODk2ODYzLC0yMDkx
+MzE3MzYzLC0xMzgzMzE5MTcxXX0=
 -->
