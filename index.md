@@ -166,7 +166,7 @@ Example:
 #### **What will FragmentQR do for me?**
 
 FragmentQR can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
-to copy it as a **text fragment** to your . You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. 
+to copy it as a **text fragment**. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
@@ -223,11 +223,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTIwMDkzMjUyNzksMTc5NT
-Y2NTQyLC0xMjU0OTI2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3Mjgy
-LDEyNDAyODgxNDYsLTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMz
-c3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYw
-NTEsMTA0MzA4NjkxOCwtMTc0OTY4MjY1NiwtNTQyNjU1MTMxLC
-0xODI1NzEyNjczLDExNTA2ODEwNjIsMjA4MDMyMjQ1OCwzMzI1
-NTU0NzksMTQwMDA3NTY3NF19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTc5NTE1MDA0MywxNzk1Nj
+Y1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIs
+MTI0MDI4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNz
+c0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1
+MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLT
+E4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1
+NTQ3OSwxNDAwMDc1Njc0XX0=
 -->
