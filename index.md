@@ -74,8 +74,8 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 FragmentQR is a Chrome extesion that lets the user select any text on a webpage and convert it into a text fragment, which is then appended as to the end of the pages URL. 
 
 
-#### **What browsers/platforms required to make use of Text Fragments?**
-
+#### **What browsers/platforms are compatible with FragmentQR?**
+Any Chromium 
 Minimum requirements as of 10/02/2020:
    - MacOS X 10.10: Chromium 80 
    - Android 5.5: Chrome 85, Android WebView 81
@@ -128,10 +128,10 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstOTkyMzEwNDI4LDEwNDMwOD
-Y5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3
-MywxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LDE0MD
-AwNzU2NzQsLTIwMDAyMDA2OTUsNjYyMjY0MDI4LDgxODg5Njg2
-MywtMjA5MTMxNzM2MywtMTM4MzMxOTE3MSwtNjQ0NDA3OTk4LD
-EzODM3NzEwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
+Y29kZSdcbiIsImhpc3RvcnkiOls2NTYzNjYwNTEsMTA0MzA4Nj
+kxOCwtMTc0OTY4MjY1NiwtNTQyNjU1MTMxLC0xODI1NzEyNjcz
+LDExNTA2ODEwNjIsMjA4MDMyMjQ1OCwzMzI1NTU0NzksMTQwMD
+A3NTY3NCwtMjAwMDIwMDY5NSw2NjIyNjQwMjgsODE4ODk2ODYz
+LC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5OTgsMT
+M4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ==
 -->
