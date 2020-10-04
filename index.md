@@ -64,7 +64,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 
 #### **What are Text Fragments?**
 
-A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted. In Chromium 80 or later, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment on GitHub">Scroll to text fragment</a>.
+A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow(default). In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment on GitHub">Scroll to text fragment</a>.
 
 **Technically,** it is a part of URL defined in the URI fragment(*your-url/#URI-fragment*) that defines a peice of text. The syntax for a text fragment is *your-url/#:~:text="text-fragment"*.
 
@@ -75,8 +75,7 @@ FragmentQR is a Chrome extesion that lets the user select any text on a webpage 
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
-Any Chromium 
-Minimum requirements as of 10/02/2020:
+The following are compatible with Minimum requirements as of 10/02/2020:
    - MacOS X 10.10: Chromium 80 
    - Android 5.5: Chrome 85, Android WebView 81
    - Windows 7: Chromium 80
@@ -128,10 +127,11 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOls2NTYzNjYwNTEsMTA0MzA4Nj
-kxOCwtMTc0OTY4MjY1NiwtNTQyNjU1MTMxLC0xODI1NzEyNjcz
-LDExNTA2ODEwNjIsMjA4MDMyMjQ1OCwzMzI1NTU0NzksMTQwMD
-A3NTY3NCwtMjAwMDIwMDY5NSw2NjIyNjQwMjgsODE4ODk2ODYz
-LC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5OTgsMT
-M4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ==
+Y29kZSdcbiIsImhpc3RvcnkiOlstNzU4NjA2NTI0LDY1NjM2Nj
+A1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEs
+LTE4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMj
+U1NTQ3OSwxNDAwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAy
+OCw4MTg4OTY4NjMsLTIwOTEzMTczNjMsLTEzODMzMTkxNzEsLT
+Y0NDQwNzk5OCwxMzgzNzcxMDM3LDExMDA4NTU5MSwtMTA2MzYy
+NTk1M119
 -->
