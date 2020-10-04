@@ -57,7 +57,7 @@ src="https://www.youtube.com/embed/10U6ycpN3CQ?fs=0&modestbranding=1&playsinline
 frameborder="50px" allowfullscreen>
 
 [
-![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w512-h212-no?)
+![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
 ](http://bit.ly/youtubeFragQR)
 
 ## More Info
@@ -133,7 +133,7 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTUxMzgwODU4NCwtNDc5ND
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTYwMzAyOTI3MCwtNDc5ND
 A1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3
 LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNz
 Q5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4
