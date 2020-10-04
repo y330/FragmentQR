@@ -68,8 +68,7 @@ A Text Fragment is a URL fragment that defines a piece of text to be scrolled in
 
 #### **Why are Text Fragments Useful?**
 
-Text Fragments have many uses. For example, when a user navigates a to a link on a search results page(SRP), relevant text can be emphasized to the user in a text Fragment. Also, text Fragments can be used to share text with friends.
-
+Text Fragments have many uses. For example, when a user navigates a to a link on a search results page(SRP), relevant text can be emphasized to the user in a text Fragment.
 
 
 #### **What browsers support Text Fragments?**
@@ -116,10 +115,10 @@ Contributions welcome.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstNTQyNjU1MTMxLC0xODI1Nz
-EyNjczLDExNTA2ODEwNjIsMjA4MDMyMjQ1OCwzMzI1NTU0Nzks
-MTQwMDA3NTY3NCwtMjAwMDIwMDY5NSw2NjIyNjQwMjgsODE4OD
-k2ODYzLC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5
-OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
-==
+Y29kZSdcbiIsImhpc3RvcnkiOlstMTc0OTY4MjY1NiwtNTQyNj
+U1MTMxLC0xODI1NzEyNjczLDExNTA2ODEwNjIsMjA4MDMyMjQ1
+OCwzMzI1NTU0NzksMTQwMDA3NTY3NCwtMjAwMDIwMDY5NSw2Nj
+IyNjQwMjgsODE4ODk2ODYzLC0yMDkxMzE3MzYzLC0xMzgzMzE5
+MTcxLC02NDQ0MDc5OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLT
+EwNjM2MjU5NTNdfQ==
 -->
