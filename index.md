@@ -71,7 +71,7 @@ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled
 
 #### **What really is FragmentQR?**
 
-FragmentQR is a Chrome extesion that uses allows users to d text fragments
+Fragment users to select text, and have their selection automatically be converted into a text fragment antext fragments
 
 #### **What browsers/platforms are compatible with FragmentQR?**
 The following are compatible with Minimum requirements as of 10/02/2020:
@@ -126,7 +126,7 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstNjgxNzY5MjgwLC0xNTE1MD
+Y29kZSdcbiIsImhpc3RvcnkiOlstMzYwMzYwOTY3LC0xNTE1MD
 MyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3
 LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01ND
 I2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIy
