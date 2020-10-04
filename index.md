@@ -51,7 +51,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
  <hr width="70%">
  
-<h3>Demo of FragmentQR v1.0</h3>
+<h3>Demo of FragmentQR v1.</h3>
 [![](https://img.youtube.com/vi/10U6ycpN3CQ/hqdefault.jpg)]
 (https://youtu.be/10U6ycpN3CQ)
 
@@ -126,17 +126,17 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 -->
 
 <!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
-Rob3I6IFlvbmFoIEF2aXZcbnRhZ3M6ICdGcmFnbWVudFFSLCBU
-ZXh0IEZyYWdtZW50LCBZb25haCBBdml2LCBZb25haCdcbmZlYX
-R1cmVkSW1hZ2U6ICdodHRwczovL2dpdGh1Yi5jb20veTMzMC9G
-cmFnbWVudFFSL2Jsb2IvbWFzdGVyL0ZyYWdtZW50UVIvaW1nLz
-UxMi5wbmc/cmF3PXRydWUnXG5leHRlbnNpb25zOlxuICBwcmVz
-ZXQ6IGdmbVxuIiwiaGlzdG9yeSI6WzE1NzM2NjM0LC0xNTE1MD
-MyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3
-LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01ND
-I2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4MTA2MiwyMDgwMzIy
-NDU4LDMzMjU1NTQ3OSwxNDAwMDc1Njc0LC0yMDAwMjAwNjk1LD
-Y2MjI2NDAyOCw4MTg4OTY4NjMsLTIwOTEzMTczNjMsLTEzODMz
-MTkxNzEsLTY0NDQwNzk5OF19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50UVJcbmF1dG
+hvcjogWW9uYWggQXZpdlxudGFnczogJ0ZyYWdtZW50UVIsIFRl
+eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
+VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
+YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
+EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTEzMjkwNDE1MzgsLTE1MT
+UwMzI0NTAsLTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1NTEw
+ODcsNjU2MzY2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NTYsLT
+U0MjY1NTEzMSwtMTgyNTcxMjY3MywxMTUwNjgxMDYyLDIwODAz
+MjI0NTgsMzMyNTU1NDc5LDE0MDAwNzU2NzQsLTIwMDAyMDA2OT
+UsNjYyMjY0MDI4LDgxODg5Njg2MywtMjA5MTMxNzM2MywtMTM4
+MzMxOTE3MSwtNjQ0NDA3OTk4XX0=
 -->
