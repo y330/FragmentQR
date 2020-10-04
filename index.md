@@ -1,3 +1,4 @@
+
  <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
 
    <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -9,26 +10,26 @@
  <section id="downloads">
             
    <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" alt="Available on the Chrome Webstore"></a>
+   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="100px" alt="Available on the Chrome Webstore"></a>
   <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span> Report Issue</span></a>
  </section>
 <style>h1{color: orange;}</style>
 
 # FragmentQR
 
-<p id="yonah">
-
-<em><b>Yonah Aviv</b></em>
 
 
-</p>
+<em><b>Coded by Yonah Aviv</b></em>
+
+
 
 
 
 **FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage.**
 
 
-<p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opene, depending on the browser.</p>
+<p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opened, depending on the browser and/or platform.
+ 
 <hr>
 
 ##  Tutorial
@@ -63,25 +64,22 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 
 #### **What are Text Fragments?**
 
-A Text Fragment is a URL fragment that defines a piece of text to be scrolled into view and highlighted. In Chromium, this feature is called Scroll-to-text-fragment.
+A Text Fragment is a URL fragment that specifies a piece of text to be scrolled into view and highlighted, in Chromium 80 and later. This feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment on GitHub">Scroll to text fragment</a>.
+.
+**Technically,** it is a part of URL defined in the URI fragment(*your-url/#URI-fragment*) that defines a peice of text. The syntax for a text fragment is *your-url/#:~:text="text-fragment"*.
 
 
-#### **Why are Text Fragments Useful?**
+#### **What is FragmentQR?**
 
-Text Fragments have many uses. For example, when a user navigates a to a link on a search results page(SRP), relevant text can be emphasized to the user in a text Fragment.
-
-
-#### **What browsers support Text Fragments?**
+FragmentQR is a Chrome extesion that lets the user select any text on a webpage and converts it into a text fragment, which is then appended as a text fragment to the end of the pages URL. 
 
 
-Currently, the minimum requirements for 
+#### **What browsers/platforms required to make use of Text Fragments?**
+
+Minimum requirements as of 0
 - **Highlight and scroll:**
    - **MacOS X 10.10 or later:** Chromium 80 
-   - **Android 5.5 or later:** Chrome 85, Android WebView 81 Windows 7: Chromium 80 iOS 12: Google Chrome, Coming soon, but enabling [#shared](https://www.youtube.com/results?search_query=%23shared)-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
-
-   -  **Android**: Chrome  85+, and Android Webview
-
- -  **Scrolling:**
+   - **Android 5.5 or later:** Chrome 85, Android WebView 81
 
     -  **iOS**: Coming Soon, although some functionality arrises when chrome://flags/#shared-highlighting-ios is enabled
 
@@ -107,9 +105,10 @@ Currently, the minimum requirements for
     <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
   </ol>
   
- <hr>
- 
-FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. Read more about it at the <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll to text fragment github documentation">Scroll-to-text-fragment GitHub Repository</a>
+
+<hr> 
+<block>
+FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. 
 
 <b>© 2020 MIT license Yonah Aviv.</b>
 
@@ -117,7 +116,17 @@ Contributions welcome.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMjAxMzI2NjEyNSwxMDQzMD
+Y29kZSdcbiIsImhpc3RvcnkiOlstNTQyNjU1MTMxLC0xODI1Nz
+EyNjczLDExNTA2ODEwNjIsMjA4MDMyMjQ1OCwzMzI1NTU0Nzks
+MTQwMDA3NTY3NCwtMjAwMDIwMDY5NSw2NjIyNjQwMjgsODE4OD
+k2ODYzLC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5
+OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
+
+-->
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
+Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
+Y29kZSdcbiIsImhpc3RvcnkiOlstMTA0NTM3NjM2NywxMDQzMD
 g2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2
 NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxND
 AwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4OTY4
