@@ -179,7 +179,7 @@ Minimum requirements as of 10/02/2020:
    - Windows 7: Chromium 80
     -  iOS: iOS 12: Coming soon, but in Chrome for iOS enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
-[Compatibility info: .
+[Compatibility info:
 ](https://caniuse.com/url-scroll-to-tex..)
 
 ### <em>Changelog v1.6</em>
@@ -199,9 +199,7 @@ Minimum requirements as of 10/02/2020:
  </ol>
  
 ### TODO
-  <ol>
-    <li>add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea</li>
-  </ol>
+  - [ ] add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea
   
 
 <hr> 
@@ -229,11 +227,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMjAyMTc3NjUyOSwtMTI1ND
-kyNjU4NCwxNDQxNTM3MTQwLDUxNjM4NzI4MiwxMjQwMjg4MTQ2
-LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAsLTM3NzQwNjEzOCwxND
-gzODU3MzcsLTE4MzE1NTEwODcsNjU2MzY2MDUxLDEwNDMwODY5
-MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3My
-wxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LDE0MDAw
-NzU2NzQsLTIwMDAyMDA2OTVdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE0MTM0OTYwNDQsLTEyNT
+Q5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIsMTI0MDI4ODE0
+NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMT
+Q4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2
+OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2Nz
+MsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxNDAw
+MDc1Njc0LC0yMDAwMjAwNjk1XX0=
 -->
