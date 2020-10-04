@@ -1,5 +1,58 @@
 
  <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
+    
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178685535-2"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());   </script>
+ <section id="downloads">
+    
+
+   <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
+   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="100px" alt="Available on the Chrome Webstore"></a>
+  <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span> Report Issue</span></a>
+ </section>
+<style>h1{color: orange;}kbd{color: grey;}</style>
+
+# FragmentQR
+
+
+
+<em><b>Coded by Yonah Aviv</b></em>
+
+
+
+
+
+**FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage.**
+
+
+<p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opened, depending on the browser and/or platform.
+ 
+<hr>
+
+##  Tutorial
+
+<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
+
+To learn how to QR encode text fragments using FragmentQR, you can examine the infographic above. Alternatively, read the instructions below:
+ <hr style="width:70%; align: middle;">
+
+### Instructions
+
+ <ol>
+  <li>Select text</li>
+  <li>Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selected text fragment be highlighted in yellow.</li>
+  <li>Ctrl/Cmd+Q to open the extension popup</li>
+  <li>Click the paste button</li>
+  <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps. Check compatible browsers below.</li>
+ </ol>
+ If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
+ <hr width="70%">
+ 
+<h3>Demo of FragmentQR v1.0.0(Old)</h3>
 <style>
     .youtube-player {
         position: relative;
@@ -94,61 +147,7 @@
         this.parentNode.replaceChild(iframe, this);
     }
 
-</script>        
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178685535-2"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());   </script>
- <section id="downloads">
-    
-
-   <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="100px" alt="Available on the Chrome Webstore"></a>
-  <a class="btn" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR"><svg viewBox="0 0 16 16" width="16" height="16" class="octicon octicon-issue-opened" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg><span> Report Issue</span></a>
- </section>
-<style>h1{color: orange;}kbd{color: grey;}</style>
-
-# FragmentQR
-
-
-
-<em><b>Coded by Yonah Aviv</b></em>
-
-
-
-
-
-**FragmentQR is a web extension that generates QR codes linking to Text Fragments(arbitrary selected text) on any webpage.**
-
-
-<p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opened, depending on the browser and/or platform.
- 
-<hr>
-
-##  Tutorial
-
-<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
-
-To learn how to QR encode text fragments using FragmentQR, you can examine the infographic above. Alternatively, read the instructions below:
- <hr style="width:70%; align: middle;">
-
-### Instructions
-
- <ol>
-  <li>Select text</li>
-  <li>Ctrl/Cmd + Shift + L to copy the text fragment. Wait for your selected text fragment be highlighted in yellow.</li>
-  <li>Ctrl/Cmd+Q to open the extension popup</li>
-  <li>Click the paste button</li>
-  <li>Scan it on your mobile device using a QR code scanner such as Google Lens or some default camera apps. Check compatible browsers below.</li>
- </ol>
- If steps 1 or 2 do not work, go to chrome://extensions/shortcuts to reconfigure the shortcuts<p>
- <hr width="70%">
- 
-<h3>Demo of FragmentQR v1.0.0(Old)</h3>
-
-<div class="youtube-player" data-id="VIDEO_ID"></div>
+</script>    
 
 [
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
@@ -225,11 +224,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbNzA3ODA1MTU3LC03OTUxNT
-AwNDMsMTc5NTY2NTQyLC0xMjU0OTI2NTg0LDE0NDE1MzcxNDAs
-NTE2Mzg3MjgyLDEyNDAyODgxNDYsLTQ3OTQwNTgzNCwtMTUxNT
-AzMjQ1MCwtMzc3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4
-Nyw2NTYzNjYwNTEsMTA0MzA4NjkxOCwtMTc0OTY4MjY1NiwtNT
-QyNjU1MTMxLC0xODI1NzEyNjczLDExNTA2ODEwNjIsMjA4MDMy
-MjQ1OCwzMzI1NTU0NzldfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTc3Mzc1MDk4OCwtNzk1MT
+UwMDQzLDE3OTU2NjU0MiwtMTI1NDkyNjU4NCwxNDQxNTM3MTQw
+LDUxNjM4NzI4MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQsLTE1MT
+UwMzI0NTAsLTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1NTEw
+ODcsNjU2MzY2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NTYsLT
+U0MjY1NTEzMSwtMTgyNTcxMjY3MywxMTUwNjgxMDYyLDIwODAz
+MjI0NTgsMzMyNTU1NDc5XX0=
 -->
