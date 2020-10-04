@@ -69,7 +69,7 @@ A Text Fragment is a URL fragment that specifies a piece of text to be scrolled 
 **Technically,** it is a part of URL defined in the URI fragment(*your-url/#URI-fragment*) that defines a peice of text. The syntax for a text fragment is *your-url/#:~:text="text-fragment"*.
 
 
-#### **What is FragmentQR?**
+#### **What is FragmentQR really, and ?**
 
 FragmentQR is a Chrome extesion that lets the user select any text on a webpage and converts it into a text fragment, which is then appended as a text fragment to the end of the pages URL. 
 
@@ -83,6 +83,8 @@ Minimum requirements as of 10/02/2020:
 
     -  **iOS**: iOS 12: Google Chrome, Coming soon, but enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
 <a href="https://chromestatus.com/feature/4733392803332096#status" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
+[Compatibility info: https://caniuse.com/url-scroll-to-tex...
+](https://www.youtube.com/watch?v=10U6ycpN3CQ#:~:text=Compatibility%20info%3A%20https%3A%2F%2Fcaniuse.com%2Furl-scroll-to-tex...)
 
 ### <em>Changelog v1.6</em>
 <ol>
@@ -126,10 +128,10 @@ OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
 Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstMTM4MjkzNzI3MCwxMDQzMD
-g2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2
-NzMsMTE1MDY4MTA2MiwyMDgwMzIyNDU4LDMzMjU1NTQ3OSwxND
-AwMDc1Njc0LC0yMDAwMjAwNjk1LDY2MjI2NDAyOCw4MTg4OTY4
-NjMsLTIwOTEzMTczNjMsLTEzODMzMTkxNzEsLTY0NDQwNzk5OC
-wxMzgzNzcxMDM3LDExMDA4NTU5MSwtMTA2MzYyNTk1M119
+Y29kZSdcbiIsImhpc3RvcnkiOlsxMDIzMTM3NzEzLDEwNDMwOD
+Y5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcxMjY3
+MywxMTUwNjgxMDYyLDIwODAzMjI0NTgsMzMyNTU1NDc5LDE0MD
+AwNzU2NzQsLTIwMDAyMDA2OTUsNjYyMjY0MDI4LDgxODg5Njg2
+MywtMjA5MTMxNzM2MywtMTM4MzMxOTE3MSwtNjQ0NDA3OTk4LD
+EzODM3NzEwMzcsMTEwMDg1NTkxLC0xMDYzNjI1OTUzXX0=
 -->
