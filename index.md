@@ -157,22 +157,24 @@ document.addEventListener("DOMContentLoaded",
 
 A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
 
-Example: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#General_shortcuts:~:text=A%20note%20regarding%20KDE's%20shortcuts%20is,(such%20as%20Ctrl%2BZ%2C%20Alt%2BE%2C%20etc.)%20are
+Example: 
+
+> https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. 
 
 #### **What will FragmentQR do for me?**
 
- - **FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
+ >**FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
 to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
- - Minimum requirements as of 10/02/2020:
-   - MacOS X 10.10: Chromium 80 
-   - Android 5.5: Chrome 85, Android WebView 81
-   - Windows 7: Chromium 80
-    - iOS 12: Coming soon, but in Chrome for iOS enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
+> - Minimum requirements as of 10/02/2020:
+       MacOS X 10.10: Chromium 80 
+    - Android 5.5: Chrome 85, Android WebView 81
+    - Windows 7: Chromium 80
+    - iOS 12: Coming soon, but in Chrome for iOS e nabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.
     
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
@@ -225,11 +227,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMzUxNTA3NDM0LDIxMzA2Nj
-U1MSwtNzczNzUwOTg4LC03OTUxNTAwNDMsMTc5NTY2NTQyLC0x
-MjU0OTI2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3MjgyLDEyNDAyOD
-gxNDYsLTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4
-LDE0ODM4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0Mz
-A4NjkxOCwtMTc0OTY4MjY1NiwtNTQyNjU1MTMxLC0xODI1NzEy
-NjczLDExNTA2ODEwNjJdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTEyMzYxNzI2NywyMTMwNj
+Y1NTEsLTc3Mzc1MDk4OCwtNzk1MTUwMDQzLDE3OTU2NjU0Miwt
+MTI1NDkyNjU4NCwxNDQxNTM3MTQwLDUxNjM4NzI4MiwxMjQwMj
+g4MTQ2LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAsLTM3NzQwNjEz
+OCwxNDgzODU3MzcsLTE4MzE1NTEwODcsNjU2MzY2MDUxLDEwND
+MwODY5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcx
+MjY3MywxMTUwNjgxMDYyXX0=
 -->
