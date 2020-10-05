@@ -7,6 +7,9 @@
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());   </script>
+     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+     
  <section id="downloads">
    <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="22px" alt="Available on the Chrome Webstore"></a>
@@ -150,4 +153,3 @@ Contributions and Donations welcome.
 
 </p>
 <!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
