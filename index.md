@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded",
 
 <a name="myfootnote1"><sup>1</sup></a>A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. <sup color="orange">[[Go to technical]](#technical)</sup>
 
-Example: 
+Example:
 
 > https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
 
@@ -235,11 +235,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE4NTA5NjUwMjIsLTE1Mj
-AxNTE2MDIsMTkyNDc3ODQ1MywxNjY3NzI4MDY4LDc4NjAwOTgy
-OCwyMTMwNjY1NTEsLTc3Mzc1MDk4OCwtNzk1MTUwMDQzLDE3OT
-U2NjU0MiwtMTI1NDkyNjU4NCwxNDQxNTM3MTQwLDUxNjM4NzI4
-MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAsLT
-M3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1NTEwODcsNjU2MzY2
-MDUxLDEwNDMwODY5MThdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTQyOTY2NDU5NiwtMTUyMD
+E1MTYwMiwxOTI0Nzc4NDUzLDE2Njc3MjgwNjgsNzg2MDA5ODI4
+LDIxMzA2NjU1MSwtNzczNzUwOTg4LC03OTUxNTAwNDMsMTc5NT
+Y2NTQyLC0xMjU0OTI2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3Mjgy
+LDEyNDAyODgxNDYsLTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMz
+c3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYw
+NTEsMTA0MzA4NjkxOF19
 -->
