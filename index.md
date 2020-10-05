@@ -20,6 +20,8 @@
  <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/y330/FragmentQR/subscription" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch y330/FragmentQR on GitHub">Watch</a>
    <a href="https://bit.ly/FragmentQRrepository" class="button pill">Code</a>
+  <a href="#" class="button icon search">Search</a>
+
  </section>
 <style>h1{color: orange;} sup:hover{background-color: lightgreen;} sup:not(:hover) {background: yellow; color: blue; } img {filter: invert(0%);}</style>
 
