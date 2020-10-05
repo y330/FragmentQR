@@ -6,8 +6,7 @@
 
 
 
-**FragmentQR is a web extension that generates QR codes linking to Text Fragments<sup>[1](#myfootnote1)</sup>
-selected text) on any webpage.**
+**FragmentQR is a web extension that generates QR codes linking to Text Fragments<sup>[1](#myfootnote1)</sup> from selected text on any webpage.**
 
 
 When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opened, depending on the browser and/or platform.
