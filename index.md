@@ -157,14 +157,14 @@ document.addEventListener("DOMContentLoaded",
 #### **What are Text Fragments?**
 
 
-<a name="myfootnote1"><sup>1</sup></a>A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
+<a name="myfootnote1"><sup>1</sup></a>A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow.  **Technical definition**<sup color="orange">[2](#technical)</sup>
 
 Example: 
 
 > https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
- **Go to technical definition**.
+
  
 <a name="myfootnote1">1</a>: A text fragment is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` after the `#` that defines a text snippet. The syntax for a text fragment is  `   your-url/#:~:text=text-snippet`, with the specific text specified after `:~:text=`.
 
@@ -235,7 +235,7 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMzcwNDI2MTI3LC0xNTIwMT
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbNzcxMTA1NzUyLC0xNTIwMT
 UxNjAyLDE5MjQ3Nzg0NTMsMTY2NzcyODA2OCw3ODYwMDk4Mjgs
 MjEzMDY2NTUxLC03NzM3NTA5ODgsLTc5NTE1MDA0MywxNzk1Nj
 Y1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIs
