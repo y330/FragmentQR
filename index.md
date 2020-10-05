@@ -23,7 +23,7 @@
   <a href="#" class="button icon search">Search</a>
 
  </section>
-<style>h1{color: orange;} sup:hover{background-color: lightgreen;} sup:not(:hover) {background: yellow; color: blue; } img {filter: invert(0%);}</style>
+<style>h1{color: orange;} sup:hover{background-color: yellow; color: orange;} </style>
 
 # FragmentQR
 
@@ -82,7 +82,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
             A text fragment is a part of a URL defined in a URI fragment <code>your-url/#URI-fragment</code>
    after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:~:text=text-snippet</code> with the specific text specified after    <code>:~:text=</code>.
   </details>
-</p>
+ </p>
 
 Example:
 
