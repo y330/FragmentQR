@@ -154,11 +154,11 @@ document.addEventListener("DOMContentLoaded",
 
 #### **What are Text Fragments?**
 
-A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
+>A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
 
 Example: 
 
-> https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
+>> https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
  
@@ -167,12 +167,12 @@ Example:
 
 #### **What will FragmentQR do for me?**
 
-**FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
+>**FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
 to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
->As of 10/02/2020, the table below specifies requirem:
+>As of 10/02/2020, the table below correctly gives requirements for Text Fragments to work:
 ------
 |OS |Minimum Browser Version|
 |--|--|
@@ -231,11 +231,11 @@ hvcjogWW9uYWggQXZpdlxudGFnczogJ0ZyYWdtZW50UVIsIFRl
 eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
-EyLnBuZz9yYXc9dHJ1ZSdcbiIsImhpc3RvcnkiOlsxMDUyMDYz
-MzgxLDE2Njc3MjgwNjgsNzg2MDA5ODI4LDIxMzA2NjU1MSwtNz
-czNzUwOTg4LC03OTUxNTAwNDMsMTc5NTY2NTQyLC0xMjU0OTI2
-NTg0LDE0NDE1MzcxNDAsNTE2Mzg3MjgyLDEyNDAyODgxNDYsLT
-Q3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4LDE0ODM4
-NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0MzA4NjkxOC
-wtMTc0OTY4MjY1NiwtNTQyNjU1MTMxXX0=
+EyLnBuZz9yYXc9dHJ1ZSdcbiIsImhpc3RvcnkiOlszODAzODIx
+MDQsMTY2NzcyODA2OCw3ODYwMDk4MjgsMjEzMDY2NTUxLC03Nz
+M3NTA5ODgsLTc5NTE1MDA0MywxNzk1NjY1NDIsLTEyNTQ5MjY1
+ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtND
+c5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1
+NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC
+0xNzQ5NjgyNjU2LC01NDI2NTUxMzFdfQ==
 -->
