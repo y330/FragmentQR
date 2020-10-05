@@ -17,7 +17,7 @@
 	/* font-family: sans-serif; */
 	vertical-align: text-bottom;
 	margin-top: 12px;
-	background-color: #F5F5F5;>   <a href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj" class="btn" title="Get it on the Chrome Web Store" padding="0">
+	background-color: #F5F5F5;">   <a href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="42px" alt="Available on the Chrome Webstore"></a></button>
    <button style="border-radius: 6px;
 	background: #f0f8ff;
