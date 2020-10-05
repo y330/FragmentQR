@@ -1,1 +1,11 @@
 theme: jekyll-theme-midnight
+author: Yonah Aviv
+title: FragmentQR
+icon: https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/32.png?raw=true
+navigation:
+  - title: Home
+    url: /index.md
+  - title: Issues
+    url: \
+  - title: Get it on the Chrome Web Store 
+    url: https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj
