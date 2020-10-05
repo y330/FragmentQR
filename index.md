@@ -172,8 +172,8 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
-> Minimum requirements as of 10/02/2020:
 
+| Minimum requirements as of 10/02/2020:|-|
 |OS |Minimum Browser Version|
 |--|--|
 |Android 5.5 or later|Chrome 85, Android WebView 81|
@@ -231,11 +231,11 @@ hvcjogWW9uYWggQXZpdlxudGFnczogJ0ZyYWdtZW50UVIsIFRl
 eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
-EyLnBuZz9yYXc9dHJ1ZSdcbiIsImhpc3RvcnkiOlsxNjY3NzI4
-MDY4LDc4NjAwOTgyOCwyMTMwNjY1NTEsLTc3Mzc1MDk4OCwtNz
-k1MTUwMDQzLDE3OTU2NjU0MiwtMTI1NDkyNjU4NCwxNDQxNTM3
-MTQwLDUxNjM4NzI4MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQsLT
-E1MTUwMzI0NTAsLTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1
-NTEwODcsNjU2MzY2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NT
-YsLTU0MjY1NTEzMSwtMTgyNTcxMjY3M119
+EyLnBuZz9yYXc9dHJ1ZSdcbiIsImhpc3RvcnkiOlsxMDkxNDAz
+ODI5LDE2Njc3MjgwNjgsNzg2MDA5ODI4LDIxMzA2NjU1MSwtNz
+czNzUwOTg4LC03OTUxNTAwNDMsMTc5NTY2NTQyLC0xMjU0OTI2
+NTg0LDE0NDE1MzcxNDAsNTE2Mzg3MjgyLDEyNDAyODgxNDYsLT
+Q3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4LDE0ODM4
+NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0MzA4NjkxOC
+wtMTc0OTY4MjY1NiwtNTQyNjU1MTMxXX0=
 -->
