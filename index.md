@@ -162,6 +162,9 @@ Example:
 > https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. 6
+ 
+
+ 2^10^ is 1024.
 
 #### **What will FragmentQR do for me?**
 
@@ -230,11 +233,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTQ1MDMzODEyMiw3ODYwMD
-k4MjgsMjEzMDY2NTUxLC03NzM3NTA5ODgsLTc5NTE1MDA0Mywx
-Nzk1NjY1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzOD
-cyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUw
-LC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1Nj
-M2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUx
-MzEsLTE4MjU3MTI2NzNdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbNjM2ODE2OTY0LDc4NjAwOT
+gyOCwyMTMwNjY1NTEsLTc3Mzc1MDk4OCwtNzk1MTUwMDQzLDE3
+OTU2NjU0MiwtMTI1NDkyNjU4NCwxNDQxNTM3MTQwLDUxNjM4Nz
+I4MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAs
+LTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1NTEwODcsNjU2Mz
+Y2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEz
+MSwtMTgyNTcxMjY3M119
 -->
