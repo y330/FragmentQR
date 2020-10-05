@@ -123,9 +123,56 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.
 <b>© 2020 MIT license Yonah Aviv.</b>
 
 Contributions welcome. Donations welcome. 
-<img src="https://lh3.googleusercontent.com/fVNC9o8h5niIWpnNMdd7auVMf7xjne8ZuabbS1H1Jsi9IqxStWOArj8pYDXWeWyHuTBT095jxvHt9Az8Psi4tWVGdhNFnrWfVv73BHX8tPqDUhCJi1I8F_bpPxTealhv5o79zyCEV8nk9f6V0hfd36eQgcV5D_SiTkpIxM0X9AtIXfGZL88eA4iJEMEfTkk9KEjWWYe2EEJLbKjUZTLhyYbtImHMpjb3SCzPghU2BLAgFuR5qmjJ7KtAX4vt3CPNYB8B1czLmj8vzlAz8Kdb1sZwkLiKrWhsDpob5erzZoxlo1zdRmZqgYMschB6kIG7qPwm-RcPfMeu7UC9cjgK8fUeJ_XvpuXSOm2QI6GqHlviAZDXC-HSbuf2n9Vx8iskd1Hvc9BngPL6Q6oDTWhV2XjbbtXLunP-She0pXbQ6wmDZysW5QR1Hxw_5JKJzk-YqoYYR18K6fukyF2bR0nsBqjQx3BaHc8UR7iD34LeKIlHo7QhxBcDsDLmU67LyRghFm_Pat2T9KHWa7cH3imXyZwgN0FWmgkwkS5ATfwCiBCmTuqMHtzi8lbs9wl2vfXa3-4ZzMuuTxQJfFGhn3n8g4aEYiK3sKQ5MSuNRDiP1dKzJn9f2Enn92dfU3ZH7zCVECPagKC1tKaWGq62gWm66984oQpo3D23PF4rt31yfOvOfo4p1BB02PR7ziOBew=s128-no?authuser=0" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
-</form>
+<style>body {
+  font: 20px "Helvetica";
+}
 
+a {  
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  text-decoration: none;
+}
 
+.donate {
+  background: #00684d;
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.4) 100%),
+              -webkit-linear-gradient(left, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 100%),
+              linear-gradient(to right, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+  
+  &:after {
+    border-left: 1px solid darken(#00684d, 5%);
+    color: darken(#00684d, 10%);
+    content: "\f004";
+    font: 20px "FontAwesome";
+    padding: 10px 0;
+    padding-left: 15px;
+    position: absolute;
+    right: 16px;
+    top: 7px;    
+    -webkit-transition: all 600ms 200ms;
+    transition: all 600ms 200ms;
+  }
+  
+  &:hover {
+    background-position: -100% 0;
+    
+    &:after {
+      border-left: 1px solid lighten(#00684d, 5%);
+      color: #fff;
+      text-shadow: 0 0 10px #000;
+    }
+  }
+}
+</style>
+<a href="#" class="donate">DONATE</a>
 </p>
