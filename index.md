@@ -12,6 +12,14 @@
  <section id="downloads">
    <a href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="42px" alt="Available on the Chrome Webstore"></a>
+	<button style="border-radius: 2px;
+	padding: 2px;
+	font-size: 13px;
+	border: none;
+	/* font-family: sans-serif; */
+	vertical-align: middle;
+	margin-top: 12px;
+	background-color: #F5F5F5;"><a style="color: black;" class="btn" href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj" rel="noopener" target="_blank" aria-label="Get it"><img src="https://icons.iconarchive.com/icons/carlosjj/google-jfk/128/chrome-web-store-icon.png" width="24px" /><span>Available on the Chrome Web Store</span></a></button>
    <button style="border-radius: 2px;
 	padding: 2px;
 	font-size: 13px;
