@@ -124,7 +124,7 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.
 <b>© 2020 MIT license Yonah Aviv.</b>
 
 Contributions welcome. Donations welcome.
-
+<link rel="text/css" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css"/>
  <style>
       body {
        font: 20px "Helvetica";
