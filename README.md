@@ -1,7 +1,9 @@
 # FragmentQR
  <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="100px" alt="Available on the Chrome Webstore"></a>
+   
 <em><b>Coded by Yonah Aviv</b></em>
+
 
 
 **FragmentQR is a web extension that generates QR codes linking to Text Fragments<sup>[1](#myfootnote1)</sup>
