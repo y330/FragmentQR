@@ -32,7 +32,6 @@ selected text) on any webpage.**
 
 <p> When scanning such a QR code, the text fragment will be scrolled into view and/or highlighted in yellow when opened, depending on the browser and/or platform.
 
- [[_TOC_]]
 <hr>
 
 ##  Tutorial
@@ -178,12 +177,12 @@ Example:
 
 #### **What will FragmentQR do for me?**
 
->**FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
+- **FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
 to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
->As of 10/02/2020, the table below correctly gives requirements for Text Fragments to work:
+- As of 10/02/2020, the table below correctly gives requirements for Text Fragments to work:
 ------
 |OS |Minimum Browser Version|
 |--|--|
@@ -219,35 +218,11 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
   
 
 <hr> 
-
+<p background="grey">
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. 
 
 <b>© 2020 MIT license Yonah Aviv.</b>
 
 Contributions welcome.
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50IFFSXG5hdX
-Rob3I6IFlvbmFoXG50YWdzOiAndGV4dCBmcmFnbWVudCwgcXIg
-Y29kZSdcbiIsImhpc3RvcnkiOlstNTQyNjU1MTMxLC0xODI1Nz
-EyNjczLDExNTA2ODEwNjIsMjA4MDMyMjQ1OCwzMzI1NTU0Nzks
-MTQwMDA3NTY3NCwtMjAwMDIwMDY5NSw2NjIyNjQwMjgsODE4OD
-k2ODYzLC0yMDkxMzE3MzYzLC0xMzgzMzE5MTcxLC02NDQ0MDc5
-OTgsMTM4Mzc3MTAzNywxMTAwODU1OTEsLTEwNjM2MjU5NTNdfQ
 
--->
-
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50UVJcbmF1dG
-hvcjogWW9uYWggQXZpdlxudGFnczogJ0ZyYWdtZW50UVIsIFRl
-eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
-VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
-YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
-EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMTU1NDYzNTcwMCwtMTUyMD
-E1MTYwMiwxOTI0Nzc4NDUzLDE2Njc3MjgwNjgsNzg2MDA5ODI4
-LDIxMzA2NjU1MSwtNzczNzUwOTg4LC03OTUxNTAwNDMsMTc5NT
-Y2NTQyLC0xMjU0OTI2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3Mjgy
-LDEyNDAyODgxNDYsLTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMz
-c3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYw
-NTEsMTA0MzA4NjkxOF19
--->
+</p>
