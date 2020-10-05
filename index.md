@@ -148,7 +148,7 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.
 <b>© 2020 MIT license Yonah Aviv.</b>
 
 Contributions and Donations welcome.
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url)]
 
 
 </p>
