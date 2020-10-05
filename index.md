@@ -163,12 +163,12 @@ Example: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=tru
 
 #### **What will FragmentQR do for me?**
 
-FragmentQR can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
-to copy it as a **text fragment**. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
+ - **FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
+to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
 #### **What browsers/platforms are compatible with FragmentQR?**
-Minimum requirements as of 10/02/2020:
+ - Minimum requirements as of 10/02/2020:
    - MacOS X 10.10: Chromium 80 
    - Android 5.5: Chrome 85, Android WebView 81
    - Windows 7: Chromium 80
@@ -176,13 +176,16 @@ Minimum requirements as of 10/02/2020:
     
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
+
 ### <em>Changelog v1.6</em>
+
 <ol>
     <li>Fix issue when system theme is set to light</li>
     <li>Minor improvements</li>
   </ol>
   
 ### <em>Changelog v1.5</em>
+
  <ol>  
   <li>New icon and name changes to FragmentQR</li>
   <li>Paste button now works.</li>
@@ -193,11 +196,12 @@ Minimum requirements as of 10/02/2020:
  </ol>
  
 ### TODO
+
   - [ ] add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea
   
 
 <hr> 
-<block>
+
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. 
 
 <b>© 2020 MIT license Yonah Aviv.</b>
@@ -221,11 +225,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbODU5MDczMzUsMjEzMDY2NT
-UxLC03NzM3NTA5ODgsLTc5NTE1MDA0MywxNzk1NjY1NDIsLTEy
-NTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIsMTI0MDI4OD
-E0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgs
-MTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMD
-g2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2
-NzMsMTE1MDY4MTA2Ml19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMzUxNTA3NDM0LDIxMzA2Nj
+U1MSwtNzczNzUwOTg4LC03OTUxNTAwNDMsMTc5NTY2NTQyLC0x
+MjU0OTI2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3MjgyLDEyNDAyOD
+gxNDYsLTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4
+LDE0ODM4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0Mz
+A4NjkxOCwtMTc0OTY4MjY1NiwtNTQyNjU1MTMxLC0xODI1NzEy
+NjczLDExNTA2ODEwNjJdfQ==
 -->
