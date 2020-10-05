@@ -51,11 +51,11 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 >"Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." web.dev	
 
 - <p>
-<details>
-<summary>Click this to collapse/fold the technical definition.</summary> 
-A text fragment is a part of a URL defined in a URI fragment <code>your-url/#URI-fragment</code>
-after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:\~:text=text-snippet</code> with the specific text specified after <code>:\~:text=</code>.
-</details>
+  <details>
+    <summary>Click this to collapse/fold the technical definition.</summary> 
+    - A text fragment is a part of a URL defined in a URI fragment <code>your-url/#URI-fragment</code>
+   after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:\~:text=text-snippet</code> with the specific text specified after    <code>:\~:text=</code>.
+  </details>
 </p>
 
 Example:
