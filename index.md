@@ -23,9 +23,6 @@
 <em><b>Coded by Yonah Aviv</b></em>
 
 
-
-
-
 **FragmentQR is a web extension that generates QR codes linking to Text Fragments<sup>[1](#myfootnote1)</sup>
 selected text) on any webpage.**
 
@@ -81,6 +78,7 @@ document.addEventListener("DOMContentLoaded",
         iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
         iframe.setAttribute("frameborder", "0");
         iframe.setAttribute("allowfullscreen", "1");
+	iframe.setSize("600", "337.5");
         this.parentNode.replaceChild(iframe, this);
     }
 
@@ -155,13 +153,16 @@ document.addEventListener("DOMContentLoaded",
 ### **What are Text Fragments?**
 
 
-- <a name="myfootnote1"><sup>[1]</sup></a>**Text Fragment**: Part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
+- <a name="myfootnote1" color="orange"><sup>[1]</sup></a>**Text Fragment**: Part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
+
+	>Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention.
+
 	- <p>
 		<details>
 			<summary>Click this to collapse/fold the technical definition.</summary> 
 		
 		A text fragment is a part of a URL defined in a URI fragment <code>your-url/#URI-fragment</code>
-after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:~:text=text-snippet</code> with the specific text specified after <code>:~:text=</code>.
+after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:\~:text=text-snippet</code> with the specific text specified after <code>:\~:text=</code>.
 
 		</details>
 	</p>
@@ -175,15 +176,15 @@ Example:
  
 
 
-#### **What will FragmentQR do for me?**
+### **What will FragmentQR do for me?**
 
 - **FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
 to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
-#### **What browsers/platforms are compatible with FragmentQR?**
-- As of 10/02/2020, the table below correctly gives requirements for Text Fragments to work:
-------
+### **What browsers/platforms are compatible with FragmentQR?**
+- As of 10/02/2020, browsers per platform required to use text fragments are defined in the table below. I would like to point out that Chromium 80 is the bear minimum for all devices in order to use text fragments with the intened functionality.
+<hr width="25%" color="orange">
 |OS |Minimum Browser Version|
 |--|--|
 |Android 5.5 or later|Chrome 85, Android WebView 81|
@@ -226,12 +227,3 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.
 Contributions welcome.
 
 </p>
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZyYWdtZW50UVJcbmF1dG
-hvcjogWW9uYWggQXZpdlxudGFnczogJ0ZyYWdtZW50UVIsIFRl
-eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
-VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
-YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
-EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTI2NjEyNDExN119
--->
