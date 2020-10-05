@@ -173,16 +173,15 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
 > Minimum requirements as of 10/02/2020:
 
 	- : C
-|Platform|Browsers|
+|OS version|Browsers|
 |--|--|
-|Android 5.5 or later|Chrome 85, Android WebView 81|
-|Windows 7 or later| |
-|MacOS X 10.10 or later|  |
-|iOS 12|iOS 12 |
+|Android 5.5 or later|Chrome for Android85, Android WebView 81|
+|Windows 7 or later|Chromium 80 or later|
+|MacOS X 10.10 or later|Chromium 80 or later |
+|iOS 12|Coming soon, but in Chrome for iOS enabling #shared-highlighting-ios on chrome://flags allows scrolling to the fragment. The availability on iOS is up to Apple as Chrome for iOS uses Apple WebKit.|
 
-hromium 80 
     - : 
-    - Windows 7: Chromium 80
+    - Windows 7
     - : 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
@@ -235,11 +234,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE0MTk3MjEzNDYsMjEzMD
-Y2NTUxLC03NzM3NTA5ODgsLTc5NTE1MDA0MywxNzk1NjY1NDIs
-LTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIsMTI0MD
-I4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYx
-MzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMD
-QzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3
-MTI2NzMsMTE1MDY4MTA2Ml19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTc0OTk0OTg2NiwyMTMwNj
+Y1NTEsLTc3Mzc1MDk4OCwtNzk1MTUwMDQzLDE3OTU2NjU0Miwt
+MTI1NDkyNjU4NCwxNDQxNTM3MTQwLDUxNjM4NzI4MiwxMjQwMj
+g4MTQ2LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAsLTM3NzQwNjEz
+OCwxNDgzODU3MzcsLTE4MzE1NTEwODcsNjU2MzY2MDUxLDEwND
+MwODY5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEzMSwtMTgyNTcx
+MjY3MywxMTUwNjgxMDYyXX0=
 -->
