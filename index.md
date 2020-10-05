@@ -154,19 +154,16 @@ document.addEventListener("DOMContentLoaded",
 
 #### **What are Text Fragments?**
 
->A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
+A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
 
 Example: 
 
->> https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
+> https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
+ **Go to technical definition**.
  
- **Technical**^1 .<footer>
- ```
-<sup>[1](#myfootnote1)</sup>
-A text fragment is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` after the `#` that defines a text snippet. The syntax for a text fragment is  `   your-url/#:~:text=text-snippet`, with the specific text specified after `:~:text=`.
-</footer>
+<a name="myfootnote1">1</a>: A text fragment is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` after the `#` that defines a text snippet. The syntax for a text fragment is  `   your-url/#:~:text=text-snippet`, with the specific text specified after `:~:text=`.
 
 #### **What will FragmentQR do for me?**
 
@@ -235,11 +232,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE4NDg5MjExMCwxOTI0Nz
-c4NDUzLDE2Njc3MjgwNjgsNzg2MDA5ODI4LDIxMzA2NjU1MSwt
-NzczNzUwOTg4LC03OTUxNTAwNDMsMTc5NTY2NTQyLC0xMjU0OT
-I2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3MjgyLDEyNDAyODgxNDYs
-LTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4LDE0OD
-M4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0MzA4Njkx
-OCwtMTc0OTY4MjY1Nl19
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTE1MjAxNTE2MDIsMTkyND
+c3ODQ1MywxNjY3NzI4MDY4LDc4NjAwOTgyOCwyMTMwNjY1NTEs
+LTc3Mzc1MDk4OCwtNzk1MTUwMDQzLDE3OTU2NjU0MiwtMTI1ND
+kyNjU4NCwxNDQxNTM3MTQwLDUxNjM4NzI4MiwxMjQwMjg4MTQ2
+LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAsLTM3NzQwNjEzOCwxND
+gzODU3MzcsLTE4MzE1NTEwODcsNjU2MzY2MDUxLDEwNDMwODY5
+MTgsLTE3NDk2ODI2NTZdfQ==
 -->
