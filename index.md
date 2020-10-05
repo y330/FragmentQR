@@ -163,7 +163,7 @@ Example:
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
  
  **Technical** .[^1]
- [^1]: A text fragment is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` after the `#` that defines a text snippet. The syntax for a text fragment is  `   your-url/#:~:text=text-snippet`
+ [^1]: A text fragment is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` after the `#` that defines a text snippet. The syntax for a text fragment is  `   your-url/#:~:text=text-snippet`, with the specific text specified after `:~:text=`.
 
 #### **What will FragmentQR do for me?**
 
@@ -231,11 +231,11 @@ hvcjogWW9uYWggQXZpdlxudGFnczogJ0ZyYWdtZW50UVIsIFRl
 eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
-EyLnBuZz9yYXc9dHJ1ZSdcbiIsImhpc3RvcnkiOlstMjAyNDQ4
-NzY1MCw3ODYwMDk4MjgsMjEzMDY2NTUxLC03NzM3NTA5ODgsLT
-c5NTE1MDA0MywxNzk1NjY1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUz
-NzE0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0LC
-0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMx
-NTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNj
-U2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzNdfQ==
+EyLnBuZz9yYXc9dHJ1ZSdcbiIsImhpc3RvcnkiOlsxNjY3NzI4
+MDY4LDc4NjAwOTgyOCwyMTMwNjY1NTEsLTc3Mzc1MDk4OCwtNz
+k1MTUwMDQzLDE3OTU2NjU0MiwtMTI1NDkyNjU4NCwxNDQxNTM3
+MTQwLDUxNjM4NzI4MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQsLT
+E1MTUwMzI0NTAsLTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1
+NTEwODcsNjU2MzY2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NT
+YsLTU0MjY1NTEzMSwtMTgyNTcxMjY3M119
 -->
