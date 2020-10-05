@@ -16,12 +16,10 @@
   <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/y330/FragmentQR/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue y330/FragmentQR on GitHub">Issue</a>
  <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/y330/FragmentQR" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star y330/FragmentQR on GitHub">Star</a>
- <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/y330/FragmentQR/subscription" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch y330/FragmentQR on GitHub">Watch</a>
-   <a href="https://bit.ly/FragmentQRrepository" class="button pill">Code</a>
-  <a href="#" class="button icon search">Search</a>
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 
+ <!-- Place this tag where you want the button to render. -->
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
  </section>
 <style>h1{color: orange;} sup:hover{background-color: yellow; color: orange;} </style>
 
