@@ -53,10 +53,47 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  <hr width="70%">
  
 <h3>Demo of FragmentQR v1.0.0(Old)</h3>
+```html
+<script>
+
+    /* Light YouTube Embeds by @labnol */
+    /* Web: http://labnol.org/?p=27941 */
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+```html
 <style>
     .youtube-player {
         position: relative;
         padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
         height: 0;
         overflow: hidden;
         max-width: 100%;
@@ -64,9 +101,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
         margin: 5px;
     }
 
-    .youtube-player iframe,
-    .youtube-player object,
-    .youtube-player embed {
+    .youtube-player iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -111,43 +146,9 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
     }
 
 </style>
-
-
+```html
 <div class="youtube-player" data-id="10U6ycpN3CQ"></div>
-
-<script>
-    /* Light YouTube Embeds by @labnol */
-
-    /* Web: http://labnol.org/?p=27941 */
-
-    document.addEventListener("DOMContentLoaded",
-        function() {
-            var div, n,
-                v = document.getElementsByClassName("youtube-player");
-            for (n = 0; n < v.length; n++) {
-                div = document.createElement("div");
-                div.setAttribute("data-id", v[n].dataset.id);
-                div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
-                v[n].appendChild(div);
-            }
-        });
-
-    function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
-    }
-
-    function labnolIframe() {
-        var iframe = document.createElement("iframe");
-        iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1");
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "1");
-        this.parentNode.replaceChild(iframe, this);
-    }
-
-</script>    
+```
 
 [
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
@@ -224,11 +225,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTc3Mzc1MDk4OCwtNzk1MT
-UwMDQzLDE3OTU2NjU0MiwtMTI1NDkyNjU4NCwxNDQxNTM3MTQw
-LDUxNjM4NzI4MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQsLTE1MT
-UwMzI0NTAsLTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1NTEw
-ODcsNjU2MzY2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NTYsLT
-U0MjY1NTEzMSwtMTgyNTcxMjY3MywxMTUwNjgxMDYyLDIwODAz
-MjI0NTgsMzMyNTU1NDc5XX0=
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMjEzMDY2NTUxLC03NzM3NT
+A5ODgsLTc5NTE1MDA0MywxNzk1NjY1NDIsLTEyNTQ5MjY1ODQs
+MTQ0MTUzNzE0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtNDc5ND
+A1ODM0LC0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3
+LC0xODMxNTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNz
+Q5NjgyNjU2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzMsMTE1MDY4
+MTA2MiwyMDgwMzIyNDU4XX0=
 -->
