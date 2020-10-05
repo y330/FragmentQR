@@ -68,7 +68,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 
 ### **What are Text Fragments?**
 
-<block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
+<block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> Text Fragment: Part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
 </block>
 
 >    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." web.dev	
@@ -92,7 +92,7 @@ Example:
 
 ### **What will FragmentQR do for me?**
 
-- **FragmentQR** uses the idea of Scroll-to-Text Fragment, and can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
+- **FragmentQR**  uses the idea of Scroll-to-Text Fragment, and can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
 to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
@@ -139,7 +139,7 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
   - [ ] add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea
   
 ----
-
+----
 <p background="grey">
  
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. 
