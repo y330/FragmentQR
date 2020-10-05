@@ -19,14 +19,13 @@ layout: default
 	padding: 1px;
 	font-size: 13px;
 	border: none;
-	/* font-family: sans-serif; */
-	vertical-align: text-bottom;
+	vertical-align: top;
 	margin-top: 12px;
 	background-color: #F5F5F5;">   <a href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="42px" alt="Available on the Chrome Webstore"></a></button>
-   <button style="border-radius: 6px;
+   <button style="border-radius: 4px;
 	background: #f0f8ff;
-	padding: 17px;
+	padding: 15px;
 	font-size: 17px;
 	border: none;
 	vertical-align: top;
@@ -162,17 +161,15 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
   
 ----
 ----
-<p background="grey">
+
  
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. 
 
+
 <b>© 2020 MIT license Yonah Aviv.</b>
+
 
 Contributions and Donations welcome.
 
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url"><img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" /></a>
-
-
-</p>
-<!-- Place this tag in your head or just before your close body tag. -->
