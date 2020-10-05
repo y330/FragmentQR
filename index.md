@@ -162,8 +162,9 @@ Example:
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
  
- Some text with a footnote.
- 
+ Some text with a footnote.[^1]
+ [^1]: **Technical:** it is a part of a URL defined in a URI fragment ` your-url/#URI-fragment` that defines a text snippet. The syntax for a text fragment is `  your-url/#:~:text=&#34;text-snippet&#34; -->
+
 #### **What will FragmentQR do for me?**
 
 **FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
@@ -230,12 +231,11 @@ hvcjogWW9uYWggQXZpdlxudGFnczogJ0ZyYWdtZW50UVIsIFRl
 eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
-EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTc4MjIwNjA0MSw3ODYwMD
-k4MjgsMjEzMDY2NTUxLC03NzM3NTA5ODgsLTc5NTE1MDA0Mywx
-Nzk1NjY1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzOD
-cyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUw
-LC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1Nj
-M2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNjU2LC01NDI2NTUx
-MzEsLTE4MjU3MTI2NzNdfQ==
+EyLnBuZz9yYXc9dHJ1ZSdcbiIsImhpc3RvcnkiOlstMTgxMTEz
+MDk5NSw3ODYwMDk4MjgsMjEzMDY2NTUxLC03NzM3NTA5ODgsLT
+c5NTE1MDA0MywxNzk1NjY1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUz
+NzE0MCw1MTYzODcyODIsMTI0MDI4ODE0NiwtNDc5NDA1ODM0LC
+0xNTE1MDMyNDUwLC0zNzc0MDYxMzgsMTQ4Mzg1NzM3LC0xODMx
+NTUxMDg3LDY1NjM2NjA1MSwxMDQzMDg2OTE4LC0xNzQ5NjgyNj
+U2LC01NDI2NTUxMzEsLTE4MjU3MTI2NzNdfQ==
 -->
