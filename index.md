@@ -161,11 +161,11 @@ Example:
 
 > https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems
 
- In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. 
+ In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment^</a>. 
 
 #### **What will FragmentQR do for me?**
 
- >**FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
+**FragmentQR** can enable you to select any text, and press `⇧ + ⌘ + L` or `Ctrl + Shift + L`
 to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to open the extension popup and generate a QR code from your clipboard. Reference your device below to know if text fragments are supported for you.
 
 
@@ -230,11 +230,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbNzg2MDA5ODI4LDIxMzA2Nj
-U1MSwtNzczNzUwOTg4LC03OTUxNTAwNDMsMTc5NTY2NTQyLC0x
-MjU0OTI2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3MjgyLDEyNDAyOD
-gxNDYsLTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMzc3NDA2MTM4
-LDE0ODM4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYwNTEsMTA0Mz
-A4NjkxOCwtMTc0OTY4MjY1NiwtNTQyNjU1MTMxLC0xODI1NzEy
-NjczLDExNTA2ODEwNjJdfQ==
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbMjIwMjg4MjY2LDc4NjAwOT
+gyOCwyMTMwNjY1NTEsLTc3Mzc1MDk4OCwtNzk1MTUwMDQzLDE3
+OTU2NjU0MiwtMTI1NDkyNjU4NCwxNDQxNTM3MTQwLDUxNjM4Nz
+I4MiwxMjQwMjg4MTQ2LC00Nzk0MDU4MzQsLTE1MTUwMzI0NTAs
+LTM3NzQwNjEzOCwxNDgzODU3MzcsLTE4MzE1NTEwODcsNjU2Mz
+Y2MDUxLDEwNDMwODY5MTgsLTE3NDk2ODI2NTYsLTU0MjY1NTEz
+MSwtMTgyNTcxMjY3M119
 -->
