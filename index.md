@@ -10,7 +10,12 @@
  <section id="downloads">
    <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="22px" alt="Available on the Chrome Webstore"></a>
-  <a class="btn" height="32px" href="https://github.com/y330/FragmentQR/issues" rel="noopener" target="_blank" aria-label="Issue y330/FragmentQR on GitHub" title="Report an issue in FragmentQR">Report Issue</a>
+  <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/y330/FragmentQR/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue y330/FragmentQR on GitHub">Issue</a>
+ <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/y330/FragmentQR" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star y330/FragmentQR on GitHub">Star</a>
+ <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/y330/FragmentQR/subscription" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch y330/FragmentQR on GitHub">Watch</a>
    <a href="https://bit.ly/FragmentQRrepository" class="button pill">Code</a>
  </section>
 <style>h1{color: orange;} sup:hover{background-color: lightgreen;} sup:not(:hover) {background: yellow; color: blue; } img {filter: invert(0%);}</style>
@@ -144,3 +149,5 @@ Contributions and Donations welcome.
 
 
 </p>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
