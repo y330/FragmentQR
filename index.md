@@ -161,11 +161,8 @@ document.addEventListener("DOMContentLoaded",
 <p>
 <details>
 <summary>Click this to collapse/fold.</summary> 
-A text fragment is a part of a URL defined in a URI fragment 
-```
-your-url/#URI-fragment
-```
-after the `#` that defines a text snippet. The syntax for a text fragment is  `   your-url/#:~:text=text-snippet`, with the specific text specified after `:~:text=`.
+A text fragment is a part of a URL defined in a URI fragment <code>your-url/#URI-fragment</code>
+after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:~:text=text-snippet</code> with the specific text specified after <code>:~:text=</code>.
 </details>
 </p>
 
@@ -245,7 +242,7 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbODAxOTA0NTMwLC0xNTIwMT
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbODAyNjY2OTE0LC0xNTIwMT
 UxNjAyLDE5MjQ3Nzg0NTMsMTY2NzcyODA2OCw3ODYwMDk4Mjgs
 MjEzMDY2NTUxLC03NzM3NTA5ODgsLTc5NTE1MDA0MywxNzk1Nj
 Y1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIs
