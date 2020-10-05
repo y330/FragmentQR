@@ -54,7 +54,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
   <details>
     <summary>Click this to collapse/fold the technical definition.</summary> 
             A text fragment is a part of a URL defined in a URI fragment <code>your-url/#URI-fragment</code>
-   after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:\~:text=text-snippet</code> with the specific text specified after    <code>:\~:text=</code>.
+   after the <code>#</code> that defines a text snippet. The syntax for a text fragment is  <code>your-url/#:~:text=text-snippet</code> with the specific text specified after    <code>:~:text=</code>.
   </details>
 </p>
 
@@ -122,12 +122,8 @@ FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.
 
 <b>© 2020 MIT license Yonah Aviv.</b>
 
-Contributions welcome. Donations welcome. <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="CBYMNSA8XYYY2" />
-<input type="hidden" name="item_name" value="To continue doing whatever I am doing" />
-<input type="hidden" name="currency_code" value="CAD" />
-<input type="image" src="https://lh3.googleusercontent.com/fVNC9o8h5niIWpnNMdd7auVMf7xjne8ZuabbS1H1Jsi9IqxStWOArj8pYDXWeWyHuTBT095jxvHt9Az8Psi4tWVGdhNFnrWfVv73BHX8tPqDUhCJi1I8F_bpPxTealhv5o79zyCEV8nk9f6V0hfd36eQgcV5D_SiTkpIxM0X9AtIXfGZL88eA4iJEMEfTkk9KEjWWYe2EEJLbKjUZTLhyYbtImHMpjb3SCzPghU2BLAgFuR5qmjJ7KtAX4vt3CPNYB8B1czLmj8vzlAz8Kdb1sZwkLiKrWhsDpob5erzZoxlo1zdRmZqgYMschB6kIG7qPwm-RcPfMeu7UC9cjgK8fUeJ_XvpuXSOm2QI6GqHlviAZDXC-HSbuf2n9Vx8iskd1Hvc9BngPL6Q6oDTWhV2XjbbtXLunP-She0pXbQ6wmDZysW5QR1Hxw_5JKJzk-YqoYYR18K6fukyF2bR0nsBqjQx3BaHc8UR7iD34LeKIlHo7QhxBcDsDLmU67LyRghFm_Pat2T9KHWa7cH3imXyZwgN0FWmgkwkS5ATfwCiBCmTuqMHtzi8lbs9wl2vfXa3-4ZzMuuTxQJfFGhn3n8g4aEYiK3sKQ5MSuNRDiP1dKzJn9f2Enn92dfU3ZH7zCVECPagKC1tKaWGq62gWm66984oQpo3D23PF4rt31yfOvOfo4p1BB02PR7ziOBew=s128-no?authuser=0" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+Contributions welcome. Donations welcome. 
+<img src="https://lh3.googleusercontent.com/fVNC9o8h5niIWpnNMdd7auVMf7xjne8ZuabbS1H1Jsi9IqxStWOArj8pYDXWeWyHuTBT095jxvHt9Az8Psi4tWVGdhNFnrWfVv73BHX8tPqDUhCJi1I8F_bpPxTealhv5o79zyCEV8nk9f6V0hfd36eQgcV5D_SiTkpIxM0X9AtIXfGZL88eA4iJEMEfTkk9KEjWWYe2EEJLbKjUZTLhyYbtImHMpjb3SCzPghU2BLAgFuR5qmjJ7KtAX4vt3CPNYB8B1czLmj8vzlAz8Kdb1sZwkLiKrWhsDpob5erzZoxlo1zdRmZqgYMschB6kIG7qPwm-RcPfMeu7UC9cjgK8fUeJ_XvpuXSOm2QI6GqHlviAZDXC-HSbuf2n9Vx8iskd1Hvc9BngPL6Q6oDTWhV2XjbbtXLunP-She0pXbQ6wmDZysW5QR1Hxw_5JKJzk-YqoYYR18K6fukyF2bR0nsBqjQx3BaHc8UR7iD34LeKIlHo7QhxBcDsDLmU67LyRghFm_Pat2T9KHWa7cH3imXyZwgN0FWmgkwkS5ATfwCiBCmTuqMHtzi8lbs9wl2vfXa3-4ZzMuuTxQJfFGhn3n8g4aEYiK3sKQ5MSuNRDiP1dKzJn9f2Enn92dfU3ZH7zCVECPagKC1tKaWGq62gWm66984oQpo3D23PF4rt31yfOvOfo4p1BB02PR7ziOBew=s128-no?authuser=0" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
