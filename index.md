@@ -13,7 +13,7 @@
  <section id="downloads">
    <a href=" https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="22px" alt="Available on the Chrome Webstore"></a>
-<a class="github-button" href="https://github.com/y330/FragmentQR/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue y330/FragmentQR on GitHub">Issue</a>
+<a class="github-button" href="https://github.com/y330/FragmentQR/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue y330/FragmentQR on GitHub"><img src="https://www.flaticon.com/svg/static/icons/svg/3064/3064048.svg" width="20px"/>Issue</a>
   <iframe src="https://y330.github.io/FragmentQR?user=y330&repo=bootstrap&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 <iframe src="https://y330.github.io/FragmentQR?user=y330&repo=bootstrap&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 
