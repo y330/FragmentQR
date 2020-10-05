@@ -185,6 +185,7 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
 ### **What browsers/platforms are compatible with FragmentQR?**
 - As of 10/02/2020, browsers per platform required to use text fragments are defined in the table below. I would like to point out that Chromium 80 is the bear minimum for all devices in order to use text fragments with the intened functionality.
 <hr width="25%" color="orange">
+
 |OS |Minimum Browser Version|
 |--|--|
 |Android 5.5 or later|Chrome 85, Android WebView 81|
