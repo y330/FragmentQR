@@ -1,6 +1,3 @@
-
-<style>h1{color: orange;} sup:hover{background-color: lightgreen;} sup:not(:hover) {background: yellow; color: blue; } img {filter: invert(0%);}/style>
-
 # FragmentQR
 
 <em><b>Coded by Yonah Aviv</b></em>
