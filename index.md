@@ -154,10 +154,10 @@ document.addEventListener("DOMContentLoaded",
 ## More Info
 ### FAQ
 
-#### **What are Text Fragments?**
+####<a name="myfootnote1"><sup>[1]</sup></a><sup>.</sup> **What are Text Fragments?**
 
 
-<a name="myfootnote1"><sup>1</sup></a>A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
+ A Text Fragment is a part of a URL that specifies a piece of text to be scrolled into view and highlighted in yellow. 
 <p>
 <details>
 <summary>Click this to collapse/fold.</summary> 
@@ -242,11 +242,11 @@ eHQgRnJhZ21lbnQsIFlvbmFoIEF2aXYsIFlvbmFoJ1xuZmVhdH
 VyZWRJbWFnZTogJ2h0dHBzOi8vZ2l0aHViLmNvbS95MzMwL0Zy
 YWdtZW50UVIvYmxvYi9tYXN0ZXIvRnJhZ21lbnRRUi9pbWcvNT
 EyLnBuZz9yYXc9dHJ1ZSdcbmV4dGVuc2lvbnM6XG4gIHByZXNl
-dDogZ2ZtXG4iLCJoaXN0b3J5IjpbODAyNjY2OTE0LC0xNTIwMT
-UxNjAyLDE5MjQ3Nzg0NTMsMTY2NzcyODA2OCw3ODYwMDk4Mjgs
-MjEzMDY2NTUxLC03NzM3NTA5ODgsLTc5NTE1MDA0MywxNzk1Nj
-Y1NDIsLTEyNTQ5MjY1ODQsMTQ0MTUzNzE0MCw1MTYzODcyODIs
-MTI0MDI4ODE0NiwtNDc5NDA1ODM0LC0xNTE1MDMyNDUwLC0zNz
-c0MDYxMzgsMTQ4Mzg1NzM3LC0xODMxNTUxMDg3LDY1NjM2NjA1
-MSwxMDQzMDg2OTE4XX0=
+dDogZ2ZtXG4iLCJoaXN0b3J5IjpbLTUzODczNjAyNywtMTUyMD
+E1MTYwMiwxOTI0Nzc4NDUzLDE2Njc3MjgwNjgsNzg2MDA5ODI4
+LDIxMzA2NjU1MSwtNzczNzUwOTg4LC03OTUxNTAwNDMsMTc5NT
+Y2NTQyLC0xMjU0OTI2NTg0LDE0NDE1MzcxNDAsNTE2Mzg3Mjgy
+LDEyNDAyODgxNDYsLTQ3OTQwNTgzNCwtMTUxNTAzMjQ1MCwtMz
+c3NDA2MTM4LDE0ODM4NTczNywtMTgzMTU1MTA4Nyw2NTYzNjYw
+NTEsMTA0MzA4NjkxOF19
 -->
