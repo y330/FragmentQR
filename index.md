@@ -10,7 +10,7 @@
      <script async defer src="https://buttons.github.io/buttons.js"></script>
 
  <section id="downloads">
-	border-radius: 4px;
+	<button style="border-radius: 4px;
 	padding: 1px;
 	font-size: 13px;
 	border: none;
@@ -99,7 +99,8 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 
 Example:
 
->[https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems)
+>[https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20
+shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts?oldformat=true#Comparison_of_keyboard_shortcuts:~:text=Keyboard%20shortcuts%20are%20a%20common%20aspect%20of%20most%20modern%20operating%20systems)
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
 
