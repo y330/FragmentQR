@@ -114,7 +114,9 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
 
 <p background="grey">
  
-FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. 
+FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+.
+
+Get FragmentQR on the Chrome Web Store:<a href=" https://bit.ly/GetFragmentedQR" title="Get it Now!">https://bit.ly/GetFragmentedQR</a>
 
 <b>© 2020 MIT license Yonah Aviv.</b>
 
