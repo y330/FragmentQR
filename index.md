@@ -102,6 +102,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 Example:
 
 >[https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples %20of%20random%20phenomena%20include%20the, the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples %20of%20random%20phenomena%20include%20the, the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
+
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
 
  
