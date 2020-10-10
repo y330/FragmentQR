@@ -103,8 +103,8 @@ Example:
 
 >[https://en.wikipedia.org/wiki/Probability_distribution#
 cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena
-%20include%20the,the%20results%20of%20a%20survey%2C%20etc.
-to%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
+%20include%20the,the%20results%20of%20a%20survey
+%2C%20etc.to%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
 
@@ -164,9 +164,10 @@ to copy it as a text fragment. You can then press `⌘ + Q` or `Ctrl + Q` to ope
 
  
 FragmentQR uses Scroll to Text Fragment, a feature in Chromium 80+. 
-
+Code for detecting and selecting text fragments is by Googles [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en).
 
 <b>© 2020 MIT license Yonah Aviv.</b>
+
 
 
 Contributions and Donations welcome.
