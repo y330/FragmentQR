@@ -20,7 +20,7 @@ layout: default
 	vertical-align: top;
 	margin-top: 12px;
 	background-color: #F5F5F5;">   <a href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj" class="btn" title="Get it on the Chrome Web Store" padding="0">
-   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="22px" alt="Available on the Chrome Webstore"></a></button>
+   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" margin="-15px" height="22px" alt="Available on the Chrome Webstore"></a></button>
  <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub">
  </iframe>
  <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"> </iframe>
