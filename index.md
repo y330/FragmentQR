@@ -39,7 +39,7 @@ layout: default
    
 ## _Yonah Aviv_
 
-**FragmentQR is a Chrome extension that swiftly shares just the relevant parts of a webpage by generating QR codes from your selection, as a text fragment such that it will look like <span class="frag">[this](https://example.com/#:~:text=literature%20without%20prior%20coordination)</span>** 
+**FragmentQR is a Chrome extension that swiftly shares just the relevant parts of a webpage by generating QR codes from your selection, as a text fragment such that it will look like <span class="frag">this</span>** 
 
 <hr width="50%">
 
