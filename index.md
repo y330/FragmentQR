@@ -30,7 +30,7 @@ layout: default
 <!-- Place this tag where you want the button to render. -->
 
 
-<style>h1{color: orange;} .frag{background-color: yellow;}</style>
+<style>h1{color: orange;} .frag{background-color: yellow; color: black;}</style>
 
 # FragmentQR Extension
  <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
@@ -39,7 +39,7 @@ layout: default
    
 ## _Yonah Aviv_
 
-**FragmentQR is a Chrome extension that swiftly shares just the relevant parts of a webpage by generating QR codes from your selection, as a text fragment such that it will look like <span class="frag">[...(click to see)](https://example.com/#:~:text=this,-domain%20in)</span>** 
+**FragmentQR is a Chrome extension that swiftly shares just the relevant parts of a webpage by generating QR codes from your selection, as a text fragment such that it will look like <span class="frag">[this](https://example.com/#:~:text=literature%20without%20prior%20coordination)</span>** 
 
 <hr width=50%>
 
