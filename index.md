@@ -30,7 +30,7 @@ layout: default
 <!-- Place this tag where you want the button to render. -->
 
 
-<style>h1{color: orange;} .frag{background-color: yellow; color: black;}</style>
+<style> .frag{background-color: yellow; color: black;}</style>
 
 # FragmentQR Extension
  <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
