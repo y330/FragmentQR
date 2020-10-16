@@ -70,10 +70,14 @@ Currently Scroll to text fragment only works on these platform and browsers:
 
 ### **What are Text Fragments?**
 
-<span class=frag> <b>Text Fragment</b> : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
+<span class=frag> <b>Text Fragment</b>: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 </span>
 
 >    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." web.dev	
+
+
+Syntax:
+```https://example.com/#:~:text=text-fragment```
 
 Example:
 
