@@ -9,16 +9,16 @@
 
 <hr width=50%>
 
-Report an bug: bit.ly/fragmentQR-newIssue
+Report an bug: [🐞(click)](https://github.com/y330/FragmentQR/issues/new) 
 
-Rate it: bit.ly/fragmentQR-Rate
+Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
 
-Donation: bit.ly/DonatetoYonah
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url"><img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" /></a>
 
 
 <hr width=50%>
 
-### What does FragmentQR do?
+### What does FragmentQR do? {#benefits}
 
 FragmentQR provides you the ability to select only the important text on a webpage, and convey this to anyone through a simple ```select text``` to select a text fragment, ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```click the 📋``` to paste the link into the textbox to generate a QR code. When someone scans that QR, the text fragment will be detected when they load the webpage, and your selection will scroll📜⇅ into view and be highlighted🟨, to emphasize that part of the page.
 
@@ -71,7 +71,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  
  If steps 1 or 2 do not work, go to [chrome://extensions/configureCommands](chrome://extensions/configureCommands)to reconfigure the shortcuts
  
- <hr style="width:50%" align: middle;"> 
+ <hr style="width:70%; align: middle;"> 
 
 ### Demo of Using FragmentQR(Old)
 
@@ -94,7 +94,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 |Windows 7 or later|Chromium 80|
 |Mac OS X 10.10 or later|Chromium 80|
 
-<a href="http://bit.ly/canIuseFragQR" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>: http://bit.ly/canIuseFragQR
+<a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
 -----
 
@@ -154,17 +154,16 @@ Web Developers: 😀
 [Go to code](/FragmentQR)
 
 
-[Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments): https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments
+[Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
  
  
- [Dialogue between web developers at companies such as Google, Mozilla, Microsoft, and Apple disputing over text fragments](https://github.com/w3ctag/design-reviews/issues/392): https://github.com/w3ctag/design-reviews/issues/392
+ [Dialogue between web developers at companies such as Google, Mozilla, Microsoft, and Apple disputing over text fragments](https://github.com/w3ctag/design-reviews/issues/392)
  
-The way this extension selects text fragments is based on Google's [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en) Chrome extension: https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en
+The way this extension selects text fragments is based on Google's [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en) Chrome extension.
 
 
 <hr><hr><hr>
 
 
 <b>© 2020 MIT license Yonah Aviv.</b>
-
 
