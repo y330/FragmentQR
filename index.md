@@ -41,16 +41,16 @@ layout: default
 
 **FragmentQR is a Chrome extension that swiftly shares just the relevant parts of a webpage by generating QR codes from your selection, as a text fragment such that it will look like <span class="frag">[this](https://example.com/#:~:text=literature%20without%20prior%20coordination)</span>** 
 
-<hr width=50%>
+<hr width="50%">
 
 Report an bug: [🐞(click)](https://github.com/y330/FragmentQR/issues/new) 
 
-Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
+Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=FragmentQR)
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url"><img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" /></a>
 
 
-<hr width=50%>
+<hr>
 
 ### What does FragmentQR dO?
 
@@ -70,7 +70,7 @@ Currently Scroll to text fragment only works on these platform and browsers:
 
 ### **What are Text Fragments?**
 
-<block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
+<block class=frag> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 </block>
 
 >    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." web.dev	
@@ -85,7 +85,7 @@ the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/
 
 
 
-<hr width=50%>
+<hr width="50%">
 
 ## Tutorial
 
@@ -114,13 +114,13 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 ](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
 ](http://bit.ly/youtubeFragQR)
 
-<hr width=50%>
+<hr width="50%">
 
 ## FAQ
 
 ### **What browsers/platforms are compatible with Text Fragments?**
 - Browsers per platform required to use text fragments are defined in the table below. I would like to point out that Chromium 80 is the bear minimum for all devices to use text fragments with the intended functionality.
-...<hr width="25%">...
+<hr>
 
 |OS |Minimum Browser Version|
 |--|--|
