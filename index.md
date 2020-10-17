@@ -10,8 +10,10 @@ layout: default
           </a>
           </button
           
-   <button><a href = "https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=FragmentQR" title="Get it on Chrome"><img src="https://www.nicepng.com/png/full/223-2231461_chrome-web-store-icon-chrome-web-store-logo.png" alt="Webstore logo"/></a>
-</button>
+   <button>
+     <a href = "https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=FragmentQR" title="Get it on Chrome"><img src="https://www.nicepng.com/png/full/223-2231461_chrome-web-store-icon-chrome-web-store-logo.png" alt="Webstore logo"/></a>
+   </button>
+   <iframe src="https://ghbtns.com/github-btn.html?user=y330&amp;repo=FragmentQR&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="150" height="40" title="Star this Repo on GitHub"> </iframe>
   
  </section>
  
