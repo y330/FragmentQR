@@ -5,12 +5,15 @@ avatar: https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/32.png
 description: Browser extension that make sharing virtually any part of a webpage easy by generating QR codes for text fragments 
 show_downloads: True
 navigation:
-  - title: GitHub
+  - title: Go to Code
     url: https://bit.ly/35eiOn0
-  - title: Chrome Web Store
+  - title: Get it
     url: https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj
+round-avatat: True
+site-js: 
+
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-178685535-2"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""
