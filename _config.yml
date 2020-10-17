@@ -9,9 +9,7 @@ navigation:
     url: https://bit.ly/35eiOn0
   - title: Get it
     url: https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj
-round-avatat: True
-site-js: 
-
+round-avatar: True
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
 gtag: "UA-178685535-2"
 
