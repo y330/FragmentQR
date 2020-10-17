@@ -5,13 +5,7 @@ layout: default
 <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
     
  <section id="downloads">
-	<button style="border-radius: 4px;
-	padding: 1px;
-	font-size: 13px;
-	border: none;
-	vertical-align: top;
-	margin-top: -5px;
-	background-color: #F5F5F5;">
+
  <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=star&count=true" frameborder="0" scrolling="0" width="150" height="40" title="Star this Repo on GitHub"> </iframe>
  <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="40" title="Watch this Repo on GitHub"> </iframe>
 
