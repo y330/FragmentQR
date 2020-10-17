@@ -5,10 +5,13 @@ layout: default
 <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
      
  <section id="downloads">
-  
-<!-- Place this tag where you want the button to render. -->
-    <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=star&count=true" frameborder="0" scrolling="0" width="150" height="40" title="Star this Repo on GitHub"> </iframe>
-    <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="40" title="Watch this Repo on GitHub"> </iframe>
+     <button><a href="https://github.com/y330/FragmentQR/issues/new" title="Issues on GitHub">
+          {% octicon logo-github height:16 %}
+          </a>
+          </button
+          
+   <button><a href = "https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=FragmentQR" title="Get it on Chrome"><img src="https://www.nicepng.com/png/full/223-2231461_chrome-web-store-icon-chrome-web-store-logo.png" alt="Webstore logo"/></a>
+</button>
   
  </section>
  
