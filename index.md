@@ -4,14 +4,6 @@ layout: default
 
 <meta name="google-site-verification" content="Ay7DuHomj_FffCIPkk06PMst9-V1kwZij44bLz5SeuI" />
     
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178685535-2"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());   </script>
-     <script async defer src="https://buttons.github.io/buttons.js"></script>
-
  <section id="downloads">
 	<button style="border-radius: 4px;
 	padding: 1px;
