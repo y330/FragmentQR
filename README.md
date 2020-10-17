@@ -11,35 +11,43 @@
 
 Report an bug: [🐞(click)](https://github.com/y330/FragmentQR/issues/new) 
 
-Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
+Install and Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url"><img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" /></a>
 
 
 <hr width=50%>
 
-### What does FragmentQR do? {#benefits}
+### What does FragmentQR do? {#whatisit?}
 
-FragmentQR provides you the ability to select only the important text on a webpage, and convey this to anyone through a simple ```select text``` to select a text fragment, ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```click the 📋``` to paste the link into the textbox to generate a QR code. When someone scans that QR, the text fragment will be detected when they load the webpage, and your selection will scroll📜⇅ into view and be highlighted🟨, to emphasize that part of the page.
+FragmentQR provides you the ability to select only the important text on a webpage, and convey this to anyone through simply ```selecting text``` to select a text fragment, ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and ```click the 📋 button``` to paste the link into the textbox to generate a QR code. 
 
-In short, you can select any given text on a webpage and copy it as a text fragment to generate a QR code for sharing just the essential component of your webpage.
+When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and cause your selection to scroll⇅ into view and be highlighted in 🟨, to emphasize that part of the page.
+
+Currently Scroll to text fragment only works Android, Mac, Windows and Linux running at least Chromium 80 browsers. More on that later.
+
+### Other Features
+
++ Automatically Generate QR for current tab when opening extension popup
++ text box to edit QR code
++ Paste, copy and clear buttons
++ Light and dark themes
++ Popup can be made larger
++ Button to download QR as png
++ Material design
  
-Currently Scroll to text fragment only works on these platform and browsers: 
-
-✔Android: Chrome for Android 85+
-
-✔Mac, ✔Windows, and ✔Linux: Any Chromium 80+ browser
-
-❌iOS: Coming soon. When available it will  be on the latest release of Chrome for iOS powered by Apple WebKit 
-
-(more details on supported platforms later)
+<hr width=50%>
 
 ### **What are Text Fragments?** {#textfragment?}
 
 <block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 </block>
 
->    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." web.dev	
+>    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](web.dev)	
+
+The text fragment is specified in the fragment(```#```) portion of the URL after ```:~:text=```.
+
+Syntax: ```https://loren.ipsum/#:~:text=textfragment```
 
 Example:
 
@@ -48,6 +56,8 @@ Example:
 the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
 
  In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
+
+
 
 
 
@@ -85,13 +95,16 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 ## FAQ
 
 ### **What browsers/platforms are compatible with Text Fragments?**
-- Browsers per platform required to use text fragments are defined in the table below. I would like to point out that Chromium 80 is the bear minimum for all devices to use text fragments with the intended functionality.
-...<hr width="25%">...
+- Browsers per platform required to use text fragments are defined in the table below. Examples of Chromium browsers include MS Edge and Google Chrome.
+
+
+<hr width="25%">...
 
 |OS |Minimum Browser Version|
 |--|--|
 |Android 5.5 or later|Chrome 85, Android WebView 81|
 |Windows 7 or later|Chromium 80|
+|Linux | Chromium 80| 
 |Mac OS X 10.10 or later|Chromium 80|
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
@@ -117,9 +130,9 @@ Web Developers: 😀
 
 ## Issues and Changelog
 
-### Knownn Issues
- + [QR does not update automatically when typing #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
-   - Workarounds: Click the copy button, then click the paste button when updating the QR code
+### Known Issues
+ + [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
+   - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
 
 ### _Changelog v1.6_
 
@@ -143,10 +156,10 @@ Web Developers: 😀
  
  -----
  
-### TODO in the unforeseeable future
+### TODO sometime in the future
 
-  - [ ] add keyboard shorcut to open popup with link to text fragment as a placeholder in the textarea
-  
+  - [ ] combine all the steps to into one keyboard shortcut
+
 ----
 
 ## More Info
