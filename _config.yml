@@ -1,19 +1,16 @@
 theme: jekyll-theme-midnight
 author: Yonah Aviv
 title: FragmentQR Extension
+avatar: https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/32.png
 description: Browser extension that make sharing virtually any part of a webpage easy by generating QR codes for text fragments 
 show_downloads: True
 navigation:
-  - title: Home
-    url: \index.md
-  - title: Go to Code
+  - title: GitHub
     url: https://bit.ly/35eiOn0
-  - title: Get it
+  - title: Chrome Web Store
     url: https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj
-avatar: https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/32.png
-round-avatar: True
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-178685535-2"
+#gtag: ""
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""
