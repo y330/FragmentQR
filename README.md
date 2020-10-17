@@ -43,7 +43,7 @@ Currently Scroll to text fragment only works Android, Mac, Windows and Linux run
 <block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 </block>
 
->    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](web.dev)	
+>    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](HTTPS://web.dev)	
 
 The text fragment is specified in the fragment(```#```) portion of the URL after ```:~:text=```.
 
