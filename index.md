@@ -19,8 +19,7 @@ layout: default
 	border: none;
 	vertical-align: top;
 	margin-top: -5px;
-	background-color: #F5F5F5;">   <a href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj" class="btn" title="Get it on the Chrome Web Store" padding="0">
-   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" height="32px" alt="Available on the Chrome Webstore"></a></button>
+	background-color: #F5F5F5;">
  <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=star&count=true" frameborder="0" scrolling="0" width="150" height="40" title="Star this Repo on GitHub"> </iframe>
  <iframe src="https://ghbtns.com/github-btn.html?user=y330&repo=FragmentQR&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="40" title="Watch this Repo on GitHub"> </iframe>
 
@@ -29,7 +28,7 @@ layout: default
 <!-- Place this tag where you want the button to render. -->
 
 
-<style> .frag{background-color: yellow; color: black;}</style>
+<style> .frag:{background-color: yellow; color: black;}</style>
 
 # FragmentQR Extension
 
@@ -192,7 +191,7 @@ Web Developers: 😀
 [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
  
  
- [Dialogue between web developers at companies such as Google, Mozilla, Microsoft, and Apple disputing over text fragments](https://github.com/w3ctag/design-reviews/issues/392)
+ [Professional dialogue between web developers at companies such as Google, Mozilla, Microsoft, and Apple on text fragments](https://github.com/w3ctag/design-reviews/issues/392)
  
 The way this extension selects text fragments is based on Google's [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en) Chrome extension.
 
