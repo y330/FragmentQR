@@ -135,8 +135,9 @@ Web Developers: 😀
    - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
    
 ### _Changelog v1.65_
-+ Fixed Issue # 5: QR code does not update automatically when typing in the text box
+1. Fixed Issue # 5: QR code does not update automatically when typing in the text box
 
+----
 ### _Changelog v1.6_
 
 <ol>
