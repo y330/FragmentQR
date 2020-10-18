@@ -229,7 +229,7 @@ $(function() {
 
                 return document.body.removeChild(t), a;
             })($("textarea").val()) ?
-            i("ERROR! Please retry."): i("COPIED");
+            i("ERROR. Please retry."): i("COPIED");
         }),
         $("button.bright").html("<i class='material-icons'>brightness_4</i>"),
         //bright
