@@ -22,7 +22,7 @@ SOFTWARE.*/
 
 "use strict";
 
-$(function() {
+$(function () {
     function a(e) {
         $("#qr").html(""), $("#qr").qrcode(e);
 
@@ -35,24 +35,46 @@ $(function() {
             l,
             c = e.match(/^https?:\/{2,}(.*?)(?:\/|\?|#|$)/)[1],
             s =
-            ((t = new Date()),
-                (o = t.getFullYear().toString()),
-                (n = (t.getMonth() + 1).toString()),
-                (a = t.getDate().toString()),
-                (i = t.getHours().toString()),
-                (r = t.getMinutes().toString()),
-                (l = t.getSeconds().toString()),
-                o + n + a + i + r + l),
+                ((t = new Date()),
+                    (o = t.getFullYear().toString()),
+                    (n = (t.getMonth() + 1).toString()),
+                    (a = t.getDate().toString()),
+                    (i = t.getHours().toString()),
+                    (r = t.getMinutes().toString()),
+                    (l = t.getSeconds().toString()),
+                    o + n + a + i + r + l),
             d = $("canvas")[0].toDataURL();
         // download
         $(".download").attr("href", d),
             $(".download").attr("download", "qr-" + s + "-" + c + ".png");
     }
+    class FragmentQR {
+        initQuickSettings() {
+            this.chrome.storage.sync.get(['dark_mode'], (items) => {
+                // enable dark mode
+                this.darkMode = items.dark_mode;
+                if (this.darkMode) {
+                    document.body.classList.add('light');
+                }
+            });
+        }
+
+    }
+    let fqr = new FragmentQR();
+
+    if (this.chrome) {
+
+        if (this.chrome) {
+            tsp.setChrome(chrome);
+            tsp.initQuickSettings();
+        }
+
+    }
 
     function i(e) {
         $(".alert").html(e).show();
 
-        setTimeout(function() {
+        setTimeout(function () {
             $(".alert").slideUp(400);
         }, 3e3);
     }
@@ -86,7 +108,7 @@ $(function() {
 
                     date: o[i].date,
                 }),
-                e == o[i].url && (a = !0);
+                    e == o[i].url && (a = !0);
 
         a ||
             n.push({
@@ -104,14 +126,14 @@ $(function() {
     }
 
     var r,
-        e = (function() {
+        e = (function () {
             var e = {};
 
             if (1 < document.location.search.length)
                 for (
                     var t = document.location.search.substring(1).split("&"),
-                        o = 0,
-                        n = t.length; o < n; o++
+                    o = 0,
+                    n = t.length; o < n; o++
                 ) {
                     var a = t[o].split("="),
                         i = decodeURIComponent(a[0]),
@@ -134,7 +156,7 @@ $(function() {
         tabUrl = tab.url;
         elText.value = tabUrl;
 
-        elPaste.addEventListener("click", function(e) {
+        elPaste.addEventListener("click", function (e) {
             e.preventDefault();
             $("textarea").val(""), elText.focus();
             document.execCommand("paste");
@@ -165,7 +187,7 @@ $(function() {
             o.addClass("expansion"),
             u.addClass("context_mode");
     } else if (chrome.tabs)
-        chrome.tabs.getSelected(null, function(e) {
+        chrome.tabs.getSelected(null, function (e) {
             var t = decodeURIComponent(e.url),
                 o = e.title;
 
@@ -177,42 +199,42 @@ $(function() {
         $("#qr").qrcode(p), d.val(p);
     }
     //expansion
-    $(document).on("click", "#qr", function() {
-            $(".contets").hasClass("expansion") ?
-                $(".contets").removeClass("expansion") :
-                $(".contets").addClass("expansion");
-        }),
+    $(document).on("click", "#qr", function () {
+        $(".contets").hasClass("expansion") ?
+            $(".contets").removeClass("expansion") :
+            $(".contets").addClass("expansion");
+    }),
         //textarea keydown
-        $("textarea").on("keydown", function() {
+        $("textarea").on("keydown", function () {
             clearTimeout(t),
-                (t = setTimeout(function() {
+                (t = setTimeout(function () {
                     var e = $("textarea").val().toString();
 
                     e.match(/[\u30a0-\u30ff\u3040-\u309f\u3005-\u3006\u30e0-\u9fcf]/) ?
                         (console.log("JP", e), a((e = Encoding.convert(e, "SJIS")))) :
-                        (console.log("EN", e), a(encodeURI(e)))
+                        (console.log("EN", e), a(encodeURI(e))),
                         $("textarea").removeClass("bit-mode");
                 }, 300)),
                 $(".undo").show();
         }),
         //textarea click
-        $("textarea").on("click", function() {
+        $("textarea").on("click", function () {
             $(this).addClass("click-open");
         }),
         //undo
-        $(".undo").on("click", function() {
+        $(".undo").on("click", function () {
             $("textarea").val(r),
                 a(encodeURI($("textarea").val())),
                 $("textarea").removeClass("bit-mode"),
                 $(".copy").hide();
             clearTimeout(t),
-                (t = setTimeout(function() {
+                (t = setTimeout(function () {
                     $(".undo").hide();
                 }, 300));
         }),
         //copy
-        $(".copy").on("click", function() {
-            !(function(e) {
+        $(".copy").on("click", function () {
+            !(function (e) {
                 var t = document.createElement("div"),
                     o = document.createElement("pre");
 
@@ -221,40 +243,40 @@ $(function() {
                 var n = t.style;
 
                 (n.position = "fixed"),
-                (n.right = "200%"),
-                document.body.appendChild(t),
+                    (n.right = "200%"),
+                    document.body.appendChild(t),
                     document.getSelection().selectAllChildren(t);
 
                 var a = document.execCommand("copy");
 
                 return document.body.removeChild(t), a;
             })($("textarea").val()) ?
-            i("ERROR. Please retry."): i("COPIED");
+                i("ERROR! Please retry.") : i("COPIED");
         }),
         $("button.bright").html("<i class='material-icons'>brightness_4</i>"),
         //bright
-        $(".bright").on("click", function() {
+        $(".bright").on("click", function () {
             $("*").toggleClass("light"),
                 $("button.bright").hasClass("light") ?
-                $(this).html("<i class='material-icons'>brightness_4</i>") :
-                $(this).html("<i class='material-icons'>brightness_7</i>");
+                    $(this).html("<i class='material-icons'>brightness_4</i>") :
+                    $(this).html("<i class='material-icons'>brightness_7</i>");
         }),
-        $(".header").on("click", function() {
-            $(".auth").slideToggle(200, function() {
+        $(".header").on("click", function () {
+            $(".auth").slideToggle(200, function () {
                 clearTimeout(t),
-                    ((t = setTimeout(function() {
-                            $(".version").toggle(True, function() {});
-                        })),
+                    ((t = setTimeout(function () {
+                        $(".version").toggle(True, function () { });
+                    })),
                         100);
             });
         }),
-        $(".webs").on("click", function() {
-            $(".rr").toggle(function() {
+        $(".webs").on("click", function () {
+            $(".rr").toggle(function () {
                 $(".rr").html("<a class='rr' href='#' target='_blank'>Go to Website</a>")
             })
 
         }),
-        $(".rr").on("click", function() {
+        $(".rr").on("click", function () {
             window.open(
                 "http://bit.ly/FragQRwebsite",
                 "_blank"
