@@ -189,7 +189,8 @@ $(function() {
                     var e = $("textarea").val().toString();
 
                     e.match(/[\u30a0-\u30ff\u3040-\u309f\u3005-\u3006\u30e0-\u9fcf]/) ?
-                        (console.log("EN", e), a(encodeURI(e))) :
+                        (console.log("JP", e), a((e = Encoding.convert(e, "SJIS")))) :
+                        (console.log("EN", e), a(encodeURI(e)))
                         $("textarea").removeClass("bit-mode");
                 }, 300)),
                 $(".undo").show();
