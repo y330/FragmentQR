@@ -1,6 +1,6 @@
 <!-- MIT License
 
-Copyright (c) 2020 Yonah Aviv
+Copyright (c) 2020 y330
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,29 +21,60 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.-->
 <!DOCTYPE html>
 <html>
+  <head>
 
-<head>
-    <title>FragmentQR - Options</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="css/options.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      />
 
-    <script src="js/options.js"></script>
-</head>
+      <link rel="stylesheet" type="text/css" href="css/options.css" />
 
-<body>
-    <a href="popup.html"><button class="back"><i class="material-icons">arrow_left</i></button>Go
-      Back</a
+<!--       <style>
+button.back {
+  border-radius: 15px;
+  background:#2196f3;
+}
+button.back:hover {
+  background-color: #eee;
+}
+
+a.back, a.repo{
+  color: #2196f3;
+  text-decoration: underline;
+  font-size: 18px;
+  margin-top: 12px;
+}
+a.back:vistied, a.repo:visited {
+  color: grey;
+  h3:hover {
+  color: orange;
+}
+</style> -->
+  </head>
+
+  <body>
+
+    <a href="popup.html"
+      ><button class="back"><i class="material-icons">arrow_left</i></button>Generate QR</a
     >
-    <div class="yell">// under renovation</div>
-    <i>Coming soon</i>
-    <a href="chrome://extensions/shortcuts" title="Custimize Shortcuts"
-      >Customize Keyboad Shortcuts</a
-    >
-    <div class="yell">// under renovation</div>
-    <div class="app_ttl">
-      Fragmented Text to QR
-      <div class="version">Version</div>
-      <form
+    <br><br>
+      <div class="container">  <h1 class="header">FragmentQR - Generate QR codes that highlight the key parts of a webpage using text fragments</h1>
+    <h4><em>Yonah Aviv</em></h4>
+    <form id="config">
+
+
+       <div class="fieldset checkbox">
+        <label><input type="checkbox" name="dark_mode" value="enabled"> Toggle Dark Mode</label>
+      </div>       <a class="shortcuts" href="chrome://extensions/configureCommands">Configure Shortcuts</a>
+  <button type="submit">Save</button>
+      <small id="message"></small>
+  <form>
+  </div>
+    <i>More settings coming soon</i>
+
+	<h3><a href="https://github.com/y330/FragmentQR" class="repo" title="View GitHub Repository">
+      FragmentQR </a><span id="version"></span> </h3> <br><br>   <form
         action="https://www.paypal.com/cgi-bin/webscr"
         method="post"
         target="_top"
@@ -64,9 +95,7 @@ SOFTWARE.-->
           title="PayPal - The safer, easier way to pay online!"
           alt="Donate with PayPal button"
         />
-      </form>
-      <div class="yell">// under renovation</div>
-    </div>
+	  </form>
     <script src="js/options.js"></script>
   </body>
 </html>
