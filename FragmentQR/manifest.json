@@ -5,7 +5,7 @@
   "minimum_chrome_version": "80",
   "author": "Yonah Aviv",
   "short_name": "FragQR",
-  "description": "Chrome extension for sharing certain parts of a webpage through QR codes and text fragments",
+  "description": "Chrome extension generating QR that highlights key parts of a page before sharing",
   "background": {
     "persitent": false,
     "scripts": ["js/background_script.js"]
