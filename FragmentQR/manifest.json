@@ -1,11 +1,11 @@
 {
   "name": "FragmentQR",
-  "version": "1.65",
+  "version": "1.6.5",
   "manifest_version": 2,
   "minimum_chrome_version": "80",
   "author": "Yonah Aviv",
   "short_name": "FragQR",
-  "description": "Web extension that creates QR codes that highlight and scroll to your current selection when scanned.",
+  "description": "Chrome extension for sharing certain parts of a webpage through QR codes and text fragments",
   "background": {
     "persitent": false,
     "scripts": ["js/background_script.js"]
