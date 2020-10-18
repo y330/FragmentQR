@@ -134,7 +134,7 @@ Web Developers: 😀
  + [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
    - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
    
-### _Changelog v1.65_
+### _Changelog v1.6.5_
 1. Fixed Issue # 5: QR code does not update automatically when typing in the text box
 
 ----
