@@ -18,7 +18,7 @@ Install and Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/frag
 
 <hr width=50%>
 
-### What does FragmentQR do? {#whatisit?}
+### What does FragmentQR do?
 
 FragmentQR provides you the ability to select only the important text on a webpage, and convey this to anyone through simply ```selecting text``` to select a text fragment, ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and ```click the 📋 button``` to paste the link into the textbox to generate a QR code. 
 
@@ -38,7 +38,7 @@ Currently Scroll to text fragment only works Android, Mac, Windows and Linux run
  
 <hr width=50%>
 
-### **What are Text Fragments?** {#textfragment?}
+### **What are Text Fragments?** 
 
 <block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 </block>
@@ -130,11 +130,8 @@ Web Developers: 😀
 
 ## Issues and Changelog
 
-### Known Issues
-- [X] [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
-   - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
-   
-### (Unreleased) _Changelog v1.6.5_
+
+### (Unreleased) _Changelog v1.7_
 1. Fixed Issue # 5: QR now update automatically when typing in the text box
 2. Revamped options page
 3. minor fixes
@@ -143,9 +140,16 @@ Web Developers: 😀
 ### _Changelog v1.6_
 
 <ol>
-    <li>Fix issue when system theme is set to light</li>
-    <li>Minor improvements</li>
-  
+ <li>Fix issue when system theme is set to light</li>
+ <li>Minor improvements</li>
+<li>
+ 
+- [X]
+
+==[QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)==
+
+     - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
+ </li>
 </ol>
   
 ---- 
@@ -162,7 +166,7 @@ Web Developers: 😀
  
  -----
  
-### TODO sometime in the future
+### TODO
 
   - [ ] combine all the steps to into one keyboard shortcut
 
@@ -178,7 +182,7 @@ Web Developers: 😀
  
  [Dialogue between web developers at companies such as Google, Mozilla, Microsoft, and Apple disputing over text fragments](https://github.com/w3ctag/design-reviews/issues/392)
  
-The way this extension selects text fragments is based on Google's [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en) Chrome extension.
+Code for text fragment is from Google's [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en) Chrome extension.
 
 
 <hr><hr><hr>
