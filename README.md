@@ -1,11 +1,11 @@
-# FragmentQR Extension
+# FragmentQR Chrome Extension
  <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
 </a>
    
-## _Yonah Aviv_
+# *Yonah Aviv
 
-**FragmentQR is a Chrome extension that swiftly shares just the relevant parts of a webpage by generating QR codes from your selection, as a text fragment such that it will look like [...(click to see)](https://example.com/#:~:text=this,-domain%20in)** 
+**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the text in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
 
 
 
@@ -158,20 +158,19 @@ Web Developers: 🙂
 
 ## More Info
 
-[Go to code](/FragmentQR)
+[view source code](/FragmentQR)
 
-[Go to website](https://y330.github.io/FragmentQR)
+[FragmentQR website](https://y330.github.io/FragmentQR)
 
-[(Article)Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+Article on Text Fragments: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
  
-Report an bug: [🐞(click)](https://github.com/y330/FragmentQR/issues/new) 
+[🐞Report an issue/🔮Suggest a new feature](https://github.com/y330/FragmentQR/issues/new) 
 
-Install and Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
+[Get FragmentQR on the Chrome Web Store](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url"><img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" /></a>
 
 
-<hr width=50%>
 
 <b>© 2020 MIT license Yonah Aviv.</b>
 
