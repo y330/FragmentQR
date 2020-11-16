@@ -72,12 +72,19 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
   <li>Scan it on your mobile device or just share the link in your clipboard for that particalar text to be scrolled into view and highlighted in yellow.</li>
  </ol>
  
- If steps 1 or 2 do not work, go to [chrome://extensions/configureCommands](chrome://extensions/configureCommands)to reconfigure the shortcuts
+If steps 1 or 2 do not work, follow these extra instructions
+
+1. Select the link below
+
+```chrome://extensions/configureCommands``` 
+
+2. Drag into address bar to open the extension shortcuts page
+3. Configure keyboard shortcus for FragmentQR
   
 
 ### Demo of Using FragmentQR(Old)
 
-[
+[ 
 ![
 ](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
 ](http://bit.ly/youtubeFragQR)
@@ -87,14 +94,15 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 ## FAQ
 
 ### **What browsers/platforms are compatible with Text Fragments?**
-- Check compatibility in the table below. Note: Examples of Chromium browsers include MS Edge and Google Chrome.
+- Check browser compatibility in the table below. Note: these are the browsers cab use the scroll to text fragment feature. This extension is still available on all Chromium browsers and works great as a regular QR code generator.
+Examples of Chromium browsers include MS Edge and Google Chrome.
 
 |OS |Minimum Browser Version|
 |--|--|
-|Android 85, Android WebView 81|
-|Windows 7 or later|Chromium 80(i.e. Chrome,MS Edge, Opera etc.)|
-|Linux | Chromium 80| 
-|Mac OS X | Chromium 80|
+|Android| Chrome 85, Android WebView 81|
+|Windows|Chromium 80(i.e. Chrome,MS Edge, Opera etc.)|
+|Linux| Chromium 80| 
+|Mac OS X| Chromium 80|
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
