@@ -79,7 +79,7 @@ If steps 1 or 2 do not work, follow these extra instructions
 ```chrome://extensions/configureCommands``` 
 
 2. Drag into address bar to open the extension shortcuts page
-3. Configure keyboard shortcus for FragmentQR
+3. Configure keyboard shortcuts for FragmentQR
   
 
 ### Demo of Using FragmentQR(Old)
@@ -115,13 +115,13 @@ Examples of Chromium browsers include MS Edge and Google Chrome.
 
 According to 
 
-Firefox: 🙂
+Firefox(Mozilla): 😡
 
-Edge: 🙂
+Edge(MS): 🥳
 
-Safari: 😐(neutral)
+Safari(Apple): 😐(neutral)
 
-Web Developers: 🙂
+Web Developers(Google): 🥳
 
 
 
@@ -135,18 +135,12 @@ Web Developers: 🙂
 
 ### _Changelog v1.6_
 
-<ol>
- <li>Fix issue when system theme is set to light</li>
- <li>Minor improvements</li>
-<li>
+   - Fix issue when system theme is set to light</li>
+   - Minor improvements
  
-- [X]
+   - [X] [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
+      - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
 
-==[QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)==
-
-     - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
- </li>
-</ol>
    
 ### _Changelog v1.5_
 
