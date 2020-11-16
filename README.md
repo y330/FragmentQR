@@ -3,7 +3,7 @@
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
 </a>
    
-# *Yonah Aviv
+# *Yonah Aviv*
 
 **FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
 
@@ -11,9 +11,12 @@
 
 ### What does FragmentQR do?
 
-FragmentQR provides you the ability to select only the important text on a webpage, and convey this to anyone through simply ```selecting text``` to select a text fragment, ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and ```click the 📋 button``` to paste the link into the textbox to generate a QR code. 
+FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
+ To make the process easier, I added keyboard shortcuts:
 
-When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and cause their selection to scroll into view and be highlighted in yellow🟨, to emphasize that text.
+```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
+
+When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
 Currently scanning the QR code will only work Android, meaning iOS is not supported yet. 
 ### Other Features
@@ -70,8 +73,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
  </ol>
  
  If steps 1 or 2 do not work, go to [chrome://extensions/configureCommands](chrome://extensions/configureCommands)to reconfigure the shortcuts
- 
- <hr style="width:70%; align: middle;"> 
+  
 
 ### Demo of Using FragmentQR(Old)
 
@@ -80,7 +82,7 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 ](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
 ](http://bit.ly/youtubeFragQR)
 
-<hr width=50%>
+
 
 ## FAQ
 
@@ -96,10 +98,10 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
------
 
-### **Why does it not work on my iPhone
-+ That feature of scroll to text fragment is not avaialbele on iOS yet. Since Chrome for iOS is powered by Apple WebKit as opposed to Blink , this feature will surface only if Apple allows it. Unfortunately Apple only had a neutral stance on integration of text fragments in Safari😞, so logically, it is unlikly text fragments will roll out to Chrome for iOS soon. 
+
+### **Why does the QR code not scroll or highlight anything on my iPhone?**
++ That feature of scroll to text fragment comes from Web Developers(~Google), and is not available on iOS yet. Like Safari, Chrome for iOS is powered by Apple WebKit, so this feature will only be available if Apple decides it wants to ship it in a future release. Apple is neutral on integration of text fragments in Safari(, so I would say there is a 50% chance Apple will include a feature like scroll to text fragment in a future update of Chrome for iOS. 
 
 **Other browsers feelings on Text Fragments:**
 
