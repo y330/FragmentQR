@@ -1,31 +1,21 @@
-# FragmentQR Extension
+# FragmentQR Chrome Extension
  <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="100px" alt="Available on the Chrome Webstore">
+   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
 </a>
    
-## _Yonah Aviv_
+# *Yonah Aviv
 
-**FragmentQR is a Chrome extension that swiftly shares just the relevant parts of a webpage by generating QR codes from your selection, as a text fragment such that it will look like [...(click to see)](https://example.com/#:~:text=this,-domain%20in)** 
-
-<hr width=50%>
-
-Report an bug: [🐞(click)](https://github.com/y330/FragmentQR/issues/new) 
-
-Install and Rate it: [⭐(click)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url"><img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" /></a>
+**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
 
 
-<hr width=50%>
 
-### What does FragmentQR do? {#whatisit?}
+### What does FragmentQR do?
 
 FragmentQR provides you the ability to select only the important text on a webpage, and convey this to anyone through simply ```selecting text``` to select a text fragment, ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and ```click the 📋 button``` to paste the link into the textbox to generate a QR code. 
 
-When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and cause your selection to scroll⇅ into view and be highlighted in 🟨, to emphasize that part of the page.
+When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and cause their selection to scroll into view and be highlighted in yellow🟨, to emphasize that text.
 
-Currently Scroll to text fragment only works Android, Mac, Windows and Linux running at least Chromium 80 browsers. More on that later.
-
+Currently scanning the QR code will only work Android, meaning iOS is not supported yet. 
 ### Other Features
 
 + Automatically Generate QR for current tab when opening extension popup
@@ -38,16 +28,16 @@ Currently Scroll to text fragment only works Android, Mac, Windows and Linux run
  
 <hr width=50%>
 
-### **What are Text Fragments?** {#textfragment?}
+### **What are Text Fragments?** 
 
 <block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 </block>
 
 >    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](HTTPS://web.dev)	
 
-The text fragment is specified in the fragment(```#```) portion of the URL after ```:~:text=```.
+The text fragment can be specified in the fragment(```#```) directive of the URL after ```:~:text=```, and it will be highlighted in yellow when opened.
 
-Syntax: ```https://loren.ipsum/#:~:text=textfragment```
+Syntax: ```https://foo.bar/#:~:text=textfragment```
 
 Example:
 
@@ -95,60 +85,59 @@ To learn how to QR encode text fragments using FragmentQR, you can examine the i
 ## FAQ
 
 ### **What browsers/platforms are compatible with Text Fragments?**
-- Browsers per platform required to use text fragments are defined in the table below. Examples of Chromium browsers include MS Edge and Google Chrome.
-
-
-<hr width="25%">...
+- Check compatibility in the table below. Note: Examples of Chromium browsers include MS Edge and Google Chrome.
 
 |OS |Minimum Browser Version|
 |--|--|
-|Android 5.5 or later|Chrome 85, Android WebView 81|
-|Windows 7 or later|Chromium 80|
+|Android 85, Android WebView 81|
+|Windows 7 or later|Chromium 80(i.e. Chrome,MS Edge, Opera etc.)|
 |Linux | Chromium 80| 
-|Mac OS X 10.10 or later|Chromium 80|
+|Mac OS X | Chromium 80|
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
 -----
 
-### **I scanned the QR code on my iPhone and nothing happened! What gives?**
+### **Why does it not work on my iPhone
++ That feature of scroll to text fragment is not avaialbele on iOS yet. Since Chrome for iOS is powered by Apple WebKit as opposed to Blink , this feature will surface only if Apple allows it. Unfortunately Apple only had a neutral stance on integration of text fragments in Safari😞, so logically, it is unlikly text fragments will roll out to Chrome for iOS soon. 
 
-+ That feature of scroll to text fragment is not avaialbele on iOS yet. Since Chrome for iOS is powered by Apple WebKit as opposed to Blink , this feature will surface only if Apple allows it. Unfortunately Apple only had a neutral stance on integration of text fragments in Safari😞, so logicaly, it is unlikly text fragments will roll out to Chrome for iOS soon. 
+**Other browsers feelings on Text Fragments:**
 
-**Other Browsers Opinion on Text Fragments:**
+According to 
 
-Firefox: 😱(negative)
+Firefox: 🙂
 
-Edge: 😀
+Edge: 🙂
 
 Safari: 😐(neutral)
 
-Web Developers: 😀
+Web Developers: 🙂
 
-<hr>
+
 
 
 ## Issues and Changelog
 
-### Known Issues
-- [X] [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
-   - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
-   
-### (Unreleased) _Changelog v1.6.5_
+### (Unreleased) _Changelog v1.7_
 1. Fixed Issue # 5: QR now update automatically when typing in the text box
 2. Revamped options page
 3. minor fixes
 
-----
 ### _Changelog v1.6_
 
 <ol>
-    <li>Fix issue when system theme is set to light</li>
-    <li>Minor improvements</li>
-  
+ <li>Fix issue when system theme is set to light</li>
+ <li>Minor improvements</li>
+<li>
+ 
+- [X]
+
+==[QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)==
+
+     - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
+ </li>
 </ol>
-  
----- 
+   
 ### _Changelog v1.5_
 
  <ol>  
@@ -160,9 +149,8 @@ Web Developers: 😀
   <li>Light theme(currently does not save between sessions)</li>
  </ol>
  
- -----
  
-### TODO sometime in the future
+### TODO
 
   - [ ] combine all the steps to into one keyboard shortcut
 
@@ -170,18 +158,18 @@ Web Developers: 😀
 
 ## More Info
 
-[Go to code](/FragmentQR)
+[view source code](/FragmentQR)
 
+[FragmentQR website](https://y330.github.io/FragmentQR)
 
-[Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+Article on Text Fragments: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
  
- 
- [Dialogue between web developers at companies such as Google, Mozilla, Microsoft, and Apple disputing over text fragments](https://github.com/w3ctag/design-reviews/issues/392)
- 
-The way this extension selects text fragments is based on Google's [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en) Chrome extension.
+[🐞Report an issue/🔮Suggest a new feature](https://github.com/y330/FragmentQR/issues/new) 
 
+[Get FragmentQR on the Chrome Web Store](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
 
-<hr><hr><hr>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url"><img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" /></a>
+
 
 
 <b>© 2020 MIT license Yonah Aviv.</b>
