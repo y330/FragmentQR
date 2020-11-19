@@ -18,7 +18,7 @@ FragmentQR adds a an option to the context menu to copy a text fragment when sel
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
-Currently scanning the QR code will only work Android, meaning iOS is not supported yet. 
+Currently scanning the QR code to see the highlights will only work Android.
 ### Other Features
 
 + Automatically Generate QR for current tab when opening extension popup
@@ -109,19 +109,7 @@ Examples of Chromium browsers include MS Edge and Google Chrome.
 
 
 ### **Why does the QR code not scroll or highlight anything on my iPhone?**
-+ That feature of scroll to text fragment comes from Web Developers(~Google), and is not available on iOS yet. Like Safari, Chrome for iOS is powered by Apple WebKit, so this feature will only be available if Apple decides it wants to ship it in a future release. Apple is neutral on integration of text fragments in Safari(, so I would say there is a 50% chance Apple will include a feature like scroll to text fragment in a future update of Chrome for iOS. 
-
-**Other browsers feelings on Text Fragments:**
-
-According to 
-
-Firefox(Mozilla): 😡
-
-Edge(MS): 🥳
-
-Safari(Apple): 😐(neutral)
-
-Web Developers(Google): 🥳
++ That feature of scroll to text fragment comes from Web Developers(Google), and is not available on iOS yet.
 
 
 
