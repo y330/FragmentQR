@@ -169,6 +169,7 @@ This extension uses some code from Google’s <a href="https://chrome.google.com
  <img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" />
 </a>
 
+Disclaimer: Please note this extension is NOT made by Google and is made by an independent developer. All copyrights belong to their respective owners. Google doesn’t endorse or sponsor this Chrome extension. FragmentQR is not owned by, is not licensed by and is not a subsidiary of Google Inc.
 
 
 <b>© 2020 MIT license Yonah Aviv.</b>
