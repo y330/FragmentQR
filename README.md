@@ -97,6 +97,10 @@ If steps 1 or 2 do not work, follow these extra instructions
 - Check browser compatibility in the table below. Note: these are the browsers cab use the scroll to text fragment feature. This extension is still available on all Chromium browsers and works great as a regular QR code generator.
 Examples of Chromium browsers include MS Edge and Google Chrome.
 
+**Update:**
+Chrome 87 on iOS has some new, albeit unfunctional options in chrome://flags for text fragments.
+
+
 |OS |Minimum Browser Version|
 |--|--|
 |Android| Chrome 85, Android WebView 81|
@@ -156,9 +160,9 @@ Examples of Chromium browsers include MS Edge and Google Chrome.
 
 Article on Text Fragments: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
  
-[🐞Report an issue/🔮Suggest a new feature](https://github.com/y330/FragmentQR/issues/new) 
+Report an [issue 🐞](%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60) 
 
-[Get FragmentQR on the Chrome Web Store](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1)
+[Get FragmentQR](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1) on the Chrome Web Store
 
 The way this extension selects text fragments is based on Google’s <a href="https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en">Link to text fragment</a> Chrome extension.
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url">
