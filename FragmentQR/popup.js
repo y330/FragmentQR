@@ -272,7 +272,7 @@ $(function () {
         }),
         $(".webs").on("click", function () {
             $(".rr").toggle(function () {
-                $(".rr").html("<a class='rr' href='#' target='_blank'>Go to Website</a>")
+                $(".rr").html("<a class='rr' href='https://raw.githubusercontent.com/y330/FragmentQR/master/FragmentQR/popup.js' target='_blank'>Go to Website</a>")
             })
 
         }),
