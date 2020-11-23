@@ -39,7 +39,6 @@ Currently scanning the QR code to see the highlights will only work Android.
 + Button to download QR as png
 + Material design
  
-<hr width=50%>
 
 ### **What are Text Fragments?** 
 
@@ -64,7 +63,6 @@ the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/
 
 
 
-<hr width=50%>
 
 ## Tutorial
 
