@@ -253,12 +253,12 @@ $(function () {
             })($("textarea").val()) ?
                 i("ERROR! Please retry.") : i("COPIED");
         }),
-        $("button.bright").html("<i class='material-icons'>brightness_4</i>"),
+        $("button.bright").html("<i class='material-icons'>brightness_3</i>"),
         //bright
         $(".bright").on("click", function () {
             $("*").toggleClass("light"),
                 $("button.bright").hasClass("light") ?
-                    $(this).html("<i class='material-icons'>brightness_6</i>") :
+                    $(this).html("<i class='material-icons'>brightness_3</i>") :
                     $(this).html("<i class='material-icons'>brightness_7</i>");
         }),
         $(".header").on("click", function () {
