@@ -278,7 +278,7 @@ $(function () {
         }),
         $(".rr").on("click", function () {
             window.open(
-                "http://bit.ly/FragQRwebsite",
+                "http://bit.ly/FragmentQRrepository",
                 "_blank"
             );
         }),
