@@ -58,42 +58,7 @@ the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/
 
 <hr width=50%>
 
-## Tutorial
 
-<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
-
-To learn how to QR encode text fragments using FragmentQR, you can examine the infographic above, or, read on:
-
-### Instructions
-
- <ol>
-  <li>Select text</li>
-  <li>Ctrl/Cmd + Shift + L to copy the text fragment. your selected text fragment should be highlighted in yellow.</li>
-  <li>Ctrl/Cmd+Q to open the extension popup</li>
-  <li>Click the paste button</li>
-  <li>Scan it on your mobile device or just share the link in your clipboard for that particalar text to be scrolled into view and highlighted in yellow.</li>
- </ol>
- 
-If steps 1 or 2 do not work, follow these extra instructions
-
-1. Select the link below
-
-```chrome://extensions/configureCommands``` 
-
-2. Drag into address bar to open the extension shortcuts page
-3. Configure keyboard shortcuts for FragmentQR
-  
-
-### Demo of Using FragmentQR(Old)
-
-[ 
-![
-](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
-](http://bit.ly/youtubeFragQR)
-
-
-
-## FAQ
 
 ### **What browsers/platforms are compatible with Text Fragments?**
 - Check browser compatibility in the table below. Note: these are the browsers cab use the scroll to text fragment feature. This extension is still available on all Chromium browsers and works great as a regular QR code generator.
