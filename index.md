@@ -21,7 +21,7 @@ title: FragmentQR
 
 ### What does FragmentQR do?
 
-FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
+FragmentQR adds a an option to the context menu to copy a text fragment<a href="#fragnment"><sup>1</sup></a>. when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
  To make the process easier, I added keyboard shortcuts:
 
 ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
@@ -42,7 +42,7 @@ Currently scanning the QR code to see the highlights will only work Android.
 
 ### **What are Text Fragments?** 
 
-<block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
+<block class="fragd"><a class="foot" id="fragment"><sup>[1]</sup></a> Text Fragment: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 </block>
 
 >    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](HTTPS://web.dev)	
