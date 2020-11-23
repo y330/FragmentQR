@@ -157,6 +157,7 @@ Chrome 87 on iOS has some new, albeit unfunctional options in chrome://flags for
 ## More Info
 
 [view source code](/FragmentQR)
+Come back later to see more organized source code
 
 [FragmentQR website](https://y330.github.io/FragmentQR)
 
