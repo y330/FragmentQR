@@ -5,7 +5,7 @@
    
 # *Yonah Aviv*
 
-![fragmentQR2Logo](/../../qr-code (2).png)
+![fragmentQR2Logo](FragmentedQR 2/img/qr-code (2).png)
 **FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
 
 
