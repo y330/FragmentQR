@@ -65,7 +65,7 @@ the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/
 Examples of Chromium browsers include MS Edge and Google Chrome.
 
 **Update:**
-Chrome 87 on iOS has some new, albeit unfunctional options in chrome://flags for text fragments.
+Chrome 87 on iOS has some new options in chrome://flags for text fragments, albeit nonfunctional.
 
 
 |OS |Minimum Browser Version|
