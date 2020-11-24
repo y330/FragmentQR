@@ -109,7 +109,7 @@ If steps 1 or 2 do not work, follow these extra instructions
 Examples of Chromium browsers include MS Edge and Google Chrome.
 
 **Update:**
-Chrome 87 on iOS has some new, albeit unfunctional options in chrome://flags for text fragments.
+Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags for text fragments.
 
 
 |OS |Minimum Browser Version|
