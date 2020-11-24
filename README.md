@@ -87,7 +87,7 @@ Chrome 87 on iOS has some new options in chrome://flags for text fragments, albe
 
 ## Issues and Changelog
 
-### (Unreleased) _Changelog v1.7_
+### _Changelog v1.7_
 1. Fixed Issue # 5: QR now update automatically when typing in the text box
 2. Revamped options page
 3. minor fixes
