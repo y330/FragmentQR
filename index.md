@@ -31,7 +31,7 @@ FragmentQR adds a an option to the context menu to copy a text fragment<a href="
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
-Currently scanning the QR code to see the highlights will only work Android.
+Currently scanning the QR code to see the highlights will only work Android. **See update**
 ### Other Features
 
 + Automatically Generate QR for current tab when opening extension popup
@@ -131,7 +131,7 @@ Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags fo
 
 ## Issues and Changelog
 
-### (Unreleased) _Changelog v1.7_
+### (Latest) _Changelog v1.7_
 1. Fixed Issue # 5: QR now update automatically when typing in the text box
 2. Revamped options page
 3. minor fixes
