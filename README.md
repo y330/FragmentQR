@@ -5,6 +5,16 @@
    
 # *Yonah Aviv*
 
+
+
+  
+
+
+  
+## 11/26/2020 Notice: Changes to FragmentQR coming soon!
+A big changes are coming to FragmentQR: It will be rebuilt almost entirely in JavaScript. Essentially, the major change is switching from HTML/CSS/JS to a more modern JavaScript framework, and it will make updating FragmentQR and adding new features much easier.
+**Stay tuned**
+
 <img src="FragmentedQR 2/img/qr-code (2).png" width ="200px" alt="FragmentQR v2.0 Logo">
 
 **FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
