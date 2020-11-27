@@ -76,7 +76,7 @@
 			if (!("fragmentDirective" in Location.prototype)) {
 				await polyfillTextFragments();
 			}
-			await injectContentScript("content_script.js");
+			await injectContentScript("js/content_script.js");
 			browser.tabs.query(
 				{
 					active: true,
@@ -93,7 +93,7 @@
 		if (!("fragmentDirective" in Location.prototype)) {
 			await polyfillTextFragments();
 		}
-		await injectContentScript("content_script.js");
+		await injectContentScript("js/content_script.js");
 		startProcessing(tab);
 	});
 

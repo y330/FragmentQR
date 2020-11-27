@@ -29,6 +29,7 @@ let onSettingsSubmit = (e) => {
     document.querySelector('#message2').textContent = 'Setting saved!';
 
     // check if dark mode is enabled
+    // lol has no effect on actual theme yet.
     if (dark_mode) document.body.classList.add('light');
     else document.body.classList.remove('light');
   });
@@ -37,7 +38,7 @@ let onSettingsSubmit = (e) => {
 
 document.querySelector('#config').onsubmit = onSettingsSubmit;
 
-
+// because an protected pages like href=chrom://extension/configureCommands are not permitted in chrome
 let onKeyboardShortcuts = (e) => {
   e.preventDefault();
   chrome.tabs.create({ url: 'chrome://extensions/configureCommands' });

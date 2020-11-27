@@ -21,8 +21,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.*/
 
 "use strict";
-
+//  func
 $(function () {
+    // encode the QR code. this is a mess
     function a(e) {
         $("#qr").html(""), $("#qr").qrcode(e);
 
@@ -44,10 +45,11 @@ $(function () {
                     (l = t.getSeconds().toString()),
                     o + n + a + i + r + l),
             d = $("canvas")[0].toDataURL();
-        // download
+        // download button
         $(".download").attr("href", d),
             $(".download").attr("download", "qr-" + s + "-" + c + ".png");
     }
+    //  set theme based on the user settings from options page(not working)
     class FragmentQR {
         initQuickSettings() {
             this.chrome.storage.sync.get(['dark_mode'], (items) => {
@@ -70,7 +72,7 @@ $(function () {
         }
 
     }
-
+    //
     function i(e) {
         $(".alert").html(e).show();
 
@@ -78,7 +80,7 @@ $(function () {
             $(".alert").slideUp(400);
         }, 3e3);
     }
-
+    //
     function l() {
         var e = localStorage.getItem("qrcodeextensions12345");
 
@@ -90,7 +92,7 @@ $(function () {
 
         return !1;
     }
-
+    //non functional feature(records history of tabs) see FragmentQR 2 for this feature to work
     function n(e, t) {
         var o = l(),
             n = [];
@@ -150,8 +152,7 @@ $(function () {
     var elText = document.getElementById("text");
     var elPaste = document.getElementById("paste");
     var tabUrl;
-    var code;
-
+    // paste into text area
     function pasteAct(tab) {
         tabUrl = tab.url;
         elText.value = tabUrl;
@@ -198,30 +199,29 @@ $(function () {
 
         $("#qr").qrcode(p), d.val(p);
     }
-    //expansion
+    //expansion mode(click QR canvas)
     $(document).on("click", "#qr", function () {
         $(".contets").hasClass("expansion") ?
             $(".contets").removeClass("expansion") :
             $(".contets").addClass("expansion");
     }),
-        //textarea keydown
+        //textarea update QR on type
         $("textarea").on("keydown", function () {
             clearTimeout(t),
                 (t = setTimeout(function () {
                     var e = $("textarea").val().toString();
 
-                    e.match(/[\u30a0-\u30ff\u3040-\u309f\u3005-\u3006\u30e0-\u9fcf]/) ?
-                        (console.log("JP", e), a((e = Encoding.convert(e, "SJIS")))) :
+                    e.match(/[\u30a0-\u30ff\u3040-\u309f\u3005-\u3006\u30e0-\u9fcf]/)
                         (console.log("EN", e), a(encodeURI(e))),
                         $("textarea").removeClass("bit-mode");
                 }, 300)),
                 $(".undo").show();
         }),
-        //textarea click
+        //textarea click effect
         $("textarea").on("click", function () {
             $(this).addClass("click-open");
         }),
-        //undo
+        //clear textarea
         $(".undo").on("click", function () {
             $("textarea").val(r),
                 a(encodeURI($("textarea").val())),
@@ -232,7 +232,7 @@ $(function () {
                     $(".undo").hide();
                 }, 300));
         }),
-        //copy
+        //copy text
         $(".copy").on("click", function () {
             !(function (e) {
                 var t = document.createElement("div"),
@@ -253,14 +253,16 @@ $(function () {
             })($("textarea").val()) ?
                 i("ERROR! Please retry.") : i("COPIED");
         }),
+        // set theme button icon
         $("button.bright").html("<i class='material-icons'>brightness_3</i>"),
-        //bright
+        //toggle theme
         $(".bright").on("click", function () {
             $("*").toggleClass("light"),
                 $("button.bright").hasClass("light") ?
                     $(this).html("<i class='material-icons'>brightness_3</i>") :
                     $(this).html("<i class='material-icons'>brightness_7</i>");
         }),
+        // insert version number into header of popup
         $(".header").on("click", function () {
             $(".auth").slideToggle(200, function () {
                 clearTimeout(t),
@@ -270,18 +272,22 @@ $(function () {
                         100);
             });
         }),
+        // go to website button
         $(".webs").on("click", function () {
             $(".rr").toggle(function () {
                 $(".rr").html("<a class='rr' href='#' target='_blank'>Go to Website</a>")
             })
 
         }),
+        //unused i think
         $(".rr").on("click", function () {
             window.open(
                 "http://bit.ly/FragmentQRrepository",
                 "_blank"
             );
         }),
+
+        // not in use
         new PerfectScrollbar(".history-list", {}),
         new PerfectScrollbar(".contets", {}),
         new PerfectScrollbar(".contets_inline", {});
