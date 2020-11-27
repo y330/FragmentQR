@@ -20,12 +20,6 @@
 Big changes are coming to FragmentQR: It will be rebuilt almost entirely in JavaScript. Essentially, the major change is switching from HTML/CSS/JS to a more modern JavaScript framework, and it will make updating FragmentQR and adding new features much easier.
 **Stay tuned**
 
-### New Logo for FragmentQR 2:
-
-<img src="../FragmentedQR 2/img/qr-code (2).png" width ="85px" alt="FragmentQR v2.0 Logo">
-
-### Current Logo for FragmentQR:
-
 <img src="../FragmentQR/img/512.png" width ="85px" alt="FragmentQR v2.0 Logo">
 
 
