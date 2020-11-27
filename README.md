@@ -5,11 +5,39 @@
    
 # *Yonah Aviv*
 
-<img src="FragmentedQR 2/img/qr-code (2).png" width ="200px" alt="FragmentQR v2.0 Logo">
-
-**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
 
 
+  
+
+
+Notice:  V1.7 seems to not work when trying to copy text fragments. WIll fix in next release.
+
+
+**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this): You may need to open this page a few times for it to work](https://example.com/#:~:text=this,-domain%20in)** 
+
+## 11/26/2020 Notice: Changes to FragmentQR coming soon!
+*When implemented, see FragmenrQR 2* (not yet implemented)
+
+Big changes are coming to FragmentQR: It will be rebuilt almost entirely in JavaScript. Essentially, the major change is switching from HTML/CSS/JS to a more modern JavaScript framework, and it will make updating FragmentQR and adding new features much easier.
+**Stay tuned**
+
+### New Logo for FragmentQR 2:
+
+<img src="FragmentedQR 2/img/qr-code (2).png" width ="85px" alt="FragmentQR v2.0 Logo">
+
+### Current Logo for FragmentQR:
+
+<img src="FragmentQR/img/512.png" width ="85px" alt="FragmentQR v2.0 Logo">
+
+
+
+
+
+
+
+
+
+***Update for text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. Once it does, it could make this extension faster and in turn make your experience better.*
 
 ### What does FragmentQR do?
 
@@ -30,6 +58,7 @@ Currently scanning the QR code to see the highlights will only work Android.
 + Popup can be made larger
 + Button to download QR as png
 + Material design
+
  
 <hr width=50%>
 
@@ -58,49 +87,14 @@ the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/
 
 <hr width=50%>
 
-## Tutorial
 
-<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
-
-To learn how to QR encode text fragments using FragmentQR, you can examine the infographic above, or, read on:
-
-### Instructions
-
- <ol>
-  <li>Select text</li>
-  <li>Ctrl/Cmd + Shift + L to copy the text fragment. your selected text fragment should be highlighted in yellow.</li>
-  <li>Ctrl/Cmd+Q to open the extension popup</li>
-  <li>Click the paste button</li>
-  <li>Scan it on your mobile device or just share the link in your clipboard for that particalar text to be scrolled into view and highlighted in yellow.</li>
- </ol>
- 
-If steps 1 or 2 do not work, follow these extra instructions
-
-1. Select the link below
-
-```chrome://extensions/configureCommands``` 
-
-2. Drag into address bar to open the extension shortcuts page
-3. Configure keyboard shortcuts for FragmentQR
-  
-
-### Demo of Using FragmentQR(Old)
-
-[ 
-![
-](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
-](http://bit.ly/youtubeFragQR)
-
-
-
-## FAQ
 
 ### **What browsers/platforms are compatible with Text Fragments?**
 - Check browser compatibility in the table below. Note: these are the browsers cab use the scroll to text fragment feature. This extension is still available on all Chromium browsers and works great as a regular QR code generator.
 Examples of Chromium browsers include MS Edge and Google Chrome.
 
 **Update:**
-Chrome 87 on iOS has some new, albeit unfunctional options in chrome://flags for text fragments.
+Chrome 87 on iOS has some new options in chrome://flags for text fragments, albeit nonfunctional.
 
 
 |OS |Minimum Browser Version|
@@ -122,7 +116,7 @@ Chrome 87 on iOS has some new, albeit unfunctional options in chrome://flags for
 
 ## Issues and Changelog
 
-### (Unreleased) _Changelog v1.7_
+### _Changelog v1.7_
 1. Fixed Issue # 5: QR now update automatically when typing in the text box
 2. Revamped options page
 3. minor fixes
