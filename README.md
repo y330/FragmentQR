@@ -167,7 +167,7 @@ This extension uses some code from Google’s <a href="https://chrome.google.com
  <img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" />
 </a>
 
-Disclaimer: Scroll-to-text-fragment is made by Google and not provided by FragmentQR
+Disclaimer: Scroll-to-text-fragment is a feature native to Google Chrome and not provided by FragmentQR. FragmentQR only utilizes this feature.
 
 <b>Copyright 2020 Yonah Aviv.</b>
 This project is licensed under the terms of the MIT license.
