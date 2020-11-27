@@ -20,7 +20,7 @@
 Big changes are coming to FragmentQR: It will be rebuilt almost entirely in JavaScript. Essentially, the major change is switching from HTML/CSS/JS to a more modern JavaScript framework, and it will make updating FragmentQR and adding new features much easier.
 **Stay tuned**
 
-<img src="../FragmentQR/img/512.png" width ="85px" alt="FragmentQR v2.0 Logo">
+<img src="FragmentQR/img/512.png" width ="85px" alt="FragmentQR Logo">
 
 
 
@@ -167,8 +167,7 @@ This extension uses some code from Google’s <a href="https://chrome.google.com
  <img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" />
 </a>
 
-Disclaimer: Please note this extension is NOT made by Google and is made by an independent developer. All copyrights belong to their respective owners. Google doesn’t endorse or sponsor this Chrome extension. FragmentQR is not owned by, is not licensed by and is not a subsidiary of Google Inc.
-
+Disclaimer: Scroll-to-text-fragment is made by Google and not provided by FragmentQR
 
 <b>Copyright 2020 Yonah Aviv.</b>
 This project is licensed under the terms of the MIT license.
