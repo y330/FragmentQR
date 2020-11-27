@@ -10,7 +10,6 @@
   
 
 
-Notice:  V1.7 seems to not work when trying to copy text fragments. WIll fix in next release.
 
 
 **FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this): You may need to open this page a few times for it to work](https://example.com/#:~:text=this,-domain%20in)** 
@@ -116,10 +115,17 @@ Chrome 87 on iOS has some new options in chrome://flags for text fragments, albe
 
 ## Issues and Changelog
 
+### _Changelog v1.7.1_
+
+   - [X] Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](https://github.com/y330/FragmentQR/issues/9)
+
+
 ### _Changelog v1.7_
+
 1. Fixed Issue # 5: QR now update automatically when typing in the text box
 2. Revamped options page
 3. minor fixes
+
 
 ### _Changelog v1.6_
 
