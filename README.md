@@ -39,7 +39,7 @@ Currently scanning the QR code to see the highlights will only work Android.
 + Light and dark themes
 + Popup can be made larger
 + Button to download QR as png
-+ Material design
++ Material designB
  
 <hr width=50%>
 
