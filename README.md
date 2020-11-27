@@ -37,7 +37,7 @@ Big changes are coming to FragmentQR: It will be rebuilt almost entirely in Java
 
 
 
-***Update for iOS:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. Once it does, it could make this extension faster and in turn make your experience better.*
+***Update for text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. Once it does, it could make this extension faster and in turn make your experience better.*
 
 ### What does FragmentQR do?
 
