@@ -22,11 +22,11 @@ Big changes are coming to FragmentQR: It will be rebuilt almost entirely in Java
 
 ### New Logo for FragmentQR 2:
 
-<img src="FragmentedQR 2/img/qr-code (2).png" width ="85px" alt="FragmentQR v2.0 Logo">
+<img src="../FragmentedQR 2/img/qr-code (2).png" width ="85px" alt="FragmentQR v2.0 Logo">
 
 ### Current Logo for FragmentQR:
 
-<img src="FragmentQR/img/512.png" width ="85px" alt="FragmentQR v2.0 Logo">
+<img src="../FragmentQR/img/512.png" width ="85px" alt="FragmentQR v2.0 Logo">
 
 
 
@@ -176,5 +176,5 @@ This extension uses some code from Google’s <a href="https://chrome.google.com
 Disclaimer: Please note this extension is NOT made by Google and is made by an independent developer. All copyrights belong to their respective owners. Google doesn’t endorse or sponsor this Chrome extension. FragmentQR is not owned by, is not licensed by and is not a subsidiary of Google Inc.
 
 
-<b>© 2020 MIT license Yonah Aviv.</b>
-
+<b>Copyright 2020 Yonah Aviv.</b>
+This project is licensed under the terms of the MIT license.
