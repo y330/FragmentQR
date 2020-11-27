@@ -10,16 +10,23 @@
   
 
 
-  
+Notice:  V1.7 seems to not work when trying to copy text fragments. WIll fix in next release.
+
 ## 11/26/2020 Notice: Changes to FragmentQR coming soon!
-A big changes are coming to FragmentQR: It will be rebuilt almost entirely in JavaScript. Essentially, the major change is switching from HTML/CSS/JS to a more modern JavaScript framework, and it will make updating FragmentQR and adding new features much easier.
+*When implemented, see FragmenrQR 2* (not yet implemented)
+
+Big changes are coming to FragmentQR: It will be rebuilt almost entirely in JavaScript. Essentially, the major change is switching from HTML/CSS/JS to a more modern JavaScript framework, and it will make updating FragmentQR and adding new features much easier.
 **Stay tuned**
 
-<img src="FragmentedQR 2/img/qr-code (2).png" width ="200px" alt="FragmentQR v2.0 Logo">
+### New Logo for FragmentQR 2:
+<img src="FragmentedQR 2/img/qr-code (2).png" width ="85px" alt="FragmentQR v2.0 Logo">
+### Current Logo for FragmentQR:
+<img src="FragmentQR/img/512.png" width ="85px" alt="FragmentQR v2.0 Logo">
 
-**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
 
-***Update:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. Once it does, it could make this extension faster and in turn make your experience better.*
+**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this): You may need to open this page a few times for it to work](https://example.com/#:~:text=this,-domain%20in)** 
+
+***Update for iOS:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. Once it does, it could make this extension faster and in turn make your experience better.*
 
 ### What does FragmentQR do?
 
@@ -39,7 +46,8 @@ Currently scanning the QR code to see the highlights will only work Android.
 + Light and dark themes
 + Popup can be made larger
 + Button to download QR as png
-+ Material designB
++ Material design
+
  
 <hr width=50%>
 
