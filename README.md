@@ -1,26 +1,12 @@
 # FragmentQR Chrome Extension
+ <img src="FragmentQR/img/512.png" width ="85px" alt="FragmentQR Logo">
  <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
 </a>
-   
+
 # *Yonah Aviv*
 
-
-
-  
-
-
-
-
-**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this): You may need to open this page a few times for it to work](https://example.com/#:~:text=this,-domain%20in)** 
-
-## 11/26/2020 Notice: Changes to FragmentQR coming soon!
-*When implemented, see FragmenrQR 2* (not yet implemented)
-
-Big changes are coming to FragmentQR: It will be rebuilt almost entirely in JavaScript. Essentially, the major change is switching from HTML/CSS/JS to a more modern JavaScript framework, and it will make updating FragmentQR and adding new features much easier.
-**Stay tuned**
-
-<img src="FragmentQR/img/512.png" width ="85px" alt="FragmentQR Logo">
+**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this): You may need to open this page a few times for it to work](https://example.com/#:~:text=You%20may%20use%20this%20domain%20in%20literature%20without%20prior%20coordination)** 
 
 
 
@@ -30,7 +16,8 @@ Big changes are coming to FragmentQR: It will be rebuilt almost entirely in Java
 
 
 
-***Update for text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. Once it does, it could make this extension faster and in turn make your experience better.*
+
+
 
 ### What does FragmentQR do?
 
@@ -42,6 +29,7 @@ FragmentQR adds a an option to the context menu to copy a text fragment when sel
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
 Currently scanning the QR code to see the highlights will only work Android.
+
 ### Other Features
 
 + Automatically Generate QR for current tab when opening extension popup
@@ -55,10 +43,12 @@ Currently scanning the QR code to see the highlights will only work Android.
  
 <hr width=50%>
 
+***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
+
 ### **What are Text Fragments?** 
 
-<block class="fragd"><a class="foot" name="myfootnote1"><sup>[1]</sup></a> **Text Fragment** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
-</block>
+**[Text Fragment](https://wicg.github.io/scroll-to-text-fragment/)** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor. 
+
 
 >    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](HTTPS://web.dev)	
 
@@ -150,7 +140,7 @@ Chrome 87 on iOS has some new options in chrome://flags for text fragments, albe
 
 ## More Info
 
-[view source code](/FragmentQR)
+[View source code](/FragmentQR)
 Come back later to see more organized source code
 
 [FragmentQR website](https://y330.github.io/FragmentQR)
@@ -167,7 +157,7 @@ This extension uses some code from Google’s <a href="https://chrome.google.com
  <img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" />
 </a>
 
-Disclaimer: Scroll-to-text-fragment is a feature native to Google Chrome and not provided by FragmentQR. FragmentQR only utilizes this feature.
+Disclaimer: Text fragments is not owned by FragmentQR
 
 <b>Copyright 2020 Yonah Aviv.</b>
 This project is licensed under the terms of the MIT license.
