@@ -8,7 +8,7 @@
 
  -----
 
-**FragmentQR is a Chrome extension that makes sharing selected text on a webpage and copying it as a text fragment to generate a QR code for it, that will highlight 
+**FragmentQR is a Chrome extension that simplifies linking to certain text on a webpage by letting you select text and copy it as a text fragment to generate a QR code for it, that will highlight 
 the text in yellow when scanned. [Like this](https://example.com/#:~:text=use%20in%20illustrative%20examples%20in%20documents.%20You%20may%20use%20this%20domain%20in%20literature%20without)**
 
 
