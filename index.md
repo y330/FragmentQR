@@ -6,17 +6,25 @@ title: FragmentQR
 
 <style> .frag:{background-color: yellow; color: black;}</style>
 
-# FragmentQR Chrome Extension
-<a href="https://bit.ly/FragmentQRrepository" class="btn" title="View this page in FragmentQR's GitHub Reository" passing="0">
-    <img src="https://github.com/y330/FragmentQR/blob/master/FragmentedQR%202/img/qr-code%20(2).png?raw=true" width ="110" alt="FragmentQR v2.0 Logo">
- </a>
- <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
-</a>
+<!--> # FragmentQR Chrome Extension
+        <a href="https://bit.ly/FragmentQRrepository" class="btn" title="View this page in FragmentQR's GitHub Reository" passing="0">
+            <img src="https://github.com/y330/FragmentQR/blob/master/FragmentedQR%202/img/qr-code%20(2).png?raw=true" width ="110" alt="FragmentQR v2.0 Logo">
+         </a>
+         <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
+        <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
+        </a>
+<-->
 
-   
 # *Yonah Aviv*
 
+ -----
+
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
+  <img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/512.png?raw=true" width ="110px" alt="FragmentQR Logo">
+   <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
+</a>
+
+----  
 
 **FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this)](https://example.com/#:~:text=this,-domain%20in)** 
 
@@ -24,14 +32,15 @@ title: FragmentQR
 
 ### What does FragmentQR do?
 
-FragmentQR adds a an option to the context menu to copy a text fragment<a href="#fragnment"><sup>1</sup></a>. when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
+FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
  To make the process easier, I added keyboard shortcuts:
 
 ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
-Currently scanning the QR code to see the highlights will only work Android. **See update**
+Currently scanning the QR code to see the highlights will only work Android.
+
 ### Other Features
 
 + Automatically Generate QR for current tab when opening extension popup
@@ -41,18 +50,24 @@ Currently scanning the QR code to see the highlights will only work Android. **S
 + Popup can be made larger
 + Button to download QR as png
 + Material design
+
  
+<hr width=50%>
+
+***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
 
 ### **What are Text Fragments?** 
 
-<block class="fragd"><a class="foot" id="fragment"><sup>[1]</sup></a> Text Fragment: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
-</block>
+**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor. 
 
->    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](HTTPS://web.dev)	
 
-The text fragment can be specified in the fragment(```#```) directive of the URL after ```:~:text=```, and it will be highlighted in yellow when opened.
+>    "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<sup>[[1]](#ref_frag)</sup>
 
-Syntax: ```https://foo.bar/#:~:text=textfragment```
+
+Syntax: ```https://foo.bar/#:~:text=yourtext```
+
+The text fragment can be specified in the fragment directive, which will always be after in the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) of the URL, after `#`. The fragment directive delimiter is the following string: ```:~:```. You can specify ```text=yourtext``` after it and in some browsers, such as Google Chrome, ```yourtext``` will be scrolled into view and highlighted, when opened.
+
 
 Example:
 
@@ -60,9 +75,11 @@ Example:
 %20of%20random%20phenomena%20include%20the,
 the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
 
- In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
+The aforementioned link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
+> Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
 
+Chromium 80 and above uses text fragments in a feature called <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. Text fragments may be owned by W3C or WICG.
 
 
 
@@ -108,19 +125,25 @@ If steps 1 or 2 do not work, follow these extra instructions
 - Check browser compatibility in the table below. Note: these are the browsers cab use the scroll to text fragment feature. This extension is still available on all Chromium browsers and works great as a regular QR code generator.
 Examples of Chromium browsers include MS Edge and Google Chrome.
 
-**Update:**
-Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags for text fragments.
 
 
 |OS |Minimum Browser Version|
 |--|--|
 |Android| Chrome 85, Android WebView 81|
-|Windows|Chromium 80(i.e. Chrome,MS Edge, Opera etc.)|
+|Windows|Chromium 80(i.e. Chrome, MS Edge, Opera, etc.)|
 |Linux| Chromium 80| 
 |Mac OS X| Chromium 80|
+|iOS| None :P|
 
-<a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
+**Update:**
+Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags for text fragments.
+
+<a href="https://bit.ly/can_i_use_text_frags" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
+
+
+**Update:**
+Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags for text fragments.
 
 
 ### **Why does the QR code not scroll or highlight anything on my iPhone?**
@@ -129,12 +152,20 @@ Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags fo
 
 
 
+
 ## Issues and Changelog
 
-### (Latest) _Changelog v1.7_
+### _Changelog v1.7.1_
+
+   - [X] Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](https://github.com/y330/FragmentQR/issues/9)
+
+
+### _Changelog v1.7_
+
 1. Fixed Issue # 5: QR now update automatically when typing in the text box
 2. Revamped options page
 3. minor fixes
+
 
 ### _Changelog v1.6_
 
@@ -159,30 +190,40 @@ Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags fo
  
 ### TODO
 
-  - [ ] combine all the steps to into one keyboard shortcut
+  - [ ] Rewrite the whole thing using a JavaScript framework, probably with Vuejs. Not sure yet.
+  - [ ] Better version control(already started this; check releases tab)
 
 ----
 
 ## More Info
-
-[view source code](/FragmentQR)
-
-[FragmentQR website](https://y330.github.io/FragmentQR)
-
-Article on Text Fragments: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+### References
+ 1. <sup id="ref_frag">[1]</sup> Burris, N., &amp; Bokan, D. (Eds.). (2020, November 24). Scroll-to-text-fragment. Retrieved November 28, 2020, from https://wicg.github.io/scroll-to-text-fragment/
  
-Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60) 
+### Links
 
-[![](https://static.wixstatic.com/media/e008b0_e8d0e3d448f44d3fb0032c03ec667ffb~mv2.png/v1/fill/w_80,h_80,al_c/e008b0_e8d0e3d448f44d3fb0032c03ec667ffb~mv2.png)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1) Get it on the Chrome Web Store
-
-This extension uses some code from Google’s <a href="https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg?hl=en">Link to text fragment</a> Chrome extension.
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url">
- <img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" />
-</a>
-
-Disclaimer: Please note this extension is NOT made by Google and is made by an independent developer. All copyrights belong to their respective owners. Google doesn’t endorse or sponsor this Chrome extension. FragmentQR is not owned by, is not licensed by and is not a subsidiary of Google Inc.
+[**View source code**](/FragmentQR): I added some basic comments to some of the .js files so feel free to check them out.
 
 
-<b>© 2020 MIT license Yonah Aviv.</b>
+[**FragmentQR Repository(or just click the green button at the top)**](https://bit.ly/FragmentedQRrepository): It's useful. Go check it out.
 
+**Article**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+
+Similar extensions: 
+ 1. [Link to text fragment](https://bit.ly/LinktoTextFragmentUnofficialshortURL)
+ 2. [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
+
+
+ ----
+ 
+Report an [issue 🐞](https://bit.ly/issue_long) or Suggest a [new feature 🔮](https://bit.ly/suggest_fragQR) 
+
+
+[![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931) Install FragmentQR](https://bit.ly/GetFragmentedQR) on the Chrome Web Store
+
+---- 
+
+_Disclaimer: Text fragments is not owned by FragmentQR_
+
+
+ 
+**Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
