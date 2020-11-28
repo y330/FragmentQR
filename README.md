@@ -46,12 +46,12 @@ Currently scanning the QR code to see the highlights will only work Android.
 
 ### **What are Text Fragments?** 
 
-**[Text Fragment](https://wicg.github.io/scroll-to-text-fragment/)** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor. 
+**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor. 
 
 
->    "Text Fragments let you specify a text snippet in the URL fragment. When navigating to a URL with such a text fragment, the browser can emphasize and/or bring it to the user's attention." [Web Developers](HTTPS://web.dev)	
+>    "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<sup id="ref_frag">[1]</sup>
 
-The text fragment can be specified in the fragment(```#```) directive of the URL after ```:~:text=```, and it will be highlighted in yellow when opened.
+The text fragment can be specified in the fragment directive(```#```) of the URL like an anchor. However it needs to be after ```:~:text=```, and it will be highlighted in yellow when opened.
 
 Syntax: ```https://foo.bar/#:~:text=textfragment```
 
@@ -61,7 +61,11 @@ Example:
 %20of%20random%20phenomena%20include%20the,
 the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
 
- In Chromium 80+, this feature is known as <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>.
+The aforementioned link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
+> Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
+
+
+Chromium 80 and above uses text fragments in a feature called <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. Text fragments may be owned by W3C or WICG.
 
 
 
