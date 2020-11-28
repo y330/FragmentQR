@@ -6,12 +6,7 @@ title: FragmentQR
 
 <style> .frag:{background-color: yellow; color: black;}</style>
 # FragmentQR Chrome Extension
-        <a href="https://bit.ly/FragmentQRrepository" class="btn" title="View this page in FragmentQR's GitHub Reository" passing="0">
-            <img src="https://github.com/y330/FragmentQR/blob/master/FragmentedQR%202/img/qr-code%20(2).png?raw=true" width ="110" alt="FragmentQR v2.0 Logo">
-         </a>
-         <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-        <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
-        </a>
+
 
 ###### *Yonah Aviv*
 
