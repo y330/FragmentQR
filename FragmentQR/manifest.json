@@ -1,11 +1,11 @@
 {
   "name": "FragmentQR",
-  "version": "1.7",
+  "version": "1.7.1",
   "manifest_version": 2,
   "minimum_chrome_version": "80",
   "author": "Yonah Aviv",
   "short_name": "FragmentQR",
-  "description": "Free chrome extension to copy and generate QR codes for text fragments from selected text",
+  "description": "Copy text fragments and generate QR codes for them, using the user's selected text on a webpage.",
   "background": {
     "persitent": false,
     "scripts": ["js/background_script.js"]
@@ -29,7 +29,7 @@
   "browser_action": {
     "default_title": "FragmentQR - Open popup and generate QR for current tab",
     "default_icon": {
-      "64": "img/64.png"
+      "128": "img/128.png"
     },
     "default_popup": "popup.html"
   },
