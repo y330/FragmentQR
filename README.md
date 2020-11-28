@@ -91,6 +91,7 @@ Chrome 87 on iOS has some new options in chrome://flags for text fragments, albe
 |Windows|Chromium 80(i.e. Chrome,MS Edge, Opera etc.)|
 |Linux| Chromium 80| 
 |Mac OS X| Chromium 80|
+|iOS|None :P|
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
