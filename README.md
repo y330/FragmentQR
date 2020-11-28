@@ -46,14 +46,16 @@ Currently scanning the QR code to see the highlights will only work Android.
 
 ### **What are Text Fragments?** 
 
-**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)** : Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor. 
+**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor. 
 
 
->    "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<sup id="ref_frag">[1]</sup>
+>    "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<sup>[[1]](#ref_frag)</sup>
 
-The text fragment can be specified in the fragment directive(```#```) of the URL like an anchor. However it needs to be after ```:~:text=```, and it will be highlighted in yellow when opened.
 
-Syntax: ```https://foo.bar/#:~:text=textfragment```
+Syntax: ```https://foo.bar/#:~:text=yourtext```
+
+The text fragment can be specified in the fragment directive, which will always be after in the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) of the URL, after `#`. The fragment directive delimiter is the following string: ```:~:```. You can specify ```text=yourtext``` after it and in some browsers, such as Google Chrome, ```yourtext``` will be scrolled into view and highlighted, when opened.
+
 
 Example:
 
@@ -143,15 +145,17 @@ Chrome 87 on iOS has some new options in chrome://flags for text fragments, albe
 ----
 
 ## More Info
-
+### References
+ 1. <sup id="ref_frag">[1]</sup> Burris, N., &amp; Bokan, D. (Eds.). (2020, November 24). Scroll-to-text-fragment. Retrieved November 28, 2020, from https://wicg.github.io/scroll-to-text-fragment/
+ 
 ### Links
 
-[**View source code**](/FragmentQR) 
-> I added some basic comments to some of the .js files so feel free to check them out.
+[**View source code**](/FragmentQR): I added some basic comments to some of the .js files so feel free to check them out.
 
-[**FragmentQR website**](https://y330.github.io/FragmentQR)
 
-Article: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+[**FragmentQR website**](https://y330.github.io/FragmentQR): Includes a visual tutorial on how to use FragmentQR. Go check it out.
+
+**Article**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
 Similar extensions: 
  1. [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
