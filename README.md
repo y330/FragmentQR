@@ -1,22 +1,15 @@
 # FragmentQR Chrome Extension
- <img src="FragmentQR/img/512.png" width ="85px" alt="FragmentQR Logo">
+ ##### *Yonah Aviv*
+
  <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
+  <img src="FragmentQR/img/512.png" width ="105px" alt="FragmentQR Logo">
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
 </a>
 
-# *Yonah Aviv*
+ -----
 
-**FragmentQR is a Chrome extension that makes sharing the relevant parts of a webpage easy by taking selected text and copying it to a text fragment to generate a QR code that will highlight the chosen text from the users selection in yellow[(Like this): You may need to open this page a few times for it to work](https://example.com/#:~:text=You%20may%20use%20this%20domain%20in%20literature%20without%20prior%20coordination)** 
-
-
-
-
-
-
-
-
-
-
+**FragmentQR is a Chrome extension that makes sharing selected text on a webpage and copying it as a text fragment to generate a QR code for it, that will highlight 
+the text in yellow when scanned. [Like this](https://example.com/#:~:text=use%20in%20illustrative%20examples%20in%20documents.%20You%20may%20use%20this%20domain%20in%20literature%20without)**
 
 
 ### What does FragmentQR do?
