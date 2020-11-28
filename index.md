@@ -213,7 +213,7 @@ Similar extensions:
 Report an [issue 🐞](https://bit.ly/issue_long) or Suggest a [new feature 🔮](https://bit.ly/suggest_fragQR) 
 
 
-_[![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/scale-to-width-down/150?cb=20190930194931)Install FragmentQR](https://bit.ly/GetFragmentedQR)_ on the Chrome Web Store
+_[![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/scale-to-width-down/30?cb=20190930194931)Install FragmentQR](https://bit.ly/GetFragmentedQR)_ on the Chrome Web Store
 
 ---- 
 
