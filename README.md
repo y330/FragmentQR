@@ -1,7 +1,3 @@
----
-author: Yonah Aviv
----
-
 # FragmentQR Chrome Extension
  ##### *Yonah Aviv*
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url">
@@ -18,9 +14,9 @@ author: Yonah Aviv
 </a>
 
 ---- 
-**FragmentQR is a Chrome extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like <b class="example">this!</b>
+**FragmentQR is a Chrome extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(check later for "this" to be highlighted)
 
-### Highlight of FragmentQR<sub class="joke">(get it?)</sub>
+### Highlight of FragmentQR
 
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
  To make the process easier, I added keyboard shortcuts:
