@@ -47,7 +47,6 @@ Currently scanning the QR code to see the highlights will only work Android.
 + Material design
 
  
-<hr width=50%>
 
 ***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
 
@@ -81,7 +80,7 @@ Chromium 80 and above uses text fragments in a feature called <a href="https://g
 
 ## Tutorial
 
-<a href="https://bit.ly/GetFragmentedQR" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
+<a href="https://bit.ly/FragmentQRv17_tutorial" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
 
 To learn how to QR encode text fragments using FragmentQR, you can examine the infographic above, or, read on:
 
@@ -104,14 +103,10 @@ If steps 1 or 2 do not work, follow these extra instructions
 2. Drag into address bar to open the extension shortcuts page
 3. Configure keyboard shortcuts for FragmentQR
   
-
-### Demo of Using FragmentQR(Old)
-
-[ 
-![
-](https://lh3.googleusercontent.com/pw/ACtC-3cera_XKIXLjEw9LyZh93DtSKTDoQsyF2aYR0Y_L-PCeMttnP3Gr1OiOIxL4nLN_ltCioZyQMUwizFb2wyZLzytBktmEuWRptUGYOFoChSq_bQpZ_g5TEnbb_ZG__Y0rjNbj2oUiHBPotXUOP6X2NID3g=w212-h112-no?)
-](http://bit.ly/youtubeFragQR)
-
+### _NEW_: Step by Step Video Demonstration of FragmentQR v1.7 
+[Click to watch 
+![Step by Step Demo Video](https://img.youtube.com/vi/MaE4CgMyn9Y/hqdefault.jpg){{align: center}}
+](https://www.youtube.com/watch?v=MaE4CgMyn9Y)
 
 
 ## FAQ
@@ -136,9 +131,6 @@ Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags fo
 
 <a href="https://bit.ly/can_i_use_text_frags" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
-
-**Update:**
-Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags for text fragments.
 
 
 ### **Why does the QR code not scroll or highlight anything on my iPhone?**
