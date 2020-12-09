@@ -11,9 +11,11 @@ title: FragmentQR
 ###### *Yonah Aviv*
 
  -----
-
+ 
+ <img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/512.png?raw=true" width ="110px" alt="FragmentQR Logo">
+ 
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-  <img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/512.png?raw=true" width ="110px" alt="FragmentQR Logo">
+ 
    <img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
 </a>
 
@@ -188,10 +190,10 @@ Chrome 87 on iOS has some new, albeit nonfunctional options in chrome://flags fo
  
 ### Links
 
-[**View source code**](/FragmentQR): I added some basic comments to some of the .js files so feel free to check them out.
+[**View source code**](https://github.com/y330/FragmentQR/FragmentQR): I added some comments and cleaned up the code a bit so feel free to check them out.
 
 
-[**FragmentQR Repository(or just click the green button at the top)**](https://bit.ly/FragmentedQRrepository): It's useful. Go check it out.
+[**FragmentQR Repository**](https://bit.ly/FragmentQRrepository): It's useful. Go check it out.
 
 **Article**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
