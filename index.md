@@ -14,10 +14,7 @@ title: FragmentQR
  
  <img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/512.png?raw=true" width ="110px" alt="FragmentQR Logo">
  
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
- 
-   <img src="https://blog.penningtonpublishing.com/wp-content/uploads/2019/08/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
-</a>
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0"><img src="https://blog.penningtonpublishing.com/wp-content/uploads/2019/08/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore"></a>
 
 ----  
 
