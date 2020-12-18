@@ -1,19 +1,25 @@
 # FragmentQR Chrome Extension
  ##### *Yonah Aviv*
+ 
+ Recently I have been working on the MS edge add-on: [FragmentQR - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+ 
+ I will be adding new features soon.
+ Hint: one step instead of 3
+ 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url">
  <img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" />
 </a>
 
 
-
+<img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64px" alt="FragmentQR Logo">
  -----
- 
-<img src="FragmentQR/img/512.png" width ="110px" alt="FragmentQR Logo">
-
- 
+ <span>
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-    <img src="https://blog.penningtonpublishing.com/wp-content/uploads/2019/08/ChromeWebStore_Badge_v2_496x150.png" width="400px" alt="Available on the Chrome Webstore">
+
+
+<img src="https://www.thiscodeworks.com/images/get-on-chrome.png" width ="110" alt="FragmentQR Logo">
 </a>
+</span>
 
 ---- 
 **FragmentQR is a Chrome extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(check later for "this" to be highlighted)
@@ -75,23 +81,33 @@ Chromium 80 and above uses text fragments in a feature called <a href="https://g
 
 <hr width=50%>
 
+### **Where do I install FragmentQR? **?
+
+Good question. You can install it from the Chrome Web Store or Microsoft Edge Add-ons:
+a. [frome the Chrome Web Store](bit.ly/GetFragmentedQR)
+b. [from Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
-### **What browsers/platforms are compatible with Text Fragments?**
-- Check browser compatibility in the table below. Note: these are the browsers cab use the scroll to text fragment feature. This extension is still available on all Chromium browsers and works great as a regular QR code generator.
-Examples of Chromium browsers include MS Edge and Google Chrome.
+### **What devices and browsers will see the text highlighted in yellow?**
 
-**Update:**
-Chrome 87 on iOS has some new options in chrome://flags for text fragments, albeit nonfunctional.
+*I am not affiliating any of the below browsers with FragmentQR.*
+
+I am not in control of compatibility because I did create and am not affiliated with any browsers or OSs. That being said, for the QR code, Android(check browsers below) works, and iOS doesn't work. For the link that FragmentQR copies, most browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+
+If you cant send the links to someone with a browser mentioned below, FragmentQR still works great as a regular QR code generator(not biased).
 
 
-|OS |Minimum Browser Version|
+
+|Operating System|Browser Version|
 |--|--|
-|Android| Chrome 85, Android WebView 81|
-|Windows|Chromium 80(i.e. Chrome,MS Edge, Opera etc.)|
-|Linux| Chromium 80| 
-|Mac OS X| Chromium 80|
-|iOS|None :P|
+|Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
+|Windows|Microsoft Edge 83, Chrome 80, Opera 68
+|
+|Linux|Microsoft Edge 83, Chrome 80, Opera 68
+| 
+|Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68
+|
+|iOS|N/A. Could come in early 2021.|
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
@@ -105,6 +121,14 @@ Chrome 87 on iOS has some new options in chrome://flags for text fragments, albe
 
 ## Issues and Changelog
 
+
+### _Changelog v1.7.2_
+
+1. Changed options page
+2. New icon
+3. Now available on Microsoft Edge Add-ons
+   
+   
 ### _Changelog v1.7.1_
 
    - [X] Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](https://github.com/y330/FragmentQR/issues/9)
@@ -140,8 +164,9 @@ Chrome 87 on iOS has some new options in chrome://flags for text fragments, albe
  
 ### TODO
 
-  - [ ] Rewrite the whole thing using a JavaScript framework, probably with Vuejs. Not sure yet.
+  - [ ] FragmentQR 2 
   - [ ] Better version control(already started this; check releases tab)
+
 
 ----
 
@@ -174,8 +199,7 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 
 _Disclaimer: Text fragments is not owned by FragmentQR_
 
-Chrome is property of Google inc.
-
+FragmentQR was inspired by Link to Text Fragment by Google.
 
  
 **Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
