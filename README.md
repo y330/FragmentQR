@@ -115,6 +115,7 @@ Link that is copied to clipboard
 
 
 |Scroll to text fragment availability|
+|--|
 |Operating System|Browser Version|
 |--|--|
 |Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
@@ -218,5 +219,5 @@ FragmentQR was inspired by Link to Text Fragment by Google.
  
 **Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDkwNzEyNV19
+eyJoaXN0b3J5IjpbLTMyMDI5NzA0OV19
 -->
