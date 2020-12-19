@@ -90,7 +90,7 @@ Chromium\* 80 and above uses text fragments in a feature called <a href="https:/
 
 Good question. You can install it from the **Chrome Web Store** or **Microsoft Edge Add-ons**:
 
-1. [frome the Chrome Web Store](bit.ly/GetFragmentedQR)
+1. [frome the Chrome Web Store](https://bit.ly/GetFragmentedQR)
 2. [from Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
