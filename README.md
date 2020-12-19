@@ -16,6 +16,14 @@
 </span>
 
 ---- 
+
+ Recently I have been working on the MS edge add-on: [FragmentQR - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+ 
+ I will be adding new features soon.
+
+ 
+ ----
+ 
 **FragmentQR is a chromium extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(check later for "this" to be highlighted)
 
 ### Highlight of FragmentQR
