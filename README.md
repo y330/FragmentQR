@@ -1,18 +1,12 @@
-# FragmentQR Chrome Extension
- ##### *Yonah Aviv*
- 
- Recently I have been working on the MS edge add-on: [FragmentQR - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
- 
- I will be adding new features soon.
- Hint: one step instead of 3
- 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CBYMNSA8XYYY2&item_name=To+continue+doing+whatever+I+am+doing&currency_code=CAD&source=url">
- <img src="https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667" />
-</a>
+# FragmentQR
+ ## *Browser Extension*
+  ### *Yonah Aviv*
 
 
-<img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64px" alt="FragmentQR Logo">
- -----
+ 
+
+
+<img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="128px" alt="FragmentQR Logo">
  <span>
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
 
@@ -81,18 +75,17 @@ Chromium 80 and above uses text fragments in a feature called <a href="https://g
 
 <hr width=50%>
 
-### **Where do I install FragmentQR? **?
+### **Where do I install FragmentQR?**
 
 Good question. You can install it from the Chrome Web Store or Microsoft Edge Add-ons:
-a. [frome the Chrome Web Store](bit.ly/GetFragmentedQR)
-b. [from Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+
+1. [frome the Chrome Web Store](bit.ly/GetFragmentedQR)
+2. [from Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
 ### **What devices and browsers will see the text highlighted in yellow?**
 
-*I am not affiliating any of the below browsers with FragmentQR.*
-
-I am not in control of compatibility because I did create and am not affiliated with any browsers or OSs. That being said, for the QR code, Android(check browsers below) works, and iOS doesn't work. For the link that FragmentQR copies, most browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+This is just me **informing you of diffrent browsers and their compatibility**. **I do not own nor am I affiliated with any said browsers**, and cannot influence any decisions made by these browsers. That being said, for the QR code, Android(check browsers below) works, and iOS doesn't work. For the link that FragmentQR copies, most browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
 
 If you cant send the links to someone with a browser mentioned below, FragmentQR still works great as a regular QR code generator(not biased).
 
@@ -101,12 +94,9 @@ If you cant send the links to someone with a browser mentioned below, FragmentQR
 |Operating System|Browser Version|
 |--|--|
 |Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
-|Windows|Microsoft Edge 83, Chrome 80, Opera 68
-|
-|Linux|Microsoft Edge 83, Chrome 80, Opera 68
-| 
-|Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68
-|
+|Windows|Microsoft Edge 83, Chrome 80, Opera 68|
+|Linux|Microsoft Edge 83, Chrome 80, Opera 68| 
+|Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68|
 |iOS|N/A. Could come in early 2021.|
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
@@ -122,7 +112,7 @@ If you cant send the links to someone with a browser mentioned below, FragmentQR
 ## Issues and Changelog
 
 
-### _Changelog v1.7.2_
+### _Changelog v1.7.2_(released in Edge Add-ons, soon to be released in the web store)
 
 1. Changed options page
 2. New icon
