@@ -16,7 +16,7 @@
 </span>
 
 ---- 
-**FragmentQR is a Chrome extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(check later for "this" to be highlighted)
+**FragmentQR is a chromium extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(check later for "this" to be highlighted)
 
 ### Highlight of FragmentQR
 
@@ -67,17 +67,17 @@ The aforementioned link to [Probability Distribution](https://en.wikipedia.org/w
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
 
-Chromium 80 and above uses text fragments in a feature called <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll-to-Text Fragment</a>. Text fragments may be owned by W3C or WICG.
+Chromium\* 80 and above uses text fragments in a feature called <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
 
 
-
+\* Not to be confused with Google Chrome. Chromium is an open source project that many other browsers are built on including Google Chrome. Two notable browsers also built on chromium are Opera and Microsoft Edge.
 
 
 <hr width=50%>
 
 ### **Where do I install FragmentQR?**
 
-Good question. You can install it from the Chrome Web Store or Microsoft Edge Add-ons:
+Good question. You can install it from the **Chrome Web Store** or **Microsoft Edge Add-ons**:
 
 1. [frome the Chrome Web Store](bit.ly/GetFragmentedQR)
 2. [from Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
@@ -85,9 +85,11 @@ Good question. You can install it from the Chrome Web Store or Microsoft Edge Ad
 
 ### **What devices and browsers will see the text highlighted in yellow?**
 
-This is just me **informing you of diffrent browsers and their compatibility**. **I do not own nor am I affiliated with any said browsers**, and cannot influence any decisions made by these browsers. That being said, for the QR code, Android(check browsers below) works, and iOS doesn't work. For the link that FragmentQR copies, most browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+This is just me *informing you of diffrent browsers and their compatibility*. *I do not own nor am I affiliated with any said browsers*, and cannot influence any decisions made by these browsers. 
 
-If you cant send the links to someone with a browser mentioned below, FragmentQR still works great as a regular QR code generator(not biased).
+That being said, for the QR code, **Android works**(check browsers below), and **iOS doesn't work**. For the link that FragmentQR copies, most browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+
+If you can't send the links or QR code to anybody with a browser mentioned below, FragmentQR still works great as a regular QR code generator(not biased)👍!
 
 
 
@@ -104,9 +106,6 @@ If you cant send the links to someone with a browser mentioned below, FragmentQR
 
 
 ### **Why does the QR code not scroll or highlight anything on my iPhone?**
-+ That feature of scroll to text fragment is not available on Chrome for iOS yet.
-
-
 
 
 ## Issues and Changelog
