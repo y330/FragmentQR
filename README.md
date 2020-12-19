@@ -101,7 +101,7 @@ Since the QR code contains the text fragment link, the QR code and the link are 
 
 > _which browsers and OSs support Scroll to text fragment or a feature similar to it?_
 
-Scroll to text fragment is a feature in Chromium-based browsers<sup>2</sup>. There may be similar features in other browsers.
+Scroll to text fragment is a feature in Chromium-based browsers[<sup>2</sup>]. There may be similar features in other browsers.
 
 
 Mobile operating systems(that support scanning the QR code)
@@ -191,7 +191,7 @@ If you can't send code to anybody with a browser mentioned above, FragmentQR sti
 ## More Info
 ### References
  1. <sup id="ref_frag">[1]</sup> Burris, N., &amp; Bokan, D. (Eds.). (2020, November 24). Scroll-to-text-fragment. Retrieved November 28, 2020, from https://wicg.github.io/scroll-to-text-fragment/
- 2. <sup> id
+ 2. <sup id=ref2>[2]</sup> Chromium\* 80 and above uses text fragments in a feature  <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
  
 ### Links
 
@@ -226,6 +226,6 @@ FragmentQR was inspired by Link to Text Fragment by Google.
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBZb25haCBBdml2XG50YW
 dzOiAnWW9uYWggQXZpdixGcmFnbWVudFFSLCB0ZXh0IGZyYWdt
 ZW50LCBRUiBjb2RlJ1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTgyNTUwNzc0NSwtODk1ODU5
-NTE2LDIxMjA5MDcxMjVdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsyMDQyMDc5MTY0LC04OTU4NTk1
+MTYsMjEyMDkwNzEyNV19
 -->
