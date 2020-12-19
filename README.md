@@ -109,8 +109,8 @@ Mobile operating systems(that support scanning the QR code)
 2. **iOS doesn't work**
 3. **IPadOS to be determined**
 
-Link that is copied to clipboard 
-1. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+All other devices(Link that is copied to clipboard)
+1. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. Lmk if your operating system or
 
 
 
@@ -125,7 +125,8 @@ Link that is copied to clipboard
 
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
-If you  code to anybody with a browser mentioned below, FragmentQR still works great as a regular QR code generator(not biased)👍!
+
+If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased👍)!
 
 
 
@@ -179,7 +180,8 @@ If you  code to anybody with a browser mentioned below, FragmentQR still works g
  
 ### TODO
 
-  - [ ] FragmentQR Pro(Built using React) 
+  - [ ] FragmentQR Pro(Built using React)
+       + Pro meaning new and improved, not paid
   - [ ] Organize code 
   - [ ] Version control 
 ----
@@ -221,6 +223,6 @@ FragmentQR was inspired by Link to Text Fragment by Google.
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBZb25haCBBdml2XG50YW
 dzOiAnWW9uYWggQXZpdixGcmFnbWVudFFSLCB0ZXh0IGZyYWdt
 ZW50LCBRUiBjb2RlJ1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxODE5MjUyNjA2LC04OTU4NTk1
+BnZm1cbiIsImhpc3RvcnkiOlsxNTc5NTI0Nzg4LC04OTU4NTk1
 MTYsMjEyMDkwNzEyNV19
 -->
