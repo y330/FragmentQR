@@ -27,14 +27,15 @@
  
  ----
  
-**FragmentQR is a chromium extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(che
+**FragmentQR is a chromium extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this (later it will work)
 
 ### Highlight of FragmentQR
 
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
- To make the process easier, I added keyboard shortcuts:
+In addition to this keyboard shortcuts are available to preforms the actions.
+The default ones are below:
 
-```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
+```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and clicking ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
@@ -225,6 +226,6 @@ FragmentQR was inspired by Link to Text Fragment by Google.
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBZb25haCBBdml2XG50YW
 dzOiAnWW9uYWggQXZpdixGcmFnbWVudFFSLCB0ZXh0IGZyYWdt
 ZW50LCBRUiBjb2RlJ1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQxNDYyNzA1NiwtODk1ODU5
-NTE2LDIxMjA5MDcxMjVdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsyMTIwMDE2ODM1LC04OTU4NTk1
+MTYsMjEyMDkwNzEyNV19
 -->
