@@ -74,36 +74,44 @@ Example:
 %20of%20random%20phenomena%20include%20the,
 the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
 
-The aforementioned link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
+The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
 
 Chromium\* 80 and above uses text fragments in a feature called <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
 
 
-\* Not to be confused with Google Chrome. Chromium is an open source project that many other browsers are built on including Google Chrome. Two notable browsers also built on chromium are Opera and Microsoft Edge.
-
+\* Not to be confused with Google Chrome. 
 
 <hr width=50%>
 
 ### **Where do I install FragmentQR?**
 
-Good question. You can install it from the **Chrome Web Store** or **Microsoft Edge Add-ons**:
+You can install it from the **Chrome Web Store** or **Microsoft Edge Add-ons**:
 
-1. [frome the Chrome Web Store](https://bit.ly/GetFragmentedQR)
-2. [from Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
-
-
-### **What devices and browsers will see the text highlighted in yellow?**
-
-This is just me *informing you of diffrent browsers and their compatibility*. *I do not own nor am I affiliated with any said browsers*, and cannot influence any decisions made by these browsers. 
-
-That being said, for the QR code, **Android works**(check browsers below), and **iOS doesn't work**. For the link that FragmentQR copies, most browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
-
-If you can't send the links or QR code to anybody with a browser mentioned below, FragmentQR still works great as a regular QR code generator(not biased)👍!
+1. [Install on the Chrome Web Store](https://bit.ly/FQRinstall)
+2. [Install from Microsoft Edge Add-ons](https://bit.ly/FQRinstall_edge)
 
 
+### **What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
 
+*I do not hold the rights nor do I affiliate myself with any of these browsers. 
+
+Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
+
+> _which browsers and OSs support Scroll to text fragment or a feature similar to it?_.
+
+
+No browsers 
+On mobile operating systems(that support scanning the QR code), 
+1. **Android works**(check browsers below)
+2. **iOS doesn't work**
+3. For the text fragment link, most =chromium=browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+
+
+
+|Scroll to text fragment availability| 
+|--|
 |Operating System|Browser Version|
 |--|--|
 |Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
@@ -112,21 +120,25 @@ If you can't send the links or QR code to anybody with a browser mentioned below
 |Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68|
 |iOS|N/A. Could come in early 2021.|
 
+
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
+If you  code to anybody with a browser mentioned below, FragmentQR still works great as a regular QR code generator(not biased)👍!
 
-
-
-### **Why does the QR code not scroll or highlight anything on my iPhone?**
 
 
 ## Issues and Changelog
 
+### Known issues
 
-### _Changelog v1.7.2_(released in Edge Add-ons, soon to be released in the web store)
+ - Still searching 🔍
+   + Help find issues by installing and testing FragmentQR. If you find an issue, post it in the [support tab](https://bit.ly/FQRinstall) on the Web Store
+
+### _Changelog v1.7.2_(Pending approval on both extension stores)
 
 1. Changed options page
 2. New icon
 3. Now available on Microsoft Edge Add-ons
+4. Updated description 
    
    
 ### _Changelog v1.7.1_
@@ -164,10 +176,9 @@ If you can't send the links or QR code to anybody with a browser mentioned below
  
 ### TODO
 
-  - [ ] FragmentQR 2 
-  - [ ] Better version control(already started this; check releases tab)
-
-
+  - [ ] FragmentQR Pro(Built using React) 
+  - [ ] Organize code 
+  - [ ] Version control 
 ----
 
 ## More Info
@@ -176,12 +187,12 @@ If you can't send the links or QR code to anybody with a browser mentioned below
  
 ### Links
 
-[**View source code**](/FragmentQR): I added some basic comments to some of the .js files so feel free to check them out.
+[**View source code**](/FragmentQR): I added comments to the majority of so feel free to check them out.
 
 
 [**FragmentQR website**](https://y330.github.io/FragmentQR): Includes a visual tutorial on how to use FragmentQR. Go check it out.
 
-**Article**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+**Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
 Similar extensions: 
  1. [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
@@ -197,7 +208,7 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 
 ---- 
 
-_Disclaimer: Text fragments is not owned by FragmentQR_
+The extension named FragmentQR is owned by Yonah Aviv. It and its developer are in no way affiliated with the web browsers Google Chrome, Microsoft Edge, Opera, and Samsung Internet. Additionally, Scroll to text fragment is not a Feature FragmentQR claims to provide. Furthermore, all rights belong to their respective owners.
 
 FragmentQR was inspired by Link to Text Fragment by Google.
 
