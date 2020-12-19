@@ -27,7 +27,7 @@
  
  ----
  
-**FragmentQR is a chromium extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(check later for "this" to be highlighted)
+**FragmentQR is a chromium extension that simplifies linking to certain text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this(che
 
 ### Highlight of FragmentQR
 
@@ -112,7 +112,7 @@ Mobile operating systems(that support scanning the QR code)
 All other devices(Link that is copied to clipboard)
 4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
 
-[Let me know](bit) if you want your operating system or browser to appear in the table below.
+[Let me know](https://bit.ly/feature_request_form) if you want your operating system or browser to appear in the table below.
 
 
 
@@ -225,6 +225,6 @@ FragmentQR was inspired by Link to Text Fragment by Google.
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBZb25haCBBdml2XG50YW
 dzOiAnWW9uYWggQXZpdixGcmFnbWVudFFSLCB0ZXh0IGZyYWdt
 ZW50LCBRUiBjb2RlJ1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls0MjQzMzY1ODksLTg5NTg1OTUx
-NiwyMTIwOTA3MTI1XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTQxNDYyNzA1NiwtODk1ODU5
+NTE2LDIxMjA5MDcxMjVdfQ==
 -->
