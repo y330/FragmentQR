@@ -107,8 +107,8 @@ Not any browsers except chromium work currently.
 On mobile operating systems(that support scanning the QR code), 
 1. **Android works**(check browsers below)
 2. **iOS doesn't work**
-3. **IPadOS*
-4. For the text fragment link, most =chromium=browsers on desktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+3. **IPadOS to be determined**
+4. For the text fragment pretesktop work, but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
 
 
 
@@ -217,5 +217,5 @@ FragmentQR was inspired by Link to Text Fragment by Google.
  
 **Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDYyNzY2M119
+eyJoaXN0b3J5IjpbLTE2OTk5NDgyMjJdfQ==
 -->
