@@ -2,11 +2,13 @@
  ## *Browser Extension*
   ### *Yonah Aviv*
 
-
  
 
-
-<img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="128px" alt="FragmentQR Logo">
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/cabodnfakameckfbbgkciiifempglloj?color=skyblue&style=for-the-badge)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=orange&style=for-the-badge&label=Chrome%20Web%20Store%20Version)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/cabodnfakameckfbbgkciiifempglloj?color=fbff00&style=for-the-badge)
+ 
+<img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" alt="FragmentQR Logo">
  <span>
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
 
@@ -14,6 +16,7 @@
 <img src="https://www.thiscodeworks.com/images/get-on-chrome.png" width ="110" alt="FragmentQR Logo">
 </a>
 </span>
+
 
 ---- 
 
