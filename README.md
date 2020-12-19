@@ -108,7 +108,9 @@ Mobile operating systems(that support scanning the QR code)
 1. **Android works**(check browsers below)
 2. **iOS doesn't work**
 3. **IPadOS to be determined**
-retty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+
+Link that is copied to clipboard 
+1. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
 
 
 
@@ -217,5 +219,5 @@ FragmentQR was inspired by Link to Text Fragment by Google.
  
 **Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzIzMTI2Ml19
+eyJoaXN0b3J5IjpbLTIzMzMzODQxOV19
 -->
