@@ -35,7 +35,7 @@ FragmentQR adds a an option to the context menu to copy a text fragment when sel
 In addition to this keyboard shortcuts are available to preforms the actions.
 The default ones are below:
 
-```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and clicking ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
+```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
@@ -79,7 +79,6 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
 
-Chromium\* 80 and above uses text fragments in a feature called <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
 
 
 \* Not to be confused with Google Chrome. 
@@ -100,8 +99,7 @@ You can install it from the **Chrome Web Store** or **Microsoft Edge Add-ons**:
 
 Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
 
-> _which browsers and OSs support Scroll to text fragment or a feature similar to it?_.
-
+> _which browsers and OSs support Scroll to text fragment or a feature similar to it?_
 
 Scroll to text fragment is a feature in Chromium-based browsers. There may be similar features in other browsers.
 
@@ -226,6 +224,6 @@ FragmentQR was inspired by Link to Text Fragment by Google.
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBZb25haCBBdml2XG50YW
 dzOiAnWW9uYWggQXZpdixGcmFnbWVudFFSLCB0ZXh0IGZyYWdt
 ZW50LCBRUiBjb2RlJ1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMTIwMDE2ODM1LC04OTU4NTk1
+BnZm1cbiIsImhpc3RvcnkiOlsxMzMxNTU1NzMzLC04OTU4NTk1
 MTYsMjEyMDkwNzEyNV19
 -->
