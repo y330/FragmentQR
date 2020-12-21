@@ -1,24 +1,7 @@
 /*MIT License
 
 Copyright (c) 2020 y330
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.*/
+*/
 
 * {
   margin: 0;
@@ -29,11 +12,7 @@ SOFTWARE.*/
   line-height: 1em;
 }
 
-.light .ps__rail-y.ps--clicking .ps__thumb-y,
-.light .ps__rail-y:focus > .ps__thumb-y,
-.light .ps__rail-y:hover > .ps__thumb-y {
-  background-color: #666;
-}
+
 
 ::-moz-selection {
   color: #000;
@@ -51,6 +30,7 @@ SOFTWARE.*/
 
 textarea {
   background: rgba(255, 255, 255, 0.1);
+  /* text-overflow: ellipsis; */
 }
 
 a {
@@ -116,12 +96,12 @@ h5 {
   color: orange;
 }
 
-i.material-icons {
-  transform: scale(1);
-  -webkit-transform: scale(0.7);
-  -moz-transform: scale(0.7);
-  -ms-transform: scale(0.7);
-  -o-transform: scale(0.7);
+svg.icons {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 textarea {
@@ -129,7 +109,6 @@ textarea {
   position: relative;
   background: rgba(102, 102, 102, 0.985);
   margin-right: -25px;
-  overflow: visible;
   padding: 0.3em 0.5em 0.3em 0.5em;
   width: calc(140px - 0.2em);
   -webkit-appearance: none;
@@ -207,12 +186,12 @@ a:hover {
   color: #757575;
 }
 
-.rr {
+.memo {
   text-decoration: none;
   color: orange;
 }
 
-a.rr:hover {
+a.memo:hover {
   color: #424242;
 }
 
@@ -261,7 +240,7 @@ button.download:enabled:hover {
 .button.download:enabled:hover .st0,
 button.download:enabled:hover .st0 {
   fill: none;
-  stroke: orange;
+  stroke: blue;
 }
 
 .button:disabled,
@@ -385,12 +364,12 @@ button.onclick {
   background-color: #434343;
 }
 
-.paste i {
-  margin: 15%;
+.paste svg {
+  margin: 20%;
 }
 
-i.material-icons,
-svg.material-icons {
+
+svg.icons {
   opacity: 1;
   font-size: 1.5em;
   vertical-align: middle;
@@ -449,7 +428,7 @@ svg.material-icons {
   margin-left: 0;
 }
 
-.bright i {
+.bright svg, .bright i{
   margin: 5%;
   text-align: center;
   vertical-align: middle;
@@ -557,8 +536,8 @@ button.light {
   color: #b6b6b6;
 }
 
-.button.light:hover i.light,
-button.light:hover i.light {
+.button.light:hover svg,
+button.light:hover svg {
   color: #ef6c00;
   border-color: #ef6c00;
 }
@@ -607,13 +586,43 @@ button.bright.light:hover {
   color: #82b1f0;
   border-color: #82b1f0;
 }
+button.light {
+   background: grey;
+}
 
-@media (prefers-color-scheme: light) {
+
+i {
+  transform:scale(0.8);
+  /* filter: invert(100%) */
+}
+/* @media (prefers-color-scheme: light) {
   button.copy {
     background: grey;
   }
-}
+} */
 
-a.version.rr.light:hover {
+a.version.memo.light:hover {
   color: #bdbdbd;
 }
+
+.contets {
+  width: 170px;
+  height: 500px;
+  margin: 50px auto 0 auto;
+  position: relative !important;
+  overflow: auto !important;
+}
+
+.contets_inline {
+  width: fit-content;
+  height: 300px;
+}
+
+.ps-scrollbar-x-rail {
+  margin-right: 30px;
+}
+
+.ps-scrollbar-y-rail {
+  margin-bottom: 30px;
+  }
+

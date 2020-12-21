@@ -1,14 +1,14 @@
 {
-  "name": "FragmentQR",
-  "version": "1.7.1",
+  "name": "FragmentQR - Repo",
+  "version": "1.8",
   "manifest_version": 2,
   "minimum_chrome_version": "80",
   "author": "Yonah Aviv",
   "short_name": "FragmentQR",
-  "description": "Copy text fragments and generate QR codes for them, using the user's selected text on a webpage.",
+  "description": "QR codes and links that highlight specific text on a webpage in yellow when opened.",
   "background": {
     "persitent": false,
-    "scripts": ["js/background_script.js"]
+    "scripts": ["js/background_script.js", "hot-reload.js"]
   },
   "content_scripts": [
     {
@@ -27,7 +27,7 @@
   ],
   "options_page": "options.html",
   "browser_action": {
-    "default_title": "FragmentQR - Open popup and generate QR for current tab",
+    "default_title": "FragmentQR - Open popup.",
     "default_icon": {
       "128": "img/128.png"
     },

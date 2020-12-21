@@ -24,76 +24,92 @@ SOFTWARE.-->
 
 <html>
 
-<head>
-    <title>FragmentQR</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="popup.css" />
-    <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/y330/FragmentQR/master/FragmentQR/popup.css" /> -->
+    <head>
+        <title>FragmentQR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="css/perfect-scrollbar.css" />
+        <!-- <link rel="stylesheet" href="popup.css" /> -->
+        <link rel="stylesheet" href="http://127.0.0.1:5500/popup.css" />
+        <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/y330/FragmentQR/master/FragmentQR/popup.css" /> -->
 
-</head>
+    </head>
 
-<body>
-    <div class="contets">
+    <body>
+        <div class="contets">
 
-        <div class="contets_scroll">
+            <div class="contets_scroll">
 
-            <div class="contets_inline">
-                <div class="qr">
-                    <div class="header">FragmentQR<em><a class="version" href="https://y330.github.io/FragmentQR/" target="_blank" title="FragmentQR Website    ">
-         </a></em>
+                <div class="contets_inline">
+                    <div class="qr">
+                        <div class="header">FragmentQR<em><a class="version" href="https://y330.github.io/FragmentQR/"
+                                    target="_blank" title="FragmentQR Website    ">
+                                </a></em>
+                        </div>
+                        <div class="auth">Yonah Aviv
+                        </div>
+                        <div class="qr_wrap" title="Click to enlarge/shrink">
+                            <div id="qr"></div>
+                            <a class="download button" class="drive" href="#" download="#" title="Download">
+
+                                <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="lightgrey" width="14px" height="14px">
+                                    <path d="M0 0h24v24H0V0z" fill="none" />
+                                    <path d="M14.17 11H13V5h-2v6H9.83L12 13.17z" opacity=".3" />
+                                    <path
+                                        d="M19 9h-4V3H9v6H5l7 7 7-7zm-8 2V5h2v6h1.17L12 13.17 9.83 11H11zm-6 7h14v2H5z" />
+                                    </svg></a>
+                        </div>
+                        <div class="alert"></div>
+                            <div class="textarea">
+                            <textarea id="text" type="url" title="Edit Text"></textarea>
+                        </div>
+                        <div class="ctrl">
+                            <button class="button paste button--paster" id="paste" title="Paste">
+                                <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8 7h11v14H8z" opacity=".3"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+
+                            </button>
+                            <button class="undo" title="Clear">
+                                <i class="material-icons icons">clear</i>
+                            </button>
+                            <button class="copy" title="Copy">
+
+                                <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
+                                    width="18px" height="18px">
+                                    <path d="M0 0h24v24H0V0z" fill="none" />
+                                    <path d="M17 7H7V4H5v16h14V4h-2z" opacity=".3" />
+                                    <path
+                                        d="M19 2h-4.18C14.4.84 13.3 0 12 0S9.6.84 9.18 2H5c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 18H5V4h2v3h10V4h2v16z" />
+                                    </svg>
+
+                            </button>
+                            <button class="bright" title="Toggle theme"></button>
+                        </div>
                     </div>
-                    <div class="auth">Yonah Aviv
-                    </div>
-                    <div class="qr_wrap" title="Click to enlarge/shrink">
-                        <div id="qr"></div>
-                        <a class="download button" class="drive" href="#" download="#" title="Download"><i class="material-icons">file_download</i></a>
-                    </div>
-                    <div class="alert"></div>
+                    <div class="history_block">
+                        <h4 title="Click the history button to reveal">History</h4>
+                        <p class="options" font-style="monospaced" font-weight="lighter">
+                            Coming Soon
+                        </p>
+                        <div class="history-list" theme="minimal-dark">
+                            <div>
+                                <ul>
+                                    <li>
 
-
-                    <div class="textarea">
-                        <textarea id="text" type="url" title="Edit Text"></textarea>
-                    </div>
-                    <div class="ctrl">
-                        <a href="#" class="button paste button--paster" id="paste" title="Paste"><i
-									class="material-icons">content_paste</i>
-							</a>
-                        <button class="undo" title="Clear">
-								<i class="material-icons">clear</i>
-							</button>
-                        <button class="copy" title="Copy">
-								<i class="material-icons">content_copy</i>
-              </button>
-                        <button class="bright" title="Toggle theme"></button>
-                    </div>
-                </div>
-                <div class="history_block">
-                    <h4 title="Click the history button to reveal">History</h4>
-                    <p class="options" font-style="monospaced" font-weight="lighter">
-                        Coming Soon
-                    </p>
-                    <div class="history-list" theme="minimal-dark">
-                        <div>
-                            <ul>
-                                <li>
-
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="ctrl">
-                <div class="app_ttl">
-                </div>
-                <script src="js/jquery.min.js"></script>
-                <script src="js/jquery.qrcode.min.js"></script>
-                <script src="js/perfect-scrollbar.js"></script>
-                <!-- <script src="js/encoding.js"></script> -->
-                <script src="popup.js"></script>
-</body>
-
+                <div class="ctrl">
+                    <div class="app_ttl">
+                    </div>
+                    <script src="js/jquery.min.js"></script>
+                    <script src="js/jquery.qrcode.min.js"></script>
+                    <script src="js/perfect-scrollbar.js"></script>
+                    <!-- <script src="js/encoding.js"></script> -->
+                    <script src="popup.js"></script>
+    </body>
 
 </html>
