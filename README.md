@@ -18,12 +18,10 @@
 </span>
 
 
-
- 
+## TL:DR
 **FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** 
 
-### Highlight of FragmentQR(Get it?😆)
-
+## Overview
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
 In addition to this keyboard shortcuts are available to preforms the actions.
 The default ones are below:
@@ -34,13 +32,15 @@ When someone scans that QR or just goes to the link you copied, A feature called
 
 Currently scanning the QR code to see the highlights will only work Android.
 
-### Other Features
+### Features
 
 + Automatically Generate QR for current tab when opening extension popup
-+ text box to edit QR code
++ Text box to edit QR code
 + Paste, copy and clear buttons
 + Light and dark themes
 + Popup can be made larger
++ Helpful developer
++ 
 + Button to download QR as png
 + Material design
 
@@ -167,7 +167,7 @@ If you still are in need of an answer feel free to [email me](avivyonah@gmail.co
  
 ### TODO
 
-  - [ ] FragmentQR Pro(Built using React)
+  - [ ] FragmentQR Pro(Built using React, or Vuejs)
        + Pro meaning new and improved, not paid
   - [ ] Organize code 
   - [ ] Version control 
