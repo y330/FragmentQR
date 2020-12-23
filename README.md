@@ -70,8 +70,9 @@ the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/
 The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
-
-For more FAQs, see the FragmentQR website or the 
+## More FAQ❓❔
+### Go to [FAQ](https://github.com/y330/FragmentQR/wiki/FAQ)😃
+If you still are in need of an answer feel free to [email me](avivyonah@gmail.com) with your question
 
 <hr width=50%>
 
