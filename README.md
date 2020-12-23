@@ -4,7 +4,6 @@
 
  
 
-![Chrome Web Store](https://img.shields.io/chrome-web-store/users/cabodnfakameckfbbgkciiifempglloj?color=skyblue&style=for-the-badge&logo="data:image/png;base64,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")
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=Chrome%20Web%20Store%20Version)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/cabodnfakameckfbbgkciiifempglloj?color=yellow&style=for-the-badge&link=https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text="Reviews")
  
@@ -18,16 +17,9 @@
 </span>
 
 
----- 
-
- Recently I have been working on the MS edge add-on: [FragmentQR - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
- 
- I will be adding new features soon.
 
  
- ----
- 
-**FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** Like this (later it will work)
+**FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** 
 
 ### Highlight of FragmentQR
 
@@ -81,7 +73,7 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 
 
 
-\* Not to be confused with Google Chrome. 
+
 
 <hr width=50%>
 
@@ -140,7 +132,9 @@ If you can't send code to anybody with a browser mentioned above, FragmentQR sti
  - Still searching 🔍
    + Help find issues by installing and testing FragmentQR. If you find an issue, post it in the [support tab](https://bit.ly/FQRinstall) on the Web Store
 
-### _Changelog v1.7.2_(Pending approval on both extension stores)
+### _Changelog v1.7.2_
+
+If you want to install it from Github, get it in the releases tab (FragmentQR v1.7.2) until I update the repo
 
 1. Changed options page
 2. New icon
@@ -204,7 +198,7 @@ If you can't send code to anybody with a browser mentioned above, FragmentQR sti
 **Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
 Similar extensions: 
- 1. [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
+ 1. Inspired by [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
  2. [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
 
 
@@ -215,11 +209,18 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 
 [![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931) Install FragmentQR](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1) on the Chrome Web Store
 
+It is now available on the Microsoft Edge Add-ons store: [FragmentQR - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+
+
+**Privacy policy**
+
+I, the developer, attest to the claim that the browser extension FragmentQR does not collect any personal identification information of users whatsoever, and that all other data is stored locally on the user's device.
+
+
+
 ---- 
 
-The extension named FragmentQR is owned by Yonah Aviv. It and its developer are in no way affiliated with the web browsers Google Chrome, Microsoft Edge, Opera, and Samsung Internet. Additionally, Scroll to text fragment is not a Feature FragmentQR claims to provide. Furthermore, all rights belong to their respective owners.
 
-FragmentQR was inspired by Link to Text Fragment by Google.
 
  
 **Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
