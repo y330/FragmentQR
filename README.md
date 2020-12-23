@@ -5,7 +5,8 @@
  
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=Chrome%20Web%20Store%20Version)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/cabodnfakameckfbbgkciiifempglloj?color=yellow&style=for-the-badge&link=https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text="Reviews")
+
+
  
 <img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" alt="FragmentQR Logo">
  <span>
@@ -21,7 +22,7 @@
  
 **FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** 
 
-### Highlight of FragmentQR
+### Highlight of FragmentQR(Get it?😆)
 
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
 In addition to this keyboard shortcuts are available to preforms the actions.
@@ -46,7 +47,9 @@ Currently scanning the QR code to see the highlights will only work Android.
  
 <hr width=50%>
 
-***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
+***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. 
+
+***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
 ### **What are Text Fragments?** 
 
@@ -69,6 +72,45 @@ the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/
 
 The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
+
+
+### **What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
+
+*I do not hold the rights nor do I affiliate myself with any of these browsers. 
+
+Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
+
+> _which browsers and OSs support Scroll to text fragment or a feature similar to it?_
+
+Scroll to text fragment is a feature in Chromium-based browsers<sup>[[2]](#ref2)</sup>
+. There may be similar features in other browsers.
+
+
+Mobile operating systems(that support scanning the QR code)
+1. **Android works**(check browsers below)
+2. **iOS doesn't work**
+3. **IPadOS to be determined**
+
+All other devices(Link that is copied to clipboard)
+4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+
+[Let me know](https://bit.ly/feature_request_form) if you want your operating system or browser to appear in the table below.
+
+
+
+
+|Operating System|Browser Version|
+|--|--|
+|Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
+|Windows|Microsoft Edge 83, Chrome 80, Opera 68|
+|Linux|Microsoft Edge 83, Chrome 80, Opera 68| 
+|Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68|
+|iOS|N/A. Could come in early 2021.|
+
+
+<a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
+
+If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased👍)!
 
 ## More FAQ❓❔
 ### Go to [FAQ](https://github.com/y330/FragmentQR/wiki/FAQ)😃
