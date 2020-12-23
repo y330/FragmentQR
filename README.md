@@ -112,9 +112,9 @@ All other devices(Link that is copied to clipboard)
 
 If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased👍)!
 
-## More FAQ❓❔
-### Go to [FAQ](https://github.com/y330/FragmentQR/wiki/FAQ)😃
-If you still are in need of an answer feel free to [email me](avivyonah@gmail.com) with your question
+## More Questions?
+### Go to the [FAQ](https://github.com/y330/FragmentQR/wiki/FAQ) on this projects Wiki 😮
+If you still are in need of an answer feel free to [email me](avivyonah@gmail.com) with your question😯
 
 <hr width=50%>
 
