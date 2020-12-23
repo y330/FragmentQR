@@ -212,6 +212,10 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 It is now available on the Microsoft Edge Add-ons store: [FragmentQR - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
+### Developed by Yonah Aviv
+
+  <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="yonahaviv" /></a></p>
+
 **Privacy policy**
 
 I, the developer, attest to the claim that the browser extension FragmentQR does not collect any personal identification information of users whatsoever, and that all other data is stored locally on the user's device.
