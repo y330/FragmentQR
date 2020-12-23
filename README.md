@@ -71,59 +71,9 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
 
-
-
-
+For more FAQs, see the FragmentQR website or the 
 
 <hr width=50%>
-
-### **Where do I install FragmentQR?**
-
-You can install it from the **Chrome Web Store** or **Microsoft Edge Add-ons**:
-
-1. [Install on the Chrome Web Store](https://bit.ly/FQRinstall)
-2. [Install from Microsoft Edge Add-ons](https://bit.ly/FQRinstall_edge)
-
-
-### **What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
-
-*I do not hold the rights nor do I affiliate myself with any of these browsers. 
-
-Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
-
-> _which browsers and OSs support Scroll to text fragment or a feature similar to it?_
-
-Scroll to text fragment is a feature in Chromium-based browsers<sup>[[2]](#ref2)</sup>
-. There may be similar features in other browsers.
-
-
-Mobile operating systems(that support scanning the QR code)
-1. **Android works**(check browsers below)
-2. **iOS doesn't work**
-3. **IPadOS to be determined**
-
-All other devices(Link that is copied to clipboard)
-4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
-
-[Let me know](https://bit.ly/feature_request_form) if you want your operating system or browser to appear in the table below.
-
-
-
-
-|Operating System|Browser Version|
-|--|--|
-|Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
-|Windows|Microsoft Edge 83, Chrome 80, Opera 68|
-|Linux|Microsoft Edge 83, Chrome 80, Opera 68| 
-|Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68|
-|iOS|N/A. Could come in early 2021.|
-
-
-<a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
-
-If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased👍)!
-
-
 
 ## Issues and Changelog
 
@@ -194,7 +144,7 @@ If you can't send code to anybody with a browser mentioned above, FragmentQR sti
 
 **Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
-Similar extensions: 
+#### Similar extensions: 
  1. Inspired by [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
  2. [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
 
@@ -203,10 +153,10 @@ Similar extensions:
  
 Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60) 
 
+#### Install FragmentQR
 
-[![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931) Install FragmentQR](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1) on the Chrome Web Store
+[![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) | [![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
-It is now available on the Microsoft Edge Add-ons store: [FragmentQR - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
 ### Developed by Yonah Aviv
@@ -225,10 +175,3 @@ I, the developer, attest to the claim that the browser extension FragmentQR does
 
  
 **Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBZb25haCBBdml2XG50YW
-dzOiAnWW9uYWggQXZpdixGcmFnbWVudFFSLCB0ZXh0IGZyYWdt
-ZW50LCBRUiBjb2RlJ1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjAwMjUxOTk5LC0xMTM1NDE3
-MjE1LC04OTU4NTk1MTYsMjEyMDkwNzEyNV19
--->
