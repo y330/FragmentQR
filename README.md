@@ -132,10 +132,7 @@ If you can't send code to anybody with a browser mentioned above, FragmentQR sti
  - Still searching 🔍
    + Help find issues by installing and testing FragmentQR. If you find an issue, post it in the [support tab](https://bit.ly/FQRinstall) on the Web Store
 
-### _Changelog v1.7.2_
-
-If you want to install it from Github, get it in the releases tab (FragmentQR v1.7.2) until I update the repo
-
+### _Changelog v1.7.2_ (Released in all but the MS add-on store)
 1. Changed options page
 2. New icon
 3. Now available on Microsoft Edge Add-ons
