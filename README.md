@@ -25,7 +25,7 @@
 
 ## Upcoming features🔮
  
- To see upcoming features, go to the **(FragmentQR regular and 2.0)[https://github.com/users/y330/projects/2]** project.
+ To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project.
  
  
 ## Overview
