@@ -1,39 +1,39 @@
-# FragmentQR
- ## *Browser Extension*
-  ### *Yonah Aviv*
-
- 
-
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=Chrome%20Web%20Store%20Version)
-
-
- 
-<img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" alt="FragmentQR Logo">
- <span>
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0">
-
-
-<img src="https://www.thiscodeworks.com/images/get-on-chrome.png" width ="110" alt="FragmentQR Logo">
-</a>
-</span>
+<h1> FragmentQR</h1>
+<h2><img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" style="position: relative; padding-bottom: 5px; vertical-align:bottom"  alt="FragmentQR Logo"><img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=FragmentQR%20Release" width="auto" height="auto" alt="Version" /> <b text-align="center" ></h2>
 
 
 
-## TL:DR
-**FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.** 
+_____
+<button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://developer-chrome-com.imgix.net/image/BrQidfK9jaQyIHwdw91aVpkPiib2/RQMv2HZ0v6NKfFn7XCeU.png?auto=format&w=1248" width ="245" style="margin: 10px 10px 10px -35px; vertical-align: bottom" ></a>
+</button>
+
+
+
+
+
+____
+
+
+**Text Fragment** = Text that your browser highlights in yellow
+
+
+## Short Desc.
+
+**FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.**
 
 
 ## Upcoming features🔮
- 
- To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project.
- 
- 
+
+ To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project. Soon, I will commit to [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
+
+
 ## Overview
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
 In addition to this keyboard shortcuts are available to preforms the actions.
 The default ones are below:
 
-```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code. 
+```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code.
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
 
@@ -50,16 +50,16 @@ Currently scanning the QR code to see the highlights will only work Android.
 + Button to download QR as png
 + Material design
 
- 
+
 <hr width=50%>
 
-***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work. 
+***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
 
 ***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
-### **What are Text Fragments?** 
+### **What are Text Fragments?**
 
-**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor. 
+**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 
 
 >    "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<sup>[[1]](#ref_frag)</sup>
@@ -82,7 +82,7 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 
 ### **What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
 
-*I do not hold the rights nor do I affiliate myself with any of these browsers. 
+*I do not hold the rights nor do I affiliate myself with any of these browsers.
 
 Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
 
@@ -98,7 +98,7 @@ Mobile operating systems(that support scanning the QR code)
 3. **IPadOS to be determined**
 
 All other devices(Link that is copied to clipboard)
-4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below. 
+4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below.
 
 [Let me know](https://bit.ly/feature_request_form) if you want your operating system or browser to appear in the table below.
 
@@ -109,7 +109,7 @@ All other devices(Link that is copied to clipboard)
 |--|--|
 |Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
 |Windows|Microsoft Edge 83, Chrome 80, Opera 68|
-|Linux|Microsoft Edge 83, Chrome 80, Opera 68| 
+|Linux|Microsoft Edge 83, Chrome 80, Opera 68|
 |Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68|
 |iOS|N/A. Could come in early 2021.|
 
@@ -129,15 +129,21 @@ If you still are in need of an answer feel free to [email me](avivyonah@gmail.co
 ### Known issues
 
  - Still searching 🔍
-   + Help find issues by installing and testing FragmentQR. If you find an issue, post it in the [support tab](https://bit.ly/FQRinstall) on the Web Store
+   + Help find issues by installing and testing FragmentQR. If you find an issue, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store
 
-### _Changelog v1.7.2_ (FragmentQR folder still needs to be upated)
+### _Changelog v1.7.3_ __(To be released)__
+1. Changed options page
+2. History of QR codes
+3. Added sidebar
+4. Updated hebrew language support
+
+### _Changelog v1.7.2_
 1. Changed options page
 2. New icon
 3. Now available on Microsoft Edge Add-ons
-4. Updated description 
-   
-   
+4. Updated description
+
+
 ### _Changelog v1.7.1_
 
    - [X] Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](https://github.com/y330/FragmentQR/issues/9)
@@ -154,14 +160,14 @@ If you still are in need of an answer feel free to [email me](avivyonah@gmail.co
 
    - Fix issue when system theme is set to light</li>
    - Minor improvements
- 
+
    - [X] [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
       - Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
 
-   
+
 ### _Changelog v1.5_
 
- <ol>  
+ <ol>
   <li>New icon and name changes to FragmentQR</li>
   <li>Paste button now works.</li>
   <li>Vast UI and functionality improvements</li>
@@ -169,38 +175,39 @@ If you still are in need of an answer feel free to [email me](avivyonah@gmail.co
   <li>Added keyboard shortcuts</li>
   <li>Light theme(currently does not save between sessions)</li>
  </ol>
- 
- 
+
+
 ### TODO
 
-  - [ ] FragmentQR Pro(Built using React, or Vuejs)
+  - [ ] FragmentQR Pro(Built using React)
        + Pro meaning new and improved, not paid
-  - [ ] Organize code 
-  - [ ] Version control 
+  - [ ] 3 other Text Fragment Chrome extensions, I will be working on soon(Repos are empty for now): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
+  - [ ] Organize code
+  - [ ] Version control
 ----
 
 ## More Info
 ### References
  1. <sup id="ref_frag">[1]</sup> Burris, N., &amp; Bokan, D. (Eds.). (2020, November 24). Scroll-to-text-fragment. Retrieved November 28, 2020, from https://wicg.github.io/scroll-to-text-fragment/
  2. <sup id=ref2>[2]</sup> Chromium\* 80 and above uses text fragments in a feature  <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
- 
+
 ### Links
 
-[**View source code**](/FragmentQR): I added comments to the majority of so feel free to check them out.
+[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): I added comments to the majority of so feel free to check them out.
 
 
 [**FragmentQR website**](https://y330.github.io/FragmentQR): Includes a visual tutorial on how to use FragmentQR. Go check it out.
 
 **Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
-#### Similar extensions: 
+#### Similar extensions:
  1. Inspired by [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
  2. [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
 
 
  ----
- 
-Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60) 
+
+Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60)
 
 #### Install FragmentQR
 
@@ -216,11 +223,13 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 
 I, the developer, attest to the claim that the browser extension FragmentQR does not collect any personal identification information of users whatsoever, and that all other data is stored locally on the user's device.
 
-
-
----- 
+For the updated privacy policy, go to [the privacy policy](https://raw.githubusercontent.com/y330/FragmentQR/master/PRIVACY_POLICY)
 
 
 
- 
+----
+
+
+
+
 **Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
