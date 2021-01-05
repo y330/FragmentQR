@@ -1,5 +1,8 @@
 theme: jekyll-theme-slate
 author: Yonah Aviv
-titl=e: Convert Text Fragment to QR 
-description: Browser extension that converts text fragments to QR codes for quick sharing 
+title: FragmentQR
+
+description: Web extension that generates QR codes that highlight text you selected on most smartphones that scan it.
+avatar: "https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/32.png?raw=true"
+
 show_downloads: False
