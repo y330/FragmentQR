@@ -1,5 +1,5 @@
 <h1> FragmentQR</h1>
-<h2><img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" style="position: relative; padding-bottom: 5px; vertical-align:bottom"  alt="FragmentQR Logo"><img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=FragmentQR%20Release" width="auto" height="auto" alt="Version" /> <b text-align="center" ></h2>
+<h2><img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" style="position: relative; padding-bottom: 5px; vertical-align:bottom"  alt="FragmentQR Logo"><img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=FragmentQR%20Release" width="auto" height="auto" alt="Version" /> </b text-align="center" ></h2>
 
 
 
@@ -18,7 +18,7 @@ ____
 **Text Fragment** = Text that your browser highlights in yellow
 
 
-## Short Desc.
+## Summary
 
 **FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.**
 
@@ -28,10 +28,33 @@ ____
  To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project. Soon, I will commit to [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
 
 
-## Overview
+## Introduction
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
-In addition to this keyboard shortcuts are available to preforms the actions.
-The default ones are below:
+
+### **What are Text Fragments?**
+
+**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
+
+
+>    "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<sup>[[1]](#ref_frag)</sup>
+
+
+Syntax: ```https://foo.bar/#:~:text=yourtext```
+
+The text fragment can be specified in the fragment directive, which will always be after in the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) of the URL, after `#`. The fragment directive delimiter is the following string: ```:~:```. You can specify ```text=yourtext``` after it and in some browsers, such as Google Chrome, ```yourtext``` will be scrolled into view and highlighted, when opened.
+
+
+Example:
+
+>[https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples
+%20of%20random%20phenomena%20include%20the,
+the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
+
+The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
+> Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
+
+
+## Getting Started
 
 ```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code.
 
@@ -57,27 +80,7 @@ Currently scanning the QR code to see the highlights will only work Android.
 
 ***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
-### **What are Text Fragments?**
 
-**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
-
-
->    "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<sup>[[1]](#ref_frag)</sup>
-
-
-Syntax: ```https://foo.bar/#:~:text=yourtext```
-
-The text fragment can be specified in the fragment directive, which will always be after in the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) of the URL, after `#`. The fragment directive delimiter is the following string: ```:~:```. You can specify ```text=yourtext``` after it and in some browsers, such as Google Chrome, ```yourtext``` will be scrolled into view and highlighted, when opened.
-
-
-Example:
-
->[https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples
-%20of%20random%20phenomena%20include%20the,
-the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
-
-The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
-> Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
 
 ### **What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
@@ -119,23 +122,30 @@ All other devices(Link that is copied to clipboard)
 If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased👍)!
 
 ## More Questions?
-### Go to the [FAQ](https://github.com/y330/FragmentQR/wiki/FAQ) on this projects Wiki 😮
-If you still are in need of an answer feel free to [email me](avivyonah@gmail.com) with your question😯
+### Go check out [more Frequently Asked Questions](https://github.com/y330/FragmentQR/wiki/FAQ) on [Fragment QR's Wiki[(https://github.com/y330/FragmentQR/wiki)
+
+If you still are in need of an answer feel free to [email me](mailto:avivyonah@gmail.com) with your question
 
 <hr width=50%>
 
 ## Issues and Changelog
 
-### Known issues
-
+### Known issues 
+ - [ ] Theme does not save when changed in options
+ - [ ]Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
  - Still searching 🔍
    + Help find issues by installing and testing FragmentQR. If you find an issue, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store
 
-### _Changelog v1.7.3_ __(To be released)__
-1. Changed options page
-2. History of QR codes
+### _Changelog v1.7.3_ * To be released
+1. Imporved U
+2. History of QR codes is ow available as beta feature in settings
 3. Added sidebar
-4. Updated hebrew language support
+
+### _Changelog v1.7.2.5_### * To be released
+ 1. Updated hebrew language support
+ 2. Udated font-icons to svg tags
+ 3. Various other minor improvments
+
 
 ### _Changelog v1.7.2_
 1. Changed options page
@@ -217,7 +227,7 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 
 ### Developed by Yonah Aviv
 
-  <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="yonahaviv" /></a></p>
+  <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" height="50" width="210" alt="yonahaviv" /></a></p>
 
 **Privacy policy**
 
@@ -232,4 +242,4 @@ For the updated privacy policy, go to [the privacy policy](https://raw.githubuse
 
 
 
-**Copyright © 2020 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
+**Copyright © 2021 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
