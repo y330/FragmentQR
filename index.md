@@ -1,12 +1,17 @@
+---
+layout: default
+title: FragmentQR
+---
+
 # FragmentQR
 
 ## [](#-)[![FragmentQR Logo](https://camo.githubusercontent.com/753d4cefdeffed81260fdeaa648ba6891770fb5ac447efb2708e2d388d6f7e86/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f34667066664845722d6952626d3473393177703479364c66493551633164562d764668614168505039517038585f545578546e37584f673966686d6562695a395058445031423563417174714462776e5449652d3743757658673d773132382d683132382d653336352d726a2d736330783030666666666666)](https://camo.githubusercontent.com/753d4cefdeffed81260fdeaa648ba6891770fb5ac447efb2708e2d388d6f7e86/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f34667066664845722d6952626d3473393177703479364c66493551633164562d764668614168505039517038585f545578546e37584f673966686d6562695a395058445031423563417174714462776e5449652d3743757658673d773132382d683132382d653336352d726a2d736330783030666666666666)[![Version](https://camo.githubusercontent.com/270a0de140d3d28b0b4a1946dcc55a600ee03358ea8c64679a4c1e7042f9afb6/68747470733a2f2f696d672e736869656c64732e696f2f6368726f6d652d7765622d73746f72652f762f6361626f646e66616b616d65636b666262676b6369696966656d70676c6c6f6a3f636f6c6f723d696e666f726d6174696f6e616c267374796c653d666f722d7468652d6261646765266c6162656c3d467261676d656e74515225323052656c65617365)](https://camo.githubusercontent.com/270a0de140d3d28b0b4a1946dcc55a600ee03358ea8c64679a4c1e7042f9afb6/68747470733a2f2f696d672e736869656c64732e696f2f6368726f6d652d7765622d73746f72652f762f6361626f646e66616b616d65636b666262676b6369696966656d70676c6c6f6a3f636f6c6f723d696e666f726d6174696f6e616c267374796c653d666f722d7468652d6261646765266c6162656c3d467261676d656e74515225323052656c65617365)
 
----
+----
 
-[![](https://camo.githubusercontent.com/aa4dfa526ab8db3c09bd5d3b9a248fe1ea5e954656e8e02cc2dcabfdc02bf3b5/68747470733a2f2f646576656c6f7065722d6368726f6d652d636f6d2e696d6769782e6e65742f696d6167652f4272516964664b396a615179494877647739316156706b50696962322f52514d7632485a3076364e4b66466e37584365552e706e673f6175746f3d666f726d617426773d31323438)](https://bit.ly/GetFragmentedQR "Get it on the Chrome Web Store")
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0"><img src="data:image/webp;base64,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" height="86"></a>
 
----
+----
 
 **Text Fragment** = Text that your browser highlights in yellow
 
@@ -18,9 +23,48 @@
 
 To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project. Soon, I will commit to [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
 
-## [](#introduction)Introduction
 
-When selecting text, FragmentQR adds an option to the context menu to copy a URL linking to your selection's position, and content on it's webpage(I will refer to the full link as a text fragment, however only part of the URL is technically a text fragment). Proceding this, you can generate a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
+## Introduction
+
+FragmentQR adds a an option to the context menu to copy a text fragment when selecting text(I be referring to the URL that contains the text you selected as a text fragment URL or text fragment link), and enables generating a QR code for the text fragment link in an extension popup by clicking the FragmentQR toolbar button.
+
+
+## [](#getting-started)Getting Started
+
+### [](#install-fragmentqr)Installation
+
+[Download on ![](https://camo.githubusercontent.com/f9e0e5910b4d8a97221601709b78ac61e05bb4d10755185e7279af376bd5c239/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f6c6f676f70656469612f696d616765732f632f63352f476f6f676c655f4368726f6d655f5765625f53746f72655f69636f6e5f323031352e7376672f7265766973696f6e2f6c61746573742f746f702d63726f702f77696474682f32352f6865696768742f32353f63623d3230313930393330313934393331)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+[Download on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+
+### Keyboard Shortcuts and instructions
+## Tutorial
+
+<a href="https://bit.ly/FragmentQRv17_tutorial" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
+
+- `Ctrl/⌘ + ⇧ + L` to copy text fragment to clipboard after you select relevant text
+- `Ctrl/⌘ + Q` to open the extension popup
+- `📋`(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code.
+- You can now share the link you copied or scan the QR code to see the relevant text highlighted.
+
+When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow 🟨.
+
+Currently scanning the QR code to see the highlights will only work Android.
+
+## [](#features)Features
+
+*   Automatically Generate QR for current tab when opening extension popup
+*   Text box to edit QR code
+*   Paste, copy and clear buttons
+*   Copy URL with text fragment from selected text and generate QR code for it
+*   Light and dark themes
+*   QR code can be made larger
+*   Button to download QR as png
+*   Material design
+
+---
+
+## [](#background)Background
+
 
 ### [](#what-are-text-fragments)**What are Text Fragments?**
 
@@ -41,42 +85,13 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.\[4\]
 
 
-### [](#install-fragmentqr)Installation
-
-[Download on ![](https://camo.githubusercontent.com/f9e0e5910b4d8a97221601709b78ac61e05bb4d10755185e7279af376bd5c239/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f6c6f676f70656469612f696d616765732f632f63352f476f6f676c655f4368726f6d655f5765625f53746f72655f69636f6e5f323031352e7376672f7265766973696f6e2f6c61746573742f746f702d63726f702f77696474682f32352f6865696768742f32353f63623d3230313930393330313934393331)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
-[Download on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
-
-## [](#getting-started)Getting Started
-
-
-### Keyboard shortcuts and instructions
-
-`Ctrl/⌘ + ⇧ + L` to copy the text fragment to your clipboard, `Ctrl/⌘ + Q` to open the extension popup, and a `📋`(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code.
-
-When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow 🟨.
-
-Currently scanning the QR code to see the highlights will only work Android.
-
-## [](#features)Features
-
-*   Automatically Generate QR for current tab when opening extension popup
-*   Text box to edit QR code
-*   Paste, copy and clear buttons
-*   Copy URL with text fragment from selected text and generate QR code for it
-*   Light and dark themes
-*   QR code can be made larger
-*   Button to download QR as png
-*   Material design
-
----
-
-\***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
+\**Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
 
 ***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
 ### [](#what-browsers-and-oss-see-the-text-highlighted-in-yellow-when-they-scan-the-qr-code-or-open-the-link)**What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
 
-\*I do not hold the rights nor do I affiliate myself with any of these browsers.
+**I am not affiliated with any of these browsers.**
 
 Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
 
@@ -87,10 +102,10 @@ Scroll to text fragment is a feature in Chromium\-based browsers[\[2\]](#ref2) .
 Mobile operating systems(that support scanning the QR code)
 
 1.  **Android works**(check browsers below)
-2.  **iOS doesn't work**
+2.  **iOS doesn't work(yet)**  ⚠ If you have tried this extension and scanned the QR code with your iPhone and the text gets highlighted in yellow, please send me an email
 3.  **IPadOS to be determined**
 
-All other devices(Link that is copied to clipboard) 4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below.
+All other devices(using the text fragment URL) 4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below.
 
 [Let me know](https://bit.ly/feature_request_form) if you want your operating system or browser to appear in the table below.
 
@@ -120,22 +135,19 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 *   [ ] Theme does not save when changed in options
 *   [ ] Button icons become text and overflow the button when offline
-
-*   Help me solve more issues 🔍
-    *   Help find issues by installing and using FragmentQR. If you discover any, open a new issue and I'll try to solve it in the next release. 
-	*    If you do not have a github profile(which you might as well create if your already viewing this repository), post issues in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj) on the Web Store
+🔍 Help find issues by installing and using FragmentQR. If you discover any, open a new issue and I'll try to solve it in the next release.
+	*    If you do not have a github profile then (you might as well create one). post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store or on the [Add on Store](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 ### [](#changelog-v1.8--to-be-released)*Changelog v1.8* (To be released)
 
 1.  Rearranged UI layout
-2.  Optimised code
 2.  New option in the settings page for keeping a history of generated QR codes(beta)
 3.  Added sidenav
 
 ### [](#changelog-v173--to-be-released)*Changelog v1.7.3* (Rolling out)
 
-1.  Updated hebrew messages in FragmentQR/_locales/he/messages.json
-2.  Switched font icons to svg tags
+1.  Updated hebrew strings in (https://ment
+2.  Udated font\-icons to svg tags
 
 ### [](#changelog-v172)*Changelog v1.7.2*
 
@@ -175,10 +187,12 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### [](#todo)TODO
 
-*   [ ]  FragmentQR Pro(Built using React)
+*   [ ]  FragmentQR Pro
+	* Instead of maintaining FragmentQR which is built using plain HTML/CSS/JS, I am rebuilding the extension using ReactJS, a modern web framework that is more maintainable. 
+		* After the initial release, I will be changing the whole design and adding new features, approx. spring 2021.
     *   Pro meaning new and improved, not paid
-*   [ ]  3 other Text Fragment Chrome extensions, I will be working on soon(Repos are empty for now): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
-*   [ ] Organize code
+*   [ ]  3 other Text Fragment Chrome extensions that will have the same them and style of FragmentQR Pro, but diffrent focuses(Repos are empty for now): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
+*   [ ]  Organize code
 *   [ ]  Version control
 
 ---
@@ -207,6 +221,9 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60)
 
+#### [](#install-fragmentqr)Install FragmentQR
+
+[![](https://camo.githubusercontent.com/f9e0e5910b4d8a97221601709b78ac61e05bb4d10755185e7279af376bd5c239/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f6c6f676f70656469612f696d616765732f632f63352f476f6f676c655f4368726f6d655f5765625f53746f72655f69636f6e5f323031352e7376672f7265766973696f6e2f6c61746573742f746f702d63726f702f77696474682f32352f6865696768742f32353f63623d3230313930393330313934393331)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) | [![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 ### [](#developed-by-yonah-aviv)Developed by Yonah Aviv
 
@@ -220,4 +237,4 @@ For the updated privacy policy, go to [the privacy policy](https://raw.githubuse
 
 ---
 
-**Copyright © 2021 Yonah Aviv**. Licensed under the terms of the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
+**Copyright © 2021 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
