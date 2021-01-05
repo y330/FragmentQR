@@ -1,446 +1,223 @@
-<!DOCTYPE HTML>
-<html>
+# FragmentQR
 
-	<head>
-		<title>FragmentQR - About</title>
-<meta name="description" content="With this extension, when you select text on a page you can convert it to a text fragment, which will create a URL with the link of your current tab and remember the position and content of your selection. Then, a QR code will be generated from this URL. When someone scans the generated QR code on their mobile device,  the text fragment will be detected and when the page loads they will see your selection highlighted in yellow, making it easy to quickly share relevant parts of a webpage with a mobile device." >
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="icon" type="image/png" sizes="48x48"
-			href="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff">
-		<link rel="stylesheet" href=index.css>
-		<!-- <script type="text/javascript"
-			src="https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/table-of-contents-sidebar.js"></script>
-		<script type="text/javascript">
-			window.onload = function (e) {
-				TableOfContents.init({
-					basePath: "https://table-of-contents-sidebar.github.io/table-of-contents-sidebar-lib/",
-					querySelector: "body" // or other css querySelector
-				});
-			}
-		</script> -->
-	</head>
+## [](#-)[![FragmentQR Logo](https://camo.githubusercontent.com/753d4cefdeffed81260fdeaa648ba6891770fb5ac447efb2708e2d388d6f7e86/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f34667066664845722d6952626d3473393177703479364c66493551633164562d764668614168505039517038585f545578546e37584f673966686d6562695a395058445031423563417174714462776e5449652d3743757658673d773132382d683132382d653336352d726a2d736330783030666666666666)](https://camo.githubusercontent.com/753d4cefdeffed81260fdeaa648ba6891770fb5ac447efb2708e2d388d6f7e86/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f34667066664845722d6952626d3473393177703479364c66493551633164562d764668614168505039517038585f545578546e37584f673966686d6562695a395058445031423563417174714462776e5449652d3743757658673d773132382d683132382d653336352d726a2d736330783030666666666666)[![Version](https://camo.githubusercontent.com/270a0de140d3d28b0b4a1946dcc55a600ee03358ea8c64679a4c1e7042f9afb6/68747470733a2f2f696d672e736869656c64732e696f2f6368726f6d652d7765622d73746f72652f762f6361626f646e66616b616d65636b666262676b6369696966656d70676c6c6f6a3f636f6c6f723d696e666f726d6174696f6e616c267374796c653d666f722d7468652d6261646765266c6162656c3d467261676d656e74515225323052656c65617365)](https://camo.githubusercontent.com/270a0de140d3d28b0b4a1946dcc55a600ee03358ea8c64679a4c1e7042f9afb6/68747470733a2f2f696d672e736869656c64732e696f2f6368726f6d652d7765622d73746f72652f762f6361626f646e66616b616d65636b666262676b6369696966656d70676c6c6f6a3f636f6c6f723d696e666f726d6174696f6e616c267374796c653d666f722d7468652d6261646765266c6162656c3d467261676d656e74515225323052656c65617365)
 
-	<body>
-		<header class="header user-select-none">
-			<nav class="navbar navbar-light">
-				<div class="container px-0">
-					<!-- <a class="navbar-brand mr-auto">
-						<svg version="1.1" width="78.75" height="28" viewBox="0 0 45 16" class="octicon octicon-logo-github" aria-label="GitHub">
-							<path fill-rule="evenodd" d="M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 0 0-.146-.18zm23.696-2.2c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61H33.84c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"/>
-						</svg>
-						<span class="logo logo-colon">:</span>
-						<span class="logo logo-buttons">buttons</span>
-					</a> -->
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<h1><a class="nav-link git" href="https://github.com/y330/FragmentQR">
-									<span class="d-none d-sm-inline">View on GitHub </span>
-									<svg version="1.1" width="16" height="16" viewBox="0 0 16 16"
-										class="octicon octicon-mark-github" aria-hidden="true">
-										<path fill-rule="evenodd"
-											d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-									</svg>
-								</a></h1>
-							<hr>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		<div class="viewer-section" start="1" end="1">
-			<h1 id="fragmentqr-chrome-extension" title="id: fragmentqr-chrome-extension">FragmentQR
-			</h1>
-		</div>
-		<h2>Browser Extension</h2>
-		<h5><em>Yonah Aviv</em></h5>
-		<div class="viewer-section" start="9" end="10">
-			<hr>
-		</div>
-		<div class="viewer-section" start="11" end="15"><a href="https://bit.ly/GetFragmentedQR" class="btn"
-				title="Get it on the Chrome Web Store" padding="0" target="_blank">
-				<figure><img
-						src="https://camo.githubusercontent.com/753d4cefdeffed81260fdeaa648ba6891770fb5ac447efb2708e2d388d6f7e86/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f34667066664845722d6952626d3473393177703479364c66493551633164562d764668614168505039517038585f545578546e37584f673966686d6562695a395058445031423563417174714462776e5449652d3743757658673d773132382d683132382d653336352d726a2d736330783030666666666666"
-						width="110px" alt="FragmentQR Logo" ready="">
-					<figcaption>FragmentQR Logo</figcaption>
-				</figure>
-				<figure><img
-						src="https://camo.githubusercontent.com/bf9b66a47051df23499075feccaf62011fc8f78450a64f47126691805f404a22/68747470733a2f2f7777772e74686973636f6465776f726b732e636f6d2f696d616765732f6765742d6f6e2d6368726f6d652e706e67"
-						width="400px" alt="Available on the Chrome Webstore">
-					<figcaption>Available on the Chrome Webstore</figcaption>
-				</figure>
-			</a>
+---
 
-		</div>
-		<div class="viewer-section" start="16" end="16">
-			<hr>
-		</div>
-		<div class="viewer-section" start="17" end="18">
-			<p><strong>Generating relevant QR codes and links has never been easier! FragmentQR lets you create QR codes
-					and copy links that highlight specific text on a webpage, allowing ONLY relevant content to be
-					shared<strong> Like <b class="example">this!</b></strong></strong></p>
-			<hr>
-			<div class="viewer-section" start="19" end="20">
-				<h3 id="highlight-of-fragmentqrget-it" title="id: highlight-of-fragmentqrget-it">Highlight of
-					FragmentQR<sub class="joke">(get it?)</sub></h3>
-			</div>
-			<div class="viewer-section" start="21" end="23">
-				<p>FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and
-					enables
-					generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar
-					button.
-					To make the process easier, I added keyboard shortcuts:</p>
-			</div>
-			<div class="viewer-section" start="24" end="25">
-				<p><code>Ctrl/⌘ + ⇧ + L</code> to copy the text fragment to your clipboard, <code>Ctrl/⌘ + Q</code> to
-					open
-					the extension popup, and a <code>📋</code>(Paste) button in the popup to paste the text fragment
-					link
-					into the popup to generate a QR code. </p>
-			</div>
-			<div class="viewer-section" start="26" end="27">
-				<p>When someone scans that QR or just goes to the link you copied, A feature called Scroll to text
-					fragment
-					allows the text fragment to be detected when they load the webpage, and will scroll your selected
-					text
-					into view and be highlighted in yellow🟨.</p>
-			</div>
-			<div class="viewer-section" start="28" end="29">
-				<p>Currently scanning the QR code to see the highlights will only work Android.</p>
-			</div>
-			<div class="viewer-section" start="30" end="31">
-				<h3 id="other-features" title="id: other-features">Other Features</h3>
-			</div>
-			<div class="viewer-section" start="32" end="40">
-				<ul>
-					<li>Automatically Generate QR for current tab when opening extension popup</li>
-					<li>text box to edit QR code</li>
-					<li>Paste, copy and clear buttons</li>
-					<li>Light and dark themes</li>
-					<li>Popup can be made larger</li>
-					<li>Button to download QR as png</li>
-					<li>Material design</li>
-				</ul>
-			</div>
-			<div class="viewer-section" start="41" end="42">
-				<hr width="50%">
+[![](https://camo.githubusercontent.com/aa4dfa526ab8db3c09bd5d3b9a248fe1ea5e954656e8e02cc2dcabfdc02bf3b5/68747470733a2f2f646576656c6f7065722d6368726f6d652d636f6d2e696d6769782e6e65742f696d6167652f4272516964664b396a615179494877647739316156706b50696962322f52514d7632485a3076364e4b66466e37584365552e706e673f6175746f3d666f726d617426773d31323438)](https://bit.ly/GetFragmentedQR "Get it on the Chrome Web Store")
 
-			</div>
-			<div class="viewer-section" start="43" end="44">
-				<p>*<strong>Update on text fragments:</strong> In Chrome 87, there is a new flag in chrome://flags that
-					adds
-					"copy link to text" to the context menu on Android and Desktop. However in the latest version of
-					chrome
-					as of November 23, 2020, it does not work.</p>
-			</div>
-			<div class="viewer-section" start="45" end="46">
-				<h3 id="what-are-text-fragments" title="id: what-are-text-fragments"><strong>What are Text
-						Fragments?</strong></h3>
-			</div>
-			<div class="viewer-section" start="47" end="49">
-				<p><strong><a href="https://wicg.github.io/scroll-to-text-fragment/" target="_blank">Text
-							Fragments</a></strong>: Part of a URL that specifies a piece of text emphasized on page load
-					and
-					scrolled into view, not unlike a text anchor. </p>
-			</div>
-			<div class="viewer-section" start="50" end="52">
-				<blockquote>
-					<p> "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating
-						to a
-						URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s
-						attention."<sup><a href="#ref_frag">[1]</a></sup></p>
-				</blockquote>
-			</div>
-			<div class="viewer-section" start="53" end="54">
-				<p>Syntax: <code>https://foo.bar/#:~:text=yourtext</code></p>
-			</div>
-			<div class="viewer-section" start="55" end="57">
-				<p>The text fragment can be specified in the fragment directive, which will always be after in the <a
-						href="https://en.wikipedia.org/wiki/URI_fragment" target="_blank">URL fragment</a> of the URL,
-					after
-					<code>#</code>. The fragment directive delimiter is the following string: <code>:~:</code>. You can
-					specify <code>text=yourtext</code> after it and in some browsers, such as Google Chrome,
-					<code>yourtext</code> will be scrolled into view and highlighted, when opened.</p>
-			</div>
-			<div class="viewer-section" start="58" end="59">
-				<p>Example:</p>
-			</div>
-			<div class="viewer-section" start="60" end="63">
-				<blockquote>
-					<p><a href="https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D"
-							target="_blank">https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples
-							%20of%20random%20phenomena%20include%20the,
-							the%20results%20of%20a%20survey%2C%20etc.%5B4%5D</a></p>
-				</blockquote>
-			</div>
-			<div class="viewer-section" start="64" end="64">
-				<p>The aforementioned link to <a href="https://en.wikipedia.org/wiki/Probability_distribution"
-						target="_blank">Probability Distribution</a> on <a
-						href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia, the Free
-						Encyclopedia</a> will highlight the following text snippet:</p>
-			</div>
-			<div class="viewer-section" start="65" end="67">
-				<blockquote>
-					<p>Examples of random phenomena include the weather condition in a future date, the height of a
-						person,
-						the fraction of male students in a school, the results of a survey, etc.[4]</p>
-				</blockquote>
-			</div>
-			<div class="viewer-section" start="68" end="73">
-				<p>Chromium 80 and above uses text fragments in a feature called <a
-						href="https://github.com/WICG/scroll-to-text-fragment/"
-						title="Scroll-to-Text Fragment on GitHub" target="_blank">Scroll-to-Text Fragment</a>. Text
-					fragments may be owned by W3C or WICG.</p>
-			</div>
-			<div class="viewer-section" start="74" end="77">
-				<hr width="50%">
+---
 
-			</div>
-			<div class="viewer-section" start="78" end="78">
-				<h3 id="what-browsersplatforms-are-compatible-with-text-fragments"
-					title="id: what-browsersplatforms-are-compatible-with-text-fragments"><strong>What
-						browsers/platforms
-						are compatible with Text Fragments?</strong></h3>
-			</div>
-			<div class="viewer-section" start="79" end="81">
-				<ul>
-					<li>Check browser compatibility in the table below. Note: these are the browsers cab use the scroll
-						to
-						text fragment feature. This extension is still available on all Chromium browsers and works
-						great as
-						a regular QR code generator.
-						Examples of Chromium browsers include MS Edge and Google Chrome.</li>
-				</ul>
-			</div>
-			<div class="viewer-section" start="82" end="85">
-				<p><strong>Update:</strong>
-					Chrome 87 on iOS has some new options in chrome://flags for text fragments, albeit nonfunctional.
-				</p>
-			</div>
-			<div class="viewer-section" start="86" end="93">
-				<table>
-					<thead>
-						<tr>
-							<th>OS</th>
-							<th>Minimum Browser Version</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Android</td>
-							<td>Chrome 85, Android WebView 81</td>
-						</tr>
-						<tr>
-							<td>Windows</td>
-							<td>Chromium 80(i.e. Chrome,MS Edge, Opera etc.)</td>
-						</tr>
-						<tr>
-							<td>Linux</td>
-							<td>Chromium 80</td>
-						</tr>
-						<tr>
-							<td>Mac OS X</td>
-							<td>Chromium 80</td>
-						</tr>
-						<tr>
-							<td>iOS</td>
-							<td>None :P</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="viewer-section" start="94" end="97">
-				<p><a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use"
-						title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
-				</p>
-			</div>
-			<div class="viewer-section" start="98" end="98">
-				<h3 id="why-does-the-qr-code-not-scroll-or-highlight-anything-on-my-iphone"
-					title="id: why-does-the-qr-code-not-scroll-or-highlight-anything-on-my-iphone"><strong>Why does the
-						QR
-						code not scroll or highlight anything on my iPhone?</strong></h3>
-			</div>
-			<div class="viewer-section" start="99" end="103">
-				<ul>
-					<li>That feature of scroll to text fragment is not available on Chrome for iOS yet.</li>
-				</ul>
-			</div>
-			<div class="viewer-section" start="104" end="105">
-				<h2 id="issues-and-changelog" title="id: issues-and-changelog">Issues and Changelog</h2>
-			</div>
-			<h3 id="_changelog-v1-7-2_-released-in-all-but-the-ms-add-on-store-"><em>Changelog v1.7.2</em> (Released in
-				all but the MS add-on store)</h3>
-			<ol>
-				<li>Changed options page</li>
-				<li><a href="https://raw.githubusercontent.com/y330/FragmentQR/master/FragmentQR/img/512.png">New
-						icon</a></li>
-				<li>Now available on <a
-						href="https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni">Microsoft
-						Edge Add-ons</a></li>
-				<li>Updated web store description</li>
-			</ol>
+**Text Fragment** = Text that your browser highlights in yellow
 
-			<div class="viewer-section" start="106" end="107">
-				<h3 id="changelog-v171" title="id: changelog-v171"><em>Changelog v1.7.1</em></h3>
-			</div>
-			<div class="viewer-section" start="108" end="110">
-				<ul>
-					<li><input checked="" disabled="" type="checkbox"> Fixed Issue # 9: <a
-							href="https://github.com/y330/FragmentQR/issues/9" target="_blank">Unable to copy text
-							fragments
-							in version 1.7 #9</a></li>
-				</ul>
-			</div>
-			<div class="viewer-section" start="111" end="112">
-				<h3 id="changelog-v17" title="id: changelog-v17"><em>Changelog v1.7</em></h3>
-			</div>
-			<div class="viewer-section" start="113" end="117">
-				<ol>
-					<li>Fixed Issue # 5: QR now update automatically when typing in the text box</li>
-					<li>Revamped options page</li>
-					<li>minor fixes</li>
-				</ol>
-			</div>
-			<div class="viewer-section" start="118" end="119">
-				<h3 id="changelog-v16" title="id: changelog-v16"><em>Changelog v1.6</em></h3>
-			</div>
-			<div class="viewer-section" start="120" end="126">
-				<ul>
-					<li>
-						<p>Fix issue when system theme is set to light</p>
-					</li>
-					<p></p>
+## [](#summary)Summary
 
-					<li>
-						<p>Minor improvements</p>
-					</li>
-					<li>
-						<p><a href="https://github.com/y330/FragmentQR/issues/5#issue-720348982" target="_blank">QR does
-								not update automatically when typing in the text box #5</a></p>
-						<ul>
-							<li>Until fixed, a workaround is: After you finish typing click the copy button and then the
-								paste button. The QR code will only update when the paste button is clicked.</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div class="viewer-section" start="127" end="128">
-				<h3 id="changelog-v15" title="id: changelog-v15"><em>Changelog v1.5</em></h3>
-			</div>
-			<div class="viewer-section" start="129" end="138">
-				<ol>
-					<li>New icon and name changes to FragmentQR</li>
-					<li>Paste button now works.</li>
-					<li>Vast UI and functionality improvements</li>
-					<li>Added support for copying text framents</li>
-					<li>Added keyboard shortcuts</li>
-					<li>Light theme(currently does not save between sessions)</li>
-				</ol>
+**FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.**
 
-			</div>
-			<div class="viewer-section" start="139" end="140">
-				<h3 id="todo" title="id: todo">TODO</h3>
-			</div>
-			<div class="viewer-section" start="141" end="143">
-				<ul>
-					<li><input disabled="" type="checkbox"> Rewrite the whole thing using a JavaScript framework,
-						probably
-						with Vuejs. Not sure yet.</li>
-					<li><input disabled="" type="checkbox"> Better version control(already started this; check releases
-						tab)
-					</li>
-				</ul>
-			</div>
-			<div class="viewer-section" start="144" end="145">
-				<hr>
-			</div>
-			<div class="viewer-section" start="146" end="146">
-				<h2 id="more-info" title="id: more-info">More Info</h2>
-			</div>
-			<div class="viewer-section" start="147" end="147">
-				<h3 id="references" title="id: references">References</h3>
-			</div>
-			<div class="viewer-section" start="148" end="149">
-				<ol>
-					<li><sup id="ref_frag">[1]</sup> Burris, N., &amp; Bokan, D. (Eds.). (2020, November 24).
-						Scroll-to-text-fragment. Retrieved November 28, 2020, from <a
-							href="https://wicg.github.io/scroll-to-text-fragment/"
-							target="_blank">https://wicg.github.io/scroll-to-text-fragment/</a></li>
-				</ol>
-			</div>
-			<div class="viewer-section" start="150" end="151">
-				<h3 id="links" title="id: links">Links</h3>
-			</div>
-			<div class="viewer-section" start="152" end="154">
-				<p><a href="/FragmentQR"><strong>View source code</strong></a>: I added some basic comments to some of
-					the
-					.js files so feel free to check them out.</p>
-			</div>
-			<div class="viewer-section" start="155" end="156">
-				<p><a href="https://y330.github.io/FragmentQR" target="_blank"><strong>FragmentQR website</strong></a>:
-					Includes a visual tutorial on how to use FragmentQR. Go check it out.</p>
-			</div>
-			<div class="viewer-section" start="157" end="158">
-				<p><strong>Article</strong>: <a
-						href="https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments"
-						target="_blank">Boldly link where no one has linked before: Text Fragments</a></p>
-			</div>
-			<div class="viewer-section" start="159" end="159">
-				<p>Similar extensions: </p>
-			</div>
-			<div class="viewer-section" start="160" end="163">
-				<ol>
-					<li><a href="https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg"
-							target="_blank">Link to text fragment</a></li>
-					<li><a href="https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo"
-							target="_blank">STTF Url Generator</a></li>
-				</ol>
-			</div>
-			<div class="viewer-section" start="164" end="165">
-				<hr>
-			</div>
-			<div class="viewer-section" start="166" end="168">
-				<p>Report an <a
-						href="https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&amp;body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22"
-						target="_blank">issue 🐞</a> or Suggest a <a
-						href="https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&amp;body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60"
-						target="_blank">new feature 🔮</a> </p>
-			</div>
-			<div class="viewer-section" start="169" end="170">
-				<div class="center"><a
-						href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/#:~:text=1"
-						target="_blank">
-						<figure><img
-								src="https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931"
-								alt="">
-							<figcaption></figcaption>
-						</figure> Install FragmentQR
-					</a> on the Chrome Web Store</div>
-			</div>
-			<div class="viewer-section" start="171" end="172">
-				<hr>
-			</div>
-			<div class="viewer-section" start="173" end="176">
-				<p><em><b>Disclaimer:</b> FragmentQR is unaffiliated with Google Chrome™, Microsoft Edge™, or any other
-						brands and products whose rights <b>do not</b> belong to Yonah Aviv, FragmentQR's
-						developer.</em></p>
-			</div>
-			<h3>Developed by Yonah Aviv</h3>
-			<p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center"
-						src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"
-						alt="yonahaviv" /></a></p>
-			<footer>
-				<p><strong>Privacy policy</strong></p>
-				<p>I, the developer, attest to the claim that the browser extension FragmentQR does not collect any
-					personal identification information of users whatsoever, and that all other data is stored locally
-					on the user&#39;s device.</p>
+## [](#upcoming-features)Upcoming features 🔮
 
-				<div class="viewer-section" start="177" end="178">
-					<p><strong>Copyright © 2020 Yonah Aviv</strong>. FragmentQR is Licensed under the terms of the <a
-							href="https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE" target="_blank">MIT
-							License</a></p>
-				</div>
-			</footer>
+To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project. Soon, I will commit to [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
 
-	</body>
+## [](#introduction)Introduction
 
-</html>
+When selecting text, FragmentQR adds an option to the context menu to copy a URL linking to your selection's position, and content on it's webpage(I will refer to the full link as a text fragment, however only part of the URL is technically a text fragment). Proceding this, you can generate a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
+
+### [](#what-are-text-fragments)**What are Text Fragments?**
+
+**[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
+
+> "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."[\[1\]](#ref_frag)
+
+Syntax: `https://foo.bar/#:~:text=yourtext`
+
+The text fragment can be specified in the fragment directive, which will always be after in the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) of the URL, after `#`. The fragment directive delimiter is the following string: `:~:`. You can specify `text=yourtext` after it and in some browsers, such as Google Chrome, `yourtext` will be scrolled into view and highlighted, when opened.
+
+Example:
+
+> [https://en.wikipedia.org/wiki/Probability\_distribution#cite\_ref\-:1\_3\-0:~:text=Examples %20of%20random%20phenomena%20include%20the, the%20results%20of%20a%20survey%2C%20etc.%5B4%5D](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the,the%20results%20of%20a%20survey%2C%20etc.%5B4%5D)
+
+The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Probability_distribution) on [Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Main_Page) will highlight the following text snippet:
+
+> Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.\[4\]
+
+
+### [](#install-fragmentqr)Installation
+
+[Download on ![](https://camo.githubusercontent.com/f9e0e5910b4d8a97221601709b78ac61e05bb4d10755185e7279af376bd5c239/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f6c6f676f70656469612f696d616765732f632f63352f476f6f676c655f4368726f6d655f5765625f53746f72655f69636f6e5f323031352e7376672f7265766973696f6e2f6c61746573742f746f702d63726f702f77696474682f32352f6865696768742f32353f63623d3230313930393330313934393331)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+[Download on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+
+## [](#getting-started)Getting Started
+
+
+### Keyboard shortcuts and instructions
+
+`Ctrl/⌘ + ⇧ + L` to copy the text fragment to your clipboard, `Ctrl/⌘ + Q` to open the extension popup, and a `📋`(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code.
+
+When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow 🟨.
+
+Currently scanning the QR code to see the highlights will only work Android.
+
+## [](#features)Features
+
+*   Automatically Generate QR for current tab when opening extension popup
+*   Text box to edit QR code
+*   Paste, copy and clear buttons
+*   Copy URL with text fragment from selected text and generate QR code for it
+*   Light and dark themes
+*   QR code can be made larger
+*   Button to download QR as png
+*   Material design
+
+---
+
+\***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
+
+***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
+
+### [](#what-browsers-and-oss-see-the-text-highlighted-in-yellow-when-they-scan-the-qr-code-or-open-the-link)**What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
+
+\*I do not hold the rights nor do I affiliate myself with any of these browsers.
+
+Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
+
+> *Which browsers and OSs support Scroll to text fragment or a feature similar to it?*
+
+Scroll to text fragment is a feature in Chromium\-based browsers[\[2\]](#ref2) . There may be similar features in other browsers.
+
+Mobile operating systems(that support scanning the QR code)
+
+1.  **Android works**(check browsers below)
+2.  **iOS doesn't work**
+3.  **IPadOS to be determined**
+
+All other devices(Link that is copied to clipboard) 4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below.
+
+[Let me know](https://bit.ly/feature_request_form) if you want your operating system or browser to appear in the table below.
+
+| Operating System | Browser Version |
+| --- | --- |
+| Android | Chrome 85, Android WebView 81, Samsung Internet latest.(could be more) |
+| Windows | Microsoft Edge 83, Chrome 80, Opera 68 |
+| Linux | Microsoft Edge 83, Chrome 80, Opera 68 |
+| Mac OS X | Microsoft Edge 83, Chrome 80, Opera 68 |
+| iOS | N/A. Could come in early 2021. |
+
+[Check current status](https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use "Check compatability of scroll to text fragment")
+
+If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased 👍)!
+
+## [](#more-questions)More Questions?
+
+### [](#go-check-out-more-frequently-asked-questions-on-fragment-qrs-wikihttpsgithubcomy330fragmentqrwiki)Go check out [more Frequently Asked Questions](https://github.com/y330/FragmentQR/wiki/FAQ) on \[Fragment QR's Wiki\[([y330/FragmentQR/wiki](https://github.com/y330/FragmentQR/wiki))
+
+If you still are in need of an answer feel free to [email me](mailto:avivyonah@gmail.com) with your question
+
+---
+
+## [](#issues-and-changelog)Issues and Changelog
+
+### [](#known-issues)Known issues
+
+*   [ ] Theme does not save when changed in options
+*   [ ] Button icons become text and overflow the button when offline
+
+*   Help me solve more issues 🔍
+    *   Help find issues by installing and using FragmentQR. If you discover any, open a new issue and I'll try to solve it in the next release. 
+	*    If you do not have a github profile(which you might as well create if your already viewing this repository), post issues in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj) on the Web Store
+
+### [](#changelog-v1.8--to-be-released)*Changelog v1.8* (To be released)
+
+1.  Rearranged UI layout
+2.  Optimised code
+2.  New option in the settings page for keeping a history of generated QR codes(beta)
+3.  Added sidenav
+
+### [](#changelog-v173--to-be-released)*Changelog v1.7.3* (Rolling out)
+
+1.  Updated hebrew messages in FragmentQR/_locales/he/messages.json
+2.  Switched font icons to svg tags
+
+### [](#changelog-v172)*Changelog v1.7.2*
+
+1.  Changed options page
+2.  New product icon
+3.  Now available on Microsoft Edge Add\-ons
+4.  Updated description
+
+### [](#changelog-v171)*Changelog v1.7.1*
+
+*   [x]  Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](https://github.com/y330/FragmentQR/issues/9)
+
+### [](#changelog-v17)*Changelog v1.7*
+
+1.  Fixed Issue # 5: QR now update automatically when typing in the text box
+2.  Revamped options page
+3.  minor fixes
+
+### [](#changelog-v16)*Changelog v1.6*
+
+*   Fix issue when system theme is set to light
+
+*   Minor improvements
+
+*   [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
+
+    *   Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
+
+### [](#changelog-v15)*Changelog v1.5*
+
+1.  New product icon and name changes to FragmentQR
+2.  Paste button now works.
+3.  Vast UI and functionality improvements
+4.  Added support for copying text framents
+5.  Added keyboard shortcuts
+6.  Light theme(currently does not save between sessions)
+
+### [](#todo)TODO
+
+*   [ ]  FragmentQR Pro(Built using React)
+    *   Pro meaning new and improved, not paid
+*   [ ]  3 other Text Fragment Chrome extensions, I will be working on soon(Repos are empty for now): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
+*   [ ] Organize code
+*   [ ]  Version control
+
+---
+
+## [](#more-info)More Info
+
+### [](#references)References and Footnotes
+
+1.  \[1\] Burris, N., & Bokan, D. (Eds.). (2020, November 24). Scroll\-to\-text\-fragment, from [wicg.github.io/scroll\-to\-text\-fragment](https://wicg.github.io/scroll-to-text-fragment/)
+2.  \[2\] Chromium\* 80 and above uses text fragments in a feature [Scroll to Text Fragment](https://github.com/WICG/scroll-to-text-fragment/ "Scroll-to-Text Fragment on GitHub"). Text fragments may be owned by W3C or WICG, however I do not make any claims.
+
+### [](#links)Links
+
+1. [**FragmentQR source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR)
+
+2. [**FragmentQR Repository**](https://y330.github.io/FragmentQR)
+
+**Read about text fragments on [web.dev](https://web.dev)**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+
+#### [](#similar-extensions)Similar extensions:
+
+1.  Inspired by [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
+2.  [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
+
+---
+
+Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60)
+
+
+### [](#developed-by-yonah-aviv)Developed by Yonah Aviv
+
+[![yonahaviv](https://camo.githubusercontent.com/c58c9d4d7884c99daada0f44b7cf6a362f8c4fc7430aa860b5065e2c2d86b3af/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d677265656e2e706e67)](https://www.buymeacoffee.com/yonahaviv)
+
+**Privacy policy**
+
+I, the developer, attest to the claim that the browser extension FragmentQR does not collect any personal identification information of users whatsoever, and that all other data is stored locally on the user's device.
+
+For the updated privacy policy, go to [the privacy policy](https://raw.githubusercontent.com/y330/FragmentQR/master/PRIVACY_POLICY)
+
+---
+
+**Copyright © 2021 Yonah Aviv**. Licensed under the terms of the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
