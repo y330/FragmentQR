@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-slate
 author: Yonah Aviv
 titl=e: Convert Text Fragment to QR 
 description: Browser extension that converts text fragments to QR codes for quick sharing 
