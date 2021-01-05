@@ -37,6 +37,8 @@ FragmentQR adds a an option to the context menu to copy a text fragment when sel
 [Download on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 ### Keyboard Shortcuts and instructions
+
+
 ## Tutorial
 
 <a href="https://bit.ly/FragmentQRv17_tutorial" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
@@ -117,13 +119,13 @@ All other devices(using the text fragment URL) 4. Pretty much the same browsers 
 | Mac OS X | Microsoft Edge 83, Chrome 80, Opera 68 |
 | iOS | N/A. Could come in early 2021. |
 
-[Check current status](https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use "Check compatability of scroll to text fragment")
+[Check current status](httpsi//caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use "Check compatability of scroll to text fragment")
 
 If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased 👍)!
 
 ## [](#more-questions)More Questions?
 
-### [](#go-check-out-more-frequently-asked-questions-on-fragment-qrs-wikihttpsgithubcomy330fragmentqrwiki)Go check out [more Frequently Asked Questions](https://github.com/y330/FragmentQR/wiki/FAQ) on \[Fragment QR's Wiki\[([y330/FragmentQR/wiki](https://github.com/y330/FragmentQR/wiki))
+### [](#go-check-out-more-frequently-asked-questions-on-fragment-qrs-wikihttpsgithubcomy330fragmentqrwiki)Go check out the FAQ on Fragment QR's [Wiki](https://github.com/y330/FragmentQR/wiki)
 
 If you still are in need of an answer feel free to [email me](mailto:avivyonah@gmail.com) with your question
 
@@ -134,7 +136,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 ### [](#known-issues)Known issues
 
 *   [ ] Theme does not save when changed in options
-*   [ ] Button icons become text and overflow the button when offline
+*   [ ] Button icons become text and overflows outside the button when offline
 🔍 Help find issues by installing and using FragmentQR. If you discover any, open a new issue and I'll try to solve it in the next release.
 	*    If you do not have a github profile then (you might as well create one). post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store or on the [Add on Store](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
@@ -147,7 +149,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 ### [](#changelog-v173--to-be-released)*Changelog v1.7.3* (Rolling out)
 
 1.  Updated hebrew strings in (https://ment
-2.  Udated font\-icons to svg tags
+2.  Udated icon-fons to svg tags
 
 ### [](#changelog-v172)*Changelog v1.7.2*
 
@@ -191,7 +193,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 	* Instead of maintaining FragmentQR which is built using plain HTML/CSS/JS, I am rebuilding the extension using ReactJS, a modern web framework that is more maintainable. 
 		* After the initial release, I will be changing the whole design and adding new features, approx. spring 2021.
     *   Pro meaning new and improved, not paid
-*   [ ]  3 other Text Fragment Chrome extensions that will have the same them and style of FragmentQR Pro, but diffrent focuses(Repos are empty for now): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
+*   [ ]  3 other Text Fragment Chrome extensions that will have the same them and style of FragmentQR Pro, but diffrent focuses(Repos are empty for noew): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
 *   [ ]  Organize code
 *   [ ]  Version control
 
@@ -206,11 +208,12 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### [](#links)Links
 
-1. [**FragmentQR source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR)
+1. [**FragmentQR Repository**](https://y330.github.io/FragmentQR)
 
-2. [**FragmentQR Repository**](https://y330.github.io/FragmentQR)
+2. [**FragmentQR source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR)
 
-**Read about text fragments on [web.dev](https://web.dev)**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+
+**Read about text fragments on [web.dev](https://web.dev)**: Article title: Boldly link where no one has linked before: Text Fragments Link: [https://web.dev/text-fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
 #### [](#similar-extensions)Similar extensions:
 
@@ -220,10 +223,6 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 ---
 
 Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60)
-
-#### [](#install-fragmentqr)Install FragmentQR
-
-[![](https://camo.githubusercontent.com/f9e0e5910b4d8a97221601709b78ac61e05bb4d10755185e7279af376bd5c239/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f6c6f676f70656469612f696d616765732f632f63352f476f6f676c655f4368726f6d655f5765625f53746f72655f69636f6e5f323031352e7376672f7265766973696f6e2f6c61746573742f746f702d63726f702f77696474682f32352f6865696768742f32353f63623d3230313930393330313934393331)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) | [![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 ### [](#developed-by-yonah-aviv)Developed by Yonah Aviv
 
@@ -237,4 +236,4 @@ For the updated privacy policy, go to [the privacy policy](https://raw.githubuse
 
 ---
 
-**Copyright © 2021 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
+**Copyright © 2021 Yonah Aviv**. Licensed under the terms of the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
