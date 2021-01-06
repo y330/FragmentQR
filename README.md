@@ -14,22 +14,66 @@ _____
 
 ____
 
+ **Text Fragment** = Text that your browser highlights in yellow or the URL which contains a text fragment
 
-**Text Fragment** = Text that your browser highlights in yellow
-
+____
 
 ## Summary
 
-**FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.**
+**FragmentQR is a web extension that allows linking to relevant text on a webpage to share with other computers and mobile devices by generating a QR code for it, that will highlight the text in yellow when scanned.**
+
+____
 
 
-## Upcoming features🔮
+## Installation
 
- To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project. Soon, I will commit to [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
+FragmentQR is available on 2 different extension stores:
+
+[Install on ![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+
+[Install on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
-## Introduction
+After you open the extension installation page, click "install extension" to install FragmentQR to your browser.
+
+____
+## Getting started
+
+To get started, first familiarize yourself with the keyboard shortcuts.
+
+- ```Ctrl/⌘ + ⇧ + L```: copy the text fragment to your clipboard when selecting text
+- ```Ctrl/⌘ + Q```: Open the extension popup
+- (Shortcut coming soon) ```📋``` button to paste the text fragment link into the popup 
+
+Now that you know the shortcuts, try selecting the ```boring text right here on your screen```, and then use the keyboard shortcut to copy a text fragment and paste the link in a new tab.
+
+If  your on a supported browser, you will see the now not so boring text highlighted in yellow.
+
+Same thing goes for mobile, but just open the popup and do the shortcut to paste the url to generate a QR code. Now your all set to start generating Fragment QR Codes!
+
+
+
+Currently, the feature of highlighting the text in yellow only work on Android in Chrome version 85+.
+
+----
+
+## Features
+
++ Automatically Generate QR for current tab when opening extension popup
++ Text box to edit QR code
++ Paste, copy and clear buttons
++ Copy URL with text fragment from selected text and generate QR code for it
++ Light and dark themes
++ QR code can be made larger
++ Button to download QR as png
++ Clean and attractive design + smooth animations
+____
+
+## Specifics
+
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text, and enables generating a QR code for the text fragment in an extension popup by clicking the FragmentQR toolbar button.
+
+## Background
 
 ### **What are Text Fragments?**
 
@@ -54,24 +98,7 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 > Examples of random phenomena include the weather condition in a future date, the height of a person, the fraction of male students in a school, the results of a survey, etc.[4]
 
 
-## Getting Started
 
-```Ctrl/⌘ + ⇧ + L``` to copy the text fragment to your clipboard,  ```Ctrl/⌘ + Q``` to open the extension popup, and a ```📋```(Paste) button in the popup to paste the text fragment link into the popup to generate a QR code.
-
-When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow🟨.
-
-Currently scanning the QR code to see the highlights will only work Android.
-
-### Features
-
-+ Automatically Generate QR for current tab when opening extension popup
-+ Text box to edit QR code
-+ Paste, copy and clear buttons
-+ Copy URL with text fragment from selected text and generate QR code for it
-+ Light and dark themes
-+ QR code can be made larger
-+ Button to download QR as png
-+ Material design
 
 
 <hr width=50%>
@@ -81,7 +108,7 @@ Currently scanning the QR code to see the highlights will only work Android.
 ***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
 
-
+## FAQ
 
 ### **What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
 
@@ -122,7 +149,7 @@ All other devices(Link that is copied to clipboard)
 If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased👍)!
 
 ## More Questions?
-### Go check out [more Frequently Asked Questions](https://github.com/y330/FragmentQR/wiki/FAQ) on [Fragment QR's Wiki[(https://github.com/y330/FragmentQR/wiki)
+### Go check out [more Frequently Asked Questions](https://github.com/y330/FragmentQR/wiki/FAQ) on [Fragment QR's Wiki](https://github.com/y330/FragmentQR/wiki)
 
 If you still are in need of an answer feel free to [email me](mailto:avivyonah@gmail.com) with your question
 
@@ -133,15 +160,16 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 ### Known issues 
  - [ ] Theme does not save when changed in options
  - [ ]Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
- - Still searching 🔍
-   + Help find issues by installing and testing FragmentQR. If you find an issue, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store
+ - 🔎 Help find issues by installing and using FragmentQR. 
+      + If you find an issue, [open a new issue on GitHub](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bugssue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%20)
+          * If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store
 
-### _Changelog v1.7.3_ * To be released
-1. Imporved U
-2. History of QR codes is ow available as beta feature in settings
-3. Added sidebar
+### _Changelog v1.8_ * To be released
+1. Imporved UI
+2. History of QR codes is ow available in popup
+3. Added history button, settings button and a "show tips" button to the popup
 
-### _Changelog v1.7.2.5_### * To be released
+### _Changelog v1.7.3_### * To be released soon
  1. Updated hebrew language support
  2. Udated font-icons to svg tags
  3. Various other minor improvments
@@ -203,7 +231,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### Links
 
-[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): I added comments to the majority of so feel free to check them out.
+[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): May be unorganized
 
 
 [**FragmentQR website**](https://y330.github.io/FragmentQR): Includes a visual tutorial on how to use FragmentQR. Go check it out.
@@ -211,7 +239,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 **Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
 #### Similar extensions:
- 1. Inspired by [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
+ 1. [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
  2. [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
 
 
@@ -219,9 +247,6 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60)
 
-#### Install FragmentQR
-
-[![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) | [![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
 
@@ -242,4 +267,5 @@ For the updated privacy policy, go to [the privacy policy](https://raw.githubuse
 
 
 
-**Copyright © 2021 Yonah Aviv**. Licensed under the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
+**_FragmentQR_ 
+Copyright © 2021 Yonah Aviv**. Licensed under the terms of the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
