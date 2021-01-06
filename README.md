@@ -34,7 +34,7 @@ FragmentQR is available on 2 different extension stores:
 [Install on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
-After you open the extension installation page, click "install extension" to install FragmentQR to your browser.
+After you open the extension installation page, click "Add to \_insert\_browser\_name\_here\_" to install FragmentQR to your browser.
 
 ____
 ## Getting started
@@ -164,12 +164,12 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
       + If you find an issue, [open a new issue on GitHub](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bugssue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%20)
           * If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store
 
-### _Changelog v1.8_ * To be released
+### _Changelog v1.8_ Dev
 1. Imporved UI
 2. History of QR codes is ow available in popup
 3. Added history button, settings button and a "show tips" button to the popup
 
-### _Changelog v1.7.3_### * To be released soon
+### _Changelog v1.7.3_ To be released soon
  1. Updated hebrew language support
  2. Udated font-icons to svg tags
  3. Various other minor improvments
