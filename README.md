@@ -159,20 +159,20 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### Known issues 
  - [ ] Theme does not save when changed in options
- - [ ]Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
+ - [ ] Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
  - 🔎 Help find issues by installing and using FragmentQR. 
       + If you find an issue, [open a new issue on GitHub](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bugssue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%20)
-          * If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store
+          * If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
 
-### _Changelog v1.8_ Dev
+### _Changelog v1.8_(Coming soon)
 1. Imporved UI
-2. History of QR codes is ow available in popup
-3. Added history button, settings button and a "show tips" button to the popup
+2. Recently generated QR coded are available in the popup
+3. Added more buttons
+4. changed button icons
+5. Theme will now be remembered after popup closes
+6. Added side navigation
 
-### _Changelog v1.7.3_ To be released soon
- 1. Updated hebrew language support
- 2. Udated font-icons to svg tags
- 3. Various other minor improvments
+
 
 
 ### _Changelog v1.7.2_
@@ -217,11 +217,10 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### TODO
 
-  - [ ] FragmentQR Pro(Built using React)
-       + Pro meaning new and improved, not paid
-  - [ ] 3 other Text Fragment Chrome extensions, I will be working on soon(Repos are empty for now): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
-  - [ ] Organize code
-  - [ ] Version control
+  - [ ] __Fragmenter__, the new and revised FragmentQR built using some Front End framework.
+       + [ ] Following the release of Framenter: [**FragmenTLDR**](https://github.com/y330/FragmenTLDR).
+  - [x] Clean code(I will have clean code in Fragmenter, which is one of the reasons I am rebuilding it)
+  - [ ] actually use source control  
 ----
 
 ## More Info
@@ -230,6 +229,8 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
  2. <sup id=ref2>[2]</sup> Chromium\* 80 and above uses text fragments in a feature  <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
 
 ### Links
+
+I'm "making" a WordPress site for FragmentQR with a more attractive design and better interface than the current one. Currently it is unfinished, but you can check it out at [fragmentqr.wordpress.com](https://fragmentqr.wordpress.com).
 
 [**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): May be unorganized
 
