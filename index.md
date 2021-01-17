@@ -119,13 +119,13 @@ All other devices(using the text fragment URL) 4. Pretty much the same browsers 
 | Mac OS X | Microsoft Edge 83, Chrome 80, Opera 68 |
 | iOS | N/A. Could come in early 2021. |
 
-[Check current status](httpsi//caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use "Check compatability of scroll to text fragment")
+[Check current status](https//caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use "Check compatability of scroll to text fragment")
 
 If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased 👍)!
 
 ## [](#more-questions)More Questions?
 
-### [](#go-check-out-more-frequently-asked-questions-on-fragment-qrs-wikihttpsgithubcomy330fragmentqrwiki)Go check out the FAQ on Fragment QR's [Wiki](https://github.com/y330/FragmentQR/wiki)
+### [](#FAQs-on-the-FragmentQR-wiki)More FAQs on the [Fragment QR Wiki](https://github.com/y330/FragmentQR/wiki)
 
 If you still are in need of an answer feel free to [email me](mailto:avivyonah@gmail.com) with your question
 
@@ -135,15 +135,15 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ## Issues and Changelog
 
-### [](/y330/FragmentQR)Known issues
+### [](https://github.com/y330/FragmentQR)Known issues
 
 *    Theme does not save when changed in options
 *    Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
 *   🔎 Help find issues by installing and using FragmentQR.
-    -  If you find an issue, [open a new issue on GitHub](/y330/FragmentQR/issues/new)
-        +  If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
+    *  If you find an issue, [open a new issue on GitHub](https://github.com/y330/FragmentQR/issues/new)
+        *  If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
 
-### [](/y330/FragmentQR)*Changelog v1.8*(Coming soon)
+### [](https://github.com/y330/FragmentQR)*Changelog v1.8*(Coming soon)
 
 1.  Imporved UI
 2.  Recently generated QR coded are available in the popup
@@ -152,34 +152,34 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 5.  Theme will now be remembered after popup closes
 6.  Added side navigation
 
-### [](/y330/FragmentQR)*Changelog v1.7.2*
+### [](https://github.com/y330/FragmentQR)*Changelog v1.7.2*
 
 1.  Changed options page
 2.  New icon
 3.  Now available on Microsoft Edge Add\-ons
 4.  Updated description
 
-### [](/y330/FragmentQR)*Changelog v1.7.1*
+### [](https://github.com/y330/FragmentQR)*Changelog v1.7.1*
 
-*    Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](/y330/FragmentQR/issues/9)
+*    Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](https://github.com/y330/FragmentQR/issues/9)
 
-### [](/y330/FragmentQR)*Changelog v1.7*
+### [](https://github.com/y330/FragmentQR)*Changelog v1.7*
 
 1.  Fixed Issue # 5: QR now update automatically when typing in the text box
 2.  Revamped options page
 3.  minor fixes
 
-### [](/y330/FragmentQR)*Changelog v1.6*
+### [](https://github.com/y330/FragmentQR)*Changelog v1.6*
 
 *   Fix issue when system theme is set to light
 
 *   Minor improvements
 
-*    [QR does not update automatically when typing in the text box #5](/y330/FragmentQR/issues/5)
+*    [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5)
 
-   -   Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
+   *   Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
 
-### [](/y330/FragmentQR)*Changelog v1.5*
+### [](https://github.com/y330/FragmentQR)*Changelog v1.5*
 
 1.  New icon and name changes to FragmentQR
 2.  Paste button now works.
@@ -188,42 +188,41 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 5.  Added keyboard shortcuts
 6.  Light theme(currently does not save between sessions)
 
-### [](/y330/FragmentQR)TODO
+### [](https://github.com/y330/FragmentQR)TODO
 
 *    **Fragmenter**, the new and revised FragmentQR built using some Front End framework.
-    -    Following the release of Framenter: [**FragmenTLDR**](/y330/FragmenTLDR).
+    -    Following the release of Framenter: [**FragmenTLDR**](https://github.com/y330/FragmenTLDR).
 *    Clean code(I will have clean code in Fragmenter, which is one of the reasons I am rebuilding it)
 *    actually use source control
 
 ---
 
-## [](/y330/FragmentQR)More Info
+## [](https://github.com/y330/FragmentQR)More Info
 
-### [](/y330/FragmentQR)References
+### [](https://github.com/y330/FragmentQR)References
 
 1.  \[1\] Burris, N., & Bokan, D. (Eds.). (2020, November 24). Scroll\-to\-text\-fragment. Retrieved November 28, 2020, from [wicg.github.io/scroll\-to\-text\-fragment](https://wicg.github.io/scroll-to-text-fragment/)
 2.  \[2\] Chromium\* 80 and above uses text fragments in a feature [Scroll to Text Fragment](/WICG/scroll-to-text-fragment/ "Scroll-to-Text Fragment on GitHub"). Text fragments may be owned by W3C or WICG.
 
-### [](/y330/FragmentQR)Links
+### [](https://github.com/y330/FragmentQR)Links
 
 I'm "making" a WordPress site for FragmentQR with a more attractive design and better interface than the current one. Currently it is unfinished, but you can check it out at [fragmentqr.wordpress.com](https://fragmentqr.wordpress.com).
 
-[**View source code**](/y330/FragmentQR/tree/master/FragmentQR): May be unorganized
+[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): May be unorganized
 
-[**FragmentQR website**](https://y330.github.io/FragmentQR): Includes a visual tutorial on how to use FragmentQR. Go check it out.
-
+[**FragmentQR Repository**](https://github.com/y330/FragmentQR): The center of operations.
 **Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
-#### [](/y330/FragmentQR)Similar extensions:
+#### [](https://github.com/y330/FragmentQR)Similar extensions:
 
 1.  [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
 2.  [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
 
 ---
 
-Report an [issue 🐞](/y330/FragmentQR/issues/new) or Suggest a [new feature 🔮](/y330/FragmentQR/issues/new)
+Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new)
 
-### [](/y330/FragmentQR)Developed by Yonah Aviv
+### [](https://github.com/y330/FragmentQR)Developed by Yonah Aviv
 
 <a href="https://www.buymeacoffee.com/yonahaviv" target="_blank"><img src="https://camo.githubusercontent.com/c58c9d4d7884c99daada0f44b7cf6a362f8c4fc7430aa860b5065e2c2d86b3af/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d677265656e2e706e67" width="200px"/></a>
 
