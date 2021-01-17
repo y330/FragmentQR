@@ -243,11 +243,11 @@ Report an [issue üêû](/y330/FragmentQR/issues/new) or Suggest a [new feature ü
 
 ### [](/y330/FragmentQR)Developed by Yonah Aviv
 
-[![yonahaviv](https://camo.githubusercontent.com/c58c9d4d7884c99daada0f44b7cf6a362f8c4fc7430aa860b5065e2c2d86b3af/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d677265656e2e706e67)](https://www.buymeacoffee.com/yonahaviv)
+<a href="https://www.buymeacoffee.com/yonahaviv" target="_blank"><img src="https://camo.githubusercontent.com/c58c9d4d7884c99daada0f44b7cf6a362f8c4fc7430aa860b5065e2c2d86b3af/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d677265656e2e706e67" width="200px"/></a>
 
 **Privacy policy**
 
-I, the developer, attest to the claim that the browser extension FragmentQR does not collect any personal identification information of users whatsoever, and that all other data is stored locally on the user's device.
+As the developers of FragmentQR, we take your privacy very seriously. To ensure it's integrity, we do not collect any personal identification information whatsoever, and all other data FragmentQR collects is for thee sole purpose of providing better functionality to the user, and is stored locally on the user's machine, with the potential option of syncing to their profile. 
 
 For the updated privacy policy, go to [the privacy policy](https://raw.githubusercontent.com/y330/FragmentQR/master/PRIVACY_POLICY)
 
