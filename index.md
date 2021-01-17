@@ -3,25 +3,35 @@ layout: default
 title: FragmentQR
 ---
 
-# FragmentQR
+<h1> FragmentQR</h1>
+<h2><img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" style="position: relative; padding-bottom: 5px; vertical-align:bottom"  alt="FragmentQR Logo"><img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=FragmentQR%20Release" width="auto" height="auto" alt="Version" /> </b text-align="center" ></h2>
 
-## [](#-)[![FragmentQR Logo](https://camo.githubusercontent.com/753d4cefdeffed81260fdeaa648ba6891770fb5ac447efb2708e2d388d6f7e86/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f34667066664845722d6952626d3473393177703479364c66493551633164562d764668614168505039517038585f545578546e37584f673966686d6562695a395058445031423563417174714462776e5449652d3743757658673d773132382d683132382d653336352d726a2d736330783030666666666666)](https://camo.githubusercontent.com/753d4cefdeffed81260fdeaa648ba6891770fb5ac447efb2708e2d388d6f7e86/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f34667066664845722d6952626d3473393177703479364c66493551633164562d764668614168505039517038585f545578546e37584f673966686d6562695a395058445031423563417174714462776e5449652d3743757658673d773132382d683132382d653336352d726a2d736330783030666666666666)[![Version](https://camo.githubusercontent.com/270a0de140d3d28b0b4a1946dcc55a600ee03358ea8c64679a4c1e7042f9afb6/68747470733a2f2f696d672e736869656c64732e696f2f6368726f6d652d7765622d73746f72652f762f6361626f646e66616b616d65636b666262676b6369696966656d70676c6c6f6a3f636f6c6f723d696e666f726d6174696f6e616c267374796c653d666f722d7468652d6261646765266c6162656c3d467261676d656e74515225323052656c65617365)](https://camo.githubusercontent.com/270a0de140d3d28b0b4a1946dcc55a600ee03358ea8c64679a4c1e7042f9afb6/68747470733a2f2f696d672e736869656c64732e696f2f6368726f6d652d7765622d73746f72652f762f6361626f646e66616b616d65636b666262676b6369696966656d70676c6c6f6a3f636f6c6f723d696e666f726d6174696f6e616c267374796c653d666f722d7468652d6261646765266c6162656c3d467261676d656e74515225323052656c65617365)
 
-----
 
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store" padding="0"><img src="data:image/webp;base64,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" height="86"></a>
+_____
+<button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
+</button>
 
-----
+
+
+____
+
 
 **Text Fragment** = Text that your browser highlights in yellow
 
-## [](#summary)Summary
+_______
 
-**FragmentQR is a chromium extension that allows linking to relevant text on a webpage and generating a QR code for it, that will highlight the text in yellow when scanned.**
+
+## Summary
+
+**FragmentQR is a web extension that allows linking to relevant text on a webpage to share with other computers and mobile devices by generating a QR code for it, that will highlight the text in yellow when scanned.**
+
 
 ## [](#upcoming-features)Upcoming features 🔮
 
 To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project.
+
 ## Introduction
 
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text(I be referring to the URL that contains the text you selected as a text fragment URL or text fragment link), and enables generating a QR code for the text fragment link in an extension popup by clicking the FragmentQR toolbar button.
@@ -31,13 +41,21 @@ FragmentQR adds a an option to the context menu to copy a text fragment when sel
 
 ### [](#install-fragmentqr)Installation
 
-[Download on ![](https://camo.githubusercontent.com/f9e0e5910b4d8a97221601709b78ac61e05bb4d10755185e7279af376bd5c239/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f6c6f676f70656469612f696d616765732f632f63352f476f6f676c655f4368726f6d655f5765625f53746f72655f69636f6e5f323031352e7376672f7265766973696f6e2f6c61746573742f746f702d63726f702f77696474682f32352f6865696768742f32353f63623d3230313930393330313934393331)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
-[Download on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+## Installation
 
-### Keyboard Shortcuts and instructions
+FragmentQR is available on 2 different extension stores:
+
+[Install on ![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+
+[Install on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
-## Tutorial
+After you open the extension installation page, click "Add to \_insert\_browser\_name\_here\_" to install FragmentQR to your browser.
+
+## Keyboard Shortcuts and instructions
+
+
+### Tutorial
 
 <a href="https://bit.ly/FragmentQRv17_tutorial" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
 
@@ -224,7 +242,7 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new) or Suggest
 
 **Privacy policy**
 
-As the developers of FragmentQR, we take your privacy very seriously. To ensure it's integrity, we do not collect any personal identification information whatsoever, and all other data FragmentQR collects is for thee sole purpose of providing better functionality to the user, and is stored locally on the user's machine, with the potential option of syncing to their profile. 
+As the developers of FragmentQR, we take your privacy very seriously. To ensure it's integrity, we do not collect any personal identification information whatsoever, and all other data FragmentQR collects is for the sole purpose of providing better functionality to the user, and is stored locally on the user's machine, with the potential option of syncing to their profile. 
 
 For the updated privacy policy, go to [the privacy policy](https://raw.githubusercontent.com/y330/FragmentQR/master/PRIVACY_POLICY)
 
