@@ -107,6 +107,8 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 
 ***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
+
+
 ### [](#what-browsers-and-oss-see-the-text-highlighted-in-yellow-when-they-scan-the-qr-code-or-open-the-link)**What browsers and OSs see the text highlighted in yellow when they scan the QR code or open the link?**
 
 **I am not affiliated with any of these browsers.**
