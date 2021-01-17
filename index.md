@@ -140,26 +140,8 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 *    Theme does not save when changed in options
 *    Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
 *   🔎 Help find issues by installing and using FragmentQR.
-    *   If you find an issue, [open a new issue on GitHub](/y330/FragmentQR/issues/new)
-        *   If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
-
-### [](/y330/FragmentQR)*Changelog v1.8*(Coming soon)
-
-1.  Imporved UI
-2.  Recently generated QR coded are available in the popup
-3.  Added more buttons
-4.  changed button icons
-5.  Theme will now be remembered after popup closes
-6.  Added side navigation
-## Issues and Changelog
-
-### [](/y330/FragmentQR)Known issues
-
-*    Theme does not save when changed in options
-*    Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
-*   🔎 Help find issues by installing and using FragmentQR.
-    *   If you find an issue, [open a new issue on GitHub](/y330/FragmentQR/issues/new)
-        *   If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
+    -  If you find an issue, [open a new issue on GitHub](/y330/FragmentQR/issues/new)
+        +  If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
 
 ### [](/y330/FragmentQR)*Changelog v1.8*(Coming soon)
 
@@ -195,7 +177,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 *    [QR does not update automatically when typing in the text box #5](/y330/FragmentQR/issues/5)
 
-    *   Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
+   -   Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
 
 ### [](/y330/FragmentQR)*Changelog v1.5*
 
@@ -209,7 +191,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 ### [](/y330/FragmentQR)TODO
 
 *    **Fragmenter**, the new and revised FragmentQR built using some Front End framework.
-    *    Following the release of Framenter: [**FragmenTLDR**](/y330/FragmenTLDR).
+    -    Following the release of Framenter: [**FragmenTLDR**](/y330/FragmenTLDR).
 *    Clean code(I will have clean code in Fragmenter, which is one of the reasons I am rebuilding it)
 *    actually use source control
 
@@ -252,5 +234,7 @@ As the developers of FragmentQR, we take your privacy very seriously. To ensure 
 For the updated privacy policy, go to [the privacy policy](https://raw.githubusercontent.com/y330/FragmentQR/master/PRIVACY_POLICY)
 
 ---
+
+FragmentQR uses icons from the Material icons library.
 
 ***FragmentQR* Copyright © 2021 Yonah Aviv**. Licensed under the terms of the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
