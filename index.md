@@ -7,14 +7,9 @@ title: FragmentQR
 <h2><img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" style="position: relative; padding-bottom: 5px; vertical-align:bottom"  alt="FragmentQR Logo"><img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=FragmentQR%20Release" width="auto" height="auto" alt="Version" /> 
 </h2>
 
-
-
 _____
 
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store">
-    <img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px" style="margin: -35px 10px 10px -35px; vertical-align: bottom"/>
-</a>
-
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px" style="border: royalblue 3px solid; border-radius:50%; vertical-align: bottom"/></a>
 
 ____
 
