@@ -11,10 +11,7 @@ title: FragmentQR
 
 _____
 
-<button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
-</button>
-
 
 
 ____
@@ -47,9 +44,9 @@ FragmentQR adds a an option to the context menu to copy a text fragment when sel
 
 FragmentQR is available on 2 different extension stores:
 
-[Install on ![](https://ssl.gstatic.com/chrome/webstore/images/icon_25px.png)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+[Install on ![Google Chrome](https://ssl.gstatic.com/chrome/webstore/images/icon_25px.png)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
 
-[Install on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+[Install on ![Microsoft Edge](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
 After you open the extension installation page, click "Add to \_insert\_browser\_name\_here\_" to install FragmentQR to your browser.
@@ -242,7 +239,7 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new) or Suggest
 
 ### [](https://github.com/y330/FragmentQR)Developed by Yonah Aviv
 
-<a href="https://www.buymeacoffee.com/yonahaviv" target="_blank"><img src="https://camo.githubusercontent.com/c58c9d4d7884c99daada0f44b7cf6a362f8c4fc7430aa860b5065e2c2d86b3af/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d677265656e2e706e67" width="200px"/></a>
+<a href="https://www.buymeacoffee.com/yonahaviv" target="_blank"><img src="https://camo.githubusercontent.com/c58c9d4d7884c99daada0f44b7cf6a362f8c4fc7430aa860b5065e2c2d86b3af/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d677265656e2e706e67" alt="Buy me a coffee" width="200px"/></a>
 
 **Privacy policy**
 
