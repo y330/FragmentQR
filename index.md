@@ -9,7 +9,7 @@ title: FragmentQR
 
 _____
 
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px" style="border: royalblue 3px solid; border-radius:50%; vertical-align: bottom"/></a>
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px" style="border: slategrey 2px outset; border-radius: 20px; vertical-align: middle"/></a>
 
 ____
 
@@ -41,7 +41,7 @@ FragmentQR adds a an option to the context menu to copy a text fragment when sel
 
 FragmentQR is available on 2 different extension stores:
 
-[Install on ![Google Chrome](https://ssl.gstatic.com/chrome/webstore/images/icon_25px.png)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+[Install on ![Google Chrome](https://www.google.com/images/icons/product/chrome_web_store-64.png)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
 
 [Install on ![Microsoft Edge](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
