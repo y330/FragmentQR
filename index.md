@@ -133,98 +133,115 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ## [](#issues-and-changelog)Issues and Changelog
 
-### [](#known-issues)Known issues
+## Issues and Changelog
 
-*   [ ] Theme does not save when changed in options
-*   [ ] Button icons become text and overflows outside the button when offline
-🔍 Help find issues by installing and using FragmentQR. If you discover any, open a new issue and I'll try to solve it in the next release.
-	*    If you do not have a github profile then (you might as well create one). post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj?tab=Support) on the Web Store or on the [Add on Store](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+### [](/y330/FragmentQR)Known issues
 
-### [](#changelog-v1.8--to-be-released)*Changelog v1.8* (To be released)
+*    Theme does not save when changed in options
+*    Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
+*   🔎 Help find issues by installing and using FragmentQR.
+    *   If you find an issue, [open a new issue on GitHub](/y330/FragmentQR/issues/new)
+        *   If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
 
-1.  Rearranged UI layout
-2.  New option in the settings page for keeping a history of generated QR codes(beta)
-3.  Added sidenav
+### [](/y330/FragmentQR)*Changelog v1.8*(Coming soon)
 
-### [](#changelog-v173--to-be-released)*Changelog v1.7.3* (Rolling out)
+1.  Imporved UI
+2.  Recently generated QR coded are available in the popup
+3.  Added more buttons
+4.  changed button icons
+5.  Theme will now be remembered after popup closes
+6.  Added side navigation
+## Issues and Changelog
 
-1.  Updated hebrew strings in (https://ment
-2.  Udated icon-fons to svg tags
+### [](/y330/FragmentQR)Known issues
 
-### [](#changelog-v172)*Changelog v1.7.2*
+*    Theme does not save when changed in options
+*    Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
+*   🔎 Help find issues by installing and using FragmentQR.
+    *   If you find an issue, [open a new issue on GitHub](/y330/FragmentQR/issues/new)
+        *   If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
+
+### [](/y330/FragmentQR)*Changelog v1.8*(Coming soon)
+
+1.  Imporved UI
+2.  Recently generated QR coded are available in the popup
+3.  Added more buttons
+4.  changed button icons
+5.  Theme will now be remembered after popup closes
+6.  Added side navigation
+
+### [](/y330/FragmentQR)*Changelog v1.7.2*
 
 1.  Changed options page
-2.  New product icon
+2.  New icon
 3.  Now available on Microsoft Edge Add\-ons
 4.  Updated description
 
-### [](#changelog-v171)*Changelog v1.7.1*
+### [](/y330/FragmentQR)*Changelog v1.7.1*
 
-*   [x]  Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](https://github.com/y330/FragmentQR/issues/9)
+*    Fixed Issue # 9: [Unable to copy text fragments in version 1.7 #9](/y330/FragmentQR/issues/9)
 
-### [](#changelog-v17)*Changelog v1.7*
+### [](/y330/FragmentQR)*Changelog v1.7*
 
 1.  Fixed Issue # 5: QR now update automatically when typing in the text box
 2.  Revamped options page
 3.  minor fixes
 
-### [](#changelog-v16)*Changelog v1.6*
+### [](/y330/FragmentQR)*Changelog v1.6*
 
 *   Fix issue when system theme is set to light
 
 *   Minor improvements
 
-*   [QR does not update automatically when typing in the text box #5](https://github.com/y330/FragmentQR/issues/5#issue-720348982)
+*    [QR does not update automatically when typing in the text box #5](/y330/FragmentQR/issues/5)
 
     *   Until fixed, a workaround is: After you finish typing click the copy button and then the paste button. The QR code will only update when the paste button is clicked.
 
-### [](#changelog-v15)*Changelog v1.5*
+### [](/y330/FragmentQR)*Changelog v1.5*
 
-1.  New product icon and name changes to FragmentQR
+1.  New icon and name changes to FragmentQR
 2.  Paste button now works.
 3.  Vast UI and functionality improvements
 4.  Added support for copying text framents
 5.  Added keyboard shortcuts
 6.  Light theme(currently does not save between sessions)
 
-### [](#todo)TODO
+### [](/y330/FragmentQR)TODO
 
-*   [ ]  FragmentQR Pro
-	* Instead of maintaining FragmentQR which is built using plain HTML/CSS/JS, I am rebuilding the extension using ReactJS, a modern web framework that is more maintainable. 
-		* After the initial release, I will be changing the whole design and adding new features, approx. spring 2021.
-    *   Pro meaning new and improved, not paid
-*   [ ]  3 other Text Fragment Chrome extensions that will have the same them and style of FragmentQR Pro, but diffrent focuses(Repos are empty for noew): [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
-*   [ ]  Organize code
-*   [ ]  Version control
+*    **Fragmenter**, the new and revised FragmentQR built using some Front End framework.
+    *    Following the release of Framenter: [**FragmenTLDR**](/y330/FragmenTLDR).
+*    Clean code(I will have clean code in Fragmenter, which is one of the reasons I am rebuilding it)
+*    actually use source control
 
 ---
 
-## [](#more-info)More Info
+## [](/y330/FragmentQR)More Info
 
-### [](#references)References and Footnotes
+### [](/y330/FragmentQR)References
 
-1.  \[1\] Burris, N., & Bokan, D. (Eds.). (2020, November 24). Scroll\-to\-text\-fragment, from [wicg.github.io/scroll\-to\-text\-fragment](https://wicg.github.io/scroll-to-text-fragment/)
-2.  \[2\] Chromium\* 80 and above uses text fragments in a feature [Scroll to Text Fragment](https://github.com/WICG/scroll-to-text-fragment/ "Scroll-to-Text Fragment on GitHub"). Text fragments may be owned by W3C or WICG, however I do not make any claims.
+1.  \[1\] Burris, N., & Bokan, D. (Eds.). (2020, November 24). Scroll\-to\-text\-fragment. Retrieved November 28, 2020, from [wicg.github.io/scroll\-to\-text\-fragment](https://wicg.github.io/scroll-to-text-fragment/)
+2.  \[2\] Chromium\* 80 and above uses text fragments in a feature [Scroll to Text Fragment](/WICG/scroll-to-text-fragment/ "Scroll-to-Text Fragment on GitHub"). Text fragments may be owned by W3C or WICG.
 
-### [](#links)Links
+### [](/y330/FragmentQR)Links
 
-1. [**FragmentQR Repository**](https://y330.github.io/FragmentQR)
+I'm "making" a WordPress site for FragmentQR with a more attractive design and better interface than the current one. Currently it is unfinished, but you can check it out at [fragmentqr.wordpress.com](https://fragmentqr.wordpress.com).
 
-2. [**FragmentQR source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR)
+[**View source code**](/y330/FragmentQR/tree/master/FragmentQR): May be unorganized
 
+[**FragmentQR website**](https://y330.github.io/FragmentQR): Includes a visual tutorial on how to use FragmentQR. Go check it out.
 
-**Read about text fragments on [web.dev](https://web.dev)**: Article title: Boldly link where no one has linked before: Text Fragments Link: [https://web.dev/text-fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+**Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
-#### [](#similar-extensions)Similar extensions:
+#### [](/y330/FragmentQR)Similar extensions:
 
-1.  Inspired by [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
+1.  [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
 2.  [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
 
 ---
 
-Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60)
+Report an [issue 🐞](/y330/FragmentQR/issues/new) or Suggest a [new feature 🔮](/y330/FragmentQR/issues/new)
 
-### [](#developed-by-yonah-aviv)Developed by Yonah Aviv
+### [](/y330/FragmentQR)Developed by Yonah Aviv
 
 [![yonahaviv](https://camo.githubusercontent.com/c58c9d4d7884c99daada0f44b7cf6a362f8c4fc7430aa860b5065e2c2d86b3af/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d677265656e2e706e67)](https://www.buymeacoffee.com/yonahaviv)
 
@@ -236,4 +253,4 @@ For the updated privacy policy, go to [the privacy policy](https://raw.githubuse
 
 ---
 
-**Copyright © 2021 Yonah Aviv**. Licensed under the terms of the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
+***FragmentQR* Copyright © 2021 Yonah Aviv**. Licensed under the terms of the [MIT License](https://raw.githubusercontent.com/y330/FragmentQR/master/LICENSE)
