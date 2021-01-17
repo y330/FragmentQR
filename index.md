@@ -21,9 +21,7 @@ title: FragmentQR
 
 ## [](#upcoming-features)Upcoming features 🔮
 
-To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project. Soon, I will commit to [**FragmentCitation**](https://github.com/y330/FragmentCitation), [**FragmenTLDR**](https://github.com/y330/FragmenTLDR), and [**FragmentAnnotator**](https://github.com/y330/FragmentAnnotator).
-
-
+To see upcoming features, go to the **[FragmentQR regular and 2.0](https://github.com/users/y330/projects/2)** project.
 ## Introduction
 
 FragmentQR adds a an option to the context menu to copy a text fragment when selecting text(I be referring to the URL that contains the text you selected as a text fragment URL or text fragment link), and enables generating a QR code for the text fragment link in an extension popup by clicking the FragmentQR toolbar button.
