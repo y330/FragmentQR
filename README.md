@@ -231,6 +231,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 ### Links
 
 I'm "making" a WordPress site for FragmentQR with a more attractive design and better interface than the current one. Currently it is unfinished, but you can check it out at [fragmentqr.wordpress.com](https://fragmentqr.wordpress.com).
+^Edit: I'm not using wordpress anymore. Back to gh pages.
 
 [**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): May be unorganized
 
