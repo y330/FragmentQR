@@ -217,9 +217,9 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### TODO
 
-  - [ ] __Fragmenter__, the new and revised FragmentQR built using some Front End framework.
-       + [ ] Following the release of Framenter: [**FragmenTLDR**](https://github.com/y330/FragmenTLDR).
-  - [x] Organize everything (i.e., add comments, refactor code, remove redundancies. etc.
+  - [ ] Rebuild FragmentQR as FragmentQR Pro
+       + [ ] Possibly following the release of FragmentQR Pro will be FragmentTLDR [**FragmenTLDR**](https://github.com/y330/FragmenTLDR). Since I have school, this may only be physically released in the summer of 2021
+  - [ ] Organize everything (i.e., add comments, refactor code, remove redundancies. etc.
 ----
 
 ## More Info
