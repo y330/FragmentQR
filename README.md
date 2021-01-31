@@ -14,7 +14,7 @@ _____
 
 ____
 
- **Text Fragment** = Text that your browser highlights in yellow or the URL which contains a text fragment
+ **Text Fragment**: Text that your browser highlights in yellow or the URL which contains a text fragment
 
 ____
 
@@ -43,7 +43,7 @@ To get started, first familiarize yourself with the keyboard shortcuts.
 
 - ```Ctrl/⌘ + ⇧ + L```: copy the text fragment to your clipboard when selecting text
 - ```Ctrl/⌘ + Q```: Open the extension popup
-- (Shortcut coming soon) ```📋``` button to paste the text fragment link into the popup 
+- ```📋``` button to paste the text fragment link into the popup 
 
 Now that you know the shortcuts, try selecting the ```boring text right here on your screen```, and then use the keyboard shortcut to copy a text fragment and paste the link in a new tab.
 
@@ -105,7 +105,7 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 
 ***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
 
-***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
+***Update Dec 2020:*** Chrome 88 (beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
 
 ## FAQ
@@ -122,12 +122,12 @@ Scroll to text fragment is a feature in Chromium-based browsers<sup>[[2]](#ref2)
 . There may be similar features in other browsers.
 
 
-Mobile operating systems(that support scanning the QR code)
-1. **Android works**(check browsers below)
+Mobile operating systems (that support scanning the QR code)
+1. **Android works** (check browsers below)
 2. **iOS doesn't work**
 3. **IPadOS to be determined**
 
-All other devices(Link that is copied to clipboard)
+All other devices (Link that is copied to clipboard)
 4. Pretty much the same browsers work on Mac, Windows, and Linux but still check to make sure whoever you send the link to is running one of the OS/browser combination below.
 
 [Let me know](https://bit.ly/feature_request_form) if you want your operating system or browser to appear in the table below.
@@ -137,7 +137,7 @@ All other devices(Link that is copied to clipboard)
 
 |Operating System|Browser Version|
 |--|--|
-|Android| Chrome 85, Android WebView 81, Samsung Internet latest.(could be more)|
+|Android| Chrome 85, Android WebView 81, Samsung Internet latest. (could be more)|
 |Windows|Microsoft Edge 83, Chrome 80, Opera 68|
 |Linux|Microsoft Edge 83, Chrome 80, Opera 68|
 |Mac OS X|Microsoft Edge 83, Chrome 80, Opera 68|
@@ -219,8 +219,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
   - [ ] __Fragmenter__, the new and revised FragmentQR built using some Front End framework.
        + [ ] Following the release of Framenter: [**FragmenTLDR**](https://github.com/y330/FragmenTLDR).
-  - [x] Clean code(I will have clean code in Fragmenter, which is one of the reasons I am rebuilding it)
-  - [ ] actually use source control  
+  - [x] Organize everything (i.e., add comments, refactor code, remove redundancies. etc.
 ----
 
 ## More Info
