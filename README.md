@@ -164,13 +164,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
           * If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
 
 ### _Changelog v1.8_(Coming soon)
-1. Imporved UI
-2. Recently generated QR coded are available in the popup
-3. Added more buttons
-4. changed button icons
-5. Theme will now be remembered after popup closes
-6. Added side navigation
-
+1. Feature improvements, and interface redesigns.
 
 
 
