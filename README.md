@@ -106,6 +106,7 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 
 ***Update Dec 2020:*** Chrome 88 (beta) by default has the copy link to text item in the context menu and it works.Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
+Feb 21, 2021: Since at least the current date, there is a ui available in google chrome on both android and desktop for generating fragments.
 
 ## FAQ
 
@@ -218,12 +219,9 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
  1. <sup id="ref_frag">[1]</sup> Burris, N., &amp; Bokan, D. (Eds.). (2020, November 24). Scroll-to-text-fragment. Retrieved November 28, 2020, from https://wicg.github.io/scroll-to-text-fragment/
  2. <sup id=ref2>[2]</sup> Chromium\* 80 and above uses text fragments in a feature  <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
 
-### Links
+### Liks
 
-I'm "making" a WordPress site for FragmentQR with a more attractive design and better interface than the current one. Currently it is unfinished, but you can check it out at [fragmentqr.wordpress.com](https://fragmentqr.wordpress.com).
-^Edit: I'm not using wordpress anymore. Back to gh pages.
-
-[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): May be unorganized
+[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): *__note:__ im still learning js.*
 
 
 [**FragmentQR website**](https://y330.github.io/FragmentQR): Includes a visual tutorial on how to use FragmentQR. Go check it out.
@@ -243,7 +241,6 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 
 
 
-  <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" height="50" width="210" alt="yonahaviv" /></a></p>
 
 **Privacy policy**
 
@@ -254,6 +251,9 @@ For the updated privacy policy, go to [the privacy policy](https://raw.githubuse
 
 
 ----
+
+#### Yonah Aviv
+  <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" height="50" width="210" alt="yonahaviv" /></a></p>
 
 
 
