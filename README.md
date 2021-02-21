@@ -49,8 +49,7 @@ Now that you know the shortcuts, try selecting the ```boring text right here on 
 
 If  your on a supported browser, you will see the now not so boring text highlighted in yellow.
 
-Same thing goes for mobile, but just open the popup and do the shortcut to paste the url to generate a QR code. Now your all set to start generating Fragment QR Codes!
-
+Same thing goes for mobile, but just open the popup and do the shortcut to paste the url to generate a QR code. 
 
 
 Currently, the feature of highlighting the text in yellow only work on Android in Chrome version 85+.
@@ -105,7 +104,7 @@ The above link to [Probability Distribution](https://en.wikipedia.org/wiki/Proba
 
 ***Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
 
-***Update Dec 2020:*** Chrome 88 (beta) by default has the copy link to text item in the context menu and it works! Hopefully if it get's carried to the stable version they release some sort of documentation or API.
+***Update Dec 2020:*** Chrome 88 (beta) by default has the copy link to text item in the context menu and it works.Hopefully if it get's carried to the stable version they release some sort of documentation or API.
 
 
 ## FAQ
@@ -217,9 +216,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### TODO
 
-  - [ ] Rebuild FragmentQR as FragmentQR Pro
-       + [ ] Possibly following the release of FragmentQR Pro will be FragmentTLDR [**FragmenTLDR**](https://github.com/y330/FragmenTLDR). Since I have school, this may only be physically released in the summer of 2021
-  - [ ] Organize everything (i.e., add comments, refactor code, remove redundancies. etc.
+[ ] release new version
 ----
 
 ## More Info
@@ -251,7 +248,6 @@ Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Repor
 
 
 
-### Developed by Yonah Aviv
 
   <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" height="50" width="210" alt="yonahaviv" /></a></p>
 
