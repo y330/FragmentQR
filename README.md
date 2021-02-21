@@ -40,14 +40,14 @@ ____
 ## Getting started
 
 To get started, first familiarize yourself with the keyboard shortcuts.
-
+After selecting any text,
 - ```Ctrl/⌘ + ⇧ + L```: copy the text fragment to your clipboard when selecting text
 - ```Ctrl/⌘ + Q```: Open the extension popup
 - ```📋``` button to paste the text fragment link into the popup 
 
 Now that you know the shortcuts, try selecting the ```boring text right here on your screen```, and then use the keyboard shortcut to copy a text fragment and paste the link in a new tab.
 
-If  your on a supported browser, you will see the now not so boring text highlighted in yellow.
+If  your on a supported browser, you will see the text highlighted in yellow.
 
 Same thing goes for mobile, but just open the popup and do the shortcut to paste the url to generate a QR code. 
 
@@ -211,7 +211,7 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 ### TODO
 
-[ ] release new version
+ - [ ] release new version
 ----
 
 ## More Info
