@@ -34,7 +34,6 @@ FragmentQR is available on 2 different extension stores:
 [Install on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
-After you open the extension installation page, click "Add to \_insert\_browser\_name\_here\_" to install FragmentQR to your browser.
 
 ____
 ## Getting started
@@ -146,8 +145,7 @@ All other devices (Link that is copied to clipboard)
 
 <a href="https://caniuse.com/url-scroll-to-text-fragment#tab-container:~:text=content%2Dvisibility-,Can%20I%20use" title="Check compatability of scroll to text fragment" target="_blank">Check current status</a>
 
-If you can't send code to anybody with a browser mentioned above, FragmentQR still works great as a regular QR code generator(not biased👍)!
-
+That being said, FragmentQR is a QR generator, so it is possibly still useful if text fragments do not work on your devices. 
 ## More Questions?
 ### Go check out [more Frequently Asked Questions](https://github.com/y330/FragmentQR/wiki/FAQ) on [Fragment QR's Wiki](https://github.com/y330/FragmentQR/wiki)
 
@@ -234,9 +232,6 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 
 
  ----
-
-Report an [issue 🐞](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bug&body=%22%3Cdetails%3E%0A%3Csummary%3EDetails%3C/summary%3E%0A%0A-%20Operating%20system*%3A%0A-%20Extension%20version*%3A%20%0A-%20Browser*%3A%0A%0A%3C/details%3E%0A%0A**Steps%20to%20reproduce%20the%20bug**%0A%0A**What%20is%20the%20bug/issue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%22) or Suggest a [new feature 🔮](https://github.com/y330/FragmentQR/issues/new?title=Suggest%20a%20new%20feature%F0%9F%94%AE&body=%23%23%23%20Idea%3A%0A%3E%20your%20idea%20here%0A%0A%23%23%23%20Code%3A%0A%60input%20your%20code%28optional%29%60)
-
 
 
 
