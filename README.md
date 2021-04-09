@@ -1,5 +1,5 @@
 <h1> FragmentQR</h1>
-<h2><img src="https://lh3.googleusercontent.com/4fpffHEr-iRbm4s91wp4y6LfI5Qc1dV-vFhaAhPP9Qp8X_TUxTn7XOg9fhmebiZ9PXDP1B5cAqtqDbwnTIe-7CuvXg=w128-h128-e365-rj-sc0x00ffffff" width ="64" style="position: relative; padding-bottom: 5px; vertical-align:bottom"  alt="FragmentQR Logo"><img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=for-the-badge&label=FragmentQR%20Release" width="auto" height="auto" alt="Version" /> </b text-align="center" ></h2>
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/cabodnfakameckfbbgkciiifempglloj)
 
 
 
@@ -9,11 +9,13 @@ _____
 </button>
 
 
+_____
 
+## Summary
 
+**FragmentQR is a web extension that allows linking to relevant text on a webpage to share with other computers and mobile devices by generating a QR code for it, that will highlight the text in yellow when opening the link(and scanning the QR code).**
 
 ____
-
  **Text Fragment**: text that you add to a link to instruct it to highlight said text in yellow when opened.
  
 Given link 
@@ -22,14 +24,6 @@ that contains the snippet "_Hello World_", `https://foo.bar/page/#:~:text=Hello%
 
 [1]: %20 is the URL encoding of a space character
 ____
-
-## Summary
-
-**FragmentQR is a web extension that allows linking to relevant text on a webpage to share with other computers and mobile devices by generating a QR code for it, that will highlight the text in yellow when scanned.**
-
-____
-
-
 ## Installation
 
 FragmentQR is available on chromium browsers:
@@ -42,9 +36,9 @@ FragmentQR is available on chromium browsers:
 
 ____
 ## Getting started
-- select text
-- context menu --> "copy text fragment. next: open popup", which will copy a link to the selected text to your clipboard
-- open popup and paste into text area
+1. select text
+2. context menu --> "copy text fragment. next: open popup", which will copy a link to the selected text to your clipboard
+3. (optional)open popup and paste into text area to generate QR code
 
 Once someone opens the URL, they will be scrolled to the selected text which will be highlighted in yellow.
 
@@ -55,9 +49,10 @@ Currently, the feature of highlighting the text in yellow only work on Android i
 ## Features
 
 + Automatically Generate QR for current tab's URL
++ Copy URL with text fragment from user's selection on any webpage
+
 + Text box to edit QR code
 + Paste, copy and clear buttons
-+ Copy URL with text fragment from selected text
 + QR code generator
 
 ____
@@ -123,18 +118,18 @@ ____
  - [ ] clean up code ~ add comments to functions, rename variables.
 ----
 
-### More info
+### Internal info
 
-[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): *__note:__ as of april 10, popup.js is unacceptably messy.*
+- [**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): *__note:__ as of april 10, popup.js is unacceptably messy.*
 
-[**FragmentQR website**](https://y330.github.io/FragmentQR)
+- [**FragmentQR website**](https://y330.github.io/FragmentQR)
 
 
 ### External rescources
 
-**Documentation on text fragments**: [Scroll-to-text-fragment(WICG)](https://wicg.github.io/scroll-to-text-fragment/)
+- **Documentation on text fragments**: [Scroll-to-text-fragment(WICG)](https://wicg.github.io/scroll-to-text-fragment/)
 
-**Read article on text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+- **Read article on text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
 #### Similar extensions:
  1. [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
