@@ -125,7 +125,7 @@ ____
 
 ### More info
 
-[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): *__note:__ im still learning js.*
+[**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): *__note:__ as of april 10, popup.js is unacceptably messy.*
 
 [**FragmentQR website**](https://y330.github.io/FragmentQR)
 
