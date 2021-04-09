@@ -14,8 +14,13 @@ _____
 
 ____
 
- **Text Fragment**: Text that your browser highlights in yellow or the URL which contains a text fragment
+ **Text Fragment**: text that you add to a link to instruct it to highlight said text in yellow when opened.
+ 
+Given link 
+`https://foo.bar/page`
+that contains the snippet "_Hello World_", `https://foo.bar/page/#:~:text=Hello%20World`  would be the link to the text fragment "_Hello World_".
 
+[1]: %20 is the URL encoding of a space character
 ____
 
 ## Summary
