@@ -4,7 +4,6 @@
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/cabodnfakameckfbbgkciiifempglloj)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/cabodnfakameckfbbgkciiifempglloj)
-![GitHub Release Date](https://img.shields.io/github/release-date/y330/FragmentQR?label=github%20release%20date)
 ![GitHub](https://img.shields.io/github/license/y330/FragmentQR)
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
