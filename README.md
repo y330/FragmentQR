@@ -27,7 +27,7 @@ ____
 
 ## Installation
 
-FragmentQR is available on 2 different extension stores:
+FragmentQR is available on chromium browsers:
 
 [Install on ![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
 
@@ -37,34 +37,24 @@ FragmentQR is available on 2 different extension stores:
 
 ____
 ## Getting started
+- select text
+- context menu --> "copy text fragment. next: open popup", which will copy a link to the selected text to your clipboard
+- open popup and paste into text area
 
-To get started, first familiarize yourself with the keyboard shortcuts.
-After selecting any text,
-- ```Ctrl/⌘ + ⇧ + L```: copy the text fragment to your clipboard when selecting text
-- ```Ctrl/⌘ + Q```: Open the extension popup
-- ```📋``` button to paste the text fragment link into the popup 
+Once someone opens the URL, they will be scrolled to the selected text which will be highlighted in yellow.
 
-Now that you know the shortcuts, try selecting the ```boring text right here on your screen```, and then use the keyboard shortcut to copy a text fragment and paste the link in a new tab.
-
-If  your on a supported browser, you will see the text highlighted in yellow.
-
-Same thing goes for mobile, but just open the popup and do the shortcut to paste the url to generate a QR code. 
-
-
-Currently, the feature of highlighting the text in yellow only work on Android in Chrome version 85+.
+Currently, the feature of highlighting the text in yellow only work on Android in Chrome version 85+. May be available in beta or alpha versions of browsers on other platforms.
 
 ----
 
 ## Features
 
-+ Automatically Generate QR for current tab when opening extension popup
++ Automatically Generate QR for current tab's URL
 + Text box to edit QR code
 + Paste, copy and clear buttons
-+ Copy URL with text fragment from selected text and generate QR code for it
-+ Light and dark themes
-+ QR code can be made larger
-+ Button to download QR as png
-+ Clean and attractive design + smooth animations
++ Copy URL with text fragment from selected text
++ QR code generator
+
 ____
 
 
