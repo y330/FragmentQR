@@ -48,7 +48,7 @@ ____
 
 Once someone opens the URL, they will be scrolled to the selected text which will be highlighted in yellow.
 
-Currently, the feature of highlighting the text in yellow only work on Android in Chrome version 85+. May be available in beta or alpha versions of browsers on other platforms.
+Currently, the feature of highlighting the text in yellow only work on Android in Chrome version 85+, mac, linux, and windows. May be available in beta or alpha versions of browsers on other platforms.
 
 ----
 
@@ -123,19 +123,18 @@ ____
  - [ ] clean up code ~ add comments to functions, rename variables.
 ----
 
-## More Info
-### References
- 1. <sup id="ref_frag">[1]</sup> Burris, N., &amp; Bokan, D. (Eds.). (2020, November 24). Scroll-to-text-fragment. Retrieved November 28, 2020, from https://wicg.github.io/scroll-to-text-fragment/
- 2. <sup id=ref2>[2]</sup> Chromium\* 80 and above uses text fragments in a feature  <a href="https://github.com/WICG/scroll-to-text-fragment/" title="Scroll-to-Text Fragment on GitHub">Scroll to Text Fragment</a>. Text fragments may be owned by W3C or WICG.
-
-### Liks
+### More info
 
 [**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): *__note:__ im still learning js.*
 
-
 [**FragmentQR website**](https://y330.github.io/FragmentQR)
 
-**Article about text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+
+### External rescources
+
+**Documentation on text fragments**: [Scroll-to-text-fragment(WICG)](https://wicg.github.io/scroll-to-text-fragment/)
+
+**Read article on text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
 #### Similar extensions:
  1. [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
