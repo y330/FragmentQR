@@ -1,7 +1,13 @@
+
 <h1> FragmentQR</h1>
+
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/cabodnfakameckfbbgkciiifempglloj)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/cabodnfakameckfbbgkciiifempglloj)
+![GitHub Release Date](https://img.shields.io/github/release-date/y330/FragmentQR?label=github%20release%20date)
+![GitHub](https://img.shields.io/github/license/y330/FragmentQR)
 
-
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 _____
 <button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
@@ -13,7 +19,7 @@ _____
 
 ## Summary
 
-**FragmentQR is a web extension that allows linking to relevant text on a webpage to share with other computers and mobile devices by generating a QR code for it, that will highlight the text in yellow when opening the link(and scanning the QR code).**
+**FragmentQR is a web extension that allows linking to specific text on a webpage to share with other computers and mobile devices by generating a QR code for it, that will highlight the text in yellow when opening the link(and scanning the QR code).**
 
 ____
  **Text Fragment**: text that you add to a link to instruct it to highlight said text in yellow when opened.
