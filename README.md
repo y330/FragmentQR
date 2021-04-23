@@ -14,11 +14,10 @@ _____
 </button>
 
 
-_____
 
 ## Summary
 
-**FragmentQR is a web extension that allows linking to specific text on a webpage to share with other computers and mobile devices by generating a QR code for it, that will highlight the text in yellow when opening the link(and scanning the QR code).**
+**Fragment QR generates links that highlight relevant text on a webpage in yellow (See image below).**
 
 ____
  **Text Fragment**: text that you add to a link to instruct it to highlight said text in yellow when opened.
