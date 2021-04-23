@@ -8,10 +8,15 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-_____
+
 <button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
 </button>
+
+
+
+<h1 {color: red;} >Stay tuned for upcoming changes</hello>
+
 
 
 
@@ -71,7 +76,7 @@ ____
       + If you find an issue, [open a new issue on GitHub](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bugssue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%20)
           * If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
 
-### _Changelog v1.8_(Coming soon)
+### _Changelog v1.8_(Unreleased)
 1. Feature improvements, and interface redesigns.
 
 
