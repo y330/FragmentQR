@@ -1,17 +1,20 @@
 {
     "copy_link": {
-        "message": "Copy text fragment. Next: Open popup"
+        "message": "📋Copy link with to your selection"
     },
     "extension_description": {
-        "message": "Web extension that creates QR codes that highlight and scroll to your current selection when scanned."
+        "message": "QR codes that can highlight any text in yellow when scanned."
     },
     "extension_name": {
-        "message": "FragmentQR"
+        "message": "FragmentQR 1.8"
     },
-    "extension_short_name": {
-        "message": "FragmentQR"
+    "short_name": {
+        "message": "FragQR"
+    },
+    "open_popup": {
+        "message": "FragmentQR - Generate QR"
     },
     "link_failure": {
-        "message": "Not enough words selected/selection will not be visible on all devices."
+        "message": "Your selection is not unique enough for a text fragment URL, so it won't be highlighted when opened. Change your selection slightly and try again🤷‍♂️"
     }
 }

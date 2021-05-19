@@ -1,59 +1,64 @@
 {
-  "name": "FragmentQR - Repo",
-  "version": "1.8",
-  "manifest_version": 2,
-  "minimum_chrome_version": "80",
   "author": "Yonah Aviv",
-  "short_name": "FragmentQR",
-  "description": "QR codes and links that highlight specific text on a webpage in yellow when opened.",
   "background": {
-    "persitent": false,
-    "scripts": ["js/background_script.js", "hot-reload.js"]
+    "persistent": false,
+    "scripts": [
+      "js/background_script.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "img/48.png",
+      "128": "img/128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "__MSG_open_popup__1.8"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "description": "__MSG_open_popup__",
+      "suggested_key": {
+        "default": "Alt+Q",
+        "mac": "Alt+Q"
+      }
+    },
+    "copy_link": {
+      "description": "__MSG_copy_link__",
+      "suggested_key": {
+        "default": "Alt+Shift+L",
+        "mac": "Alt+Shift+L"
+      }
+    }
   },
   "content_scripts": [
     {
-      "matches": ["https://*/*, http://*/*"],
-      "js": ["js/content_script.js"]
+      "js": [
+        "js/content_script.js"
+      ],
+      "matches": [
+        "https://*/*, http://*/*"
+      ]
     }
   ],
   "default_locale": "en",
+  "description": "__MSG_extension_description__",
+  "icons": {
+    "16": "img/16.png",
+    "48": "img/48.png",
+    "128": "img/128.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "80",
+  "name": "__MSG_extension_name__",
+  "offline_enabled": true,
+  "options_page": "options.html",
   "permissions": [
     "activeTab",
-    "tabs",
     "contextMenus",
     "storage",
     "clipboardRead",
     "clipboardWrite"
   ],
-  "options_page": "options.html",
-  "browser_action": {
-    "default_title": "FragmentQR - Open popup.",
-    "default_icon": {
-      "128": "img/128.png"
-    },
-    "default_popup": "popup.html"
-  },
-  "icons": {
-    "512": "img/512.png",
-    "128": "img/128.png",
-    "64": "img/64.png",
-    "32": "img/32.png",
-    "16": "img/16.png"
-  },
-  "offline_enabled": true,
-  "commands": {
-    "copy_link": {
-      "description": "__MSG_copy_link__",
-      "suggested_key": {
-        "default": "Ctrl+Shift+L",
-        "mac": "Command+Shift+L"
-      }
-    },
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Ctrl+Q",
-        "mac": "Command+Q"
-      }
-    }
-  }
+  "short_name": "__MSG_short_name__",
+  "version": "1.8.0"
 }

@@ -1,0 +1,99 @@
+
+body.light {
+    background: #757575;
+    color: #232323;
+}
+
+.history-title.light {
+}
+
+textarea.light {
+    background: #bdbdbd7a;
+    color: #000;
+}
+
+.normal {
+    filter: invert(0);
+}
+
+.qr textarea.light {
+    color: #000;
+}
+
+.qr.light {
+    background: #e0e0e0;
+}
+
+/* .inverted:not(.qr_wrap):not(button) {
+  filter: invert(100%);
+} */
+.button.light, button.light {
+    color: #708090;
+    background-color: #9CCC65;
+    border-color: #90A4AE;
+}
+
+button.light svg path {
+    fill: #707070;
+}
+
+.version.light {
+    color: #90a4ae;
+}
+
+.header.light {
+    color: #666;
+}
+
+h4.light:hover {
+    color: darkgoldenrod
+}
+
+.auth.light {
+    color: #2196f3;
+}
+
+.memory_view.light {
+    color: #212121;
+}
+
+.button.light:hover, button.light:hover {
+    color: #ef6c00;
+    background-color: #EEEEEE;
+    border-color: #ef6c0000;
+}
+
+.history-list.light dd {
+    color: #212121;
+}
+
+.history_block.light {
+    background-color: #b6bec5;
+}
+
+.history-list li.light:hover {
+    /*     border-color: transparent; */
+    color: #656565;
+}
+
+/* .history-title {
+    background-color: red
+}
+ */
+.contets_inline.memory_view.light .history_block {
+    background-color: #E0E0E0;
+}
+
+.light .ps__rail-y.ps--clicking .ps__thumb-y, .light .ps__rail-y:focus > .ps__thumb-y, .light .ps__rail-y:hover > .ps__thumb-y {
+    background-color: #212121;
+}
+
+/* .button.light:hover,
+button.light:hover {
+  color: #ef6c00;
+  background-color: transparent;
+  border-color: #ef6c00;
+} */
+a.download.light:hover {
+    background-color: #666;
+}

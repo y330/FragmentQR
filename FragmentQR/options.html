@@ -1,103 +1,86 @@
-<!-- MIT License
+<!--MIT License
 
-Copyright (c) 2020 y330
+Copyright (c) 2021 Yonah Aviv
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.-->
+-->
 <!DOCTYPE html>
 <html>
+
   <head>
 
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-      />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-      <link rel="stylesheet" type="text/css" href="css/options.css" />
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
 
-<!--       <style>
-button.back {
-  border-radius: 15px;
-  background:#2196f3;
-}
-button.back:hover {
-  background-color: #eee;
-}
+    <style>
+      button {
+        border-radius: 15px;
+        background: white;
+      }
 
-a.back, a.repo{
-  color: #2196f3;
-  text-decoration: underline;
-  font-size: 18px;
-  margin-top: 12px;
-}
-a.back:vistied, a.repo:visited {
-  color: grey;
-  h3:hover {
-  color: orange;
-}
-</style> -->
+      button:hover {
+        background-color: rgb(180, 180, 180);
+        cursor: pointer;
+
+      }
+
+      a, i {
+        color: #2196f3;
+        text-decoration: underline;
+        font-size: 18px;
+        margin: 12px;
+      }
+
+      button:hover a{
+
+        /* font-size: 20px; */
+        /* font-weight: 100; */
+        transition: all 200ms ease;
+      }
+
+        h3:hover {
+          color: orange;
+        }
+    </style>
   </head>
 
   <body>
 
-    <a href="popup.html"
-      ><button class="back"><i class="material-icons">arrow_left</i></button>Generate QR</a
-    >
+    <a href="popup.html"><button class="back unit"><i class="material-icons">qr_code</i><div>QR</div></button></a>
     <br><br>
-      <div class="container">  <h1 class="header">FragmentQR - Generate QR codes that highlight the key parts of a webpage using text fragments</h1>
-    <h4><em>Yonah Aviv</em></h4>
-    <form id="config">
+    <div class="container">
+      <div class="header"><span><h1>FragmentQR</h1><span></div>
+      <h4 align="center"><em>Generate QR codes that highlight the key parts of a webpage using text fragments</em></h4>
+      <hr>
+      <form id="config">
+
+        <div class="fieldset checkbox">
+          <label><input type="checkbox" name="dark_mode" value="enabled"> Toggle Dark Mode</label>
+        </div> <a class="shortcuts" href="chrome://extensions/configureCommands">Configure Shortcuts</a>
+        <button type="submit">Save</button>
+        <small id="message"></small>
+        <form>
+    </div>
+    <div align="center" margin="100px"><em>More settings coming soon</em></div>
 
 
-       <div class="fieldset checkbox">
-        <label><input type="checkbox" name="dark_mode" value="enabled"> Toggle Dark Mode</label>
-      </div>       <a class="shortcuts" href="chrome://extensions/configureCommands">Configure Shortcuts</a>
-  <button type="submit">Save</button>
-      <small id="message"></small>
-  <form>
-  </div>
-    <i>More settings coming soon</i>
-</div>
-	<h3 color="orange">FragmentQR<span id="version"></span> </h3> <br><br>       <a href="https://github.com/y330/FragmentQR" class="repo" title="View GitHub Repository">
-      View GitHub Repo
-    </a><br><br><img src="img/adv.png" width=1000px/>
-<form
-        action="https://www.paypal.com/cgi-bin/webscr"
-        method="post"
-        target="_top"
-      >
-        <input type="hidden" name="cmd" value="_donations" />
-        <input type="hidden" name="business" value="CBYMNSA8XYYY2" />
-        <input
-          type="hidden"
-          name="item_name"
-          value="To continue doing whatever I am doing"
-        />
-        <input type="hidden" name="currency_code" value="CAD" />
-        <input
-          type="image"
-          src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
-          border="0"
-          name="submit"
-          title="PayPal - The safer, easier way to pay online!"
-          alt="Donate with PayPal button"
-        />
-    </form>
-    <script src="js/options.js"></script>
+  <!-- <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center"
+    src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"
+    alt="yonahaviv" /></a></p> -->
+<!--     <div class="neomorphic-image_wrapper"><img class="neomorphic-image" src="img/adv.png" width="300" /></div> -->
+<!--         <div class="neumorphic-card">
+        </div>
+        <div class="neumorphic-card__title">Barcelona</div>
+        <div class="neumorphic-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </div>
+       -->
+       <div> <h1>FragmentQR <span color="royalblue" id="version"></span><span class="gh"><button padding="50px"><a href="https://github.com/y330/FragmentQR" class="repo gh" title="View GitHub Repository">      View GitHub Repo</a>  </button></span></h1> <br><br>
+      <br><br>
+<hr>
+      <h2>Yonah Aviv</h2>
+      <a href="https://www.buymeacoffee.com/yonahaviv"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=yonahaviv&button_colour=ff8e52&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a><br>
+
+        <script src="js/options.js"></script>
   </body>
+
 </html>
