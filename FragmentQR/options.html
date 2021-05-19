@@ -1,0 +1,86 @@
+<!--MIT License
+
+Copyright (c) 2021 Yonah Aviv
+
+-->
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
+
+    <style>
+      button {
+        border-radius: 15px;
+        background: white;
+      }
+
+      button:hover {
+        background-color: rgb(180, 180, 180);
+        cursor: pointer;
+
+      }
+
+      a, i {
+        color: #2196f3;
+        text-decoration: underline;
+        font-size: 18px;
+        margin: 12px;
+      }
+
+      button:hover a{
+
+        /* font-size: 20px; */
+        /* font-weight: 100; */
+        transition: all 200ms ease;
+      }
+
+        h3:hover {
+          color: orange;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <a href="popup.html"><button class="back unit"><i class="material-icons">qr_code</i><div>QR</div></button></a>
+    <br><br>
+    <div class="container">
+      <div class="header"><span><h1>FragmentQR</h1><span></div>
+      <h4 align="center"><em>Generate QR codes that highlight the key parts of a webpage using text fragments</em></h4>
+      <hr>
+      <form id="config">
+
+        <div class="fieldset checkbox">
+          <label><input type="checkbox" name="dark_mode" value="enabled"> Toggle Dark Mode</label>
+        </div> <a class="shortcuts" href="chrome://extensions/configureCommands">Configure Shortcuts</a>
+        <button type="submit">Save</button>
+        <small id="message"></small>
+        <form>
+    </div>
+    <div align="center" margin="100px"><em>More settings coming soon</em></div>
+
+
+  <!-- <p><a href="https://www.buymeacoffee.com/yonahaviv"> <img align="center"
+    src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"
+    alt="yonahaviv" /></a></p> -->
+<!--     <div class="neomorphic-image_wrapper"><img class="neomorphic-image" src="img/adv.png" width="300" /></div> -->
+<!--         <div class="neumorphic-card">
+        </div>
+        <div class="neumorphic-card__title">Barcelona</div>
+        <div class="neumorphic-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </div>
+       -->
+       <div> <h1>FragmentQR <span color="royalblue" id="version"></span><span class="gh"><button padding="50px"><a href="https://github.com/y330/FragmentQR" class="repo gh" title="View GitHub Repository">      View GitHub Repo</a>  </button></span></h1> <br><br>
+      <br><br>
+<hr>
+      <h2>Yonah Aviv</h2>
+      <a href="https://www.buymeacoffee.com/yonahaviv"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=yonahaviv&button_colour=ff8e52&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a><br>
+
+        <script src="js/options.js"></script>
+  </body>
+
+</html>

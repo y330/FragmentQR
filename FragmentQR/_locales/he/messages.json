@@ -1,0 +1,20 @@
+{
+    "copy_link": {
+        "message": "העתק קישור לטקסט"
+    },
+    "extension_description": {
+        "message": "קודי \"קיו-אר\" וקישורים המדגישים טקסט רלוונטי ב- דף האינטרנט בצהוב בעת פתיחתו"
+    },
+    "extension_name": {
+        "message": "FragmentQR"
+    },
+    "short_name": {
+        "message": "FragQR"
+    },
+    "open_popup": {
+        "message": "QR לפתוח חלון מוקפץ קטן עם קוד"
+    },
+    "link_failure": {
+        "message": "❗ אין אפשרות להעתיק קישור ייחודי מבחירתך. צריך לשנות את זה קצת"
+    }
+}
