@@ -386,7 +386,7 @@ button:focus:active,
 	position: absolute;
 }
 
-/* .contents_inline.memory_view .history_block {
+.contents_inline.memory_view .history_block {
 	background-color: var(--color-bg);
 	visibility: visible;
 	align-content: start;
@@ -397,16 +397,16 @@ button:focus:active,
 	margin: 0;
 	transition: all 150ms ease;
 }
- */
 
-/* .history-list {
+
+.history-list {
 	height: 400px;
 	max-width: 200px;
 	position: relative;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-} */
+}
 
 
 .history-list {
