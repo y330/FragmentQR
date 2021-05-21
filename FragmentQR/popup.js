@@ -171,6 +171,21 @@ $(function () {
 		return newLink;
 	}
 
+	
+		function getHash(a) {
+		  if (a.hash) {
+			var hash = a.hash.substring(1);
+
+			if (hash.length === 0) { 
+			  return false;
+			} else { 
+			  return hash; 
+			}
+		  } else { 
+			return false; 
+		  }
+		}
+
 	/*---------------------------------------------------------*/
 	//get clipboard
 	var elText = document.getElementById("text");
@@ -181,25 +196,32 @@ $(function () {
 
 	// paste into text area
 	function pasteAct(tab) {
+		tabUrl = tab.url
 		tab.fragment = "hrllo";
-		console.log(tab);
-		var userText = "/#:~:text=" + encodeURI(tab.title);
+		console.log(tab.fragment);
+		var fragID = "/#:~:text=";
+		var fragURL = tab.url + fragID + tab.fragment;
+
 		// 		tab = `:~:text={userTxt}`;
-		tabUrl = tab.url + userText;
+
+// 		fragURL = tab.url + fragID;
 		// 		elText.value = tabUrl;
 
 		$(elPaste).on("click", function (e) {
 			e.preventDefault();
-			elText.value = tabUrl;
-			elText.focus();
+			let textval = elText.value;
+// 			elText.focus();
 
-			// 			document.execCommand("paste");
-			elText.blur();
-			a(encodeURI($("textarea.textarea").val()));
+// 						document.execCommand("paste");
+// 			elText.blur();
+			a(encodeURI(fragURL));
+			elText.value = fragURL;
 
-			$("textarea.textarea").addClass("bit-mode");
+			$(elText).addClass("bit-mode");
+						i("Pasted");
+
 			setTimeout(() => {
-				$("textarea.textarea").removeClass("bit-mode");
+				$(elText).removeClass("bit-mode");
 			}, 4000);
 		});
 	}
@@ -256,7 +278,7 @@ $(function () {
 			clearTimeout(t),
 				(t = setTimeout(function () {
 					var e = $("textarea.textarea").val().toString();
-					a(encodeURI($("textarea.textarea").val())),
+					a(encodeURI(e)),
 						$("textarea.textarea").removeClass("bit-mode");
 				}, 300)),
 				$(".undo").show();
@@ -267,10 +289,6 @@ $(function () {
 		$("textarea.textarea").on("click", function () {
 			$(this).addClass("click-open");
 		}),
-		/*---------------------------------------------------------*/
-		function setbg(color) {
-			document.getElementById("styled").style.background = color;
-		},
 		/*---------------------------------------------------------*/
 
 		//clear textarea.textarea
@@ -283,9 +301,6 @@ $(function () {
 				(t = setTimeout(function () {
 					$(".undo").hide();
 				}, 300));
-		}),
-		$(".newinput").on("hover", function () {
-			add_input();
 		}),
 		/*---------------------------------------------------------*/
 		/*
@@ -317,35 +332,6 @@ $(function () {
 	/*
 	  PASTE
 	  */
-
-	function pasteSelection() {
-		//Select current tab to send message
-		chrome.tabs.query({
-				active: true,
-				currentWindow: true,
-				status: "complete",
-				windowType: "normal",
-			},
-			function (tabs) {
-				//It returns array so looping over tabs result
-				for (tab in tabs) {
-					//Send Message to a tab
-					chrome.tabs.sendMessage(tabs[tab].id, {
-						method: "getSelection",
-					});
-				}
-			}
-		);
-	} //Adding a handler when message is recieved from content scripts
-	chrome.extension.onMessage.addListener(function (response, sender) {
-			//Set text to text area
-			var text = document.getElementsByClassName("selecttext");
-			text.value = response.data;
-
-			console.log("message received!ðŸ˜");
-		}),
-		/*-----------*/
-
 		// Bind On click event to pasteSelection() function
 		document.addEventListener("DOMContentLoaded", function () {
 			document.getElementById("submit").onclick = pasteSelection;
@@ -363,70 +349,64 @@ $(function () {
 		/*Info card*/
 		$(".hint").click(function () {
 			$(this).toggleClass("show");
+			$(".extension-info").html('<h1>FragmentQR</h1>');
+
 		});
 	/*---------------------------------------------------------*/
 	/*favicon insert*/
 	function linkFaviconView(t) {
-		console.log(e[t].url);
+		console.log(e[t].faviconUrl);
 	}
 	/*---------------------------------------------------------*/
 	function QR_view() {
 		$(".qr").slideDown(),
-			$(".contents_inline").removeClass("memory_view"),
-			$(".history-clear").hide(),
-			$(".memory").html(
-				` <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" > <path d="M3,11H5V13H3V11M11,5H13V9H11V5M9,11H13V15H11V13H9V11M15,11H17V13H19V11H21V13H19V15H21V19H19V21H17V19H13V21H11V17H15V15H17V13H15V11M19,19V15H17V19H19M15,3H21V9H15V3M17,5V7H19V5H17M3,3H9V9H3V3M5,5V7H7V5H5M3,15H9V21H3V15M5,17V19H7V17H5Z" /></svg>`
-			),
-			$(".back").hide();
+		$(".contents_inline").removeClass("memory_view"),
+		$(".history-clear").hide(),
+		// 			$(".history-list ul").empty(),
+		$(".back").hide();
 	}
-
-	function History_view() {
+	;function History_view() {
 		// 		$(".qr").slideUp(),
 		// 		$(".contents .expansion").scrollLeft(-400),
 		// 		$(".history-clear").show(),
 		// 		$(".back").show(),
-		$(".memory").html(
-			` <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" ><path d="M13.5 8H12v5l4.28 2.54l.72-1.21l-3.5-2.08V8M13 3a9 9 0 0 0-9 9H1l3.96 4.03L9 12H6a7 7 0 0 1 7-7a7 7 0 0 1 7 7a7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.896 8.896 0 0 0 13 21a9 9 0 0 0 9-9a9 9 0 0 0-9-9" Fffffill="white" ></path><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" ></rect></svg>`);
-		(() => {
+		(function() {
 			var e = l();
 
-			if ((e.reverse(), e))
-				for (var t in ($(".history-list ul").html(""), e))
-					$(".history-list ul").append(
-						'<li data-obj="' +
-						e[t].url +
-						'" style="list-style-image: url("' +
-						e[t].favIconUrl +
-						'")"><dl><dt>' +
-						e[t].title +
-						"</dt><dd>" +
-						e[t].url +
-						"</dd><dd>Text fragment: <i style='color: var(--color-text-tertiary)'>Coming soon</i></dd></dl></li>"
-					);
-		});
+			if ((e.reverse(),
+			e))
+				for (var t in ($(".history-list ul").html(""),
+				e))
+					$(".history-list ul").append('<li data-obj="' + e[t].url + '"><dl><dt>' + e[t].title + "</dt><dd>" + e[t].url + "</dd><dd>jjjjjjj</dd></dl></li>");
+		}
 
-	} /*++++++++++++++++++++*/
+		)();
+
+	}
+	;/*++++++++++++++++++++*/
 	// on click history button
-	$(".memory").on("click", function () {
-			if ($(".contents_inline").hasClass("memory_view")) {
-				() => {
-					$(".contents_inline").addClass("memory_view"), History_view;
-				}
-			} else {
-				() => {
-					$(".contents_inline").removeClass("memory_view"), QR_view;
-				};
-			}
-			$(".contents_inline").toggleClass("memory_view"),
-				$(".qr").slideToggle(200),
-				$(".history_block").hide(),
-				$(".history_block").slideToggle(1000),
-				// 		$(".contents").scrollLeft(-400);
-				$(".history-clear").show();
+	$(".memory").on("click", function() {
+		$(".contents_inline").hasClass("memory_view") ? function() {
+			$(".contents_inline").addClass("memory_view"),
 			History_view();
-		}),
-		/*---------------------------------------------------------*/
+		}
+		: function() {
+			$(".contents_inline").removeClass("memory_view"),
+			QR_view();
+		}
+		;
 
+		$(".contents_inline").toggleClass("memory_view"),
+		$(".qr").slideToggle(200),
+		$(".history_block").hide(),
+		$(".history_block").slideToggle(1000),
+		// $(".contents").scrollLeft(-400);
+		$(".history-clear").show(),
+		// //         $(".memory" + " svg").replace('<path d=M3,11H5V13H3V11M11,5H13V9H11V5M9,11H13V15H11V13H9V11M15,11H17V13H19V11H21V13H19V15H21V19H19V21H17V19H13V21H11V17H15V15H17V13H15V11M19,19V15H17V19H19M15,3H21V9H15V3M17,5V7H19V5H17M3,3H9V9H3V3M5,5V7H7V5H5M3,15H9V21H3V15M5,17V19H7V17H5Z" />')
+		History_view();
+	}),
+
+	/*---------------------------------------------------------*/
 		// on click history list item
 		$(document).on("click", ".history-list li", function () {
 			var e = $(this).data("obj");
@@ -443,6 +423,7 @@ $(function () {
 		$(".contents_inline").hasClass("memory_view") ?
 		$(".back").slideDown() :
 		$(".back").slideUp();
+		
 	/*---------------------------------------------------------*/
 
 	$(".back").on("click", function () {
@@ -453,7 +434,7 @@ $(function () {
 		$(".qr").slideUp();
 		$(".contents_inline").addClass("memory_view");
 		$(".history-bock").show();
-	});
+	}),
 	/*---------------------------------------------------------*/
 	/*====toggle theme======*/
 
