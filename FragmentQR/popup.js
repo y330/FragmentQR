@@ -54,6 +54,10 @@ $(function () {
 		}
 	}
 	/*---------------------------------------------------------*/
+	function log(message_ok){
+		console.log(message_ok)
+	}
+	/*---------------------------------------------------------*/
 	function i(e) {
 		$(".alert").html(e).show();
 
@@ -81,7 +85,7 @@ $(function () {
 		var o = l(),
 			n = [];
 
-		console.log("historyList-entryObj", o);
+// 		console.log("historyList-entryObj", o);
 
 		var a = !1;
 
@@ -198,9 +202,9 @@ $(function () {
 	function pasteAct(tab) {
 		tabUrl = tab.url
 		tab.fragment = "hrllo";
-		console.log(tab.fragment);
 		var fragID = "/#:~:text=";
 		var fragURL = tab.url + fragID + tab.fragment;
+		log(fragURL);
 
 		// 		tab = `:~:text={userTxt}`;
 
@@ -359,17 +363,27 @@ $(function () {
 	}
 	/*---------------------------------------------------------*/
 	function QR_view() {
-		$(".qr").slideDown(),
-		$(".contents_inline").removeClass("memory_view"),
-		$(".history-clear").hide(),
+// 			$(".contents_inline").t("memory_view"),
+		$(".history_block").hide(),
+
+		$(".qr").slideDown();
+		 $(".memory" + " svg").html(`<path d="M13.5 8H12v5l4.28 2.54l.72-1.21l-3.5-2.08V8M13 3a9 9 0 0 0-9 9H1l3.96 4.03L9 12H6a7 7 0 0 1 7-7a7 7 0 0 1 7 7a7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.896 8.896 0 0 0 13 21a9 9 0 0 0 9-9a9 9 0 0 0-9-9" Fffffill="white" ></path><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" ></rect>`);
+
+// 		$(".history-clear").hide(),
 		// 			$(".history-list ul").empty(),
-		$(".back").hide();
+// 		$(".back").hide();
 	}
 	;function History_view() {
-		// 		$(".qr").slideUp(),
+// 		$(".contents_inline").addClass("memory_view"),
+
 		// 		$(".contents .expansion").scrollLeft(-400),
 		// 		$(".history-clear").show(),
 		// 		$(".back").show(),
+		$(".qr").hide(),
+
+		$(".history_block").slideDown(),
+		 $(".memory" + " svg").html('<path d=M3,11H5V13H3V11M11,5H13V9H11V5M9,11H13V15H11V13H9V11M15,11H17V13H19V11H21V13H19V15H21V19H19V21H17V19H13V21H11V17H15V15H17V13H15V11M19,19V15H17V19H19M15,3H21V9H15V3M17,5V7H19V5H17M3,3H9V9H3V3M5,5V7H7V5H5M3,15H9V21H3V15M5,17V19H7V17H5Z" />'),
+
 		(function() {
 			var e = l();
 
@@ -385,26 +399,28 @@ $(function () {
 	}
 	;/*++++++++++++++++++++*/
 	// on click history button
-	$(".memory").on("click", function() {
-		$(".contents_inline").hasClass("memory_view") ? function() {
-			$(".contents_inline").addClass("memory_view"),
-			History_view();
-		}
-		: function() {
-			$(".contents_inline").removeClass("memory_view"),
-			QR_view();
+	function toggle_memory_page(time=0) {
+		$(".contents_inline").toggleClass("memory_view"),
+
+		$(".contents_inline").hasClass("memory_view") 
+			? function() {
+				History_view();
+			}			: function() {
+				QR_view();
+				}
 		}
 		;
+		$(".memory").on("click", function(){
+			toggle_memory_page;
+		
+		}),
 
-		$(".contents_inline").toggleClass("memory_view"),
-		$(".qr").slideToggle(200),
-		$(".history_block").hide(),
-		$(".history_block").slideToggle(1000),
-		// $(".contents").scrollLeft(-400);
-		$(".history-clear").show(),
-		// //         $(".memory" + " svg").replace('<path d=M3,11H5V13H3V11M11,5H13V9H11V5M9,11H13V15H11V13H9V11M15,11H17V13H19V11H21V13H19V15H21V19H19V21H17V19H13V21H11V17H15V15H17V13H15V11M19,19V15H17V19H19M15,3H21V9H15V3M17,5V7H19V5H17M3,3H9V9H3V3M5,5V7H7V5H5M3,15H9V21H3V15M5,17V19H7V17H5Z" />')
-		History_view();
-	}),
+// 		$(".qr").fade(200),
+// 		$(".history_block").hide(),
+// 		$(".history_block").fadeIn(1000);
+// 		$(".contents").scrollLeft(-400);
+// 		$(".history-clear").show(),
+// 		History_view();
 
 	/*---------------------------------------------------------*/
 		// on click history list item
@@ -415,14 +431,9 @@ $(function () {
 				// 		$(".app_ttl").hide(),
 				$("textarea").val(e),
 				a($("textarea").val()),
-				$(".history_block").slideUp(100),
-				$(".contents_inline").removeClass("memory_view", 200),
-				$(".qr").slideDown(200);
+				toggle_memory_page(200);
+
 		}),
-		/*---------------------------------------------------------*/
-		$(".contents_inline").hasClass("memory_view") ?
-		$(".back").slideDown() :
-		$(".back").slideUp();
 		
 	/*---------------------------------------------------------*/
 

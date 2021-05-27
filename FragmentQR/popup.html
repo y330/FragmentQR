@@ -4,7 +4,7 @@ Copyright (c) 2021 Yonah Aviv
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <title>FragmentQR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/> -->
@@ -12,20 +12,20 @@ Copyright (c) 2021 Yonah Aviv
     <link rel="stylesheet" href="css/perfect-scrollbar.css" />
     <link rel="stylesheet" href="css/ripples.css" />
     <link rel="stylesheet" href="popup.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <main>
-      <div class="top">
-        <section class="FlexContainer">
-          <div class="flex-items">
-            <button class="memory ripple" title="View log of all generated QR codes">		<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" ><path d="M13.5 8H12v5l4.28 2.54l.72-1.21l-3.5-2.08V8M13 3a9 9 0 0 0-9 9H1l3.96 4.03L9 12H6a7 7 0 0 1 7-7a7 7 0 0 1 7 7a7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.896 8.896 0 0 0 13 21a9 9 0 0 0 9-9a9 9 0 0 0-9-9" Fffffill="white" ></path><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" ></rect></svg></button>
-          </div>
-<!--           <div class="flex-items">
+        <div class="top">
+            <section class="FlexContainer">
+                <div class="flex-items">
+                    <button class="memory ripple" title="View log of all generated QR codes">		<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" ><path d="M13.5 8H12v5l4.28 2.54l.72-1.21l-3.5-2.08V8M13 3a9 9 0 0 0-9 9H1l3.96 4.03L9 12H6a7 7 0 0 1 7-7a7 7 0 0 1 7 7a7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.896 8.896 0 0 0 13 21a9 9 0 0 0 9-9a9 9 0 0 0-9-9" fill="white" ></path></svg></button>
+                </div>
+                <!--           <div class="flex-items">
             <button title="Toggle theme" class="bright"></button>
           </div> -->
-          <div class="flex-items">
-            <button class="settings" title="Open extension options">
+                <div class="flex-items">
+                    <button class="settings" title="Open extension options">
               <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" width="1em" height="1em" style="
 									-ms-transform: rotate(360deg);
 									-webkit-transform: rotate(360deg);
@@ -34,17 +34,17 @@ Copyright (c) 2021 Yonah Aviv
                 <path d="M12 15.5A3.5 3.5 0 0 1 8.5 12A3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5a3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97c0-.33-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49 1c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506 0 0 0 14 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1c0 .33.03.65.07.97l-2.11 1.66c-.19.15-.25.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1.01c.52.4 1.06.74 1.69.99l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.63-.26 1.17-.59 1.69-.99l2.49 1.01c.22.08.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.66z" fill="white"></path>
               </svg>
             </button>
-          </div>
-        </section>
-      </div>
-      <div id="popupElement1"></div>
-      <div id="popupElement2">
-        <div class="alert"></div>
-      </div>
-      <div class="contents">
-        <div class="alert"></div>
-        <div class="contents_inline">
-          <!-- 				<div class="container">
+                </div>
+            </section>
+        </div>
+        <div id="popupElement1"></div>
+        <div id="popupElement2">
+            <div class="alert"></div>
+        </div>
+        <div class="contents">
+            <div class="alert"></div>
+            <div class="contents_inline">
+                <!-- 				<div class="container">
                     <input class="form-control" id="exampleFormControlTextarea1" rows="1" />
 
                     <form id="url_bar">
@@ -56,24 +56,24 @@ Copyright (c) 2021 Yonah Aviv
                         </div>
                     </form>
                 </div> -->
-          <div class="parent qr">
-            <div class="div1 qr_wrap" title="Click to enlarge/shrink">
-              <div id="qr"></div>
-              <a id="btn-download" class="download" download="#">
-                <svg width="22px" height="16px" viewBox="0 0 22 16">
+                <div class="parent qr">
+                    <div class="div1 qr_wrap" title="Click to enlarge/shrink">
+                        <div id="qr"></div>
+                        <a id="btn-download" class="download" download="#">
+                            <svg width="22px" height="16px" viewBox="0 0 22 16">
                   <path d="M2,10 L6,13 L12.8760559,4.5959317 C14.1180021,3.0779974 16.2457925,2.62289624 18,3.5 L18,3.5 C19.8385982,4.4192991 21,6.29848669 21,8.35410197 L21,10 C21,12.7614237 18.7614237,15 16,15 L1,15" id="check"></path>
                   <polyline points="4.5 8.5 8 11 11.5 8.5" class="svg-out"></polyline>
                   <path d="M8,1 L8,11" class="svg-out"></path>
                 </svg>
-              </a>
-            </div>
-            <div class="div2 textarea">
-              <form id="div2-textarea">
-                <textarea class="userSelect textarea" id="text" type="url" title="Edit Text"></textarea>
-              </form>
-            </div>
-            <div class="div3 ctrl">
-              <button class="copy ripple" title="Copy">
+                        </a>
+                    </div>
+                    <div class="div2 textarea">
+                        <form id="div2-textarea">
+                            <textarea class="userSelect textarea" id="text" type="url" title="Edit Text"></textarea>
+                        </form>
+                    </div>
+                    <div class="div3 ctrl">
+                        <button class="copy ripple" title="Copy">
                 <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" width="1em" height="1em" style="
 										vertical-align: -0.125em;
 										-ms-transform: rotate(360deg);
@@ -84,7 +84,7 @@ Copyright (c) 2021 Yonah Aviv
                   <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)"></rect>
                 </svg>
               </button>
-              <button class="paste ripple" id="paste" title="Paste">
+                        <button class="paste ripple" id="paste" title="Paste">
                 <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" width="1em" height="1em" style="
 										-ms-transform: rotate(360deg);
 										-webkit-transform: rotate(360deg);
@@ -94,30 +94,30 @@ Copyright (c) 2021 Yonah Aviv
                 </svg>
                 <span></span>
               </button>
+                    </div>
+                </div>
+                <div class="history_block">
+                    <h3 class="history_title" title="History">History</h3>
+                    <div class="history-list">
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="history_block">
-          	<h3 class="history_title" title="History">History</h3>
-            <div class="history-list">
-              <ul>
-                <li></li>
-              </ul>
+            <div class="card">
+                <div class="hint">
+                    <div class="extension-info">Hello</div>
+                    <span class="icon-info"></span>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="card">
-          <div class="hint">
-            <div class="extension-info">Hello</div>
-            <span class="icon-info"></span>
-          </div>
-        </div>
-      </div>
     </main>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.qrcode.min.js"></script>
     <script src="js/perfect-scrollbar.js"></script>
     <script src="popup.js"></script>
-<!--     <script src="popup-broken.js"></script> -->
-  </body>
+    <!--     <script src="popup-broken.js"></script> -->
+</body>
 
 </html>
