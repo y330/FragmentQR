@@ -84,9 +84,10 @@ ____
  - [X] 🔎 Help find issues by installing and using FragmentQR. 
 
 
-### _Changelog v1.8.0_beta_ (Released on ✅chrome web store, ✅Updated code in repository, and ❌Github release + ❌Edge Add-ons will be coming soon)
+### _Changelog v1.8.0_beta_ 
+- (Released on ✅chrome web store, ✅Updated code in repository, and ❌Github release + ❌Edge Add-ons will be coming soon)
 
- -  _❌documentation for how to use, ❌updated pictures, and ❌tutorial video, are coming soon_
+-  _❌documentation for how to use, ❌updated pictures, and ❌tutorial video, are coming soon_
 1. Feature improvements, and interface redesigns.
 2. There are some bugs: For now, do not use the paste button, I am working on something that will be much better than it as a replacement.
 3. new logo
@@ -137,19 +138,19 @@ ____
 
 ### TODO
 
- - [ ] Version 1.8.0
-       + [X] Chrome Web Store
-       + [ ] Edge Add-ons
-       + [x] GitHub Repo
-       + [ ] Revise description on extension web store listing 
-       + [ ] Update from beta version to stable version
-       + [ ] Update screenshots on store listing
-       + [ ] Update documentation on Extension webpage
-       + [ ] Make a tutorial video
-       + [ ] Add screenshots to the README.md
-       + [ ] GitHub Releases
+ - Version 1.8.0
+ - [X] Chrome Web Store
+ - [ ] Edge Add-ons
+ - [X] GitHub Repo
+ - [ ] Revise description on extension web store listing 
+ - [ ] Update from beta version to stable version
+ - [ ] Update screenshots on store listing
+ - [ ] Update documentation on Extension webpage
+ - [ ] Make a tutorial video
+ - [ ] Add screenshots to the README.md
+ - [ ] GitHub Releases
  - [X] Organize main popup code: `popup.js`, `popup.css`
- - [ ] 
+- [ ] configure extension with rollup.js for development
 ----
 
 ### Links
@@ -160,7 +161,7 @@ ____
 
 
 ### External rescources
-- [Check if your browser supports tect fragments](https://caniuse.com/url-scroll-to-text-fragment)
+- [Check if your browser supports text fragments](https://caniuse.com/url-scroll-to-text-fragment)
 
 - [Scroll-to-text-fragment(WICG)](https://wicg.github.io/scroll-to-text-fragment/)
 
