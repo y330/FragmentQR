@@ -1,221 +1,222 @@
-(async (browser) => {
-	const DEBUG = true;
+/*@MIT License
 
-	const SUPPORTS_TEXT_FRAGMENTS =
-		"fragmentDirective" in Location.prototype ||
-		"fragmentDirective" in document;
+Copyright (c) 2021 Yonah Aviv
+*/
+(async(browser) => {
+        const DEBUG = false;
 
-	// https://wicg.github.io/ScrollToTextFragment/#:~:text=It%20is%20recommended,a%20range%2Dbased%20match.
-	// Experimenting with 100 instead.
-	const EXACT_MATCH_MAX_CHARS = 100;
-	const CONTEXT_MAX_WORDS = 5;
+        const SUPPORTS_TEXT_FRAGMENTS =
+            "fragmentDirective" in Location.prototype ||
+            "fragmentDirective" in document;
 
-	const log = (...args) => {
-		if (DEBUG) {
-			console.log(...args);
-		}
-	};
+        // https://wicg.github.io/ScrollToTextFragment/#:~:text=It%20is%20recommended,a%20range%2Dbased%20match.
+        // Experimenting with 100 instead.
+        const EXACT_MATCH_MAX_CHARS = 100;
+        const CONTEXT_MAX_WORDS = 5;
 
-	const injectContentScript = async (contentScriptName) => {
-		// If there's a reply, the content script already was injected.
-		try {
-			return await sendMessageToPage("ping");
-		} catch (err) {
-			new Promise((resolve) => {
-				browser.tabs.executeScript(
-					{
-						file: contentScriptName,
-					},
-					() => {
-						return resolve();
-					}
-				);
-			});
-		}
-	};
+        const log = (...args) => {
+            if (DEBUG) {
+                console.log(...args);
+            }
+        };
 
-	const askForAllOriginsPermission = async () => {
-		return new Promise((resolve, reject) => {
-			browser.permissions.request(
-				{
-					origins: ["http://*/*", "https://*/*"],
-				},
-				(granted) => {
-					if (granted) {
-						return resolve();
-					}
-					return reject(new Error("Host permission not granted."));
-				}
-			);
-		});
-	};
+        const injectContentScript = async(contentScriptName) => {
+            // If there's a reply, the content script already was injected.
+            try {
+                return await sendMessageToPage("ping");
+            } catch (err) {
+                new Promise((resolve) => {
+                    browser.tabs.executeScript({
+                            file: contentScriptName,
+                        },
+                        () => {
+                            return resolve();
+                        }
+                    );
+                });
+            }
+        };
 
-	const polyfillTextFragments = async () => {
-		try {
-			await askForAllOriginsPermission();
-			browser.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
-				if (changeInfo.status === "complete" && tab.status === "complete") {
-					await injectContentScript("text-fragments.js");
-				}
-			});
-		} catch {
-			// Ignore for now. Like this, users can still create links, for example,
-			// for sharing, but they won't work locally.
-		}
-	};
+        const askForAllOriginsPermission = async() => {
+            return new Promise((resolve, reject) => {
+                browser.permissions.request({
+                        origins: ["http://*/*", "https://*/*"],
+                    },
+                    (granted) => {
+                        if (granted) {
+                            return resolve();
+                        }
+                        return reject(new Error("Host permission not granted."));
+                    }
+                );
+            });
+        };
 
-	browser.contextMenus.create({
-		title: browser.i18n.getMessage("copy_link"),
-		id: "copy-link",
-		contexts: ["selection"],
-	});
+        const polyfillTextFragments = async() => {
+            try {
+                await askForAllOriginsPermission();
+                browser.tabs.onUpdated.addListener(async(tabId, changeInfo, tab) => {
+                    if (changeInfo.status === "complete" && tab.status === "complete") {
+                        await injectContentScript("text-fragments.js");
+                    }
+                });
+            } catch {
+                // Ignore for now. Like this, users can still create links, for example,
+                // for sharing, but they won't work locally.
+            }
+        };
 
-	//highlight
-	browser.commands.onCommand.addListener(async (command) => {
-		if (command === "copy_link") {
-			if (!("fragmentDirective" in Location.prototype)) {
-				await polyfillTextFragments();
-			}
-			await injectContentScript("js/content_script.js");
-			browser.tabs.query(
-				{
-					active: true,
-					currentWindow: true,
-				},
-				(tabs) => {
-					startProcessing(tabs[0]);
-				}
-			);
-		}
-	});
+        browser.contextMenus.create({
+            title: browser.i18n.getMessage("copy_link"),
+            id: "copy-link",
+            contexts: ["selection"],
+        });
 
-	browser.contextMenus.onClicked.addListener(async (info, tab) => {
-		if (!("fragmentDirective" in Location.prototype)) {
-			await polyfillTextFragments();
-		}
-		await injectContentScript("js/content_script.js");
-		startProcessing(tab);
-	});
+        //highlight
+        browser.commands.onCommand.addListener(async(command) => {
+            if (command === "copy_link") {
+                if (!("fragmentDirective" in Location.prototype)) {
+                    await polyfillTextFragments();
+                }
+                await injectContentScript("js/content_script.js");
+                browser.tabs.query({
+                        active: true,
+                        currentWindow: true,
+                    },
+                    (tabs) => {
+                        startProcessing(tabs[0]);
+                    }
+                );
+            }
+        });
 
-	const startProcessing = async (tab) => {
-		try {
-			await sendMessageToPage("debug", DEBUG);
-		} catch {
-			// Ignore
-		}
-		const textFragmentURL = await createURL(tab.url);
-		// This happens if no text was selected when the keyboard shortcut was used.
-		if (textFragmentURL === "") {
-			return;
-		}
-		if (!textFragmentURL) {
-			try {
-				await sendMessageToPage("failure");
-			} catch {
-				// Ignore
-			}
-			return log("Failed to create unique link.\n\n\n");
-		}
-		await copyToClipboard(textFragmentURL);
-	};
+        browser.contextMenus.onClicked.addListener(async(info, tab) => {
+            if (!("fragmentDirective" in Location.prototype)) {
+                await polyfillTextFragments();
+            }
+            await injectContentScript("js/content_script.js");
+            startProcessing(tab);
+        });
 
-	const escapeRegExp = (s) => {
-		return s.replace(/[\\^$.*+?()[\]{}|]/g, "\\$&");
-	};
+        const startProcessing = async(tab) => {
+            try {
+                await sendMessageToPage("debug", DEBUG);
+            } catch {
+                // Ignore
+            }
+            const textFragmentURL = await createURL(tab.url);
+            // This happens if no text was selected when the keyboard shortcut was used.
+            if (textFragmentURL === "") {
+                return;
+            }
+            if (!textFragmentURL) {
+                try {
+                    await sendMessageToPage("failure");
+                } catch {
+                    // Ignore
+                }
+                return log("Failed to create unique link.\n\n\n");
+            }
+            await copyToClipboard(textFragmentURL);
+        };
 
-	const unescapeRegExp = (s) => {
-		return s.replace(/\\([\\^$.*+?()[\]{}|])/g, "$1");
-	};
+        const escapeRegExp = (s) => {
+            return s.replace(/[\\^$.*+?()[\]{}|]/g, "\\$&");
+        };
 
-	const encodeURIComponentAndMinus = (text) => {
-		return encodeURIComponent(text).replace(/-/g, "%2D");
-	};
+        const unescapeRegExp = (s) => {
+            return s.replace(/\\([\\^$.*+?()[\]{}|])/g, "$1");
+        };
 
-	const isUniqueMatch = (hayStack, start, end = "") => {
-		try {
-			const needle = new RegExp(`${start}${end}`, "gims");
-			const matches = [...hayStack.matchAll(needle)];
-			log(
-				"———\n",
-				"RegEx: 👉" + needle.source + "👈\n",
-				"Matches:",
-				matches,
-				"\n———"
-			);
-			if (matches.length === 1) {
-				let matchedText = matches[0][0];
-				// Find inner matches where the needle is (at least partly) contained
-				// again in the haystack.
-				const startNeedle = new RegExp(start, "ims");
-				const endNeedle = new RegExp(end.replace(/^\.\*\?/), "ims");
-				matchedText = matchedText
-					.replace(startNeedle, "")
-					.replace(endNeedle, "");
-				const innerMatches = [...matchedText.matchAll(needle)];
-				if (innerMatches.length === 0) {
-					return true;
-				}
-				return false;
-			} else if (matches.length === 0) {
-				return null;
-			}
-			return false;
-		} catch (err) {
-			// This can happen when the regular expression can't be created.
-			console.error(err.name, err.message);
-			return null;
-		}
-	};
+        const encodeURIComponentAndMinus = (text) => {
+            return encodeURIComponent(text).replace(/-/g, "%2D");
+        };
 
-	const findUniqueMatch = (
-		pageText,
-		textStart,
-		textEnd,
-		unique,
-		wordsBefore,
-		wordsAfter,
-		growthDirection,
-		prefix = "",
-		suffix = ""
-	) => {
-		log(
-			'prefix: "' +
-			prefix +
-			'"\n' +
-			'textStart: "' +
-			textStart +
-			'"\n' +
-			'textEnd: "' +
-			textEnd +
-			'"\n' +
-			'suffix: "' +
-			suffix +
-			'"\n' +
-			"growth direction: " +
-			growthDirection
-		);
-		if (
-			wordsAfter.length === 0 &&
-			wordsBefore.length > 0 &&
-			growthDirection === "suffix"
-		) {
-			// Switch the growth direction.
-			growthDirection = "prefix";
-		} else if (
-			wordsBefore.length === 0 &&
-			wordsAfter.length === 0 &&
-			unique === false
-		) {
-			// No more search options.
-			return {
-				prefix: false,
-				suffix: false,
-			};
-		}
-		// We need to add outer context before or after the needle.
-		if (growthDirection === "prefix" && wordsBefore.length > 0) {
-			const newPrefix = escapeRegExp(wordsBefore.pop());
-			prefix = `${newPrefix}${prefix ? ` ${prefix}` : ""}`.trim();
+        const isUniqueMatch = (hayStack, start, end = "") => {
+            try {
+                const needle = new RegExp(`${start}${end}`, "gims");
+                const matches = [...hayStack.matchAll(needle)];
+                log(
+                    "———\n",
+                    "RegEx: 👉" + needle.source + "👈\n",
+                    "Matches:",
+                    matches,
+                    "\n———"
+                );
+                if (matches.length === 1) {
+                    let matchedText = matches[0][0];
+                    // Find inner matches where the needle is (at least partly) contained
+                    // again in the haystack.
+                    const startNeedle = new RegExp(start, "ims");
+                    const endNeedle = new RegExp(end.replace(/^\.\*\?/), "ims");
+                    matchedText = matchedText
+                        .replace(startNeedle, "")
+                        .replace(endNeedle, "");
+                    const innerMatches = [...matchedText.matchAll(needle)];
+                    if (innerMatches.length === 0) {
+                        return true;
+                    }
+                    return false;
+                } else if (matches.length === 0) {
+                    return null;
+                }
+                return false;
+            } catch (err) {
+                // This can happen when the regular expression can't be created.
+                console.error(err.name, err.message);
+                return null;
+            }
+        };
+
+        const findUniqueMatch = (
+                pageText,
+                textStart,
+                textEnd,
+                unique,
+                wordsBefore,
+                wordsAfter,
+                growthDirection,
+                prefix = "",
+                suffix = ""
+            ) => {
+                log(
+                    'prefix: "' +
+                    prefix +
+                    '"\n' +
+                    'textStart: "' +
+                    textStart +
+                    '"\n' +
+                    'textEnd: "' +
+                    textEnd +
+                    '"\n' +
+                    'suffix: "' +
+                    suffix +
+                    '"\n' +
+                    "growth direction: " +
+                    growthDirection
+                );
+                if (
+                    wordsAfter.length === 0 &&
+                    wordsBefore.length > 0 &&
+                    growthDirection === "suffix"
+                ) {
+                    // Switch the growth direction.
+                    growthDirection = "prefix";
+                } else if (
+                    wordsBefore.length === 0 &&
+                    wordsAfter.length === 0 &&
+                    unique === false
+                ) {
+                    // No more search options.
+                    return {
+                        prefix: false,
+                        suffix: false,
+                    };
+                }
+                // We need to add outer context before or after the needle.
+                if (growthDirection === "prefix" && wordsBefore.length > 0) {
+                    const newPrefix = escapeRegExp(wordsBefore.pop());
+                    prefix = `${newPrefix}${prefix ? ` ${prefix}` : ""}`.trim();
 			log('New prefix "' + prefix + '"');
 		} else if (wordsAfter.length > 0) {
 			const newSuffix = escapeRegExp(wordsAfter.shift());
