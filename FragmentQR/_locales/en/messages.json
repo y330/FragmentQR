@@ -1,20 +1,20 @@
 {
     "copy_link": {
-        "message": "📋Copy link with to your selection"
+        "message": "Copy link with to your selection"
     },
     "extension_description": {
         "message": "QR codes that can highlight any text in yellow when scanned."
     },
     "extension_name": {
-        "message": "FragmentQR 1.8"
+        "message": "FragmentQR"
     },
     "short_name": {
-        "message": "FragQR"
+        "message": "FQR"
     },
     "open_popup": {
         "message": "FragmentQR - Generate QR"
     },
     "link_failure": {
-        "message": "Your selection is not unique enough for a text fragment URL, so it won't be highlighted when opened. Change your selection slightly and try again🤷‍♂️"
-    }
+        "message": "Your selection is not unique enough for a text fragment URL. Please try again."
+    } 
 }

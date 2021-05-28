@@ -214,12 +214,12 @@ $(function() {
         $(elPaste).on("click", function(e) {
             e.preventDefault();
             let textval = elText.value;
-            // 			elText.focus();
+            elText.focus();
 
-            // 						document.execCommand("paste");
-            // 			elText.blur();
+            document.execCommand("paste");
+            elText.blur();
             a(encodeURI(fragURL));
-            elText.value = fragURL;
+            // elText.value = fragURL;
 
             $(elText).addClass("bit-mode");
             i("Pasted");
@@ -399,9 +399,7 @@ $(function() {
 
     }; /*++++++++++++++++++++*/
     // on click history button
-    function toggle_memory_page(time = 0) {
-        $(".contents_inline").toggleClass("memory_view"),
-
+    function toggle_memory_page() {
             $(".contents_inline").hasClass("memory_view") ?
 
             function() {
@@ -409,18 +407,20 @@ $(function() {
             } : function() {
                 QR_view();
             }
+            $(".contents_inline").toggleClass("memory_view");
+            
     };
     $(".memory").on("click", function() {
             toggle_memory_page;
+            History_view();
 
-        }),
-
-        // 		$(".qr").fade(200),
+        		$(".qr").fade(200),
         // 		$(".history_block").hide(),
-        // 		$(".history_block").fadeIn(1000);
+        		$(".history_block").fadeIn(1000);
         // 		$(".contents").scrollLeft(-400);
         // 		$(".history-clear").show(),
         // 		History_view();
+        }),
 
         /*---------------------------------------------------------*/
         // on click history list item
@@ -434,55 +434,9 @@ $(function() {
                 toggle_memory_page(200);
 
         }),
-
-        /*---------------------------------------------------------*/
-
-        $(".back").on("click", function() {
-            //         $(".qr").hide();
-            //         $(".history-clear").hide();
-
-            //             $(".history-clear").slideUp(),
-            $(".qr").slideUp();
-            $(".contents_inline").addClass("memory_view");
-            $(".history-bock").show();
-        }),
-        /*---------------------------------------------------------*/
-        /*====toggle theme======*/
-
-        $("button.bright").on("click", function() {
-            $("*").toggleClass("light"),
-                // $(".bright").hasClass("light")
-                $("svg.dark_mode path").attr("filter", "invert(100%");
-            // : $("svg.dark_mode").filter("invert(0%)");
-        }),
-        /*---------------------------------------------------------*/
-
-        $("#config input[name=dark_mode]").on("click", function() {
-            dark_mode = !dark_mode;
-        }),
-        // insert version number into header of popup
-        $(".header").on("click", function() {
-            $(".auth").slideToggle(200, function() {
-                clearTimeout(t),
-                    ((t = setTimeout(function() {
-                            $(".version").toggle(true, function() {});
-                        })),
-                        100);
-            });
-        }),
         /*---------------------------------------------------------*/
 
         /*insert history svg into memory button */
-        /*---------------------------------------------------------*/
-
-        // go to website button
-        $(".webs").on("click", function() {
-            $(".memo").toggle(function() {
-                $(".memo").html(
-                    "<a class='rr' href='#' target='_blank'>Go to Website</a>"
-                );
-            });
-        });
     /*---------------------------------------------------------*/
 
     //link to repo
