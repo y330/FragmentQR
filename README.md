@@ -1,5 +1,5 @@
 
-<h1> FragmentQR</h1>
+<h1> FragmentQR(FQR)</h1>
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/cabodnfakameckfbbgkciiifempglloj)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj)
@@ -8,15 +8,13 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
+__Latest Stable version:__ FragmentQR v1.7.2(See [Releases](../../releases) tab)
 
 <button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="../../ .png" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
 </button>
 
-
-
-<h1 {color: red;} >Stay tuned for upcoming changes</hello>
-
+## *README and website are being revised*
 
 
 
@@ -28,34 +26,14 @@ ____
  **Text Fragment**: text that you add to a link to instruct it to highlight said text in yellow when opened.
  
 Given link 
-`https://foo.bar/page`
-that contains the snippet "_Hello World_", `https://foo.bar/page/#:~:text=Hello%20World`  would be the link to the text fragment "_Hello World_".
+`https://some.site/page`
+that contains the snippet "_Hello World_", `https://some.site/page/#:~:text=Hello` `%20`<sup>1</sup>`World`  would be the link to the text "_Hello World_" on some.site/page.
 
-[1]: %20 is the URL encoding of a space character
-____
-## Installation
-
-FragmentQR is available on chromium browsers:
-
-[Install on ![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
-
-[Install on ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
-
-
-
-____
-## Getting started
-1. select text
-2. context menu --> "copy text fragment. next: open popup", which will copy a link to the selected text to your clipboard
-3. (optional)open popup and paste into text area to generate QR code
-
-Once someone opens the URL, they will be scrolled to the selected text which will be highlighted in yellow.
-
-Currently, the feature of highlighting the text in yellow only work on Android in Chrome version 85+, mac, linux, and windows. May be available in beta or alpha versions of browsers on other platforms.
+[1]: `%20` is the URL encoding of a space character
 
 ----
 
-## Features
+### Features
 
 + Automatically Generate QR for current tab's URL
 + Copy URL with text fragment from user's selection on any webpage
@@ -65,23 +43,60 @@ Currently, the feature of highlighting the text in yellow only work on Android i
 + QR code generator
 
 ____
+### Installation
+
+Install FragmentQR from Chrome web store, or Edge Add-ons Store:
+
+[CHrome Web Store ![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+
+[Microsoft Edge Add-ons Store ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+
+
+
+____
+### Steps to copy text fragment
+1. Select text you want to highlight
+2. Open context menu >> "copy text fragment...", which will copy a link to the selected text
+3. (optional)open popup and paste into textbox to generate QR code, so mobile user can easily see the text you highlighted.
+
+Once someone opens the URL, they will be scrolled to the selected text which will be highlighted in yellow.
+
+### Supported Browsers
+
+Currently, text fragments are supports in these browsers:
+*note: these are all chromium browsers*
+ - Chrome 81+ and Microsoft Edge 83+ on all major desktop platforms(mac/win/lin)
+ - Google Chrome 90+ on Android
+ - Chrome 90+ for Android WebView
+ - Opera 62+
+ - (Partial)Chrome for iOS: latest version, must enable in chrome://flags
+
+
+____
 
 
 ## Issues and Changelog
 
 ### Known issues 
- - [ ] Theme does not save when changed in options
- - [ ] Due to a dependancy on material icon font library, the icon font turns into whatever the icon is called when offline and the library is inaccesibe, so the buttons are messed up when offline
- - 🔎 Help find issues by installing and using FragmentQR. 
-      + If you find an issue, [open a new issue on GitHub](https://github.com/y330/FragmentQR/issues/new?title=Report%20a%20bugssue%3F**%0A%0A**Screen%20recording%20or%20screenshot**%0A%0A%20)
-          * If you don't have a GitHub profile, post it in the [support tab](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/support) on the Web Store
+ - [ ] Theme is not stored when changing it in options page.
+ - [ ] Paste button is not stable
+ - [ ] History button is not clickable. will fix in next micro release.
+ - [X] 🔎 Help find issues by installing and using FragmentQR. 
 
-### _Changelog v1.8_(Unreleased)
+
+### _Changelog v1.8.0_beta_ 
+- (Released on ✅chrome web store, ✅Updated code in repository, and ❌Github release + ❌Edge Add-ons will be coming soon)
+
+-  _❌documentation for how to use, ❌updated pictures, and ❌tutorial video, are coming soon_
 1. Feature improvements, and interface redesigns.
+2. There are some bugs: For now, do not use the paste button, I am working on something that will be much better than it as a replacement.
+3. new logo
+4. _Full changelog coming soon_
 
 
 
 ### _Changelog v1.7.2_
+
 1. Changed options page
 2. New icon
 3. Now available on Microsoft Edge Add-ons
@@ -123,25 +138,38 @@ ____
 
 ### TODO
 
- - [ ] release new version
- - [ ] clean up code ~ add comments to functions, rename variables.
+ - Version 1.8.0
+ - [X] Chrome Web Store
+ - [ ] Edge Add-ons
+ - [X] GitHub Repo
+ - [ ] Revise description on extension web store listing 
+ - [ ] Update from beta version to stable version
+ - [ ] Update screenshots on store listing
+ - [ ] Update documentation on Extension webpage
+ - [ ] Make a tutorial video
+ - [ ] Add screenshots to the README.md
+ - [ ] GitHub Releases
+ - [X] Organize main popup code: `popup.js`, `popup.css`
+- [ ] configure extension with rollup.js for development
 ----
 
-### Internal info
+### Links
 
-- [**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR): *__note:__ as of april 10, popup.js is unacceptably messy.*
-
+- [**View source code**](https://github.com/y330/FragmentQR/tree/master/FragmentQR)
+- 
 - [**FragmentQR website**](https://y330.github.io/FragmentQR)
 
 
 ### External rescources
+- [Check if your browser supports text fragments](https://caniuse.com/url-scroll-to-text-fragment)
 
-- **Documentation on text fragments**: [Scroll-to-text-fragment(WICG)](https://wicg.github.io/scroll-to-text-fragment/)
+- [Scroll-to-text-fragment(WICG)](https://wicg.github.io/scroll-to-text-fragment/)
 
-- **Read article on text fragments**: [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
+- [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/#:~:text=Boldly%20link%20where%20no%20one%20has%20linked%20before:%20Text%20Fragments)
 
-#### Similar extensions:
- 1. [Link to text fragment](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
+#### Similar extensions related to text fragments, but have no user interfaces:
+
+ 1. [Link to text fragment(by google)](https://chrome.google.com/webstore/detail/link-to-text-fragment/pbcodcjpfjdpcineamnnmbkkmkdpajjg)
  2. [STTF Url Generator](https://chrome.google.com/webstore/detail/sttf-url-generator/mlihnffnlcfgjkkmigdgahgpfpfddafo)
 
 
@@ -149,13 +177,12 @@ ____
 
 
 
-NEW: instagram account https://instagram.com/fragmentqr
 
 **Privacy policy**
 
 I, the developer, attest to the claim that the browser extension FragmentQR does not collect any personal identification information of users whatsoever, and that all other data is stored locally on the user's device.
 
-For the updated privacy policy, go to [the privacy policy](https://raw.githubusercontent.com/y330/FragmentQR/master/PRIVACY_POLICY.html)
+For the full privacy policy, go to [the privacy policy](https://raw.githubusercontent.com/y330/FragmentQR/master/PRIVACY_POLICY.html)
 
 
 
