@@ -39,21 +39,39 @@ After you open the extension installation page, click "Add to \_insert\_browser\
 ### Keyboard Shortcuts and instructions
 
 
-### Instructions
+#### Instructions
 
 <a href="https://bit.ly/FragmentQRv17_tutorial" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
 
-- Select some text
-- Open context menu and click "copy link .... to selected text" 
-  + `tip: use `<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>` to copy text fragment`
-- Click the extension toolbar icon to open the popup
-  + `tip: use `<kbd>Alt</kbd> + <kbd>Q</kbd>` to copy text fragment`
-- Click the "paste" button the text fragment link into the popup to generate a QR code.
-- You can now share the link you copied or scan the QR code to see the relevant text highlighted.
+
+1. Select some text
+2. Open context menu and click "copy link .... to selected text" 
+  + tip: use <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> to copy text fragment
+3. Click the extension toolbar icon to open the popup
+  + tip: use <kbd>Alt</kbd> + <kbd>Q</kbd> to Open Popup
+4. Click the "paste" button the text fragment link into the popup to generate a QR code.
+5. You can now share the link you copied or scan the QR code to see the relevant text highlighted.
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow 🟨.
 
-Currently scanning the QR code to see the highlights will only work Android.
+_Note: Currently scanning the QR code to see the highlights will mostly only work on Android, but there may be functionality on iOS soon_
+
+Once either you or someone else scans the QR code and opens the URL, the browser will open the original webpage and scorll to the selected text which will be highlighted in yellow. 🎉
+
+
+
+
+----
+
+### Supported Browsers
+
+Currently, text fragments are supports in these browsers:
+*note: these are all chromium browsers*
+ - Chrome 81+ and Microsoft Edge 83+ on all major desktop platforms(mac/win/lin)
+ - Google Chrome 90+ on Android
+ - Chrome 90+ for Android WebView
+ - Opera 62+
+ - (Partial)Chrome for iOS: latest version, must enable in chrome://flags
 
 ----
 
@@ -93,7 +111,7 @@ If we take our previous url(`https://foo.bar/#:~:text=yourtext`) and map it out 
 
 ### [](#what-browsers-and-oss-see-the-text-highlighted-in-yellow-when-they-scan-the-qr-code-or-open-the-link)**What browsers and Operating Systems see the text fragments highlighted in yellow when they scan the QR code or open the link?**
 
-
+(Mentioned above already, but herea more in depth answer:)
 Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
 
 > *Which browsers and OSs support Scroll to text fragment or a feature similar to it?*
