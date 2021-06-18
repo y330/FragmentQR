@@ -63,7 +63,7 @@ Once either you or someone else scans the QR code and opens the URL, the browser
 
 ----
 
-### Supported Browsers
+#### Supported Browsers
 
 Currently, text fragments are supports in these browsers:
 *note: these are all chromium browsers*
