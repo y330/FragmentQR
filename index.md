@@ -4,14 +4,12 @@ title: FragmentQR
 ---
 
 <h1> FragmentQR 
-    <img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/icon-512.png?raw=true" width="64px" alt="FragmentQR Logo"/>
-
 </h1>
+<img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/icon-512.png?raw=true" width="64px" alt="FragmentQR Logo"/>
+
 <h6>Developed by Yonah Aviv</h6>
 
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px" style="border: slategrey 2px outset; border-radius: 20px; vertical-align: middle"/></a>
-
-<h2>
     <img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=default&label=Chrome%20Web%20Store%20Release: " height="auto" alt="Version" /> 
     
 ## Summary
@@ -27,6 +25,7 @@ FragmentQR adds a an option to the context menu to copy a link to a snippet of t
 
 
 ## [](#getting-started)Getting Started
+    
 ### Installation
 
 FragmentQR is available on 2 different extension stores:
@@ -70,6 +69,7 @@ Currently scanning the QR code to see the highlights will only work Android.
 
 
 ##### Syntax of Text Fragment URL
+   
 Syntax: `https://foo.bar/#:~:text=yoursnippet`
 
 The text fragment can be specified in the fragment directive, which will always be after in the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) of the URL, after `#`(there may be a word after the `#` but before `:~:`, and that would be another kind of fragment, but it's all good). The fragment directive delimiter is the following string: `:~:`. You can specify `text=yoursnippet` after it and in chromium browsers, and some other browsers, `yoursnippet` will be scrolled into view and highlighted, when opened.
@@ -86,7 +86,7 @@ If we take our previous url(`https://foo.bar/#:~:text=yourtext`) and map it out 
  3. `yoursnippet` > `Examples of random phenomena include the weather condition in a future date`
 
 
-\**Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
+**Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
 
 ***Update Dec 2020:*** Chrome 88(beta) by default has the copy link to text item in the context menu and it is functional. Hopefully if it get's carried to the stable version and get more documentation and an API.
 
