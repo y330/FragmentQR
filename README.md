@@ -8,10 +8,10 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-__Latest Stable version:__ FragmentQR v1.7.2(See [Releases](../../releases) tab)
+__Latest Stable version:__ FragmentQR v1.8.1(See [Releases](../../releases) tab)
 
 <button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="../../ .png" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/icon-512.png?raw=true" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
 </button>
 
 ## *README and website are being revised*
@@ -78,13 +78,13 @@ ____
 ## Issues and Changelog
 
 ### Known issues 
- - [ ] Theme is not stored when changing it in options page.
+ - [ ] Theme is not stored only in options page and not popup when changing it in options page.
  - [ ] Paste button is not stable
- - [ ] History button is not clickable. will fix in next micro release.
+ - [ ] History pane is not visiible. will fix in next micro release.
  - [X] 🔎 Help find issues by installing and using FragmentQR. 
 
 
-### _Changelog v1.8.0_beta_ 
+### _Changelog v1.8.x 
 - (Released on ✅chrome web store, ✅Updated code in repository, and ❌Github release + ❌Edge Add-ons will be coming soon)
 
 -  _❌documentation for how to use, ❌updated pictures, and ❌tutorial video, are coming soon_
