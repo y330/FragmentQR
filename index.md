@@ -3,8 +3,7 @@ layout: default
 title: FragmentQR
 ---
 
-<h1> FragmentQR 
-</h1>
+<h1>FragmentQR</h1>
 
 <h6>Developed by Yonah Aviv</h6>
 
