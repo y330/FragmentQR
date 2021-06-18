@@ -2,5 +2,5 @@ theme: jekyll-theme-slate
 author: Yonah Aviv
 title: FragmentQR
 
-description: QR Codes that Link to Fragments of Text
+description: QR-link to text
 show_downloads: False
