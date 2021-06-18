@@ -8,7 +8,7 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-__Latest Stable version:__ FragmentQR v1.8.1(See [Releases](../../releases) tab)
+__Latest Stable version:__ FragmentQR v1.8.1(See [Releases](../../releases) tab(coming soon))
 
 <button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/icon-512.png?raw=true" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
@@ -20,41 +20,36 @@ __Latest Stable version:__ FragmentQR v1.8.1(See [Releases](../../releases) tab)
 
 ## Summary
 
-**Fragment QR generates links that highlight relevant text on a webpage in yellow (See image below).**
+**FragmentQR is a QR-code generator that can additionally copy links to snippets of text on a webpage.(See image below)**
 
-____
- **Text Fragment**: text that you add to a link to instruct it to highlight said text in yellow when opened.
- 
-Given link 
-`https://some.site/page`
-that contains the snippet "_Hello World_", `https://some.site/page/#:~:text=Hello` `%20`<sup>1</sup>`World`  would be the link to the text "_Hello World_" on some.site/page.
+<img src="https://lh3.googleusercontent.com/RunMp0HF3eMndmo8M6fFxiwGRH7yEmafekBuxkStSdxZqSAmp4FVZ9wu4_XoyojJvTJM6VgEy9_Y9lzUKgAXdZJ3eA=w640-h400-e365-rj-sc0x00ffffff" width="auto" border-radius="5px"/>
 
-[1]: `%20` is the URL encoding of a space character
 
-----
+## Introduction
 
-### Features
+FragmentQR adds a an option to the context menu to copy a link to a snippet of text on a webpage, and within the extension popup you can share that that link usinga QR code.
 
-+ Automatically Generate QR for current tab's URL
-+ Copy URL with text fragment from user's selection on any webpage
 
-+ Text box to edit QR code
-+ Paste, copy and clear buttons
-+ QR code generator
-
-____
+## [](#getting-started)Getting Started
+    
 ### Installation
 
-Install FragmentQR from Chrome web store, or Edge Add-ons Store:
+FragmentQR is available on 2 different extension stores:
 
-[CHrome Web Store ![](https://static.wikia.nocookie.net/logopedia/images/c/c5/Google_Chrome_Web_Store_icon_2015.svg/revision/latest/top-crop/width/25/height/25?cb=20190930194931)](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/) 
+[<h4>![](https://www.google.com/images/icons/product/chrome_web_store-32.png) Installation for Chrome</h4>](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/)(and any other chromium browser)
 
-[Microsoft Edge Add-ons Store ![](https://avatars0.githubusercontent.com/u/11354582?s=25&v=4)](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+[<h4>![](https://avatars0.githubusercontent.com/u/11354582?s=32&v=4) Installation for Edge</h4>](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
+After you open the extension installation page, click "Add to \_insert\_browser\_name\_here\_" to install FragmentQR to your browser.
 
-____
-### Steps to use
+### Keyboard Shortcuts and instructions
+
+
+#### Instructions
+
+<a href="https://bit.ly/FragmentQRv17_tutorial" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
+
 
 1. Select some text
 2. Open context menu and click "copy link .... to selected text" 
@@ -66,10 +61,14 @@ ____
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow 🟨.
 
-Currently scanning the QR code to see the highlights will mostly only work on Android.
-
+_Note: Currently scanning the QR code to see the highlights will mostly only work on Android, but there may be functionality on iOS soon_
 
 Once either you or someone else scans the QR code and opens the URL, the browser will open the original webpage and scorll to the selected text which will be highlighted in yellow. 🎉
+
+
+
+
+----
 
 ### Supported Browsers
 
@@ -82,10 +81,11 @@ Currently, text fragments are supports in these browsers:
  - (Partial)Chrome for iOS: latest version, must enable in chrome://flags
 
 
-____
 
 
 Remember, Fragment is also a functional QR code generator, so even if you cannot use text fragments, you can skip to step 3 of the instructions steps
+
+____
 
 ## [](#more-questions)More Questions?
 
