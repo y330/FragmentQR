@@ -156,7 +156,6 @@ If you still are in need of an answer feel free to [email me](mailto:avivyonah@g
 4. _Full changelog coming soon_
 
 
-
 ### _Changelog v1.7.2_
 
 1. Changed options page
