@@ -5,12 +5,12 @@ title: FragmentQR
 
 <h1> FragmentQR 
 </h1>
-<img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/icon-512.png?raw=true" width="64px" alt="FragmentQR Logo"/>
 
 <h6>Developed by Yonah Aviv</h6>
 
-<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px" style="border: slategrey 2px outset; border-radius: 20px; vertical-align: middle"/></a>
-    <img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=default&label=Chrome%20Web%20Store%20Release: " height="auto" alt="Version" /> 
+<a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/YT2Grfi9vEBa2wAPzhWa.png" width="200px" style="border: slategrey 2px outset; border-radius: 20px; vertical-align: middle"/></a><img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/icon-512.png?raw=true" width="64px" alt="FragmentQR Logo"/>
+
+<img src="https://img.shields.io/chrome-web-store/v/cabodnfakameckfbbgkciiifempglloj?color=informational&style=default&label=Chrome%20Web%20Store%20Release: " height="auto" alt="Version" /> 
     
 ## Summary
 
