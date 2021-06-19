@@ -29,34 +29,28 @@ FragmentQR adds a an option to the context menu to copy a link to a snippet of t
 
 FragmentQR is available on 2 different extension stores:
 
-[<h4>![](https://www.google.com/images/icons/product/chrome_web_store-32.png) Installation for Chrome</h4>](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/)(and any other chromium browser)
+<h5><img src="https://www.google.com/images/icons/product/chrome_web_store-32.png" /> <a href="https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/">Installation for Chrome</a></h5>(and any other chromium browser)
 
-[<h4>![](https://avatars0.githubusercontent.com/u/11354582?s=32&v=4) Installation for Edge</h4>](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
-
-
-After you open the extension installation page, click "Add to \_insert\_browser\_name\_here\_" to install FragmentQR to your browser.
-
-### Keyboard Shortcuts and instructions
+<h5><img src="https://avatars0.githubusercontent.com/u/11354582?s=32&v=4"/><a href="https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni">Installation for Edge</a></h5>
 
 
-#### Instructions
+### Instructions
 
 <a href="https://bit.ly/FragmentQRv17_tutorial" title="View this as a sideshow on the Chrome Web Store"><img src="https://lh3.googleusercontent.com/pw/ACtC-3f7FGuESSm9z3SPDAbhQHSr3YYL03r1gGBeSWYqbG8NyXxtg3gMWO4dbrM8yuhsMsCuf_JLqLSUWfSSodKzYR8mg6FkX5PmxXgfG8iPANMsQpsiE6GTlWFIRsHIZqi2ZBX0btMnBlUltWArYFdlTrhbhQ=w1210-h448-no?authuser=0" width="fit-content" alt="FragmentQR infographic of intructions"/></a>
 
 
 1. Select some text
-2. Open context menu and click "copy link .... to selected text" 
-  + tip: use <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> to copy text fragment
+2. Open context menu and click "copy link .... to selected text" to copy text fragment
+   + tip: use <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> instead
 3. Click the extension toolbar icon to open the popup
-  + tip: use <kbd>Alt</kbd> + <kbd>Q</kbd> to Open Popup
-4. Click the "paste" button the text fragment link into the popup to generate a QR code.
-5. You can now share the link you copied or scan the QR code to see the relevant text highlighted.
+   + tip: use <kbd>Alt</kbd> + <kbd>Q</kbd> to Open Popup
+4. Click the blue paste button the text fragment link into the popup to generate a QR code.
 
 When someone scans that QR or just goes to the link you copied, A feature called Scroll to text fragment allows the text fragment to be detected when they load the webpage, and will scroll your selected text into view and be highlighted in yellow 🟨.
 
 _Note: Currently scanning the QR code to see the highlights will mostly only work on Android, but there may be functionality on iOS soon_
 
-Once either you or someone else scans the QR code and opens the URL, the browser will open the original webpage and scorll to the selected text which will be highlighted in yellow. 🎉
+Once either you or someone else scans the QR code and opens the URL, the browser will open the original webpage and scorll to the selected text which will be highlighted in yellow. 
 
 
 
@@ -78,29 +72,32 @@ Currently, text fragments are supports in these browsers:
 ## [](#background)Background
 
 
-### [](#what-are-text-fragments)**What are Text Fragments?**
+### [](#what-are-text-fragments)**Text Fragments**
 
 **ℹ[Text Fragments](https://wicg.github.io/scroll-to-text-fragment/)**: Part of a URL that specifies a piece of text emphasized on page load and scrolled into view, not unlike a text anchor.
 
 > "Text Fragments adds support for specifying a text snippet in the URL fragment. When navigating to a URL with such a fragment, the user agent can quickly emphasise and/or bring it to the user’s attention."<a href="#ref_frag"><sup>1</sup></a>
 
 
-##### Syntax of Text Fragment URL
+#### Syntax of Text Fragment URL
    
 Syntax: `https://foo.bar/#:~:text=yoursnippet`
 
 The text fragment can be specified in the fragment directive, which will always be after in the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) of the URL, after `#`(there may be a word after the `#` but before `:~:`, and that would be another kind of fragment, but it's all good). The fragment directive delimiter is the following string: `:~:`. You can specify `text=yoursnippet` after it and in chromium browsers, and some other browsers, `yoursnippet` will be scrolled into view and highlighted, when opened.
 
-##### Example
+#### ___Example___
 
 Consider the following URL:
 
 [https://en.wikipedia.org/wiki/Probability\_distribution#cite_ref-:1_3-0__:~:textStart=Examples of random phenomena include the weather condition in a future date__](https://en.wikipedia.org/wiki/Probability_distribution#cite_ref-:1_3-0:~:text=Examples%20of%20random%20phenomena%20include%20the%20weather%20condition%20in%20a%20future%20date)
 
-If we take our previous url(`https://foo.bar/#:~:text=yourtext`) and map it out to this URL, we would get:
- 1. `foo.bar` > `en/wikipedia.org`
- 2. `#` > `#cite_ref-:1_3-0`
- 3. `yoursnippet` > `Examples of random phenomena include the weather condition in a future date`
+If we take our previous url(`https://foo.bar/#:~:text=yoursnippet`) and map it out to this URL, we would get:
+
+| `https://foo.bar/#:~:text=yoursnippet` | `https://en.wikipedia.org/wiki/Probability_distribution...` |
+| --- | --- |
+| `foo.bar` | `en/wikipedia.org` |
+| `#` | `#cite_ref-:1_3-0` |
+| `yoursnippet` | `Examples of random phenomena include the weather condition in a future date` |
 
 
 **Update on text fragments:** In Chrome 87, there is a new flag in chrome://flags that adds "copy link to text" to the context menu on Android and Desktop. However in the latest version of chrome as of November 23, 2020, it does not work.
@@ -109,11 +106,10 @@ If we take our previous url(`https://foo.bar/#:~:text=yourtext`) and map it out 
 
 
 
-### [](#what-browsers-and-oss-see-the-text-highlighted-in-yellow-when-they-scan-the-qr-code-or-open-the-link)**What browsers and Operating Systems see the text fragments highlighted in yellow when they scan the QR code or open the link?**
+### [](#what-browsers-and-oss-see-the-text-highlighted-in-yellow-when-they-scan-the-qr-code-or-open-the-link)**Supported Browsers + OSs**
 
 (Mentioned above already, but herea more in depth answer:)
-Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so the question is:
-
+Since the QR code contains the text fragment link, the QR code and the link are the same. The yellow highlight comes from the **Scroll to text fragment** feature, so this will answer:
 > *Which browsers and OSs support Scroll to text fragment or a feature similar to it?*
 
 Scroll to text fragment is a feature in Chromium\-based browsers[\[2\]](#ref2) . There may be similar features in other browsers.
@@ -140,9 +136,9 @@ All other devices(using the text fragment URL) 4. Pretty much the same browsers 
 
 Remember, Fragment is also a functional QR code generator, so even if you cannot use text fragments, you can skip to step 3 of the instructions steps
 
-## [](#more-questions)More Questions?
+## [](#more-questions)Want more informations?
 
-### [](#FAQs-on-the-FragmentQR-wiki)More FAQs on the [Fragment QR Wiki](https://github.com/y330/FragmentQR/wiki)
+### [](#FAQs-on-the-FragmentQR-wiki)Check out our FAQ on the [Fragment QR Wiki](https://github.com/y330/FragmentQR/wiki)
 
 If you still are in need of an answer feel free to [email me](mailto:avivyonah@gmail.com) with your question
 
