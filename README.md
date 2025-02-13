@@ -1,4 +1,3 @@
-
 <h1> FragmentQR(FQR)</h1>
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/cabodnfakameckfbbgkciiifempglloj)
@@ -8,14 +7,17 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
+
+
 __Latest Stable version:__ FragmentQR v1.8.1(See [Releases](../../releases) tab(coming soon))
 
 <button style="color: blue; background: white 0%;border-radius: 1px; border: 0px">
 <a href="https://bit.ly/GetFragmentedQR" class="btn" title="Get it on the Chrome Web Store"><img src="https://github.com/y330/FragmentQR/blob/master/FragmentQR/img/icon-512.png?raw=true" width="200px"style="margin: -35px 10px 10px -35px; vertical-align: bottom" ></a>
 </button>
 
-## *README and website are being revised*
 
+## Note
+In 2021, the "copy link to selected text" button was implemented in the context menu of chromium browsers. FragmentQR still does it better!
 
 
 ## Summary
@@ -36,12 +38,12 @@ FragmentQR adds a an option to the context menu to copy a link to a snippet of t
 
 FragmentQR is available on 2 different extension stores:
 
-[<h4>![](https://www.google.com/images/icons/product/chrome_web_store-32.png) Installation for Chrome</h4>](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/)(and any other chromium browser)
+#### [![](https://www.google.com/images/icons/product/chrome_web_store-32.png) Installation for Chrome](https://chrome.google.com/webstore/detail/fragmentqr/cabodnfakameckfbbgkciiifempglloj/)(and any other chromium browser)
 
-[<h4>![](https://avatars0.githubusercontent.com/u/11354582?s=32&v=4) Installation for Edge</h4>](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
+#### [![](https://avatars0.githubusercontent.com/u/11354582?s=32&v=4) Installation for Edge](https://microsoftedge.microsoft.com/addons/detail/fragmentqr/jbghofoedadhaaepolpeoepofdbckfni)
 
 
-After you open the extension installation page, click "Add to \_insert\_browser\_name\_here\_" to install FragmentQR to your browser.
+After you open the extension installation page, click "Add to browser" to install FragmentQR to your browser.
 
 ### Keyboard Shortcuts and instructions
 
